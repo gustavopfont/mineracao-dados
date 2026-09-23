@@ -1,0 +1,44 @@
+﻿verificacao,quantidade,exemplos
+Peso: valores ausentes ou nao numericos,2188,
+Altura: valores ausentes ou nao numericos,3721,
+IMC: valores ausentes ou nao numericos,3988,
+IDADE: valores ausentes ou nao numericos,879,
+FC: valores ausentes ou nao numericos,1146,
+PA SISTOLICA: valores ausentes ou nao numericos,6994,
+PA DIASTOLICA: valores ausentes ou nao numericos,7001,
+IMC: valores zero,109,
+FC: fora do intervalo plausivel (30-250),15,
+PA SISTOLICA: fora do intervalo plausivel (40-250),2,
+PA DIASTOLICA: fora do intervalo plausivel (20-150),1,
+IMC inconsistente com Peso e Altura,4,
+Atendimento: data invalida,11578,
+Atendimento: data ausente,244,
+DN: data invalida,11373,
+DN: data ausente,637,
+DN posterior ao Atendimento,2,
+PPA ausente com PAS e PAD preenchidas,565,
+PPA preenchida sem PAS ou PAD,6599,
+SEXO: categorias invalidas,11449,
+Convenio: valores ausentes,3372,
+Convenio: possiveis variacoes de grafia,137,gs; ur; camed; grupo; sb; medial; real s.; sa; ideal; fusex
+PULSOS: valores ausentes,455,
+PULSOS: possiveis variacoes de grafia,6,normais; amplos; femorais diminuidos; outro; diminuidos; gs
+PPA: valores ausentes,971,
+PPA: possiveis variacoes de grafia,8,nao calculado; normal; has-2 pas; pre-hipertensao pad; pre-hipertensao pas; has-1 pas; has-1 pad; has-2 pad
+NORMAL X ANORMAL: valores ausentes,432,
+NORMAL X ANORMAL: possiveis variacoes de grafia,2,normal; anormal
+B2: valores ausentes,439,
+B2: possiveis variacoes de grafia,6,normal; hiperfonetica; desdob fixo; unica; outro; anormal
+SOPRO: valores ausentes,428,
+SOPRO: possiveis variacoes de grafia,6,ausente; sistolico; continuo; diastolico; sistolico e diastolico; normal
+HDA 1: valores ausentes,3533,
+HDA 1: possiveis variacoes de grafia,8,assintomatico; dispneia; dor precordial; palpitacao; cianose; desmaio/tontura; outro; ganho de peso
+HDA2: valores ausentes,11724,
+HDA2: possiveis variacoes de grafia,8,dispneia; palpitacao; dor precordial; cianose; desmaio/tontura; outro; ganho de peso; assintomatico
+SEXO: valores ausentes,7,
+SEXO: possiveis variacoes de grafia,3,masculino; feminino; indeterminado
+MOTIVO1: valores ausentes,316,
+MOTIVO1: possiveis variacoes de grafia,6,"5 - parecer cardiologico; 6 - suspeita de cardiopatia; 1 - cardiopatia ja estabelecida; 2 - check-up; 7 - outro; f            ,  5 - parecer cardiologico"
+MOTIVO2: valores ausentes,2757,
+MOTIVO2: possiveis variacoes de grafia,16,5 - cirurgia; 6 - sopro; 1 - cardiopatia congenica; outro; 5 - atividade fisica; 6 - palpitacao/taquicardia/arritmia; 6 - dor precordial; 6 - has/dislipidemia/obesidade; 6 - dispneia; 6 - cianose
+CLASSIFICACAO IMC: possiveis variacoes de grafia,10,nao classificavel; eutrofia (-2 <= z <= +1); risco de sobrepeso (+1 < z <= +2); sobrepeso (+2 < z <= +3); obesidade (z > +3); sobrepeso (+1 < z <= +2); obesidade grave (z > +3); obesidade (+2 < z <= +3); magreza (-3 <= z < -2); magreza acentuada (z < -3)

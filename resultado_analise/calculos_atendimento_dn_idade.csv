@@ -1,0 +1,193 @@
+﻿ID,tipo,idade_original,idade_calculada,diferença,motivo
+3,idade negativa removida,-4.05,,,datas ausentes ou DN posterior ao Atendimento
+79,inconsistencia,7.38,7.12,0.26,idade preenchida diverge das datas
+296,inconsistencia,3.58,3.45,0.13,idade preenchida diverge das datas
+416,inconsistencia,5.92,5.7,0.22,idade preenchida diverge das datas
+590,idade negativa removida,-106.66,,,datas ausentes ou DN posterior ao Atendimento
+617,inconsistencia,10.16,9.8,0.36,idade preenchida diverge das datas
+620,inconsistencia,6.12,5.9,0.22,idade preenchida diverge das datas
+742,inconsistencia,4.22,4.07,0.15,idade preenchida diverge das datas
+761,idade negativa removida,-0.18,,,datas ausentes ou DN posterior ao Atendimento
+875,inconsistencia,10.62,10.23,0.39,idade preenchida diverge das datas
+943,idade negativa removida,-0.03,,,datas ausentes ou DN posterior ao Atendimento
+1008,inconsistencia,16.51,15.91,0.6,idade preenchida diverge das datas
+1214,idade negativa removida,-112.09,,,datas ausentes ou DN posterior ao Atendimento
+1577,idade negativa removida,-105.04,,,datas ausentes ou DN posterior ao Atendimento
+1619,inconsistencia,11.92,11.49,0.43,idade preenchida diverge das datas
+1708,idade negativa removida,-100.83,,,datas ausentes ou DN posterior ao Atendimento
+1790,inconsistencia,9.04,8.71,0.33,idade preenchida diverge das datas
+1952,inconsistencia,8.32,8.02,0.3,idade preenchida diverge das datas
+2022,inconsistencia,4.07,3.92,0.15,idade preenchida diverge das datas
+2051,idade negativa removida,-9.94,,,datas ausentes ou DN posterior ao Atendimento
+2158,inconsistencia,3.77,3.63,0.14,idade preenchida diverge das datas
+2231,inconsistencia,10.63,10.24,0.39,idade preenchida diverge das datas
+2248,inconsistencia,6.77,6.52,0.25,idade preenchida diverge das datas
+2426,idade negativa removida,-3.15,,,datas ausentes ou DN posterior ao Atendimento
+2522,inconsistencia,16.4,15.81,0.59,idade preenchida diverge das datas
+2647,idade negativa removida,-109.31,,,datas ausentes ou DN posterior ao Atendimento
+2781,idade negativa removida,-0.18,,,datas ausentes ou DN posterior ao Atendimento
+2790,idade negativa removida,-112.46,,,datas ausentes ou DN posterior ao Atendimento
+2958,inconsistencia,12.34,11.89,0.45,idade preenchida diverge das datas
+2959,inconsistencia,12.61,12.15,0.46,idade preenchida diverge das datas
+3012,inconsistencia,11.86,11.43,0.43,idade preenchida diverge das datas
+3202,idade negativa removida,-0.05,,,datas ausentes ou DN posterior ao Atendimento
+3367,idade negativa removida,-104.61,,,datas ausentes ou DN posterior ao Atendimento
+3418,idade negativa removida,-98.59,,,datas ausentes ou DN posterior ao Atendimento
+3437,inconsistencia,3.44,3.31,0.13,idade preenchida diverge das datas
+3454,idade negativa removida,-109.85,,,datas ausentes ou DN posterior ao Atendimento
+3566,inconsistencia,6.4,6.17,0.23,idade preenchida diverge das datas
+3582,inconsistencia,5.2,5.01,0.19,idade preenchida diverge das datas
+3661,idade negativa removida,-31.52,,,datas ausentes ou DN posterior ao Atendimento
+3663,inconsistencia,11.16,10.75,0.41,idade preenchida diverge das datas
+3728,inconsistencia,11.32,10.91,0.41,idade preenchida diverge das datas
+3729,inconsistencia,10.53,10.15,0.38,idade preenchida diverge das datas
+3766,inconsistencia,9.35,9.01,0.34,idade preenchida diverge das datas
+3782,idade negativa removida,-1.03,,,datas ausentes ou DN posterior ao Atendimento
+3884,idade negativa removida,-13.95,,,datas ausentes ou DN posterior ao Atendimento
+3899,idade negativa removida,-103.86,,,datas ausentes ou DN posterior ao Atendimento
+4146,idade negativa removida,-98.36,,,datas ausentes ou DN posterior ao Atendimento
+4273,inconsistencia,2.72,2.62,0.1,idade preenchida diverge das datas
+4421,inconsistencia,2.99,2.88,0.11,idade preenchida diverge das datas
+4498,inconsistencia,13.36,12.87,0.49,idade preenchida diverge das datas
+4539,inconsistencia,8.15,7.86,0.29,idade preenchida diverge das datas
+4578,idade negativa removida,-98.43,,,datas ausentes ou DN posterior ao Atendimento
+4601,inconsistencia,5.95,5.73,0.22,idade preenchida diverge das datas
+4642,inconsistencia,10.25,9.88,0.37,idade preenchida diverge das datas
+4802,inconsistencia,12.82,12.35,0.47,idade preenchida diverge das datas
+4811,inconsistencia,12.0,11.56,0.44,idade preenchida diverge das datas
+4855,inconsistencia,7.16,6.9,0.26,idade preenchida diverge das datas
+4879,idade negativa removida,-99.53,,,datas ausentes ou DN posterior ao Atendimento
+4914,inconsistencia,15.7,15.13,0.57,idade preenchida diverge das datas
+5019,idade negativa removida,-0.23,,,datas ausentes ou DN posterior ao Atendimento
+5223,idade negativa removida,-110.18,,,datas ausentes ou DN posterior ao Atendimento
+5351,idade negativa removida,-109.17,,,datas ausentes ou DN posterior ao Atendimento
+5354,idade negativa removida,-100.83,,,datas ausentes ou DN posterior ao Atendimento
+5362,inconsistencia,7.95,7.66,0.29,idade preenchida diverge das datas
+5473,inconsistencia,5.72,5.52,0.2,idade preenchida diverge das datas
+5687,idade negativa removida,-100.6,,,datas ausentes ou DN posterior ao Atendimento
+5802,inconsistencia,4.95,4.77,0.18,idade preenchida diverge das datas
+5855,inconsistencia,9.85,9.49,0.36,idade preenchida diverge das datas
+5938,idade negativa removida,-110.97,,,datas ausentes ou DN posterior ao Atendimento
+6040,idade negativa removida,-1.92,,,datas ausentes ou DN posterior ao Atendimento
+6136,inconsistencia,25.46,24.53,0.93,idade preenchida diverge das datas
+6225,idade negativa removida,-108.5,,,datas ausentes ou DN posterior ao Atendimento
+6226,inconsistencia,12.78,12.31,0.47,idade preenchida diverge das datas
+6254,idade negativa removida,-9.68,,,datas ausentes ou DN posterior ao Atendimento
+6268,idade negativa removida,-0.04,,,datas ausentes ou DN posterior ao Atendimento
+6283,idade negativa removida,-0.25,,,datas ausentes ou DN posterior ao Atendimento
+6393,inconsistencia,10.14,9.77,0.37,idade preenchida diverge das datas
+6550,idade negativa removida,-0.03,,,datas ausentes ou DN posterior ao Atendimento
+6567,idade negativa removida,-1.03,,,datas ausentes ou DN posterior ao Atendimento
+6657,inconsistencia,6.75,6.51,0.24,idade preenchida diverge das datas
+6731,inconsistencia,12.26,11.81,0.45,idade preenchida diverge das datas
+6798,idade negativa removida,-0.72,,,datas ausentes ou DN posterior ao Atendimento
+7093,idade negativa removida,-101.15,,,datas ausentes ou DN posterior ao Atendimento
+7168,idade negativa removida,-0.72,,,datas ausentes ou DN posterior ao Atendimento
+7328,inconsistencia,13.97,13.47,0.5,idade preenchida diverge das datas
+7394,inconsistencia,10.82,10.43,0.39,idade preenchida diverge das datas
+7400,idade negativa removida,-8.31,,,datas ausentes ou DN posterior ao Atendimento
+7405,idade negativa removida,-112.52,,,datas ausentes ou DN posterior ao Atendimento
+7547,inconsistencia,10.76,10.37,0.39,idade preenchida diverge das datas
+7666,inconsistencia,6.81,6.57,0.24,idade preenchida diverge das datas
+7761,inconsistencia,4.39,4.24,0.15,idade preenchida diverge das datas
+7927,idade negativa removida,-12.39,,,datas ausentes ou DN posterior ao Atendimento
+7929,idade negativa removida,-0.38,,,datas ausentes ou DN posterior ao Atendimento
+8034,idade negativa removida,-0.03,,,datas ausentes ou DN posterior ao Atendimento
+8363,inconsistencia,11.18,10.77,0.41,idade preenchida diverge das datas
+8619,inconsistencia,9.9,9.54,0.36,idade preenchida diverge das datas
+8641,idade negativa removida,-112.13,,,datas ausentes ou DN posterior ao Atendimento
+8660,idade negativa removida,-0.71,,,datas ausentes ou DN posterior ao Atendimento
+8775,idade negativa removida,-0.2,,,datas ausentes ou DN posterior ao Atendimento
+8777,inconsistencia,4.46,4.3,0.16,idade preenchida diverge das datas
+8937,inconsistencia,7.21,6.95,0.26,idade preenchida diverge das datas
+9045,idade negativa removida,-109.02,,,datas ausentes ou DN posterior ao Atendimento
+9133,idade negativa removida,-99.64,,,datas ausentes ou DN posterior ao Atendimento
+9245,idade negativa removida,-0.34,,,datas ausentes ou DN posterior ao Atendimento
+9404,idade negativa removida,-0.55,,,datas ausentes ou DN posterior ao Atendimento
+9465,idade negativa removida,-0.59,,,datas ausentes ou DN posterior ao Atendimento
+9548,idade negativa removida,-93.69,,,datas ausentes ou DN posterior ao Atendimento
+9584,idade negativa removida,-96.71,,,datas ausentes ou DN posterior ao Atendimento
+9722,idade negativa removida,-1.02,,,datas ausentes ou DN posterior ao Atendimento
+9830,idade negativa removida,-110.28,,,datas ausentes ou DN posterior ao Atendimento
+9953,idade negativa removida,-94.87,,,datas ausentes ou DN posterior ao Atendimento
+9963,idade negativa removida,-0.11,,,datas ausentes ou DN posterior ao Atendimento
+10319,inconsistencia,7.6,7.33,0.27,idade preenchida diverge das datas
+10325,idade negativa removida,-0.06,,,datas ausentes ou DN posterior ao Atendimento
+10351,inconsistencia,13.97,13.46,0.51,idade preenchida diverge das datas
+10639,idade negativa removida,-109.36,,,datas ausentes ou DN posterior ao Atendimento
+10818,idade negativa removida,-0.06,,,datas ausentes ou DN posterior ao Atendimento
+11019,idade negativa removida,-0.03,,,datas ausentes ou DN posterior ao Atendimento
+11159,inconsistencia,10.3,9.92,0.38,idade preenchida diverge das datas
+11241,idade negativa removida,-0.45,,,datas ausentes ou DN posterior ao Atendimento
+11456,idade negativa removida,-1.34,,,datas ausentes ou DN posterior ao Atendimento
+11473,idade negativa removida,-104.96,,,datas ausentes ou DN posterior ao Atendimento
+11693,idade negativa removida,-0.01,,,datas ausentes ou DN posterior ao Atendimento
+11934,inconsistencia,3.9,3.76,0.14,idade preenchida diverge das datas
+12116,idade negativa removida,-113.11,,,datas ausentes ou DN posterior ao Atendimento
+12149,idade negativa removida,-95.92,,,datas ausentes ou DN posterior ao Atendimento
+12310,idade negativa removida,-13.45,,,datas ausentes ou DN posterior ao Atendimento
+12406,idade negativa removida,-0.45,,,datas ausentes ou DN posterior ao Atendimento
+12743,idade negativa removida,-103.07,,,datas ausentes ou DN posterior ao Atendimento
+13066,idade negativa removida,-0.7,,,datas ausentes ou DN posterior ao Atendimento
+13077,inconsistencia,10.84,10.45,0.39,idade preenchida diverge das datas
+13266,idade negativa removida,-0.1,,,datas ausentes ou DN posterior ao Atendimento
+13331,idade negativa removida,-1.07,,,datas ausentes ou DN posterior ao Atendimento
+13367,idade negativa removida,-0.02,,,datas ausentes ou DN posterior ao Atendimento
+13428,idade negativa removida,-112.99,,,datas ausentes ou DN posterior ao Atendimento
+13450,idade negativa removida,-0.68,,,datas ausentes ou DN posterior ao Atendimento
+13587,idade negativa removida,-110.74,,,datas ausentes ou DN posterior ao Atendimento
+13601,idade negativa removida,-1.03,,,datas ausentes ou DN posterior ao Atendimento
+13701,idade negativa removida,-0.49,,,datas ausentes ou DN posterior ao Atendimento
+13882,idade negativa removida,-102.01,,,datas ausentes ou DN posterior ao Atendimento
+13989,idade negativa removida,-0.64,,,datas ausentes ou DN posterior ao Atendimento
+13992,inconsistencia,6.67,6.43,0.24,idade preenchida diverge das datas
+14043,idade negativa removida,-0.43,,,datas ausentes ou DN posterior ao Atendimento
+14190,inconsistencia,16.64,16.04,0.6,idade preenchida diverge das datas
+14191,idade negativa removida,-96.2,,,datas ausentes ou DN posterior ao Atendimento
+14316,inconsistencia,11.73,11.3,0.43,idade preenchida diverge das datas
+14322,inconsistencia,11.91,11.48,0.43,idade preenchida diverge das datas
+14474,idade negativa removida,-96.81,,,datas ausentes ou DN posterior ao Atendimento
+14492,idade negativa removida,-102.94,,,datas ausentes ou DN posterior ao Atendimento
+14548,idade negativa removida,-0.13,,,datas ausentes ou DN posterior ao Atendimento
+14631,inconsistencia,8.11,7.82,0.29,idade preenchida diverge das datas
+14670,idade negativa removida,-0.01,,,datas ausentes ou DN posterior ao Atendimento
+14813,inconsistencia,12.77,12.31,0.46,idade preenchida diverge das datas
+14817,idade negativa removida,-0.13,,,datas ausentes ou DN posterior ao Atendimento
+14973,idade negativa removida,-29.29,,,datas ausentes ou DN posterior ao Atendimento
+15013,idade negativa removida,-0.96,,,datas ausentes ou DN posterior ao Atendimento
+15017,idade negativa removida,-0.18,,,datas ausentes ou DN posterior ao Atendimento
+15058,idade negativa removida,-6.0,,,datas ausentes ou DN posterior ao Atendimento
+15097,idade negativa removida,-112.46,,,datas ausentes ou DN posterior ao Atendimento
+15110,idade negativa removida,-0.01,,,datas ausentes ou DN posterior ao Atendimento
+15141,idade negativa removida,-0.82,,,datas ausentes ou DN posterior ao Atendimento
+15192,idade negativa removida,-0.08,,,datas ausentes ou DN posterior ao Atendimento
+15245,idade negativa removida,-0.08,,,datas ausentes ou DN posterior ao Atendimento
+15302,idade negativa removida,-0.11,,,datas ausentes ou DN posterior ao Atendimento
+15344,idade negativa removida,-0.42,,,datas ausentes ou DN posterior ao Atendimento
+15372,idade negativa removida,-0.15,,,datas ausentes ou DN posterior ao Atendimento
+15440,idade negativa removida,-107.13,,,datas ausentes ou DN posterior ao Atendimento
+15458,idade negativa removida,-0.14,,,datas ausentes ou DN posterior ao Atendimento
+15678,idade negativa removida,-108.65,,,datas ausentes ou DN posterior ao Atendimento
+15709,idade negativa removida,-111.6,,,datas ausentes ou DN posterior ao Atendimento
+15869,inconsistencia,5.18,4.99,0.19,idade preenchida diverge das datas
+15874,idade negativa removida,-0.19,,,datas ausentes ou DN posterior ao Atendimento
+15901,idade negativa removida,-99.5,,,datas ausentes ou DN posterior ao Atendimento
+15927,idade negativa removida,-0.02,,,datas ausentes ou DN posterior ao Atendimento
+16017,idade negativa removida,-0.06,,,datas ausentes ou DN posterior ao Atendimento
+16207,idade negativa removida,-0.17,,,datas ausentes ou DN posterior ao Atendimento
+16325,idade negativa removida,-0.02,,,datas ausentes ou DN posterior ao Atendimento
+16417,inconsistencia,12.43,11.98,0.45,idade preenchida diverge das datas
+16452,idade negativa removida,-101.41,,,datas ausentes ou DN posterior ao Atendimento
+16652,idade negativa removida,-111.47,,,datas ausentes ou DN posterior ao Atendimento
+16715,idade negativa removida,-0.03,,,datas ausentes ou DN posterior ao Atendimento
+16731,idade negativa removida,-113.18,,,datas ausentes ou DN posterior ao Atendimento
+16783,inconsistencia,12.62,12.16,0.46,idade preenchida diverge das datas
+16800,idade negativa removida,-0.01,,,datas ausentes ou DN posterior ao Atendimento
+16945,inconsistencia,10.19,9.82,0.37,idade preenchida diverge das datas
+16949,idade negativa removida,-0.74,,,datas ausentes ou DN posterior ao Atendimento
+17071,idade negativa removida,-0.75,,,datas ausentes ou DN posterior ao Atendimento
+17333,idade negativa removida,-0.54,,,datas ausentes ou DN posterior ao Atendimento
+17692,idade negativa removida,-0.13,,,datas ausentes ou DN posterior ao Atendimento
+17793,idade negativa removida,-96.32,,,datas ausentes ou DN posterior ao Atendimento
+17862,inconsistencia,8.23,7.93,0.3,idade preenchida diverge das datas
+17872,idade negativa removida,-24.03,,,datas ausentes ou DN posterior ao Atendimento

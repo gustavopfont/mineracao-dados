@@ -1,0 +1,1054 @@
+﻿variavel,categoria,classe_alvo,frequencia,porcentagem_na_classe,porcentagem_na_categoria
+Convenio,113205,Anormal,0,0.0,0.0
+Convenio,113205,Ausente,0,0.0,0.0
+Convenio,113205,Normal,1,0.014825796886582653,100.0
+Convenio,17999,Anormal,0,0.0,0.0
+Convenio,17999,Ausente,0,0.0,0.0
+Convenio,17999,Normal,1,0.014825796886582653,100.0
+Convenio,35971,Anormal,0,0.0,0.0
+Convenio,35971,Ausente,0,0.0,0.0
+Convenio,35971,Normal,1,0.014825796886582653,100.0
+Convenio,36170,Anormal,1,0.020173492031470647,100.0
+Convenio,36170,Ausente,0,0.0,0.0
+Convenio,36170,Normal,0,0.0,0.0
+Convenio,38001,Anormal,1,0.020173492031470647,100.0
+Convenio,38001,Ausente,0,0.0,0.0
+Convenio,38001,Normal,0,0.0,0.0
+Convenio,38412,Anormal,0,0.0,0.0
+Convenio,38412,Ausente,0,0.0,0.0
+Convenio,38412,Normal,1,0.014825796886582653,100.0
+Convenio,38447,Anormal,0,0.0,0.0
+Convenio,38447,Ausente,0,0.0,0.0
+Convenio,38447,Normal,1,0.014825796886582653,100.0
+Convenio,38706,Anormal,1,0.020173492031470647,100.0
+Convenio,38706,Ausente,0,0.0,0.0
+Convenio,38706,Normal,0,0.0,0.0
+Convenio,39561,Anormal,1,0.020173492031470647,100.0
+Convenio,39561,Ausente,0,0.0,0.0
+Convenio,39561,Normal,0,0.0,0.0
+Convenio,AERON,Anormal,2,0.040346984062941293,50.0
+Convenio,AERON,Ausente,0,0.0,0.0
+Convenio,AERON,Normal,2,0.029651593773165306,50.0
+Convenio,AERON.,Anormal,4,0.08069396812588259,80.0
+Convenio,AERON.,Ausente,0,0.0,0.0
+Convenio,AERON.,Normal,1,0.014825796886582653,20.0
+Convenio,AGF,Anormal,6,0.12104095218882388,40.0
+Convenio,AGF,Ausente,2,0.46296296296296297,13.333333333333334
+Convenio,AGF,Normal,7,0.10378057820607858,46.666666666666664
+Convenio,AGF S.,Anormal,0,0.0,0.0
+Convenio,AGF S.,Ausente,0,0.0,0.0
+Convenio,AGF S.,Normal,1,0.014825796886582653,100.0
+Convenio,AMB,Anormal,1,0.020173492031470647,33.333333333333336
+Convenio,AMB,Ausente,0,0.0,0.0
+Convenio,AMB,Normal,2,0.029651593773165306,66.66666666666667
+Convenio,AMEP,Anormal,0,0.0,0.0
+Convenio,AMEP,Ausente,0,0.0,0.0
+Convenio,AMEP,Normal,5,0.07412898443291327,100.0
+Convenio,AMIL,Anormal,2,0.040346984062941293,50.0
+Convenio,AMIL,Ausente,0,0.0,0.0
+Convenio,AMIL,Normal,2,0.029651593773165306,50.0
+Convenio,AS,Anormal,38,0.7665926971958846,50.0
+Convenio,AS,Ausente,2,0.46296296296296297,2.6315789473684212
+Convenio,AS,Normal,36,0.5337286879169756,47.36842105263158
+Convenio,ASL,Anormal,6,0.12104095218882388,33.333333333333336
+Convenio,ASL,Ausente,1,0.23148148148148148,5.555555555555555
+Convenio,ASL,Normal,11,0.16308376575240918,61.111111111111114
+Convenio,ASSEF,Anormal,1,0.020173492031470647,33.333333333333336
+Convenio,ASSEF,Ausente,0,0.0,0.0
+Convenio,ASSEF,Normal,2,0.029651593773165306,66.66666666666667
+Convenio,ASSEFA,Anormal,1,0.020173492031470647,33.333333333333336
+Convenio,ASSEFA,Ausente,0,0.0,0.0
+Convenio,ASSEFA,Normal,2,0.029651593773165306,66.66666666666667
+Convenio,Aero,Anormal,2,0.040346984062941293,66.66666666666667
+Convenio,Aero,Ausente,0,0.0,0.0
+Convenio,Aero,Normal,1,0.014825796886582653,33.333333333333336
+Convenio,Aeronáutica,Anormal,5,0.10086746015735323,41.666666666666664
+Convenio,Aeronáutica,Ausente,1,0.23148148148148148,8.333333333333334
+Convenio,Aeronáutica,Normal,6,0.08895478131949593,50.0
+Convenio,Alians,Anormal,0,0.0,0.0
+Convenio,Alians,Ausente,0,0.0,0.0
+Convenio,Alians,Normal,1,0.014825796886582653,100.0
+Convenio,Amep Camp,Anormal,1,0.020173492031470647,100.0
+Convenio,Amep Camp,Ausente,0,0.0,0.0
+Convenio,Amep Camp,Normal,0,0.0,0.0
+Convenio,Amepe,Anormal,2,0.040346984062941293,100.0
+Convenio,Amepe,Ausente,0,0.0,0.0
+Convenio,Amepe,Normal,0,0.0,0.0
+Convenio,America,Anormal,11,0.22190841234617711,47.82608695652174
+Convenio,America,Ausente,0,0.0,0.0
+Convenio,America,Normal,12,0.17790956263899185,52.17391304347826
+Convenio,America  S.,Anormal,0,0.0,0.0
+Convenio,America  S.,Ausente,0,0.0,0.0
+Convenio,America  S.,Normal,1,0.014825796886582653,100.0
+Convenio,Amériaca S.,Anormal,0,0.0,0.0
+Convenio,Amériaca S.,Ausente,0,0.0,0.0
+Convenio,Amériaca S.,Normal,1,0.014825796886582653,100.0
+Convenio,América S.,Anormal,7,0.14121444422029453,33.333333333333336
+Convenio,América S.,Ausente,0,0.0,0.0
+Convenio,América S.,Normal,14,0.20756115641215717,66.66666666666667
+Convenio,América Saude,Anormal,1,0.020173492031470647,50.0
+Convenio,América Saude,Ausente,0,0.0,0.0
+Convenio,América Saude,Normal,1,0.014825796886582653,50.0
+Convenio,Assefaz,Anormal,14,0.28242888844058905,50.0
+Convenio,Assefaz,Ausente,3,0.6944444444444444,10.714285714285714
+Convenio,Assefaz,Normal,11,0.16308376575240918,39.285714285714285
+Convenio,Ausente,Anormal,1472,29.695380270324794,43.65361803084223
+Convenio,Ausente,Ausente,46,10.648148148148149,1.3641755634638197
+Convenio,Ausente,Normal,1854,27.48702742772424,54.98220640569395
+Convenio,BL,Anormal,2,0.040346984062941293,66.66666666666667
+Convenio,BL,Ausente,0,0.0,0.0
+Convenio,BL,Normal,1,0.014825796886582653,33.333333333333336
+Convenio,BLSERV,Anormal,2,0.040346984062941293,100.0
+Convenio,BLSERV,Ausente,0,0.0,0.0
+Convenio,BLSERV,Normal,0,0.0,0.0
+Convenio,BLUELI,Anormal,1,0.020173492031470647,33.333333333333336
+Convenio,BLUELI,Ausente,0,0.0,0.0
+Convenio,BLUELI,Normal,2,0.029651593773165306,66.66666666666667
+Convenio,BS,Anormal,0,0.0,0.0
+Convenio,BS,Ausente,1,0.23148148148148148,100.0
+Convenio,BS,Normal,0,0.0,0.0
+Convenio,Banco Central,Anormal,0,0.0,0.0
+Convenio,Banco Central,Ausente,0,0.0,0.0
+Convenio,Banco Central,Normal,1,0.014825796886582653,100.0
+Convenio,Blue Life,Anormal,1,0.020173492031470647,50.0
+Convenio,Blue Life,Ausente,0,0.0,0.0
+Convenio,Blue Life,Normal,1,0.014825796886582653,50.0
+Convenio,Bluelife,Anormal,2,0.040346984062941293,50.0
+Convenio,Bluelife,Ausente,2,0.46296296296296297,50.0
+Convenio,Bluelife,Normal,0,0.0,0.0
+Convenio,Bradesco,Anormal,0,0.0,0.0
+Convenio,Bradesco,Ausente,1,0.23148148148148148,50.0
+Convenio,Bradesco,Normal,1,0.014825796886582653,50.0
+Convenio,C Cor,Anormal,1,0.020173492031470647,100.0
+Convenio,C Cor,Ausente,0,0.0,0.0
+Convenio,C Cor,Normal,0,0.0,0.0
+Convenio,C. Coração,Anormal,1,0.020173492031470647,100.0
+Convenio,C. Coração,Ausente,0,0.0,0.0
+Convenio,C. Coração,Normal,0,0.0,0.0
+Convenio,CAMED,Anormal,167,3.368973169255598,29.50530035335689
+Convenio,CAMED,Ausente,31,7.175925925925926,5.477031802120141
+Convenio,CAMED,Normal,368,5.455893254262417,65.01766784452296
+Convenio,CAMPE,Anormal,2,0.040346984062941293,25.0
+Convenio,CAMPE,Ausente,0,0.0,0.0
+Convenio,CAMPE,Normal,6,0.08895478131949593,75.0
+Convenio,CASS,Anormal,4,0.08069396812588259,33.333333333333336
+Convenio,CASS,Ausente,0,0.0,0.0
+Convenio,CASS,Normal,8,0.11860637509266123,66.66666666666667
+Convenio,CASSI,Anormal,35,0.7060722211014727,48.611111111111114
+Convenio,CASSI,Ausente,3,0.6944444444444444,4.166666666666667
+Convenio,CASSI,Normal,34,0.5040770941438102,47.22222222222222
+Convenio,CC,Anormal,68,1.371797458140004,70.10309278350516
+Convenio,CC,Ausente,2,0.46296296296296297,2.0618556701030926
+Convenio,CC,Normal,27,0.40029651593773163,27.835051546391753
+Convenio,CELPE,Anormal,5,0.10086746015735323,55.55555555555556
+Convenio,CELPE,Ausente,0,0.0,0.0
+Convenio,CELPE,Normal,4,0.05930318754633061,44.44444444444444
+Convenio,CHESF,Anormal,3,0.06052047609441194,33.333333333333336
+Convenio,CHESF,Ausente,1,0.23148148148148148,11.11111111111111
+Convenio,CHESF,Normal,5,0.07412898443291327,55.55555555555556
+Convenio,CISAM,Anormal,0,0.0,0.0
+Convenio,CISAM,Ausente,1,0.23148148148148148,100.0
+Convenio,CISAM,Normal,0,0.0,0.0
+Convenio,CT,Anormal,13,0.26225539640911844,92.85714285714286
+Convenio,CT,Ausente,0,0.0,0.0
+Convenio,CT,Normal,1,0.014825796886582653,7.142857142857143
+Convenio,Cassi + tab,Anormal,0,0.0,0.0
+Convenio,Cassi + tab,Ausente,0,0.0,0.0
+Convenio,Cassi + tab,Normal,1,0.014825796886582653,100.0
+Convenio,Celpos,Anormal,10,0.20173492031470647,35.714285714285715
+Convenio,Celpos,Ausente,1,0.23148148148148148,3.5714285714285716
+Convenio,Celpos,Normal,17,0.2520385470719051,60.714285714285715
+Convenio,CircC,Anormal,1,0.020173492031470647,100.0
+Convenio,CircC,Ausente,0,0.0,0.0
+Convenio,CircC,Normal,0,0.0,0.0
+Convenio,Com Saude,Anormal,0,0.0,0.0
+Convenio,Com Saude,Ausente,0,0.0,0.0
+Convenio,Com Saude,Normal,1,0.014825796886582653,100.0
+Convenio,Comsaude,Anormal,2,0.040346984062941293,40.0
+Convenio,Comsaude,Ausente,1,0.23148148148148148,20.0
+Convenio,Comsaude,Normal,2,0.029651593773165306,40.0
+Convenio,Coreios,Anormal,1,0.020173492031470647,100.0
+Convenio,Coreios,Ausente,0,0.0,0.0
+Convenio,Coreios,Normal,0,0.0,0.0
+Convenio,Corr,Anormal,1,0.020173492031470647,100.0
+Convenio,Corr,Ausente,0,0.0,0.0
+Convenio,Corr,Normal,0,0.0,0.0
+Convenio,Correios,Anormal,4,0.08069396812588259,100.0
+Convenio,Correios,Ausente,0,0.0,0.0
+Convenio,Correios,Normal,0,0.0,0.0
+Convenio,Cortesia,Anormal,4,0.08069396812588259,36.36363636363637
+Convenio,Cortesia,Ausente,1,0.23148148148148148,9.090909090909092
+Convenio,Cortesia,Normal,6,0.08895478131949593,54.54545454545455
+Convenio,Círculo,Anormal,28,0.5648577768811781,80.0
+Convenio,Círculo,Ausente,3,0.6944444444444444,8.571428571428571
+Convenio,Círculo,Normal,4,0.05930318754633061,11.428571428571429
+Convenio,Círculo Cor,Anormal,1,0.020173492031470647,100.0
+Convenio,Círculo Cor,Ausente,0,0.0,0.0
+Convenio,Círculo Cor,Normal,0,0.0,0.0
+Convenio,EMBRA,Anormal,0,0.0,0.0
+Convenio,EMBRA,Ausente,0,0.0,0.0
+Convenio,EMBRA,Normal,1,0.014825796886582653,100.0
+Convenio,Embrat,Anormal,0,0.0,0.0
+Convenio,Embrat,Ausente,0,0.0,0.0
+Convenio,Embrat,Normal,1,0.014825796886582653,100.0
+Convenio,Embratel,Anormal,1,0.020173492031470647,20.0
+Convenio,Embratel,Ausente,1,0.23148148148148148,20.0
+Convenio,Embratel,Normal,3,0.04447739065974796,60.0
+Convenio,Excelsior,Anormal,1,0.020173492031470647,100.0
+Convenio,Excelsior,Ausente,0,0.0,0.0
+Convenio,Excelsior,Normal,0,0.0,0.0
+Convenio,Excelsior/ RHP,Anormal,0,0.0,0.0
+Convenio,Excelsior/ RHP,Ausente,0,0.0,0.0
+Convenio,Excelsior/ RHP,Normal,1,0.014825796886582653,100.0
+Convenio,Excelsior/RHP,Anormal,0,0.0,0.0
+Convenio,Excelsior/RHP,Ausente,0,0.0,0.0
+Convenio,Excelsior/RHP,Normal,1,0.014825796886582653,100.0
+Convenio,FACHES,Anormal,1,0.020173492031470647,16.666666666666668
+Convenio,FACHES,Ausente,0,0.0,0.0
+Convenio,FACHES,Normal,5,0.07412898443291327,83.33333333333333
+Convenio,FISCO,Anormal,11,0.22190841234617711,35.483870967741936
+Convenio,FISCO,Ausente,0,0.0,0.0
+Convenio,FISCO,Normal,20,0.2965159377316531,64.51612903225806
+Convenio,FISCOS,Anormal,1,0.020173492031470647,100.0
+Convenio,FISCOS,Ausente,0,0.0,0.0
+Convenio,FISCOS,Normal,0,0.0,0.0
+Convenio,FUNCEF,Anormal,16,0.32277587250353035,28.07017543859649
+Convenio,FUNCEF,Ausente,3,0.6944444444444444,5.2631578947368425
+Convenio,FUNCEF,Normal,38,0.5633802816901409,66.66666666666667
+Convenio,FUNSEF,Anormal,1,0.020173492031470647,100.0
+Convenio,FUNSEF,Ausente,0,0.0,0.0
+Convenio,FUNSEF,Normal,0,0.0,0.0
+Convenio,FUSEX,Anormal,50,1.0086746015735324,36.76470588235294
+Convenio,FUSEX,Ausente,11,2.5462962962962963,8.088235294117647
+Convenio,FUSEX,Normal,75,1.111934766493699,55.14705882352941
+Convenio,Fachaesf,Anormal,0,0.0,0.0
+Convenio,Fachaesf,Ausente,0,0.0,0.0
+Convenio,Fachaesf,Normal,1,0.014825796886582653,100.0
+Convenio,Fachesf,Anormal,19,0.3832963485979423,37.254901960784316
+Convenio,Fachesf,Ausente,2,0.46296296296296297,3.9215686274509802
+Convenio,Fachesf,Normal,30,0.4447739065974796,58.8235294117647
+Convenio,Fachesp,Anormal,0,0.0,0.0
+Convenio,Fachesp,Ausente,0,0.0,0.0
+Convenio,Fachesp,Normal,1,0.014825796886582653,100.0
+Convenio,Facjesf,Anormal,0,0.0,0.0
+Convenio,Facjesf,Ausente,0,0.0,0.0
+Convenio,Facjesf,Normal,1,0.014825796886582653,100.0
+Convenio,Fisco S.,Anormal,1,0.020173492031470647,50.0
+Convenio,Fisco S.,Ausente,0,0.0,0.0
+Convenio,Fisco S.,Normal,1,0.014825796886582653,50.0
+Convenio,Fisco Saude,Anormal,0,0.0,0.0
+Convenio,Fisco Saude,Ausente,0,0.0,0.0
+Convenio,Fisco Saude,Normal,1,0.014825796886582653,100.0
+Convenio,Fiscosaude,Anormal,1,0.020173492031470647,100.0
+Convenio,Fiscosaude,Ausente,0,0.0,0.0
+Convenio,Fiscosaude,Normal,0,0.0,0.0
+Convenio,GC,Anormal,6,0.12104095218882388,35.294117647058826
+Convenio,GC,Ausente,1,0.23148148148148148,5.882352941176471
+Convenio,GC,Normal,10,0.14825796886582654,58.8235294117647
+Convenio,GOLDEN,Anormal,5,0.10086746015735323,62.5
+Convenio,GOLDEN,Ausente,0,0.0,0.0
+Convenio,GOLDEN,Normal,3,0.04447739065974796,37.5
+Convenio,GRUPO,Anormal,228,4.599556183175308,48.82226980728051
+Convenio,GRUPO,Ausente,1,0.23148148148148148,0.21413276231263384
+Convenio,GRUPO,Normal,238,3.5285396590066718,50.96359743040685
+Convenio,GS,Anormal,854,17.22816219487593,40.72484501669051
+Convenio,GS,Ausente,95,21.99074074074074,4.530281354315689
+Convenio,GS,Normal,1148,17.020014825796885,54.7448736289938
+Convenio,Gama,Anormal,3,0.06052047609441194,27.272727272727273
+Convenio,Gama,Ausente,2,0.46296296296296297,18.181818181818183
+Convenio,Gama,Normal,6,0.08895478131949593,54.54545454545455
+Convenio,Gama S.,Anormal,0,0.0,0.0
+Convenio,Gama S.,Ausente,0,0.0,0.0
+Convenio,Gama S.,Normal,1,0.014825796886582653,100.0
+Convenio,Gold,Anormal,0,0.0,0.0
+Convenio,Gold,Ausente,0,0.0,0.0
+Convenio,Gold,Normal,1,0.014825796886582653,100.0
+Convenio,Grupo Saúde,Anormal,1,0.020173492031470647,100.0
+Convenio,Grupo Saúde,Ausente,0,0.0,0.0
+Convenio,Grupo Saúde,Normal,0,0.0,0.0
+Convenio,Hospital Residência,Anormal,0,0.0,0.0
+Convenio,Hospital Residência,Ausente,0,0.0,0.0
+Convenio,Hospital Residência,Normal,1,0.014825796886582653,100.0
+Convenio,IDEAL,Anormal,57,1.149889045793827,34.33734939759036
+Convenio,IDEAL,Ausente,9,2.0833333333333335,5.421686746987952
+Convenio,IDEAL,Normal,100,1.4825796886582654,60.24096385542169
+Convenio,IDEAL S,Anormal,1,0.020173492031470647,100.0
+Convenio,IDEAL S,Ausente,0,0.0,0.0
+Convenio,IDEAL S,Normal,0,0.0,0.0
+Convenio,IDEAL S.,Anormal,4,0.08069396812588259,23.529411764705884
+Convenio,IDEAL S.,Ausente,0,0.0,0.0
+Convenio,IDEAL S.,Normal,13,0.1927353595255745,76.47058823529412
+Convenio,Ideal Saude,Anormal,1,0.020173492031470647,50.0
+Convenio,Ideal Saude,Ausente,1,0.23148148148148148,50.0
+Convenio,Ideal Saude,Normal,0,0.0,0.0
+Convenio,Jorge de Medeiros,Anormal,1,0.020173492031470647,100.0
+Convenio,Jorge de Medeiros,Ausente,0,0.0,0.0
+Convenio,Jorge de Medeiros,Normal,0,0.0,0.0
+Convenio,MED,Anormal,0,0.0,0.0
+Convenio,MED,Ausente,0,0.0,0.0
+Convenio,MED,Normal,1,0.014825796886582653,100.0
+Convenio,MEDESE,Anormal,0,0.0,0.0
+Convenio,MEDESE,Ausente,0,0.0,0.0
+Convenio,MEDESE,Normal,1,0.014825796886582653,100.0
+Convenio,MEDESV,Anormal,1,0.020173492031470647,100.0
+Convenio,MEDESV,Ausente,0,0.0,0.0
+Convenio,MEDESV,Normal,0,0.0,0.0
+Convenio,MEDIS,Anormal,2,0.040346984062941293,66.66666666666667
+Convenio,MEDIS,Ausente,0,0.0,0.0
+Convenio,MEDIS,Normal,1,0.014825796886582653,33.333333333333336
+Convenio,MEDISE,Anormal,6,0.12104095218882388,26.08695652173913
+Convenio,MEDISE,Ausente,0,0.0,0.0
+Convenio,MEDISE,Normal,17,0.2520385470719051,73.91304347826087
+Convenio,MEDISER,Anormal,0,0.0,0.0
+Convenio,MEDISER,Ausente,0,0.0,0.0
+Convenio,MEDISER,Normal,2,0.029651593773165306,100.0
+Convenio,MEDISERV.,Anormal,4,0.08069396812588259,25.0
+Convenio,MEDISERV.,Ausente,0,0.0,0.0
+Convenio,MEDISERV.,Normal,12,0.17790956263899185,75.0
+Convenio,MEDSER,Anormal,4,0.08069396812588259,80.0
+Convenio,MEDSER,Ausente,0,0.0,0.0
+Convenio,MEDSER,Normal,1,0.014825796886582653,20.0
+Convenio,MEDSERV,Anormal,2,0.040346984062941293,28.571428571428573
+Convenio,MEDSERV,Ausente,0,0.0,0.0
+Convenio,MEDSERV,Normal,5,0.07412898443291327,71.42857142857143
+Convenio,MERSEV,Anormal,0,0.0,0.0
+Convenio,MERSEV,Ausente,0,0.0,0.0
+Convenio,MERSEV,Normal,1,0.014825796886582653,100.0
+Convenio,MMS,Anormal,9,0.18156142828323582,40.90909090909091
+Convenio,MMS,Ausente,4,0.9259259259259259,18.181818181818183
+Convenio,MMS,Normal,9,0.1334321719792439,40.90909090909091
+Convenio,Media S.,Anormal,0,0.0,0.0
+Convenio,Media S.,Ausente,0,0.0,0.0
+Convenio,Media S.,Normal,1,0.014825796886582653,100.0
+Convenio,Medial,Anormal,132,2.6629009481541255,35.967302452316076
+Convenio,Medial,Ausente,15,3.4722222222222223,4.087193460490464
+Convenio,Medial,Normal,220,3.261675315048184,59.94550408719346
+Convenio,Medial S.,Anormal,1,0.020173492031470647,8.333333333333334
+Convenio,Medial S.,Ausente,0,0.0,0.0
+Convenio,Medial S.,Normal,11,0.16308376575240918,91.66666666666667
+Convenio,Mediserv,Anormal,3,0.06052047609441194,37.5
+Convenio,Mediserv,Ausente,0,0.0,0.0
+Convenio,Mediserv,Normal,5,0.07412898443291327,62.5
+Convenio,Mediservic,Anormal,0,0.0,0.0
+Convenio,Mediservic,Ausente,0,0.0,0.0
+Convenio,Mediservic,Normal,1,0.014825796886582653,100.0
+Convenio,Mediservice,Anormal,12,0.24208190437764776,30.76923076923077
+Convenio,Mediservice,Ausente,3,0.6944444444444444,7.6923076923076925
+Convenio,Mediservice,Normal,24,0.3558191252779837,61.53846153846154
+Convenio,Medserv.,Anormal,0,0.0,0.0
+Convenio,Medserv.,Ausente,0,0.0,0.0
+Convenio,Medserv.,Normal,1,0.014825796886582653,100.0
+Convenio,Medservice,Anormal,5,0.10086746015735323,45.45454545454545
+Convenio,Medservice,Ausente,3,0.6944444444444444,27.272727272727273
+Convenio,Medservice,Normal,3,0.04447739065974796,27.272727272727273
+Convenio,NORC,Anormal,7,0.14121444422029453,35.0
+Convenio,NORC,Ausente,0,0.0,0.0
+Convenio,NORC,Normal,13,0.1927353595255745,65.0
+Convenio,NORCL,Anormal,10,0.20173492031470647,40.0
+Convenio,NORCL,Ausente,0,0.0,0.0
+Convenio,NORCL,Normal,15,0.2223869532987398,60.0
+Convenio,NORCLI,Anormal,5,0.10086746015735323,33.333333333333336
+Convenio,NORCLI,Ausente,0,0.0,0.0
+Convenio,NORCLI,Normal,10,0.14825796886582654,66.66666666666667
+Convenio,NORCLIN,Anormal,15,0.30260238047205973,32.608695652173914
+Convenio,NORCLIN,Ausente,0,0.0,0.0
+Convenio,NORCLIN,Normal,31,0.45959970348406226,67.3913043478261
+Convenio,NORCLIN.,Anormal,44,0.8876336493847085,40.74074074074074
+Convenio,NORCLIN.,Ausente,1,0.23148148148148148,0.9259259259259259
+Convenio,NORCLIN.,Normal,63,0.9340252038547072,58.333333333333336
+Convenio,NORCLINC,Anormal,1,0.020173492031470647,100.0
+Convenio,NORCLINC,Ausente,0,0.0,0.0
+Convenio,NORCLINC,Normal,0,0.0,0.0
+Convenio,NORCLINIC,Anormal,0,0.0,0.0
+Convenio,NORCLINIC,Ausente,0,0.0,0.0
+Convenio,NORCLINIC,Normal,1,0.014825796886582653,100.0
+Convenio,Norcl.,Anormal,0,0.0,0.0
+Convenio,Norcl.,Ausente,0,0.0,0.0
+Convenio,Norcl.,Normal,1,0.014825796886582653,100.0
+Convenio,Norclínia,Anormal,1,0.020173492031470647,100.0
+Convenio,Norclínia,Ausente,0,0.0,0.0
+Convenio,Norclínia,Normal,0,0.0,0.0
+Convenio,Norclínica,Anormal,10,0.20173492031470647,27.027027027027028
+Convenio,Norclínica,Ausente,1,0.23148148148148148,2.7027027027027026
+Convenio,Norclínica,Normal,26,0.385470719051149,70.27027027027027
+Convenio,Norclínicas,Anormal,39,0.7867661892273553,39.39393939393939
+Convenio,Norclínicas,Ausente,18,4.166666666666667,18.181818181818183
+Convenio,Norclínicas,Normal,42,0.6226834692364714,42.42424242424242
+Convenio,Norcínicas,Anormal,0,0.0,0.0
+Convenio,Norcínicas,Ausente,0,0.0,0.0
+Convenio,Norcínicas,Normal,1,0.014825796886582653,100.0
+Convenio,Norlcínicas,Anormal,0,0.0,0.0
+Convenio,Norlcínicas,Ausente,0,0.0,0.0
+Convenio,Norlcínicas,Normal,1,0.014825796886582653,100.0
+Convenio,Notre Dame,Anormal,1,0.020173492031470647,33.333333333333336
+Convenio,Notre Dame,Ausente,0,0.0,0.0
+Convenio,Notre Dame,Normal,2,0.029651593773165306,66.66666666666667
+Convenio,Notredame,Anormal,2,0.040346984062941293,33.333333333333336
+Convenio,Notredame,Ausente,0,0.0,0.0
+Convenio,Notredame,Normal,4,0.05930318754633061,66.66666666666667
+Convenio,OAB,Anormal,4,0.08069396812588259,66.66666666666667
+Convenio,OAB,Ausente,0,0.0,0.0
+Convenio,OAB,Normal,2,0.029651593773165306,33.333333333333336
+Convenio,OAB Saúde,Anormal,0,0.0,0.0
+Convenio,OAB Saúde,Ausente,0,0.0,0.0
+Convenio,OAB Saúde,Normal,1,0.014825796886582653,100.0
+Convenio,Odeal S.,Anormal,0,0.0,0.0
+Convenio,Odeal S.,Ausente,0,0.0,0.0
+Convenio,Odeal S.,Normal,1,0.014825796886582653,100.0
+Convenio,P,Anormal,3,0.06052047609441194,75.0
+Convenio,P,Ausente,0,0.0,0.0
+Convenio,P,Normal,1,0.014825796886582653,25.0
+Convenio,P.UCMF,Anormal,0,0.0,0.0
+Convenio,P.UCMF,Ausente,0,0.0,0.0
+Convenio,P.UCMF,Normal,1,0.014825796886582653,100.0
+Convenio,PARTIC,Anormal,1,0.020173492031470647,14.285714285714286
+Convenio,PARTIC,Ausente,0,0.0,0.0
+Convenio,PARTIC,Normal,6,0.08895478131949593,85.71428571428571
+Convenio,PARTICL,Anormal,0,0.0,0.0
+Convenio,PARTICL,Ausente,0,0.0,0.0
+Convenio,PARTICL,Normal,1,0.014825796886582653,100.0
+Convenio,PETRO,Anormal,1,0.020173492031470647,100.0
+Convenio,PETRO,Ausente,0,0.0,0.0
+Convenio,PETRO,Normal,0,0.0,0.0
+Convenio,PETROB,Anormal,1,0.020173492031470647,33.333333333333336
+Convenio,PETROB,Ausente,0,0.0,0.0
+Convenio,PETROB,Normal,2,0.029651593773165306,66.66666666666667
+Convenio,PETROB.,Anormal,1,0.020173492031470647,25.0
+Convenio,PETROB.,Ausente,0,0.0,0.0
+Convenio,PETROB.,Normal,3,0.04447739065974796,75.0
+Convenio,PETROF,Anormal,1,0.020173492031470647,50.0
+Convenio,PETROF,Ausente,0,0.0,0.0
+Convenio,PETROF,Normal,1,0.014825796886582653,50.0
+Convenio,PLAN ASS.,Anormal,2,0.040346984062941293,100.0
+Convenio,PLAN ASS.,Ausente,0,0.0,0.0
+Convenio,PLAN ASS.,Normal,0,0.0,0.0
+Convenio,PM,Anormal,1,0.020173492031470647,100.0
+Convenio,PM,Ausente,0,0.0,0.0
+Convenio,PM,Normal,0,0.0,0.0
+Convenio,Part,Anormal,19,0.3832963485979423,67.85714285714286
+Convenio,Part,Ausente,3,0.6944444444444444,10.714285714285714
+Convenio,Part,Normal,6,0.08895478131949593,21.428571428571427
+Convenio,Part.,Anormal,6,0.12104095218882388,75.0
+Convenio,Part.,Ausente,0,0.0,0.0
+Convenio,Part.,Normal,2,0.029651593773165306,25.0
+Convenio,Particular,Anormal,25,0.5043373007867662,54.34782608695652
+Convenio,Particular,Ausente,1,0.23148148148148148,2.1739130434782608
+Convenio,Particular,Normal,20,0.2965159377316531,43.47826086956522
+Convenio,Particulra,Anormal,1,0.020173492031470647,100.0
+Convenio,Particulra,Ausente,0,0.0,0.0
+Convenio,Particulra,Normal,0,0.0,0.0
+Convenio,Patrt,Anormal,1,0.020173492031470647,100.0
+Convenio,Patrt,Ausente,0,0.0,0.0
+Convenio,Patrt,Normal,0,0.0,0.0
+Convenio,Petrobras,Anormal,2,0.040346984062941293,33.333333333333336
+Convenio,Petrobras,Ausente,1,0.23148148148148148,16.666666666666668
+Convenio,Petrobras,Normal,3,0.04447739065974796,50.0
+Convenio,Petroflex,Anormal,1,0.020173492031470647,50.0
+Convenio,Petroflex,Ausente,0,0.0,0.0
+Convenio,Petroflex,Normal,1,0.014825796886582653,50.0
+Convenio,Plan A,Anormal,1,0.020173492031470647,100.0
+Convenio,Plan A,Ausente,0,0.0,0.0
+Convenio,Plan A,Normal,0,0.0,0.0
+Convenio,Plan Assiste,Anormal,1,0.020173492031470647,100.0
+Convenio,Plan Assiste,Ausente,0,0.0,0.0
+Convenio,Plan Assiste,Normal,0,0.0,0.0
+Convenio,RE,Anormal,0,0.0,0.0
+Convenio,RE,Ausente,0,0.0,0.0
+Convenio,RE,Normal,1,0.014825796886582653,100.0
+Convenio,REAL S,Anormal,0,0.0,0.0
+Convenio,REAL S,Ausente,0,0.0,0.0
+Convenio,REAL S,Normal,3,0.04447739065974796,100.0
+Convenio,REAL S.,Anormal,93,1.8761347589267703,36.470588235294116
+Convenio,REAL S.,Ausente,1,0.23148148148148148,0.39215686274509803
+Convenio,REAL S.,Normal,161,2.386953298739807,63.13725490196079
+Convenio,REAL. S.,Anormal,0,0.0,0.0
+Convenio,REAL. S.,Ausente,0,0.0,0.0
+Convenio,REAL. S.,Normal,1,0.014825796886582653,100.0
+Convenio,REALS.,Anormal,0,0.0,0.0
+Convenio,REALS.,Ausente,0,0.0,0.0
+Convenio,REALS.,Normal,1,0.014825796886582653,100.0
+Convenio,REEMB,Anormal,1,0.020173492031470647,50.0
+Convenio,REEMB,Ausente,0,0.0,0.0
+Convenio,REEMB,Normal,1,0.014825796886582653,50.0
+Convenio,Real,Anormal,27,0.5446842848497074,31.03448275862069
+Convenio,Real,Ausente,1,0.23148148148148148,1.1494252873563218
+Convenio,Real,Normal,59,0.8747220163083765,67.816091954023
+Convenio,Real Saúde,Anormal,4,0.08069396812588259,30.76923076923077
+Convenio,Real Saúde,Ausente,2,0.46296296296296297,15.384615384615385
+Convenio,Real Saúde,Normal,7,0.10378057820607858,53.84615384615385
+Convenio,S A,Anormal,0,0.0,0.0
+Convenio,S A,Ausente,1,0.23148148148148148,100.0
+Convenio,S A,Normal,0,0.0,0.0
+Convenio,S Bradesco,Anormal,0,0.0,0.0
+Convenio,S Bradesco,Ausente,0,0.0,0.0
+Convenio,S Bradesco,Normal,1,0.014825796886582653,100.0
+Convenio,S Recife,Anormal,3,0.06052047609441194,33.333333333333336
+Convenio,S Recife,Ausente,1,0.23148148148148148,11.11111111111111
+Convenio,S Recife,Normal,5,0.07412898443291327,55.55555555555556
+Convenio,S. CX,Anormal,0,0.0,0.0
+Convenio,S. CX,Ausente,0,0.0,0.0
+Convenio,S. CX,Normal,1,0.014825796886582653,100.0
+Convenio,S. Caixa,Anormal,0,0.0,0.0
+Convenio,S. Caixa,Ausente,0,0.0,0.0
+Convenio,S. Caixa,Normal,2,0.029651593773165306,100.0
+Convenio,S. Real,Anormal,1,0.020173492031470647,100.0
+Convenio,S. Real,Ausente,0,0.0,0.0
+Convenio,S. Real,Normal,0,0.0,0.0
+Convenio,S. Recife,Anormal,2,0.040346984062941293,9.090909090909092
+Convenio,S. Recife,Ausente,0,0.0,0.0
+Convenio,S. Recife,Normal,20,0.2965159377316531,90.9090909090909
+Convenio,S.A,Anormal,1,0.020173492031470647,33.333333333333336
+Convenio,S.A,Ausente,0,0.0,0.0
+Convenio,S.A,Normal,2,0.029651593773165306,66.66666666666667
+Convenio,S.A.,Anormal,0,0.0,0.0
+Convenio,S.A.,Ausente,0,0.0,0.0
+Convenio,S.A.,Normal,3,0.04447739065974796,100.0
+Convenio,S.AMER,Anormal,0,0.0,0.0
+Convenio,S.AMER,Ausente,0,0.0,0.0
+Convenio,S.AMER,Normal,1,0.014825796886582653,100.0
+Convenio,S.AMER.,Anormal,2,0.040346984062941293,100.0
+Convenio,S.AMER.,Ausente,0,0.0,0.0
+Convenio,S.AMER.,Normal,0,0.0,0.0
+Convenio,S.Am,Anormal,0,0.0,0.0
+Convenio,S.Am,Ausente,0,0.0,0.0
+Convenio,S.Am,Normal,1,0.014825796886582653,100.0
+Convenio,S.America,Anormal,12,0.24208190437764776,80.0
+Convenio,S.America,Ausente,0,0.0,0.0
+Convenio,S.America,Normal,3,0.04447739065974796,20.0
+Convenio,S.B.,Anormal,0,0.0,0.0
+Convenio,S.B.,Ausente,0,0.0,0.0
+Convenio,S.B.,Normal,4,0.05930318754633061,100.0
+Convenio,S.HELEN,Anormal,0,0.0,0.0
+Convenio,S.HELEN,Ausente,0,0.0,0.0
+Convenio,S.HELEN,Normal,1,0.014825796886582653,100.0
+Convenio,S.Helena,Anormal,1,0.020173492031470647,100.0
+Convenio,S.Helena,Ausente,0,0.0,0.0
+Convenio,S.Helena,Normal,0,0.0,0.0
+Convenio,S.Recife,Anormal,0,0.0,0.0
+Convenio,S.Recife,Ausente,0,0.0,0.0
+Convenio,S.Recife,Normal,1,0.014825796886582653,100.0
+Convenio,SA,Anormal,73,1.4726649182973572,30.165289256198346
+Convenio,SA,Ausente,18,4.166666666666667,7.43801652892562
+Convenio,SA,Normal,151,2.238695329873981,62.396694214876035
+Convenio,SAME,Anormal,25,0.5043373007867662,39.0625
+Convenio,SAME,Ausente,4,0.9259259259259259,6.25
+Convenio,SAME,Normal,35,0.5189028910303929,54.6875
+Convenio,SANT H,Anormal,0,0.0,0.0
+Convenio,SANT H,Ausente,0,0.0,0.0
+Convenio,SANT H,Normal,1,0.014825796886582653,100.0
+Convenio,SAUDE RE,Anormal,0,0.0,0.0
+Convenio,SAUDE RE,Ausente,0,0.0,0.0
+Convenio,SAUDE RE,Normal,1,0.014825796886582653,100.0
+Convenio,SB,Anormal,139,2.80411539237442,30.75221238938053
+Convenio,SB,Ausente,15,3.4722222222222223,3.3185840707964602
+Convenio,SB,Normal,298,4.418087472201631,65.929203539823
+Convenio,SBPREF,Anormal,1,0.020173492031470647,100.0
+Convenio,SBPREF,Ausente,0,0.0,0.0
+Convenio,SBPREF,Normal,0,0.0,0.0
+Convenio,SEMEP,Anormal,1,0.020173492031470647,100.0
+Convenio,SEMEP,Ausente,0,0.0,0.0
+Convenio,SEMEP,Normal,0,0.0,0.0
+Convenio,SEMEPE,Anormal,80,1.6138793625176517,61.53846153846154
+Convenio,SEMEPE,Ausente,2,0.46296296296296297,1.5384615384615385
+Convenio,SEMEPE,Normal,48,0.7116382505559674,36.92307692307692
+Convenio,SEXCEL,Anormal,1,0.020173492031470647,100.0
+Convenio,SEXCEL,Ausente,0,0.0,0.0
+Convenio,SEXCEL,Normal,0,0.0,0.0
+Convenio,SH,Anormal,4,0.08069396812588259,100.0
+Convenio,SH,Ausente,0,0.0,0.0
+Convenio,SH,Normal,0,0.0,0.0
+Convenio,SHELEN,Anormal,1,0.020173492031470647,100.0
+Convenio,SHELEN,Ausente,0,0.0,0.0
+Convenio,SHELEN,Normal,0,0.0,0.0
+Convenio,SR,Anormal,1,0.020173492031470647,100.0
+Convenio,SR,Ausente,0,0.0,0.0
+Convenio,SR,Normal,0,0.0,0.0
+Convenio,ST Helena,Anormal,1,0.020173492031470647,100.0
+Convenio,ST Helena,Ausente,0,0.0,0.0
+Convenio,ST Helena,Normal,0,0.0,0.0
+Convenio,ST.HELENA,Anormal,9,0.18156142828323582,50.0
+Convenio,ST.HELENA,Ausente,0,0.0,0.0
+Convenio,ST.HELENA,Normal,9,0.1334321719792439,50.0
+Convenio,STAHER,Anormal,0,0.0,0.0
+Convenio,STAHER,Ausente,0,0.0,0.0
+Convenio,STAHER,Normal,1,0.014825796886582653,100.0
+Convenio,STHELENA,Anormal,1,0.020173492031470647,100.0
+Convenio,STHELENA,Ausente,0,0.0,0.0
+Convenio,STHELENA,Normal,0,0.0,0.0
+Convenio,SUL AMER.,Anormal,0,0.0,0.0
+Convenio,SUL AMER.,Ausente,0,0.0,0.0
+Convenio,SUL AMER.,Normal,1,0.014825796886582653,100.0
+Convenio,SULA,Anormal,36,0.7262457131329433,31.304347826086957
+Convenio,SULA,Ausente,1,0.23148148148148148,0.8695652173913043
+Convenio,SULA,Normal,78,1.156412157153447,67.82608695652173
+Convenio,SUS,Anormal,64,1.2911034900141214,95.5223880597015
+Convenio,SUS,Ausente,0,0.0,0.0
+Convenio,SUS,Normal,3,0.04447739065974796,4.477611940298507
+Convenio,SUS/TMO,Anormal,1,0.020173492031470647,100.0
+Convenio,SUS/TMO,Ausente,0,0.0,0.0
+Convenio,SUS/TMO,Normal,0,0.0,0.0
+Convenio,Santa  Helena,Anormal,0,0.0,0.0
+Convenio,Santa  Helena,Ausente,0,0.0,0.0
+Convenio,Santa  Helena,Normal,1,0.014825796886582653,100.0
+Convenio,Santa Clara,Anormal,4,0.08069396812588259,40.0
+Convenio,Santa Clara,Ausente,1,0.23148148148148148,10.0
+Convenio,Santa Clara,Normal,5,0.07412898443291327,50.0
+Convenio,Santa Helen,Anormal,0,0.0,0.0
+Convenio,Santa Helen,Ausente,0,0.0,0.0
+Convenio,Santa Helen,Normal,1,0.014825796886582653,100.0
+Convenio,Santa Helena,Anormal,9,0.18156142828323582,69.23076923076923
+Convenio,Santa Helena,Ausente,0,0.0,0.0
+Convenio,Santa Helena,Normal,4,0.05930318754633061,30.76923076923077
+Convenio,Santa Lucia,Anormal,1,0.020173492031470647,100.0
+Convenio,Santa Lucia,Ausente,0,0.0,0.0
+Convenio,Santa Lucia,Normal,0,0.0,0.0
+Convenio,Saude Bardesco,Anormal,1,0.020173492031470647,100.0
+Convenio,Saude Bardesco,Ausente,0,0.0,0.0
+Convenio,Saude Bardesco,Normal,0,0.0,0.0
+Convenio,Saude Bradesco,Anormal,1,0.020173492031470647,25.0
+Convenio,Saude Bradesco,Ausente,0,0.0,0.0
+Convenio,Saude Bradesco,Normal,3,0.04447739065974796,75.0
+Convenio,Saude Caixa,Anormal,2,0.040346984062941293,40.0
+Convenio,Saude Caixa,Ausente,2,0.46296296296296297,40.0
+Convenio,Saude Caixa,Normal,1,0.014825796886582653,20.0
+Convenio,Saude Excelsior,Anormal,1,0.020173492031470647,50.0
+Convenio,Saude Excelsior,Ausente,1,0.23148148148148148,50.0
+Convenio,Saude Excelsior,Normal,0,0.0,0.0
+Convenio,Saude Recife,Anormal,10,0.20173492031470647,45.45454545454545
+Convenio,Saude Recife,Ausente,0,0.0,0.0
+Convenio,Saude Recife,Normal,12,0.17790956263899185,54.54545454545455
+Convenio,SaudeRecife,Anormal,0,0.0,0.0
+Convenio,SaudeRecife,Ausente,0,0.0,0.0
+Convenio,SaudeRecife,Normal,1,0.014825796886582653,100.0
+Convenio,Saúde Rec,Anormal,2,0.040346984062941293,100.0
+Convenio,Saúde Rec,Ausente,0,0.0,0.0
+Convenio,Saúde Rec,Normal,0,0.0,0.0
+Convenio,Saúde Rec.,Anormal,0,0.0,0.0
+Convenio,Saúde Rec.,Ausente,0,0.0,0.0
+Convenio,Saúde Rec.,Normal,1,0.014825796886582653,100.0
+Convenio,Shelena,Anormal,1,0.020173492031470647,50.0
+Convenio,Shelena,Ausente,0,0.0,0.0
+Convenio,Shelena,Normal,1,0.014825796886582653,50.0
+Convenio,Sta Clara,Anormal,1,0.020173492031470647,25.0
+Convenio,Sta Clara,Ausente,0,0.0,0.0
+Convenio,Sta Clara,Normal,3,0.04447739065974796,75.0
+Convenio,Sta Helena,Anormal,10,0.20173492031470647,62.5
+Convenio,Sta Helena,Ausente,0,0.0,0.0
+Convenio,Sta Helena,Normal,6,0.08895478131949593,37.5
+Convenio,Sta Lucia,Anormal,1,0.020173492031470647,100.0
+Convenio,Sta Lucia,Ausente,0,0.0,0.0
+Convenio,Sta Lucia,Normal,0,0.0,0.0
+Convenio,Sta. Clara,Anormal,1,0.020173492031470647,33.333333333333336
+Convenio,Sta. Clara,Ausente,0,0.0,0.0
+Convenio,Sta. Clara,Normal,2,0.029651593773165306,66.66666666666667
+Convenio,Sta. Helena,Anormal,2,0.040346984062941293,50.0
+Convenio,Sta. Helena,Ausente,0,0.0,0.0
+Convenio,Sta. Helena,Normal,2,0.029651593773165306,50.0
+Convenio,Sul Am,Anormal,12,0.24208190437764776,42.857142857142854
+Convenio,Sul Am,Ausente,2,0.46296296296296297,7.142857142857143
+Convenio,Sul Am,Normal,14,0.20756115641215717,50.0
+Convenio,Sul America,Anormal,28,0.5648577768811781,49.12280701754386
+Convenio,Sul America,Ausente,3,0.6944444444444444,5.2631578947368425
+Convenio,Sul America,Normal,26,0.385470719051149,45.6140350877193
+Convenio,SulAmerica,Anormal,4,0.08069396812588259,57.142857142857146
+Convenio,SulAmerica,Ausente,1,0.23148148148148148,14.285714285714286
+Convenio,SulAmerica,Normal,2,0.029651593773165306,28.571428571428573
+Convenio,Sulam,Anormal,5,0.10086746015735323,33.333333333333336
+Convenio,Sulam,Ausente,0,0.0,0.0
+Convenio,Sulam,Normal,10,0.14825796886582654,66.66666666666667
+Convenio,TAB,Anormal,11,0.22190841234617711,55.0
+Convenio,TAB,Ausente,0,0.0,0.0
+Convenio,TAB,Normal,9,0.1334321719792439,45.0
+Convenio,TAB.,Anormal,1,0.020173492031470647,100.0
+Convenio,TAB.,Ausente,0,0.0,0.0
+Convenio,TAB.,Normal,0,0.0,0.0
+Convenio,TBA,Anormal,0,0.0,0.0
+Convenio,TBA,Ausente,0,0.0,0.0
+Convenio,TBA,Normal,1,0.014825796886582653,100.0
+Convenio,Tab/SB,Anormal,0,0.0,0.0
+Convenio,Tab/SB,Ausente,0,0.0,0.0
+Convenio,Tab/SB,Normal,1,0.014825796886582653,100.0
+Convenio,Tabel,Anormal,0,0.0,0.0
+Convenio,Tabel,Ausente,0,0.0,0.0
+Convenio,Tabel,Normal,2,0.029651593773165306,100.0
+Convenio,Tabela,Anormal,11,0.22190841234617711,45.833333333333336
+Convenio,Tabela,Ausente,1,0.23148148148148148,4.166666666666667
+Convenio,Tabela,Normal,12,0.17790956263899185,50.0
+Convenio,U G,Anormal,0,0.0,0.0
+Convenio,U G,Ausente,0,0.0,0.0
+Convenio,U G,Normal,1,0.014825796886582653,100.0
+Convenio,U. Guara,Anormal,1,0.020173492031470647,100.0
+Convenio,U. Guara,Ausente,0,0.0,0.0
+Convenio,U. Guara,Normal,0,0.0,0.0
+Convenio,U. Recife,Anormal,1,0.020173492031470647,100.0
+Convenio,U. Recife,Ausente,0,0.0,0.0
+Convenio,U. Recife,Normal,0,0.0,0.0
+Convenio,U.G.,Anormal,0,0.0,0.0
+Convenio,U.G.,Ausente,0,0.0,0.0
+Convenio,U.G.,Normal,1,0.014825796886582653,100.0
+Convenio,U.GUARAP,Anormal,0,0.0,0.0
+Convenio,U.GUARAP,Ausente,0,0.0,0.0
+Convenio,U.GUARAP,Normal,1,0.014825796886582653,100.0
+Convenio,U.Guararap.,Anormal,0,0.0,0.0
+Convenio,U.Guararap.,Ausente,0,0.0,0.0
+Convenio,U.Guararap.,Normal,1,0.014825796886582653,100.0
+Convenio,U.Guararape,Anormal,1,0.020173492031470647,100.0
+Convenio,U.Guararape,Ausente,0,0.0,0.0
+Convenio,U.Guararape,Normal,0,0.0,0.0
+Convenio,U.Guararapes,Anormal,1,0.020173492031470647,100.0
+Convenio,U.Guararapes,Ausente,0,0.0,0.0
+Convenio,U.Guararapes,Normal,0,0.0,0.0
+Convenio,U.Recife,Anormal,33,0.6657252370385314,75.0
+Convenio,U.Recife,Ausente,0,0.0,0.0
+Convenio,U.Recife,Normal,11,0.16308376575240918,25.0
+Convenio,UG,Anormal,42,0.8472866653217672,35.0
+Convenio,UG,Ausente,4,0.9259259259259259,3.3333333333333335
+Convenio,UG,Normal,74,1.0971089696071163,61.666666666666664
+Convenio,UNIB.,Anormal,3,0.06052047609441194,50.0
+Convenio,UNIB.,Ausente,0,0.0,0.0
+Convenio,UNIB.,Normal,3,0.04447739065974796,50.0
+Convenio,UNIBAN,Anormal,1,0.020173492031470647,100.0
+Convenio,UNIBAN,Ausente,0,0.0,0.0
+Convenio,UNIBAN,Normal,0,0.0,0.0
+Convenio,UNIM,Anormal,0,0.0,0.0
+Convenio,UNIM,Ausente,0,0.0,0.0
+Convenio,UNIM,Normal,1,0.014825796886582653,100.0
+Convenio,UNIMED R,Anormal,0,0.0,0.0
+Convenio,UNIMED R,Ausente,0,0.0,0.0
+Convenio,UNIMED R,Normal,2,0.029651593773165306,100.0
+Convenio,UNIMED RE,Anormal,1,0.020173492031470647,50.0
+Convenio,UNIMED RE,Ausente,0,0.0,0.0
+Convenio,UNIMED RE,Normal,1,0.014825796886582653,50.0
+Convenio,UR,Anormal,551,11.115594109340327,37.17948717948718
+Convenio,UR,Ausente,82,18.98148148148148,5.53306342780027
+Convenio,UR,Normal,849,12.587101556708673,57.28744939271255
+Convenio,UR/Maceió,Anormal,0,0.0,0.0
+Convenio,UR/Maceió,Ausente,0,0.0,0.0
+Convenio,UR/Maceió,Normal,1,0.014825796886582653,100.0
+Convenio,URecife,Anormal,1,0.020173492031470647,100.0
+Convenio,URecife,Ausente,0,0.0,0.0
+Convenio,URecife,Normal,0,0.0,0.0
+Convenio,Ucaruaru,Anormal,0,0.0,0.0
+Convenio,Ucaruaru,Ausente,0,0.0,0.0
+Convenio,Ucaruaru,Normal,1,0.014825796886582653,100.0
+Convenio,Un.Recife,Anormal,1,0.020173492031470647,100.0
+Convenio,Un.Recife,Ausente,0,0.0,0.0
+Convenio,Un.Recife,Normal,0,0.0,0.0
+Convenio,Unibanco,Anormal,2,0.040346984062941293,28.571428571428573
+Convenio,Unibanco,Ausente,3,0.6944444444444444,42.857142857142854
+Convenio,Unibanco,Normal,2,0.029651593773165306,28.571428571428573
+Convenio,Unim.Recife,Anormal,1,0.020173492031470647,100.0
+Convenio,Unim.Recife,Ausente,0,0.0,0.0
+Convenio,Unim.Recife,Normal,0,0.0,0.0
+Convenio,Unimed,Anormal,7,0.14121444422029453,33.333333333333336
+Convenio,Unimed,Ausente,5,1.1574074074074074,23.80952380952381
+Convenio,Unimed,Normal,9,0.1334321719792439,42.857142857142854
+Convenio,Unimed Gua,Anormal,0,0.0,0.0
+Convenio,Unimed Gua,Ausente,0,0.0,0.0
+Convenio,Unimed Gua,Normal,1,0.014825796886582653,100.0
+Convenio,Unimed Petrolina,Anormal,1,0.020173492031470647,100.0
+Convenio,Unimed Petrolina,Ausente,0,0.0,0.0
+Convenio,Unimed Petrolina,Normal,0,0.0,0.0
+Convenio,Unimed R.,Anormal,0,0.0,0.0
+Convenio,Unimed R.,Ausente,0,0.0,0.0
+Convenio,Unimed R.,Normal,1,0.014825796886582653,100.0
+Convenio,Unimed Rec,Anormal,8,0.16138793625176517,66.66666666666667
+Convenio,Unimed Rec,Ausente,0,0.0,0.0
+Convenio,Unimed Rec,Normal,4,0.05930318754633061,33.333333333333336
+Convenio,Unimed Recife,Anormal,0,0.0,0.0
+Convenio,Unimed Recife,Ausente,2,0.46296296296296297,100.0
+Convenio,Unimed Recife,Normal,0,0.0,0.0
+Convenio,VIVA,Anormal,3,0.06052047609441194,42.857142857142854
+Convenio,VIVA,Ausente,0,0.0,0.0
+Convenio,VIVA,Normal,4,0.05930318754633061,57.142857142857146
+Convenio,aCmed,Anormal,0,0.0,0.0
+Convenio,aCmed,Ausente,0,0.0,0.0
+Convenio,aCmed,Normal,1,0.014825796886582653,100.0
+Convenio,caixa,Anormal,0,0.0,0.0
+Convenio,caixa,Ausente,0,0.0,0.0
+Convenio,caixa,Normal,3,0.04447739065974796,100.0
+Convenio,cort,Anormal,2,0.040346984062941293,100.0
+Convenio,cort,Ausente,0,0.0,0.0
+Convenio,cort,Normal,0,0.0,0.0
+Convenio,exercito,Anormal,0,0.0,0.0
+Convenio,exercito,Ausente,0,0.0,0.0
+Convenio,exercito,Normal,1,0.014825796886582653,100.0
+Convenio,sta Helen,Anormal,0,0.0,0.0
+Convenio,sta Helen,Ausente,0,0.0,0.0
+Convenio,sta Helen,Normal,1,0.014825796886582653,100.0
+Convenio,sudene,Anormal,1,0.020173492031470647,100.0
+Convenio,sudene,Ausente,0,0.0,0.0
+Convenio,sudene,Normal,0,0.0,0.0
+PULSOS,Amplos,Anormal,46,0.9279806334476498,86.79245283018868
+PULSOS,Amplos,Ausente,0,0.0,0.0
+PULSOS,Amplos,Normal,7,0.10378057820607858,13.20754716981132
+PULSOS,Ausente,Anormal,23,0.4639903167238249,5.054945054945055
+PULSOS,Ausente,Ausente,407,94.21296296296296,89.45054945054945
+PULSOS,Ausente,Normal,25,0.37064492216456635,5.4945054945054945
+PULSOS,Ct,Anormal,0,0.0,0.0
+PULSOS,Ct,Ausente,1,0.23148148148148148,100.0
+PULSOS,Ct,Normal,0,0.0,0.0
+PULSOS,Diminuídos,Anormal,16,0.32277587250353035,88.88888888888889
+PULSOS,Diminuídos,Ausente,0,0.0,0.0
+PULSOS,Diminuídos,Normal,2,0.029651593773165306,11.11111111111111
+PULSOS,Femorais diminuídos,Anormal,36,0.7262457131329433,92.3076923076923
+PULSOS,Femorais diminuídos,Ausente,0,0.0,0.0
+PULSOS,Femorais diminuídos,Normal,3,0.04447739065974796,7.6923076923076925
+PULSOS,GS,Anormal,0,0.0,0.0
+PULSOS,GS,Ausente,2,0.46296296296296297,100.0
+PULSOS,GS,Normal,0,0.0,0.0
+PULSOS,Normais,Anormal,4810,97.03449667137382,41.7172593235039
+PULSOS,Normais,Ausente,22,5.092592592592593,0.19080659150043366
+PULSOS,Normais,Normal,6698,99.30318754633062,58.091934084995664
+PULSOS,Outro,Anormal,26,0.5245107928182369,72.22222222222223
+PULSOS,Outro,Ausente,0,0.0,0.0
+PULSOS,Outro,Normal,10,0.14825796886582654,27.77777777777778
+PPA,60.0,Anormal,0,0.0,0.0
+PPA,60.0,Ausente,1,0.23148148148148148,100.0
+PPA,60.0,Normal,0,0.0,0.0
+PPA,90.0,Anormal,0,0.0,0.0
+PPA,90.0,Ausente,1,0.23148148148148148,100.0
+PPA,90.0,Normal,0,0.0,0.0
+PPA,95.0,Anormal,0,0.0,0.0
+PPA,95.0,Ausente,1,0.23148148148148148,100.0
+PPA,95.0,Normal,0,0.0,0.0
+PPA,Ausente,Anormal,370,7.464192051644139,38.10504634397528
+PPA,Ausente,Ausente,37,8.564814814814815,3.810504634397528
+PPA,Ausente,Normal,564,8.361749444032617,58.08444902162719
+PPA,HAS-1 PAD,Anormal,8,0.16138793625176517,30.76923076923077
+PPA,HAS-1 PAD,Ausente,0,0.0,0.0
+PPA,HAS-1 PAD,Normal,18,0.2668643439584878,69.23076923076923
+PPA,HAS-1 PAS,Anormal,19,0.3832963485979423,39.583333333333336
+PPA,HAS-1 PAS,Ausente,0,0.0,0.0
+PPA,HAS-1 PAS,Normal,29,0.429948109710897,60.416666666666664
+PPA,HAS-2 PAD,Anormal,6,0.12104095218882388,28.571428571428573
+PPA,HAS-2 PAD,Ausente,0,0.0,0.0
+PPA,HAS-2 PAD,Normal,15,0.2223869532987398,71.42857142857143
+PPA,HAS-2 PAS,Anormal,41,0.8271131732902965,56.16438356164384
+PPA,HAS-2 PAS,Ausente,0,0.0,0.0
+PPA,HAS-2 PAS,Normal,32,0.4744255003706449,43.83561643835616
+PPA,Normal,Anormal,619,12.48739156748033,34.58100558659218
+PPA,Normal,Ausente,0,0.0,0.0
+PPA,Normal,Normal,1171,17.361008154188287,65.41899441340782
+PPA,Não Calculado,Anormal,3852,77.70829130522493,42.41823587710604
+PPA,Não Calculado,Ausente,392,90.74074074074075,4.316705208677458
+PPA,Não Calculado,Normal,4837,71.71237954040029,53.265058914216496
+PPA,Pre-Hipertensão PAD,Anormal,26,0.5245107928182369,35.61643835616438
+PPA,Pre-Hipertensão PAD,Ausente,0,0.0,0.0
+PPA,Pre-Hipertensão PAD,Normal,47,0.6968124536693847,64.38356164383562
+PPA,Pre-Hipertensão PAS,Anormal,16,0.32277587250353035,33.333333333333336
+PPA,Pre-Hipertensão PAS,Ausente,0,0.0,0.0
+PPA,Pre-Hipertensão PAS,Normal,32,0.4744255003706449,66.66666666666667
+B2,Anormal,Anormal,0,0.0,0.0
+B2,Anormal,Ausente,3,0.6944444444444444,100.0
+B2,Anormal,Normal,0,0.0,0.0
+B2,Ausente,Anormal,13,0.26225539640911844,2.9612756264236904
+B2,Ausente,Ausente,408,94.44444444444444,92.9384965831435
+B2,Ausente,Normal,18,0.2668643439584878,4.100227790432802
+B2,Desdob fixo,Anormal,134,2.703247932217067,89.93288590604027
+B2,Desdob fixo,Ausente,0,0.0,0.0
+B2,Desdob fixo,Normal,15,0.2223869532987398,10.06711409395973
+B2,Hiperfonética,Anormal,289,5.830139197095017,97.96610169491525
+B2,Hiperfonética,Ausente,0,0.0,0.0
+B2,Hiperfonética,Normal,6,0.08895478131949593,2.0338983050847457
+B2,Normal,Anormal,4379,88.33972160580997,39.46822893195133
+B2,Normal,Ausente,21,4.861111111111111,0.1892744479495268
+B2,Normal,Normal,6695,99.25871015567087,60.34249662009914
+B2,Outro,Anormal,67,1.3516239661085334,88.15789473684211
+B2,Outro,Ausente,0,0.0,0.0
+B2,Outro,Normal,9,0.1334321719792439,11.842105263157896
+B2,Única,Anormal,75,1.5130119023602986,97.40259740259741
+B2,Única,Ausente,0,0.0,0.0
+B2,Única,Normal,2,0.029651593773165306,2.5974025974025974
+SOPRO,Ausente,Anormal,727,14.66612870687916,9.437881344930547
+SOPRO,Ausente,Ausente,420,97.22222222222223,5.452421134622874
+SOPRO,Ausente,Normal,6556,97.19792438843588,85.10969752044657
+SOPRO,Contínuo,Anormal,38,0.7665926971958846,79.16666666666667
+SOPRO,Contínuo,Ausente,1,0.23148148148148148,2.0833333333333335
+SOPRO,Contínuo,Normal,9,0.1334321719792439,18.75
+SOPRO,Diastólico,Anormal,9,0.18156142828323582,100.0
+SOPRO,Diastólico,Ausente,0,0.0,0.0
+SOPRO,Diastólico,Normal,0,0.0,0.0
+SOPRO,Normal,Anormal,0,0.0,0.0
+SOPRO,Normal,Ausente,3,0.6944444444444444,100.0
+SOPRO,Normal,Normal,0,0.0,0.0
+SOPRO,Sistólico,Anormal,4180,84.3251966915473,95.6959706959707
+SOPRO,Sistólico,Ausente,8,1.8518518518518519,0.18315018315018314
+SOPRO,Sistólico,Normal,180,2.6686434395848777,4.1208791208791204
+SOPRO,Sistólico e diastólico,Anormal,3,0.06052047609441194,100.0
+SOPRO,Sistólico e diastólico,Ausente,0,0.0,0.0
+SOPRO,Sistólico e diastólico,Normal,0,0.0,0.0
+HDA 1,80,Anormal,0,0.0,0.0
+HDA 1,80,Ausente,1,0.23148148148148148,100.0
+HDA 1,80,Normal,0,0.0,0.0
+HDA 1,Assintomático,Anormal,3046,61.44845672785959,46.43292682926829
+HDA 1,Assintomático,Ausente,28,6.481481481481482,0.4268292682926829
+HDA 1,Assintomático,Normal,3486,51.68272794662713,53.140243902439025
+HDA 1,Ausente,Anormal,1075,21.686503933830945,30.427398811208604
+HDA 1,Ausente,Ausente,393,90.97222222222223,11.123690914237192
+HDA 1,Ausente,Normal,2065,30.61527057079318,58.4489102745542
+HDA 1,Cianose,Anormal,143,2.8848093605003027,55.0
+HDA 1,Cianose,Ausente,2,0.46296296296296297,0.7692307692307693
+HDA 1,Cianose,Normal,115,1.704966641957005,44.23076923076923
+HDA 1,Desmaio/tontura,Anormal,45,0.9078071414161791,28.662420382165607
+HDA 1,Desmaio/tontura,Ausente,2,0.46296296296296297,1.2738853503184713
+HDA 1,Desmaio/tontura,Normal,110,1.630837657524092,70.06369426751593
+HDA 1,Dispneia,Anormal,287,5.789792213032076,53.049907578558226
+HDA 1,Dispneia,Ausente,2,0.46296296296296297,0.36968576709796674
+HDA 1,Dispneia,Normal,252,3.736100815418829,46.58040665434381
+HDA 1,Dor precordial,Anormal,169,3.4093201533185393,33.267716535433074
+HDA 1,Dor precordial,Ausente,1,0.23148148148148148,0.1968503937007874
+HDA 1,Dor precordial,Normal,338,5.011119347664937,66.53543307086615
+HDA 1,Ganho de peso,Anormal,29,0.5850312689126488,34.11764705882353
+HDA 1,Ganho de peso,Ausente,0,0.0,0.0
+HDA 1,Ganho de peso,Normal,56,0.8302446256486287,65.88235294117646
+HDA 1,Outro,Anormal,57,1.149889045793827,45.96774193548387
+HDA 1,Outro,Ausente,0,0.0,0.0
+HDA 1,Outro,Normal,67,0.9933283914010378,54.03225806451613
+HDA 1,Palpitacao,Anormal,106,2.138390155335889,29.041095890410958
+HDA 1,Palpitacao,Ausente,3,0.6944444444444444,0.821917808219178
+HDA 1,Palpitacao,Normal,256,3.7954040029651592,70.13698630136986
+HDA2,Assintomático,Anormal,1,0.020173492031470647,50.0
+HDA2,Assintomático,Ausente,1,0.23148148148148148,50.0
+HDA2,Assintomático,Normal,0,0.0,0.0
+HDA2,Ausente,Anormal,4787,96.57050635464999,40.83077447969976
+HDA2,Ausente,Ausente,424,98.14814814814815,3.616513135448652
+HDA2,Ausente,Normal,6513,96.56041512231282,55.55271238485159
+HDA2,Cianose,Anormal,42,0.8472866653217672,64.61538461538461
+HDA2,Cianose,Ausente,3,0.6944444444444444,4.615384615384615
+HDA2,Cianose,Normal,20,0.2965159377316531,30.76923076923077
+HDA2,Desmaio/tontura,Anormal,17,0.342949364535001,34.0
+HDA2,Desmaio/tontura,Ausente,1,0.23148148148148148,2.0
+HDA2,Desmaio/tontura,Normal,32,0.4744255003706449,64.0
+HDA2,Dispneia,Anormal,39,0.7867661892273553,46.98795180722892
+HDA2,Dispneia,Ausente,1,0.23148148148148148,1.2048192771084338
+HDA2,Dispneia,Normal,43,0.6375092661230541,51.80722891566265
+HDA2,Dor precordial,Anormal,18,0.36312285656647164,27.692307692307693
+HDA2,Dor precordial,Ausente,0,0.0,0.0
+HDA2,Dor precordial,Normal,47,0.6968124536693847,72.3076923076923
+HDA2,Ganho de peso,Anormal,5,0.10086746015735323,23.80952380952381
+HDA2,Ganho de peso,Ausente,2,0.46296296296296297,9.523809523809524
+HDA2,Ganho de peso,Normal,14,0.20756115641215717,66.66666666666667
+HDA2,Outro,Anormal,18,0.36312285656647164,43.90243902439025
+HDA2,Outro,Ausente,0,0.0,0.0
+HDA2,Outro,Normal,23,0.34099332839140106,56.09756097560975
+HDA2,Palpitacao,Anormal,30,0.6052047609441195,36.144578313253014
+HDA2,Palpitacao,Ausente,0,0.0,0.0
+HDA2,Palpitacao,Normal,53,0.7857672349888807,63.855421686746986
+SEXO,Ausente,Anormal,1,0.020173492031470647,14.285714285714286
+SEXO,Ausente,Ausente,3,0.6944444444444444,42.857142857142854
+SEXO,Ausente,Normal,3,0.04447739065974796,42.857142857142854
+SEXO,Feminino,Anormal,1953,39.398829937462175,41.35959339263024
+SEXO,Feminino,Ausente,194,44.907407407407405,4.10842863193562
+SEXO,Feminino,Normal,2575,38.17642698295033,54.53197797543414
+SEXO,Indeterminado,Anormal,303,6.112568085535607,44.690265486725664
+SEXO,Indeterminado,Ausente,9,2.0833333333333335,1.3274336283185841
+SEXO,Indeterminado,Normal,366,5.426241660489251,53.982300884955755
+SEXO,Masculino,Anormal,2700,54.46842848497075,40.13676230117437
+SEXO,Masculino,Ausente,226,52.31481481481482,3.3595956592834844
+SEXO,Masculino,Normal,3801,56.352853965900664,56.50364203954214
+MOTIVO1,1 - Cardiopatia já estabelecida,Anormal,808,16.300181561428282,69.83578219533275
+MOTIVO1,1 - Cardiopatia já estabelecida,Ausente,28,6.481481481481482,2.4200518582541055
+MOTIVO1,1 - Cardiopatia já estabelecida,Normal,321,4.759080800593032,27.744165946413137
+MOTIVO1,2 - Check-up,Anormal,183,3.6917490417591283,26.105563480741797
+MOTIVO1,2 - Check-up,Ausente,18,4.166666666666667,2.5677603423680457
+MOTIVO1,2 - Check-up,Normal,500,7.4128984432913265,71.32667617689016
+MOTIVO1,5 - Parecer cardiológico,Anormal,1330,26.830744401855963,24.85981308411215
+MOTIVO1,5 - Parecer cardiológico,Ausente,170,39.351851851851855,3.177570093457944
+MOTIVO1,5 - Parecer cardiológico,Normal,3850,57.07931801334322,71.96261682242991
+MOTIVO1,6 - Suspeita de cardiopatia,Anormal,2436,49.142626588662495,56.84947491248541
+MOTIVO1,6 - Suspeita de cardiopatia,Ausente,153,35.416666666666664,3.570595099183197
+MOTIVO1,6 - Suspeita de cardiopatia,Normal,1696,25.144551519644182,39.579929988331386
+MOTIVO1,7 - Outro,Anormal,129,2.6023804720597137,40.06211180124224
+MOTIVO1,7 - Outro,Ausente,23,5.324074074074074,7.142857142857143
+MOTIVO1,7 - Outro,Normal,170,2.520385470719051,52.79503105590062
+MOTIVO1,Ausente,Anormal,71,1.432317934234416,22.468354430379748
+MOTIVO1,Ausente,Ausente,37,8.564814814814815,11.708860759493671
+MOTIVO1,Ausente,Normal,208,3.083765752409192,65.82278481012658
+MOTIVO1,"F            ,  5 - Parecer cardiológico",Anormal,0,0.0,0.0
+MOTIVO1,"F            ,  5 - Parecer cardiológico",Ausente,2,0.46296296296296297,100.0
+MOTIVO1,"F            ,  5 - Parecer cardiológico",Normal,0,0.0,0.0
+MOTIVO1,"M            ,  1 - Cardiopatia já estabelecida",Anormal,0,0.0,0.0
+MOTIVO1,"M            ,  1 - Cardiopatia já estabelecida",Ausente,1,0.23148148148148148,100.0
+MOTIVO1,"M            ,  1 - Cardiopatia já estabelecida",Normal,0,0.0,0.0
+MOTIVO2,1 - Cardiopatia adquirida,Anormal,48,0.968327617510591,52.17391304347826
+MOTIVO2,1 - Cardiopatia adquirida,Ausente,2,0.46296296296296297,2.1739130434782608
+MOTIVO2,1 - Cardiopatia adquirida,Normal,42,0.6226834692364714,45.65217391304348
+MOTIVO2,1 - Cardiopatia congenica,Anormal,751,15.150292515634456,72.14217098943324
+MOTIVO2,1 - Cardiopatia congenica,Ausente,24,5.555555555555555,2.3054755043227666
+MOTIVO2,1 - Cardiopatia congenica,Normal,266,3.943661971830986,25.552353506243996
+MOTIVO2,5 - Atividade física,Anormal,154,3.10671777284648,23.619631901840492
+MOTIVO2,5 - Atividade física,Ausente,64,14.814814814814815,9.815950920245399
+MOTIVO2,5 - Atividade física,Normal,434,6.434395848776871,66.56441717791411
+MOTIVO2,5 - Cirurgia,Anormal,658,13.274157756707686,22.38095238095238
+MOTIVO2,5 - Cirurgia,Ausente,95,21.99074074074074,3.2312925170068025
+MOTIVO2,5 - Cirurgia,Normal,2187,32.42401779095626,74.38775510204081
+MOTIVO2,5 - Uso de cisaprida,Anormal,6,0.12104095218882388,66.66666666666667
+MOTIVO2,5 - Uso de cisaprida,Ausente,0,0.0,0.0
+MOTIVO2,5 - Uso de cisaprida,Normal,3,0.04447739065974796,33.333333333333336
+MOTIVO2,6 - Alterações de pulso/perfusão,Anormal,2,0.040346984062941293,40.0
+MOTIVO2,6 - Alterações de pulso/perfusão,Ausente,0,0.0,0.0
+MOTIVO2,6 - Alterações de pulso/perfusão,Normal,3,0.04447739065974796,60.0
+MOTIVO2,6 - Cansaço,Anormal,4,0.08069396812588259,57.142857142857146
+MOTIVO2,6 - Cansaço,Ausente,1,0.23148148148148148,14.285714285714286
+MOTIVO2,6 - Cansaço,Normal,2,0.029651593773165306,28.571428571428573
+MOTIVO2,6 - Cardiopatia na familia,Anormal,8,0.16138793625176517,22.857142857142858
+MOTIVO2,6 - Cardiopatia na familia,Ausente,3,0.6944444444444444,8.571428571428571
+MOTIVO2,6 - Cardiopatia na familia,Normal,24,0.3558191252779837,68.57142857142857
+MOTIVO2,6 - Cianose,Anormal,57,1.149889045793827,39.310344827586206
+MOTIVO2,6 - Cianose,Ausente,8,1.8518518518518519,5.517241379310345
+MOTIVO2,6 - Cianose,Normal,80,1.1860637509266123,55.172413793103445
+MOTIVO2,6 - Cianose e dispnéia,Anormal,1,0.020173492031470647,20.0
+MOTIVO2,6 - Cianose e dispnéia,Ausente,2,0.46296296296296297,40.0
+MOTIVO2,6 - Cianose e dispnéia,Normal,2,0.029651593773165306,40.0
+MOTIVO2,6 - Dispnéia,Anormal,80,1.6138793625176517,35.39823008849557
+MOTIVO2,6 - Dispnéia,Ausente,10,2.314814814814815,4.424778761061947
+MOTIVO2,6 - Dispnéia,Normal,136,2.0163083765752408,60.176991150442475
+MOTIVO2,6 - Dor precordial,Anormal,109,2.1989106314303006,27.806122448979593
+MOTIVO2,6 - Dor precordial,Ausente,22,5.092592592592593,5.612244897959184
+MOTIVO2,6 - Dor precordial,Normal,261,3.8695329873980726,66.58163265306122
+MOTIVO2,6 - HAS/dislipidemia/obesidade,Anormal,65,1.311276982045592,27.083333333333332
+MOTIVO2,6 - HAS/dislipidemia/obesidade,Ausente,11,2.5462962962962963,4.583333333333333
+MOTIVO2,6 - HAS/dislipidemia/obesidade,Normal,164,2.4314306893995554,68.33333333333333
+MOTIVO2,6 - Palpitação/taquicardia/arritmia,Anormal,149,3.0058503126891263,35.903614457831324
+MOTIVO2,6 - Palpitação/taquicardia/arritmia,Ausente,18,4.166666666666667,4.337349397590361
+MOTIVO2,6 - Palpitação/taquicardia/arritmia,Normal,248,3.676797627872498,59.75903614457831
+MOTIVO2,6 - Sopro,Anormal,1744,35.18257010288481,74.24435930183057
+MOTIVO2,6 - Sopro,Ausente,64,14.814814814814815,2.724563644103874
+MOTIVO2,6 - Sopro,Normal,541,8.020756115641216,23.03107705406556
+MOTIVO2,Ausente,Anormal,779,15.715150292515634,28.255350018135655
+MOTIVO2,Ausente,Ausente,67,15.50925925925926,2.430177729416032
+MOTIVO2,Ausente,Normal,1911,28.33209785025945,69.31447225244831
+MOTIVO2,Outro,Anormal,342,6.899334274762961,41.50485436893204
+MOTIVO2,Outro,Ausente,41,9.49074074074074,4.975728155339806
+MOTIVO2,Outro,Normal,441,6.53817642698295,53.519417475728154
+CLASSIFICACAO IMC,Eutrofia (-2 <= Z <= +1),Anormal,1169,23.582812184789187,43.980436418359666
+CLASSIFICACAO IMC,Eutrofia (-2 <= Z <= +1),Ausente,110,25.462962962962962,4.138449962377727
+CLASSIFICACAO IMC,Eutrofia (-2 <= Z <= +1),Normal,1379,20.44477390659748,51.88111361926261
+CLASSIFICACAO IMC,Magreza (-3 <= Z < -2),Anormal,43,0.8674601573532379,50.0
+CLASSIFICACAO IMC,Magreza (-3 <= Z < -2),Ausente,7,1.6203703703703705,8.13953488372093
+CLASSIFICACAO IMC,Magreza (-3 <= Z < -2),Normal,36,0.5337286879169756,41.86046511627907
+CLASSIFICACAO IMC,Magreza acentuada (Z < -3),Anormal,51,1.028848093605003,67.10526315789474
+CLASSIFICACAO IMC,Magreza acentuada (Z < -3),Ausente,2,0.46296296296296297,2.6315789473684212
+CLASSIFICACAO IMC,Magreza acentuada (Z < -3),Normal,23,0.34099332839140106,30.263157894736842
+CLASSIFICACAO IMC,Não classificável,Anormal,2070,41.75912850514424,41.28440366972477
+CLASSIFICACAO IMC,Não classificável,Ausente,118,27.314814814814813,2.353410450737934
+CLASSIFICACAO IMC,Não classificável,Normal,2826,41.89770200148258,56.36218587953729
+CLASSIFICACAO IMC,Obesidade (+2 < Z <= +3),Anormal,131,2.642727456122655,29.046563192904657
+CLASSIFICACAO IMC,Obesidade (+2 < Z <= +3),Ausente,38,8.796296296296296,8.425720620842572
+CLASSIFICACAO IMC,Obesidade (+2 < Z <= +3),Normal,282,4.180874722016308,62.527716186252775
+CLASSIFICACAO IMC,Obesidade (Z > +3),Anormal,304,6.132741577567077,38.72611464968153
+CLASSIFICACAO IMC,Obesidade (Z > +3),Ausente,23,5.324074074074074,2.929936305732484
+CLASSIFICACAO IMC,Obesidade (Z > +3),Normal,458,6.790214974054855,58.34394904458599
+CLASSIFICACAO IMC,Obesidade grave (Z > +3),Anormal,143,2.8848093605003027,27.39463601532567
+CLASSIFICACAO IMC,Obesidade grave (Z > +3),Ausente,35,8.101851851851851,6.704980842911877
+CLASSIFICACAO IMC,Obesidade grave (Z > +3),Normal,344,5.100074128984433,65.90038314176245
+CLASSIFICACAO IMC,Risco de sobrepeso (+1 < Z <= +2),Anormal,452,9.118418398224733,44.4007858546169
+CLASSIFICACAO IMC,Risco de sobrepeso (+1 < Z <= +2),Ausente,29,6.712962962962963,2.848722986247544
+CLASSIFICACAO IMC,Risco de sobrepeso (+1 < Z <= +2),Normal,537,7.961452928094885,52.75049115913556
+CLASSIFICACAO IMC,Sobrepeso (+1 < Z <= +2),Anormal,203,4.095218882388542,29.46298984034833
+CLASSIFICACAO IMC,Sobrepeso (+1 < Z <= +2),Ausente,52,12.037037037037036,7.547169811320755
+CLASSIFICACAO IMC,Sobrepeso (+1 < Z <= +2),Normal,434,6.434395848776871,62.989840348330915
+CLASSIFICACAO IMC,Sobrepeso (+2 < Z <= +3),Anormal,391,7.887835384305023,46.82634730538922
+CLASSIFICACAO IMC,Sobrepeso (+2 < Z <= +3),Ausente,18,4.166666666666667,2.155688622754491
+CLASSIFICACAO IMC,Sobrepeso (+2 < Z <= +3),Normal,426,6.315789473684211,51.01796407185629
