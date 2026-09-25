@@ -1,44 +1,50 @@
-﻿verificacao,quantidade,exemplos
-Peso: valores ausentes ou nao numericos,2188,
-Altura: valores ausentes ou nao numericos,3721,
-IMC: valores ausentes ou nao numericos,3988,
-IDADE: valores ausentes ou nao numericos,879,
-FC: valores ausentes ou nao numericos,1146,
-PA SISTOLICA: valores ausentes ou nao numericos,6994,
-PA DIASTOLICA: valores ausentes ou nao numericos,7001,
-IMC: valores zero,109,
-FC: fora do intervalo plausivel (30-250),15,
-PA SISTOLICA: fora do intervalo plausivel (40-250),2,
-PA DIASTOLICA: fora do intervalo plausivel (20-150),1,
-IMC inconsistente com Peso e Altura,4,
-Atendimento: data invalida,11578,
-Atendimento: data ausente,244,
-DN: data invalida,11373,
-DN: data ausente,637,
-DN posterior ao Atendimento,2,
-PPA ausente com PAS e PAD preenchidas,565,
-PPA preenchida sem PAS ou PAD,6599,
-SEXO: categorias invalidas,11449,
-Convenio: valores ausentes,3372,
-Convenio: possiveis variacoes de grafia,137,gs; ur; camed; grupo; sb; medial; real s.; sa; ideal; fusex
-PULSOS: valores ausentes,455,
-PULSOS: possiveis variacoes de grafia,6,normais; amplos; femorais diminuidos; outro; diminuidos; gs
-PPA: valores ausentes,971,
-PPA: possiveis variacoes de grafia,8,nao calculado; normal; has-2 pas; pre-hipertensao pad; pre-hipertensao pas; has-1 pas; has-1 pad; has-2 pad
-NORMAL X ANORMAL: valores ausentes,432,
-NORMAL X ANORMAL: possiveis variacoes de grafia,2,normal; anormal
-B2: valores ausentes,439,
-B2: possiveis variacoes de grafia,6,normal; hiperfonetica; desdob fixo; unica; outro; anormal
-SOPRO: valores ausentes,428,
-SOPRO: possiveis variacoes de grafia,6,ausente; sistolico; continuo; diastolico; sistolico e diastolico; normal
-HDA 1: valores ausentes,3533,
-HDA 1: possiveis variacoes de grafia,8,assintomatico; dispneia; dor precordial; palpitacao; cianose; desmaio/tontura; outro; ganho de peso
-HDA2: valores ausentes,11724,
-HDA2: possiveis variacoes de grafia,8,dispneia; palpitacao; dor precordial; cianose; desmaio/tontura; outro; ganho de peso; assintomatico
-SEXO: valores ausentes,7,
-SEXO: possiveis variacoes de grafia,3,masculino; feminino; indeterminado
-MOTIVO1: valores ausentes,316,
-MOTIVO1: possiveis variacoes de grafia,6,"5 - parecer cardiologico; 6 - suspeita de cardiopatia; 1 - cardiopatia ja estabelecida; 2 - check-up; 7 - outro; f            ,  5 - parecer cardiologico"
-MOTIVO2: valores ausentes,2757,
-MOTIVO2: possiveis variacoes de grafia,16,5 - cirurgia; 6 - sopro; 1 - cardiopatia congenica; outro; 5 - atividade fisica; 6 - palpitacao/taquicardia/arritmia; 6 - dor precordial; 6 - has/dislipidemia/obesidade; 6 - dispneia; 6 - cianose
-CLASSIFICACAO IMC: possiveis variacoes de grafia,10,nao classificavel; eutrofia (-2 <= z <= +1); risco de sobrepeso (+1 < z <= +2); sobrepeso (+2 < z <= +3); obesidade (z > +3); sobrepeso (+1 < z <= +2); obesidade grave (z > +3); obesidade (+2 < z <= +3); magreza (-3 <= z < -2); magreza acentuada (z < -3)
+﻿variavel,verificacao,quantidade,observacao
+ID,valores ausentes,0,
+Peso,valores ausentes,2189,
+Altura,valores ausentes,3727,
+IMC,valores ausentes,4120,
+Atendimento,valores ausentes,245,
+DN,valores ausentes,763,
+IDADE,valores ausentes,938,
+Convenio,valores ausentes,3369,
+PULSOS,valores ausentes,455,
+PA SISTOLICA,valores ausentes,6994,
+PA DIASTOLICA,valores ausentes,7003,
+PPA,valores ausentes,10055,
+NORMAL X ANORMAL,valores ausentes,429,
+B2,valores ausentes,439,
+SOPRO,valores ausentes,428,
+FC,valores ausentes,1160,
+HDA 1,valores ausentes,3531,
+HDA2,valores ausentes,11727,
+SEXO,valores ausentes,4,
+MOTIVO1,valores ausentes,316,
+MOTIVO2,valores ausentes,2757,
+CLASSIFICACAO IMC,valores ausentes,5021,
+ID,IDs duplicados,0,
+registro,registros semelhantes sem considerar ID,373,"revisão, sem exclusão automática"
+NORMAL X ANORMAL,categoria fora de Normal/Anormal,0,
+SEXO,categoria fora do domínio,0,
+Peso,fora do limite técnico,0,limites: 0 a 200
+Altura,fora do limite técnico,0,limites: 30 a 220
+IMC,fora do limite técnico,0,limites: 8 a 70
+IDADE,fora do limite técnico,0,limites: 0 a 20
+FC,fora do limite técnico,0,limites: 30 a 250
+PA SISTOLICA,fora do limite técnico,0,limites: 40 a 250
+PA DIASTOLICA,fora do limite técnico,0,limites: 20 a 150
+Atendimento,data preenchida inválida,0,
+DN,data preenchida inválida,0,
+Altura,pendência para revisão,6,valor original fora do limite técnico
+Atendimento,pendência para revisão,12,ano de atendimento fora da concentração 2000–2010
+Atendimento,pendência para revisão,1,data original inválida
+Atendimento/DN,pendência para revisão,126,datas incompatíveis com a faixa de 0 a 19 anos
+DN,pendência para revisão,126,data original inválida
+DN,pendência para revisão,1,nascimento posterior a 2010
+FC,pendência para revisão,31,valor original fora do limite técnico
+IDADE,pendência para revisão,186,valor original fora do limite técnico
+IMC,pendência para revisão,23,valor original fora do limite técnico
+PA DIASTOLICA,pendência para revisão,1,valor original fora do limite técnico
+PA SISTOLICA,pendência para revisão,2,valor original fora do limite técnico
+PA SISTOLICA/PA DIASTOLICA,pendência para revisão,1,sistólica menor ou igual à diastólica
+Peso,pendência para revisão,1,valor original fora do limite técnico
+Peso/Altura/IMC,pendência para revisão,20,medidas produzem IMC fora do limite técnico
