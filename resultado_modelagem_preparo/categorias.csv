@@ -1,0 +1,97 @@
+﻿variavel,categoria,quantidade
+SEXO,Masculino,6443
+SEXO,Feminino,4479
+SEXO,Indeterminado,510
+SEXO,,4
+PULSOS,Normais,11261
+PULSOS,Amplos,52
+PULSOS,Femorais diminuídos,38
+PULSOS,Outro,36
+PULSOS,,34
+PULSOS,Diminuídos,15
+B2,Normal,10837
+B2,Hiperfonética,285
+B2,Desdob fixo,148
+B2,Única,75
+B2,Outro,74
+B2,,17
+MOTIVO_UNIFICADO,5 - Parecer cardiológico → 5 - Cirurgia,2825
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Sopro,2242
+MOTIVO_UNIFICADO,5 - Parecer cardiológico,1681
+MOTIVO_UNIFICADO,1 - Cardiopatia já estabelecida → 1 - Cardiopatia congênita,963
+MOTIVO_UNIFICADO,2 - Check-up,650
+MOTIVO_UNIFICADO,5 - Parecer cardiológico → 5 - Atividade física,575
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → Outro,431
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Dor precordial,366
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Palpitação/taquicardia/arritmia,354
+MOTIVO_UNIFICADO,7 - Outro → Outro,278
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Dispneia,201
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - HAS/dislipidemia/obesidade,175
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Cianose,132
+MOTIVO_UNIFICADO,,129
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia,59
+MOTIVO_UNIFICADO,1 - Cardiopatia já estabelecida → 6 - HAS/dislipidemia/obesidade,48
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 1 - Cardiopatia adquirida,46
+MOTIVO_UNIFICADO,1 - Cardiopatia já estabelecida → 1 - Cardiopatia adquirida,42
+MOTIVO_UNIFICADO,1 - Cardiopatia já estabelecida → 6 - Palpitação/taquicardia/arritmia,41
+MOTIVO_UNIFICADO,5 - Parecer cardiológico → Outro,37
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 1 - Cardiopatia congênita,30
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Cardiopatia na família,27
+MOTIVO_UNIFICADO,1 - Cardiopatia já estabelecida → Outro,14
+MOTIVO_UNIFICADO,2 - Check-up → Outro,13
+MOTIVO_UNIFICADO,7 - Outro → 6 - Dispneia,11
+MOTIVO_UNIFICADO,5 - Parecer cardiológico → 5 - Uso de cisaprida,9
+MOTIVO_UNIFICADO,2 - Check-up → 5 - Atividade física,6
+MOTIVO_UNIFICADO,1 - Cardiopatia já estabelecida → 5 - Cirurgia,5
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Alterações de pulso/perfusão,4
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Cansaço,4
+MOTIVO_UNIFICADO,5 - Parecer cardiológico → 1 - Cardiopatia congênita,4
+MOTIVO_UNIFICADO,2 - Check-up → 5 - Cirurgia,3
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Cianose e dispneia,3
+MOTIVO_UNIFICADO,2 - Check-up → 1 - Cardiopatia congênita,3
+MOTIVO_UNIFICADO,5 - Parecer cardiológico → 6 - HAS/dislipidemia/obesidade,3
+MOTIVO_UNIFICADO,5 - Parecer cardiológico → 6 - Cardiopatia na família,3
+MOTIVO_UNIFICADO,7 - Outro → 5 - Cirurgia,2
+MOTIVO_UNIFICADO,7 - Outro → 6 - HAS/dislipidemia/obesidade,2
+MOTIVO_UNIFICADO,7 - Outro → 6 - Cansaço,2
+MOTIVO_UNIFICADO,5 - Parecer cardiológico → 1 - Cardiopatia adquirida,2
+MOTIVO_UNIFICADO,5 - Parecer cardiológico → 6 - Dispneia,1
+MOTIVO_UNIFICADO,5 - Parecer cardiológico → 6 - Dor precordial,1
+MOTIVO_UNIFICADO,7 - Outro → 6 - Cianose,1
+MOTIVO_UNIFICADO,2 - Check-up → 6 - Dor precordial,1
+MOTIVO_UNIFICADO,7 - Outro → 6 - Palpitação/taquicardia/arritmia,1
+MOTIVO_UNIFICADO,5 - Parecer cardiológico → 6 - Alterações de pulso/perfusão,1
+MOTIVO_UNIFICADO,2 - Check-up → 6 - Cardiopatia na família,1
+MOTIVO_UNIFICADO,5 - Parecer cardiológico → 6 - Palpitação/taquicardia/arritmia,1
+MOTIVO_UNIFICADO,2 - Check-up → 6 - HAS/dislipidemia/obesidade,1
+MOTIVO_UNIFICADO,2 - Check-up → 6 - Cianose,1
+MOTIVO_UNIFICADO,5 - Parecer cardiológico → 6 - Sopro,1
+HDA_UNIFICADA,Assintomático,6459
+HDA_UNIFICADA,,2957
+HDA_UNIFICADA,Dor precordial,404
+HDA_UNIFICADA,Dispneia,395
+HDA_UNIFICADA,Palpitação,306
+HDA_UNIFICADA,Cianose,195
+HDA_UNIFICADA,Desmaio/tontura,123
+HDA_UNIFICADA,Outro,123
+HDA_UNIFICADA,Ganho de peso,79
+HDA_UNIFICADA,Dispneia | Cianose,73
+HDA_UNIFICADA,Palpitação | Dor precordial,71
+HDA_UNIFICADA,Dispneia | Dor precordial,62
+HDA_UNIFICADA,Palpitação | Dispneia,41
+HDA_UNIFICADA,Desmaio/tontura | Cianose,27
+HDA_UNIFICADA,Dispneia | Outro,16
+HDA_UNIFICADA,Palpitação | Desmaio/tontura,15
+HDA_UNIFICADA,Dor precordial | Desmaio/tontura,15
+HDA_UNIFICADA,Dispneia | Ganho de peso,14
+HDA_UNIFICADA,Dispneia | Desmaio/tontura,12
+HDA_UNIFICADA,Palpitação | Cianose,8
+HDA_UNIFICADA,Desmaio/tontura | Outro,8
+HDA_UNIFICADA,Dor precordial | Cianose,7
+HDA_UNIFICADA,Dor precordial | Ganho de peso,6
+HDA_UNIFICADA,Dor precordial | Outro,5
+HDA_UNIFICADA,Cianose | Outro,5
+HDA_UNIFICADA,Palpitação | Outro,3
+HDA_UNIFICADA,Ganho de peso | Outro,3
+HDA_UNIFICADA,Desmaio/tontura | Ganho de peso,3
+HDA_UNIFICADA,Cianose | Ganho de peso,1

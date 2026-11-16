@@ -1,2 +1,17 @@
 ﻿__pycache__/
 *.pyc
+.venv/
+resultado_experimentos/.cache/
+resultado_experimentos_representacoes/.cache/
+resultado_experimentos_reduzido/.cache/
+resultado_experimentos/
+resultado_experimentos_representacoes/
+resultado_experimentos_reduzido/externo_*/
+resultado_experimentos_reduzido/finais/
+resultado_experimentos_reduzido/*.log
+resultado_experimentos_reduzido/*.lock
+resultado_experimentos_reduzido/estado_execucao.json
+resultado_experimentos_reduzido/protocolo.json
+resultado_experimentos_reduzido/congelamento.json
+resultado_experimentos_reduzido/teste_aberto.json
+resultado_experimentos_reduzido/manifesto_resultados.json

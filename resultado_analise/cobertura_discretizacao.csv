@@ -1,0 +1,31 @@
+﻿variavel,referencia_etaria,sexo,n_total,n_classificados,n_ausentes,cobertura_percentual
+CLASSIFICACAO IMC,Fora da referência OMS,Feminino,8,0,8,0.0
+CLASSIFICACAO IMC,Fora da referência OMS,Masculino,10,0,10,0.0
+CLASSIFICACAO IMC,Idade indisponível,Feminino,335,0,335,0.0
+CLASSIFICACAO IMC,Idade indisponível,Indeterminado,190,0,190,0.0
+CLASSIFICACAO IMC,Idade indisponível,Masculino,413,0,413,0.0
+CLASSIFICACAO IMC,OMS 2006: 0–60 meses completos,Feminino,2558,1800,758,70.36747458952307
+CLASSIFICACAO IMC,OMS 2006: 0–60 meses completos,Indeterminado,383,0,383,0.0
+CLASSIFICACAO IMC,OMS 2006: 0–60 meses completos,Masculino,3586,2607,979,72.69938650306749
+CLASSIFICACAO IMC,OMS 2006: 0–60 meses completos,Sem informação,3,0,3,0.0
+CLASSIFICACAO IMC,OMS 2007: 61–228 meses completos,Feminino,1823,1078,745,59.133296763576524
+CLASSIFICACAO IMC,OMS 2007: 61–228 meses completos,Indeterminado,105,0,105,0.0
+CLASSIFICACAO IMC,OMS 2007: 61–228 meses completos,Masculino,2719,1628,1091,59.874954027215885
+CLASSIFICACAO IMC,OMS 2007: 61–228 meses completos,Sem informação,1,0,1,0.0
+PPA_CALCULADA,DBHA: 13–17 anos,Feminino,278,238,40,85.61151079136691
+PPA_CALCULADA,DBHA: 13–17 anos,Indeterminado,19,19,0,100.0
+PPA_CALCULADA,DBHA: 13–17 anos,Masculino,335,277,58,82.68656716417911
+PPA_CALCULADA,DBHA: 13–17 anos,Sem informação,1,1,0,100.0
+PPA_CALCULADA,DBHA: 18–19 anos,Feminino,21,18,3,85.71428571428571
+PPA_CALCULADA,DBHA: 18–19 anos,Masculino,17,14,3,82.3529411764706
+PPA_CALCULADA,DBHA: 1–12 anos,Feminino,2999,696,2303,23.20773591197066
+PPA_CALCULADA,DBHA: 1–12 anos,Indeterminado,144,0,144,0.0
+PPA_CALCULADA,DBHA: 1–12 anos,Masculino,4558,1226,3332,26.897762176393154
+PPA_CALCULADA,DBHA: 1–12 anos,Sem informação,2,0,2,0.0
+PPA_CALCULADA,Idade indisponível,Feminino,335,0,335,0.0
+PPA_CALCULADA,Idade indisponível,Indeterminado,190,0,190,0.0
+PPA_CALCULADA,Idade indisponível,Masculino,413,0,413,0.0
+PPA_CALCULADA,Menor de 1 ano: não classificável,Feminino,1091,0,1091,0.0
+PPA_CALCULADA,Menor de 1 ano: não classificável,Indeterminado,325,0,325,0.0
+PPA_CALCULADA,Menor de 1 ano: não classificável,Masculino,1405,0,1405,0.0
+PPA_CALCULADA,Menor de 1 ano: não classificável,Sem informação,1,0,1,0.0

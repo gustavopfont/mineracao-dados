@@ -1,0 +1,1190 @@
+﻿variavel_a,categoria_a,variavel_b,categoria_b,quantidade,n_total
+SEXO,Feminino,NORMAL X ANORMAL,Anormal,1955,12134
+SEXO,Feminino,NORMAL X ANORMAL,Normal,2575,12134
+SEXO,Feminino,NORMAL X ANORMAL,,194,12134
+SEXO,Indeterminado,NORMAL X ANORMAL,Anormal,303,12134
+SEXO,Indeterminado,NORMAL X ANORMAL,Normal,366,12134
+SEXO,Indeterminado,NORMAL X ANORMAL,,9,12134
+SEXO,Masculino,NORMAL X ANORMAL,Anormal,2701,12134
+SEXO,Masculino,NORMAL X ANORMAL,Normal,3801,12134
+SEXO,Masculino,NORMAL X ANORMAL,,226,12134
+SEXO,,NORMAL X ANORMAL,Anormal,1,12134
+SEXO,,NORMAL X ANORMAL,Normal,3,12134
+B2,Desdob fixo,NORMAL X ANORMAL,Anormal,134,12134
+B2,Desdob fixo,NORMAL X ANORMAL,Normal,15,12134
+B2,Hiperfonética,NORMAL X ANORMAL,Anormal,289,12134
+B2,Hiperfonética,NORMAL X ANORMAL,Normal,6,12134
+B2,Normal,NORMAL X ANORMAL,Anormal,4382,12134
+B2,Normal,NORMAL X ANORMAL,Normal,6695,12134
+B2,Normal,NORMAL X ANORMAL,,21,12134
+B2,Outro,NORMAL X ANORMAL,Anormal,67,12134
+B2,Outro,NORMAL X ANORMAL,Normal,9,12134
+B2,Única,NORMAL X ANORMAL,Anormal,75,12134
+B2,Única,NORMAL X ANORMAL,Normal,2,12134
+B2,,NORMAL X ANORMAL,Anormal,13,12134
+B2,,NORMAL X ANORMAL,Normal,18,12134
+B2,,NORMAL X ANORMAL,,408,12134
+PULSOS,Amplos,NORMAL X ANORMAL,Anormal,46,12134
+PULSOS,Amplos,NORMAL X ANORMAL,Normal,7,12134
+PULSOS,Diminuídos,NORMAL X ANORMAL,Anormal,16,12134
+PULSOS,Diminuídos,NORMAL X ANORMAL,Normal,2,12134
+PULSOS,Femorais diminuídos,NORMAL X ANORMAL,Anormal,36,12134
+PULSOS,Femorais diminuídos,NORMAL X ANORMAL,Normal,3,12134
+PULSOS,Normais,NORMAL X ANORMAL,Anormal,4813,12134
+PULSOS,Normais,NORMAL X ANORMAL,Normal,6698,12134
+PULSOS,Normais,NORMAL X ANORMAL,,22,12134
+PULSOS,Outro,NORMAL X ANORMAL,Anormal,26,12134
+PULSOS,Outro,NORMAL X ANORMAL,Normal,10,12134
+PULSOS,,NORMAL X ANORMAL,Anormal,23,12134
+PULSOS,,NORMAL X ANORMAL,Normal,25,12134
+PULSOS,,NORMAL X ANORMAL,,407,12134
+MOTIVO_UNIFICADO,1 - Cardiopatia já estabelecida → 1 - Cardiopatia adquirida,NORMAL X ANORMAL,Anormal,22,12134
+MOTIVO_UNIFICADO,1 - Cardiopatia já estabelecida → 1 - Cardiopatia adquirida,NORMAL X ANORMAL,Normal,20,12134
+MOTIVO_UNIFICADO,1 - Cardiopatia já estabelecida → 1 - Cardiopatia adquirida,NORMAL X ANORMAL,,2,12134
+MOTIVO_UNIFICADO,1 - Cardiopatia já estabelecida → 1 - Cardiopatia congênita,NORMAL X ANORMAL,Anormal,735,12134
+MOTIVO_UNIFICADO,1 - Cardiopatia já estabelecida → 1 - Cardiopatia congênita,NORMAL X ANORMAL,Normal,245,12134
+MOTIVO_UNIFICADO,1 - Cardiopatia já estabelecida → 1 - Cardiopatia congênita,NORMAL X ANORMAL,,22,12134
+MOTIVO_UNIFICADO,1 - Cardiopatia já estabelecida → 5 - Cirurgia,NORMAL X ANORMAL,Anormal,5,12134
+MOTIVO_UNIFICADO,1 - Cardiopatia já estabelecida → 6 - HAS/dislipidemia/obesidade,NORMAL X ANORMAL,Anormal,16,12134
+MOTIVO_UNIFICADO,1 - Cardiopatia já estabelecida → 6 - HAS/dislipidemia/obesidade,NORMAL X ANORMAL,Normal,32,12134
+MOTIVO_UNIFICADO,1 - Cardiopatia já estabelecida → 6 - Palpitação/taquicardia/arritmia,NORMAL X ANORMAL,Anormal,22,12134
+MOTIVO_UNIFICADO,1 - Cardiopatia já estabelecida → 6 - Palpitação/taquicardia/arritmia,NORMAL X ANORMAL,Normal,19,12134
+MOTIVO_UNIFICADO,1 - Cardiopatia já estabelecida → 6 - Palpitação/taquicardia/arritmia,NORMAL X ANORMAL,,3,12134
+MOTIVO_UNIFICADO,1 - Cardiopatia já estabelecida → Outro,NORMAL X ANORMAL,Anormal,9,12134
+MOTIVO_UNIFICADO,1 - Cardiopatia já estabelecida → Outro,NORMAL X ANORMAL,Normal,5,12134
+MOTIVO_UNIFICADO,1 - Cardiopatia já estabelecida → Outro,NORMAL X ANORMAL,,1,12134
+MOTIVO_UNIFICADO,2 - Check-up,NORMAL X ANORMAL,Anormal,177,12134
+MOTIVO_UNIFICADO,2 - Check-up,NORMAL X ANORMAL,Normal,477,12134
+MOTIVO_UNIFICADO,2 - Check-up,NORMAL X ANORMAL,,17,12134
+MOTIVO_UNIFICADO,2 - Check-up → 1 - Cardiopatia congênita,NORMAL X ANORMAL,Anormal,1,12134
+MOTIVO_UNIFICADO,2 - Check-up → 1 - Cardiopatia congênita,NORMAL X ANORMAL,Normal,2,12134
+MOTIVO_UNIFICADO,2 - Check-up → 5 - Atividade física,NORMAL X ANORMAL,Anormal,1,12134
+MOTIVO_UNIFICADO,2 - Check-up → 5 - Atividade física,NORMAL X ANORMAL,Normal,5,12134
+MOTIVO_UNIFICADO,2 - Check-up → 5 - Cirurgia,NORMAL X ANORMAL,Anormal,2,12134
+MOTIVO_UNIFICADO,2 - Check-up → 5 - Cirurgia,NORMAL X ANORMAL,Normal,1,12134
+MOTIVO_UNIFICADO,2 - Check-up → 6 - Cardiopatia na família,NORMAL X ANORMAL,Normal,1,12134
+MOTIVO_UNIFICADO,2 - Check-up → 6 - Cianose,NORMAL X ANORMAL,Normal,1,12134
+MOTIVO_UNIFICADO,2 - Check-up → 6 - Dor precordial,NORMAL X ANORMAL,Normal,1,12134
+MOTIVO_UNIFICADO,2 - Check-up → 6 - HAS/dislipidemia/obesidade,NORMAL X ANORMAL,Normal,1,12134
+MOTIVO_UNIFICADO,2 - Check-up → Outro,NORMAL X ANORMAL,Anormal,2,12134
+MOTIVO_UNIFICADO,2 - Check-up → Outro,NORMAL X ANORMAL,Normal,11,12134
+MOTIVO_UNIFICADO,2 - Check-up → Outro,NORMAL X ANORMAL,,1,12134
+MOTIVO_UNIFICADO,5 - Parecer cardiológico,NORMAL X ANORMAL,Anormal,510,12134
+MOTIVO_UNIFICADO,5 - Parecer cardiológico,NORMAL X ANORMAL,Normal,1188,12134
+MOTIVO_UNIFICADO,5 - Parecer cardiológico,NORMAL X ANORMAL,,8,12134
+MOTIVO_UNIFICADO,5 - Parecer cardiológico → 1 - Cardiopatia adquirida,NORMAL X ANORMAL,Anormal,1,12134
+MOTIVO_UNIFICADO,5 - Parecer cardiológico → 1 - Cardiopatia adquirida,NORMAL X ANORMAL,Normal,1,12134
+MOTIVO_UNIFICADO,5 - Parecer cardiológico → 1 - Cardiopatia congênita,NORMAL X ANORMAL,Anormal,1,12134
+MOTIVO_UNIFICADO,5 - Parecer cardiológico → 1 - Cardiopatia congênita,NORMAL X ANORMAL,Normal,4,12134
+MOTIVO_UNIFICADO,5 - Parecer cardiológico → 5 - Atividade física,NORMAL X ANORMAL,Anormal,153,12134
+MOTIVO_UNIFICADO,5 - Parecer cardiológico → 5 - Atividade física,NORMAL X ANORMAL,Normal,429,12134
+MOTIVO_UNIFICADO,5 - Parecer cardiológico → 5 - Atividade física,NORMAL X ANORMAL,,64,12134
+MOTIVO_UNIFICADO,5 - Parecer cardiológico → 5 - Cirurgia,NORMAL X ANORMAL,Anormal,651,12134
+MOTIVO_UNIFICADO,5 - Parecer cardiológico → 5 - Cirurgia,NORMAL X ANORMAL,Normal,2186,12134
+MOTIVO_UNIFICADO,5 - Parecer cardiológico → 5 - Cirurgia,NORMAL X ANORMAL,,93,12134
+MOTIVO_UNIFICADO,5 - Parecer cardiológico → 5 - Uso de cisaprida,NORMAL X ANORMAL,Anormal,6,12134
+MOTIVO_UNIFICADO,5 - Parecer cardiológico → 5 - Uso de cisaprida,NORMAL X ANORMAL,Normal,3,12134
+MOTIVO_UNIFICADO,5 - Parecer cardiológico → 6 - Alterações de pulso/perfusão,NORMAL X ANORMAL,Normal,1,12134
+MOTIVO_UNIFICADO,5 - Parecer cardiológico → 6 - Cardiopatia na família,NORMAL X ANORMAL,Anormal,1,12134
+MOTIVO_UNIFICADO,5 - Parecer cardiológico → 6 - Cardiopatia na família,NORMAL X ANORMAL,Normal,2,12134
+MOTIVO_UNIFICADO,5 - Parecer cardiológico → 6 - Dispneia,NORMAL X ANORMAL,Anormal,1,12134
+MOTIVO_UNIFICADO,5 - Parecer cardiológico → 6 - Dor precordial,NORMAL X ANORMAL,Normal,1,12134
+MOTIVO_UNIFICADO,5 - Parecer cardiológico → 6 - HAS/dislipidemia/obesidade,NORMAL X ANORMAL,Anormal,2,12134
+MOTIVO_UNIFICADO,5 - Parecer cardiológico → 6 - HAS/dislipidemia/obesidade,NORMAL X ANORMAL,Normal,1,12134
+MOTIVO_UNIFICADO,5 - Parecer cardiológico → 6 - HAS/dislipidemia/obesidade,NORMAL X ANORMAL,,1,12134
+MOTIVO_UNIFICADO,5 - Parecer cardiológico → 6 - Palpitação/taquicardia/arritmia,NORMAL X ANORMAL,Normal,1,12134
+MOTIVO_UNIFICADO,5 - Parecer cardiológico → 6 - Sopro,NORMAL X ANORMAL,Normal,1,12134
+MOTIVO_UNIFICADO,5 - Parecer cardiológico → Outro,NORMAL X ANORMAL,Anormal,6,12134
+MOTIVO_UNIFICADO,5 - Parecer cardiológico → Outro,NORMAL X ANORMAL,Normal,32,12134
+MOTIVO_UNIFICADO,5 - Parecer cardiológico → Outro,NORMAL X ANORMAL,,4,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia,NORMAL X ANORMAL,Anormal,21,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia,NORMAL X ANORMAL,Normal,38,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia,NORMAL X ANORMAL,,5,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 1 - Cardiopatia adquirida,NORMAL X ANORMAL,Anormal,25,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 1 - Cardiopatia adquirida,NORMAL X ANORMAL,Normal,21,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 1 - Cardiopatia congênita,NORMAL X ANORMAL,Anormal,15,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 1 - Cardiopatia congênita,NORMAL X ANORMAL,Normal,15,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 1 - Cardiopatia congênita,NORMAL X ANORMAL,,1,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Alterações de pulso/perfusão,NORMAL X ANORMAL,Anormal,2,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Alterações de pulso/perfusão,NORMAL X ANORMAL,Normal,2,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Cansaço,NORMAL X ANORMAL,Anormal,3,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Cansaço,NORMAL X ANORMAL,Normal,1,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Cansaço,NORMAL X ANORMAL,,1,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Cardiopatia na família,NORMAL X ANORMAL,Anormal,7,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Cardiopatia na família,NORMAL X ANORMAL,Normal,21,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Cardiopatia na família,NORMAL X ANORMAL,,3,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Cianose,NORMAL X ANORMAL,Anormal,56,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Cianose,NORMAL X ANORMAL,Normal,79,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Cianose,NORMAL X ANORMAL,,8,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Cianose e dispneia,NORMAL X ANORMAL,Anormal,1,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Cianose e dispneia,NORMAL X ANORMAL,Normal,2,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Cianose e dispneia,NORMAL X ANORMAL,,2,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Dispneia,NORMAL X ANORMAL,Anormal,77,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Dispneia,NORMAL X ANORMAL,Normal,127,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Dispneia,NORMAL X ANORMAL,,9,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Dor precordial,NORMAL X ANORMAL,Anormal,109,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Dor precordial,NORMAL X ANORMAL,Normal,259,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Dor precordial,NORMAL X ANORMAL,,22,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - HAS/dislipidemia/obesidade,NORMAL X ANORMAL,Anormal,46,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - HAS/dislipidemia/obesidade,NORMAL X ANORMAL,Normal,129,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - HAS/dislipidemia/obesidade,NORMAL X ANORMAL,,10,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Palpitação/taquicardia/arritmia,NORMAL X ANORMAL,Anormal,126,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Palpitação/taquicardia/arritmia,NORMAL X ANORMAL,Normal,228,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Palpitação/taquicardia/arritmia,NORMAL X ANORMAL,,14,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Sopro,NORMAL X ANORMAL,Anormal,1744,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Sopro,NORMAL X ANORMAL,Normal,540,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Sopro,NORMAL X ANORMAL,,64,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → Outro,NORMAL X ANORMAL,Anormal,204,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → Outro,NORMAL X ANORMAL,Normal,234,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → Outro,NORMAL X ANORMAL,,14,12134
+MOTIVO_UNIFICADO,7 - Outro → 5 - Cirurgia,NORMAL X ANORMAL,Anormal,2,12134
+MOTIVO_UNIFICADO,7 - Outro → 6 - Cansaço,NORMAL X ANORMAL,Anormal,1,12134
+MOTIVO_UNIFICADO,7 - Outro → 6 - Cansaço,NORMAL X ANORMAL,Normal,1,12134
+MOTIVO_UNIFICADO,7 - Outro → 6 - Cianose,NORMAL X ANORMAL,Anormal,1,12134
+MOTIVO_UNIFICADO,7 - Outro → 6 - Dispneia,NORMAL X ANORMAL,Anormal,2,12134
+MOTIVO_UNIFICADO,7 - Outro → 6 - Dispneia,NORMAL X ANORMAL,Normal,9,12134
+MOTIVO_UNIFICADO,7 - Outro → 6 - Dispneia,NORMAL X ANORMAL,,1,12134
+MOTIVO_UNIFICADO,7 - Outro → 6 - HAS/dislipidemia/obesidade,NORMAL X ANORMAL,Anormal,1,12134
+MOTIVO_UNIFICADO,7 - Outro → 6 - HAS/dislipidemia/obesidade,NORMAL X ANORMAL,Normal,1,12134
+MOTIVO_UNIFICADO,7 - Outro → 6 - Palpitação/taquicardia/arritmia,NORMAL X ANORMAL,Anormal,1,12134
+MOTIVO_UNIFICADO,7 - Outro → 6 - Palpitação/taquicardia/arritmia,NORMAL X ANORMAL,,1,12134
+MOTIVO_UNIFICADO,7 - Outro → Outro,NORMAL X ANORMAL,Anormal,121,12134
+MOTIVO_UNIFICADO,7 - Outro → Outro,NORMAL X ANORMAL,Normal,159,12134
+MOTIVO_UNIFICADO,7 - Outro → Outro,NORMAL X ANORMAL,,21,12134
+MOTIVO_UNIFICADO,,NORMAL X ANORMAL,Anormal,71,12134
+MOTIVO_UNIFICADO,,NORMAL X ANORMAL,Normal,208,12134
+MOTIVO_UNIFICADO,,NORMAL X ANORMAL,,37,12134
+HDA_UNIFICADA,Assintomático,NORMAL X ANORMAL,Anormal,3047,12134
+HDA_UNIFICADA,Assintomático,NORMAL X ANORMAL,Normal,3486,12134
+HDA_UNIFICADA,Assintomático,NORMAL X ANORMAL,,28,12134
+HDA_UNIFICADA,Assintomático | Palpitação,NORMAL X ANORMAL,Anormal,1,12134
+HDA_UNIFICADA,Cianose,NORMAL X ANORMAL,Anormal,111,12134
+HDA_UNIFICADA,Cianose,NORMAL X ANORMAL,Normal,86,12134
+HDA_UNIFICADA,Cianose,NORMAL X ANORMAL,,1,12134
+HDA_UNIFICADA,Cianose | Ganho de peso,NORMAL X ANORMAL,Normal,1,12134
+HDA_UNIFICADA,Cianose | Outro,NORMAL X ANORMAL,Anormal,1,12134
+HDA_UNIFICADA,Cianose | Outro,NORMAL X ANORMAL,Normal,4,12134
+HDA_UNIFICADA,Desmaio/tontura,NORMAL X ANORMAL,Anormal,34,12134
+HDA_UNIFICADA,Desmaio/tontura,NORMAL X ANORMAL,Normal,90,12134
+HDA_UNIFICADA,Desmaio/tontura,NORMAL X ANORMAL,,1,12134
+HDA_UNIFICADA,Desmaio/tontura | Cianose,NORMAL X ANORMAL,Anormal,10,12134
+HDA_UNIFICADA,Desmaio/tontura | Cianose,NORMAL X ANORMAL,Normal,17,12134
+HDA_UNIFICADA,Desmaio/tontura | Cianose,NORMAL X ANORMAL,,1,12134
+HDA_UNIFICADA,Desmaio/tontura | Ganho de peso,NORMAL X ANORMAL,Anormal,1,12134
+HDA_UNIFICADA,Desmaio/tontura | Ganho de peso,NORMAL X ANORMAL,Normal,2,12134
+HDA_UNIFICADA,Desmaio/tontura | Outro,NORMAL X ANORMAL,Anormal,3,12134
+HDA_UNIFICADA,Desmaio/tontura | Outro,NORMAL X ANORMAL,Normal,5,12134
+HDA_UNIFICADA,Dispneia,NORMAL X ANORMAL,Anormal,218,12134
+HDA_UNIFICADA,Dispneia,NORMAL X ANORMAL,Normal,182,12134
+HDA_UNIFICADA,Dispneia | Cianose,NORMAL X ANORMAL,Anormal,54,12134
+HDA_UNIFICADA,Dispneia | Cianose,NORMAL X ANORMAL,Normal,21,12134
+HDA_UNIFICADA,Dispneia | Cianose,NORMAL X ANORMAL,,3,12134
+HDA_UNIFICADA,Dispneia | Desmaio/tontura,NORMAL X ANORMAL,Anormal,4,12134
+HDA_UNIFICADA,Dispneia | Desmaio/tontura,NORMAL X ANORMAL,Normal,8,12134
+HDA_UNIFICADA,Dispneia | Dor precordial,NORMAL X ANORMAL,Anormal,24,12134
+HDA_UNIFICADA,Dispneia | Dor precordial,NORMAL X ANORMAL,Normal,38,12134
+HDA_UNIFICADA,Dispneia | Ganho de peso,NORMAL X ANORMAL,Anormal,3,12134
+HDA_UNIFICADA,Dispneia | Ganho de peso,NORMAL X ANORMAL,Normal,11,12134
+HDA_UNIFICADA,Dispneia | Outro,NORMAL X ANORMAL,Anormal,10,12134
+HDA_UNIFICADA,Dispneia | Outro,NORMAL X ANORMAL,Normal,6,12134
+HDA_UNIFICADA,Dor precordial,NORMAL X ANORMAL,Anormal,130,12134
+HDA_UNIFICADA,Dor precordial,NORMAL X ANORMAL,Normal,276,12134
+HDA_UNIFICADA,Dor precordial,NORMAL X ANORMAL,,1,12134
+HDA_UNIFICADA,Dor precordial | Cianose,NORMAL X ANORMAL,Anormal,4,12134
+HDA_UNIFICADA,Dor precordial | Cianose,NORMAL X ANORMAL,Normal,3,12134
+HDA_UNIFICADA,Dor precordial | Desmaio/tontura,NORMAL X ANORMAL,Anormal,7,12134
+HDA_UNIFICADA,Dor precordial | Desmaio/tontura,NORMAL X ANORMAL,Normal,8,12134
+HDA_UNIFICADA,Dor precordial | Ganho de peso,NORMAL X ANORMAL,Anormal,2,12134
+HDA_UNIFICADA,Dor precordial | Ganho de peso,NORMAL X ANORMAL,Normal,4,12134
+HDA_UNIFICADA,Dor precordial | Outro,NORMAL X ANORMAL,Anormal,1,12134
+HDA_UNIFICADA,Dor precordial | Outro,NORMAL X ANORMAL,Normal,4,12134
+HDA_UNIFICADA,Ganho de peso,NORMAL X ANORMAL,Anormal,27,12134
+HDA_UNIFICADA,Ganho de peso,NORMAL X ANORMAL,Normal,52,12134
+HDA_UNIFICADA,Ganho de peso | Outro,NORMAL X ANORMAL,Anormal,3,12134
+HDA_UNIFICADA,Outro,NORMAL X ANORMAL,Anormal,56,12134
+HDA_UNIFICADA,Outro,NORMAL X ANORMAL,Normal,67,12134
+HDA_UNIFICADA,Palpitação,NORMAL X ANORMAL,Anormal,94,12134
+HDA_UNIFICADA,Palpitação,NORMAL X ANORMAL,Normal,212,12134
+HDA_UNIFICADA,Palpitação,NORMAL X ANORMAL,,2,12134
+HDA_UNIFICADA,Palpitação | Cianose,NORMAL X ANORMAL,Anormal,5,12134
+HDA_UNIFICADA,Palpitação | Cianose,NORMAL X ANORMAL,Normal,3,12134
+HDA_UNIFICADA,Palpitação | Desmaio/tontura,NORMAL X ANORMAL,Anormal,3,12134
+HDA_UNIFICADA,Palpitação | Desmaio/tontura,NORMAL X ANORMAL,Normal,12,12134
+HDA_UNIFICADA,Palpitação | Desmaio/tontura,NORMAL X ANORMAL,,1,12134
+HDA_UNIFICADA,Palpitação | Dispneia,NORMAL X ANORMAL,Anormal,13,12134
+HDA_UNIFICADA,Palpitação | Dispneia,NORMAL X ANORMAL,Normal,28,12134
+HDA_UNIFICADA,Palpitação | Dor precordial,NORMAL X ANORMAL,Anormal,19,12134
+HDA_UNIFICADA,Palpitação | Dor precordial,NORMAL X ANORMAL,Normal,52,12134
+HDA_UNIFICADA,Palpitação | Outro,NORMAL X ANORMAL,Anormal,1,12134
+HDA_UNIFICADA,Palpitação | Outro,NORMAL X ANORMAL,Normal,2,12134
+HDA_UNIFICADA,,NORMAL X ANORMAL,Anormal,1074,12134
+HDA_UNIFICADA,,NORMAL X ANORMAL,Normal,2065,12134
+HDA_UNIFICADA,,NORMAL X ANORMAL,,391,12134
+MOTIVO1,1 - Cardiopatia já estabelecida,NORMAL X ANORMAL,Anormal,809,12134
+MOTIVO1,1 - Cardiopatia já estabelecida,NORMAL X ANORMAL,Normal,321,12134
+MOTIVO1,1 - Cardiopatia já estabelecida,NORMAL X ANORMAL,,28,12134
+MOTIVO1,2 - Check-up,NORMAL X ANORMAL,Anormal,183,12134
+MOTIVO1,2 - Check-up,NORMAL X ANORMAL,Normal,500,12134
+MOTIVO1,2 - Check-up,NORMAL X ANORMAL,,18,12134
+MOTIVO1,5 - Parecer cardiológico,NORMAL X ANORMAL,Anormal,1332,12134
+MOTIVO1,5 - Parecer cardiológico,NORMAL X ANORMAL,Normal,3850,12134
+MOTIVO1,5 - Parecer cardiológico,NORMAL X ANORMAL,,170,12134
+MOTIVO1,6 - Suspeita de cardiopatia,NORMAL X ANORMAL,Anormal,2436,12134
+MOTIVO1,6 - Suspeita de cardiopatia,NORMAL X ANORMAL,Normal,1696,12134
+MOTIVO1,6 - Suspeita de cardiopatia,NORMAL X ANORMAL,,153,12134
+MOTIVO1,7 - Outro,NORMAL X ANORMAL,Anormal,129,12134
+MOTIVO1,7 - Outro,NORMAL X ANORMAL,Normal,170,12134
+MOTIVO1,7 - Outro,NORMAL X ANORMAL,,23,12134
+MOTIVO1,,NORMAL X ANORMAL,Anormal,71,12134
+MOTIVO1,,NORMAL X ANORMAL,Normal,208,12134
+MOTIVO1,,NORMAL X ANORMAL,,37,12134
+MOTIVO2,1 - Cardiopatia adquirida,NORMAL X ANORMAL,Anormal,48,12134
+MOTIVO2,1 - Cardiopatia adquirida,NORMAL X ANORMAL,Normal,42,12134
+MOTIVO2,1 - Cardiopatia adquirida,NORMAL X ANORMAL,,2,12134
+MOTIVO2,1 - Cardiopatia congenica,NORMAL X ANORMAL,Anormal,752,12134
+MOTIVO2,1 - Cardiopatia congenica,NORMAL X ANORMAL,Normal,266,12134
+MOTIVO2,1 - Cardiopatia congenica,NORMAL X ANORMAL,,23,12134
+MOTIVO2,5 - Atividade física,NORMAL X ANORMAL,Anormal,154,12134
+MOTIVO2,5 - Atividade física,NORMAL X ANORMAL,Normal,434,12134
+MOTIVO2,5 - Atividade física,NORMAL X ANORMAL,,64,12134
+MOTIVO2,5 - Cirurgia,NORMAL X ANORMAL,Anormal,660,12134
+MOTIVO2,5 - Cirurgia,NORMAL X ANORMAL,Normal,2187,12134
+MOTIVO2,5 - Cirurgia,NORMAL X ANORMAL,,93,12134
+MOTIVO2,5 - Uso de cisaprida,NORMAL X ANORMAL,Anormal,6,12134
+MOTIVO2,5 - Uso de cisaprida,NORMAL X ANORMAL,Normal,3,12134
+MOTIVO2,6 - Alterações de pulso/perfusão,NORMAL X ANORMAL,Anormal,2,12134
+MOTIVO2,6 - Alterações de pulso/perfusão,NORMAL X ANORMAL,Normal,3,12134
+MOTIVO2,6 - Cansaço,NORMAL X ANORMAL,Anormal,4,12134
+MOTIVO2,6 - Cansaço,NORMAL X ANORMAL,Normal,2,12134
+MOTIVO2,6 - Cansaço,NORMAL X ANORMAL,,1,12134
+MOTIVO2,6 - Cardiopatia na familia,NORMAL X ANORMAL,Anormal,8,12134
+MOTIVO2,6 - Cardiopatia na familia,NORMAL X ANORMAL,Normal,24,12134
+MOTIVO2,6 - Cardiopatia na familia,NORMAL X ANORMAL,,3,12134
+MOTIVO2,6 - Cianose,NORMAL X ANORMAL,Anormal,57,12134
+MOTIVO2,6 - Cianose,NORMAL X ANORMAL,Normal,80,12134
+MOTIVO2,6 - Cianose,NORMAL X ANORMAL,,8,12134
+MOTIVO2,6 - Cianose e dispnéia,NORMAL X ANORMAL,Anormal,1,12134
+MOTIVO2,6 - Cianose e dispnéia,NORMAL X ANORMAL,Normal,2,12134
+MOTIVO2,6 - Cianose e dispnéia,NORMAL X ANORMAL,,2,12134
+MOTIVO2,6 - Dispnéia,NORMAL X ANORMAL,Anormal,80,12134
+MOTIVO2,6 - Dispnéia,NORMAL X ANORMAL,Normal,136,12134
+MOTIVO2,6 - Dispnéia,NORMAL X ANORMAL,,10,12134
+MOTIVO2,6 - Dor precordial,NORMAL X ANORMAL,Anormal,109,12134
+MOTIVO2,6 - Dor precordial,NORMAL X ANORMAL,Normal,261,12134
+MOTIVO2,6 - Dor precordial,NORMAL X ANORMAL,,22,12134
+MOTIVO2,6 - HAS/dislipidemia/obesidade,NORMAL X ANORMAL,Anormal,65,12134
+MOTIVO2,6 - HAS/dislipidemia/obesidade,NORMAL X ANORMAL,Normal,164,12134
+MOTIVO2,6 - HAS/dislipidemia/obesidade,NORMAL X ANORMAL,,11,12134
+MOTIVO2,6 - Palpitação/taquicardia/arritmia,NORMAL X ANORMAL,Anormal,149,12134
+MOTIVO2,6 - Palpitação/taquicardia/arritmia,NORMAL X ANORMAL,Normal,248,12134
+MOTIVO2,6 - Palpitação/taquicardia/arritmia,NORMAL X ANORMAL,,18,12134
+MOTIVO2,6 - Sopro,NORMAL X ANORMAL,Anormal,1744,12134
+MOTIVO2,6 - Sopro,NORMAL X ANORMAL,Normal,541,12134
+MOTIVO2,6 - Sopro,NORMAL X ANORMAL,,64,12134
+MOTIVO2,Outro,NORMAL X ANORMAL,Anormal,342,12134
+MOTIVO2,Outro,NORMAL X ANORMAL,Normal,441,12134
+MOTIVO2,Outro,NORMAL X ANORMAL,,41,12134
+MOTIVO2,,NORMAL X ANORMAL,Anormal,779,12134
+MOTIVO2,,NORMAL X ANORMAL,Normal,1911,12134
+MOTIVO2,,NORMAL X ANORMAL,,67,12134
+HDA 1,Assintomático,NORMAL X ANORMAL,Anormal,3047,12134
+HDA 1,Assintomático,NORMAL X ANORMAL,Normal,3486,12134
+HDA 1,Assintomático,NORMAL X ANORMAL,,28,12134
+HDA 1,Cianose,NORMAL X ANORMAL,Anormal,143,12134
+HDA 1,Cianose,NORMAL X ANORMAL,Normal,115,12134
+HDA 1,Cianose,NORMAL X ANORMAL,,2,12134
+HDA 1,Desmaio/tontura,NORMAL X ANORMAL,Anormal,45,12134
+HDA 1,Desmaio/tontura,NORMAL X ANORMAL,Normal,110,12134
+HDA 1,Desmaio/tontura,NORMAL X ANORMAL,,2,12134
+HDA 1,Dispneia,NORMAL X ANORMAL,Anormal,287,12134
+HDA 1,Dispneia,NORMAL X ANORMAL,Normal,252,12134
+HDA 1,Dispneia,NORMAL X ANORMAL,,2,12134
+HDA 1,Dor precordial,NORMAL X ANORMAL,Anormal,169,12134
+HDA 1,Dor precordial,NORMAL X ANORMAL,Normal,338,12134
+HDA 1,Dor precordial,NORMAL X ANORMAL,,1,12134
+HDA 1,Ganho de peso,NORMAL X ANORMAL,Anormal,31,12134
+HDA 1,Ganho de peso,NORMAL X ANORMAL,Normal,56,12134
+HDA 1,Outro,NORMAL X ANORMAL,Anormal,57,12134
+HDA 1,Outro,NORMAL X ANORMAL,Normal,67,12134
+HDA 1,Palpitacao,NORMAL X ANORMAL,Anormal,106,12134
+HDA 1,Palpitacao,NORMAL X ANORMAL,Normal,256,12134
+HDA 1,Palpitacao,NORMAL X ANORMAL,,3,12134
+HDA 1,,NORMAL X ANORMAL,Anormal,1075,12134
+HDA 1,,NORMAL X ANORMAL,Normal,2065,12134
+HDA 1,,NORMAL X ANORMAL,,391,12134
+HDA2,Assintomático,NORMAL X ANORMAL,Anormal,1,12134
+HDA2,Cianose,NORMAL X ANORMAL,Anormal,42,12134
+HDA2,Cianose,NORMAL X ANORMAL,Normal,20,12134
+HDA2,Cianose,NORMAL X ANORMAL,,3,12134
+HDA2,Desmaio/tontura,NORMAL X ANORMAL,Anormal,17,12134
+HDA2,Desmaio/tontura,NORMAL X ANORMAL,Normal,32,12134
+HDA2,Desmaio/tontura,NORMAL X ANORMAL,,1,12134
+HDA2,Dispneia,NORMAL X ANORMAL,Anormal,39,12134
+HDA2,Dispneia,NORMAL X ANORMAL,Normal,43,12134
+HDA2,Dispneia,NORMAL X ANORMAL,,1,12134
+HDA2,Dor precordial,NORMAL X ANORMAL,Anormal,18,12134
+HDA2,Dor precordial,NORMAL X ANORMAL,Normal,47,12134
+HDA2,Ganho de peso,NORMAL X ANORMAL,Anormal,5,12134
+HDA2,Ganho de peso,NORMAL X ANORMAL,Normal,14,12134
+HDA2,Outro,NORMAL X ANORMAL,Anormal,18,12134
+HDA2,Outro,NORMAL X ANORMAL,Normal,23,12134
+HDA2,Palpitacao,NORMAL X ANORMAL,Anormal,30,12134
+HDA2,Palpitacao,NORMAL X ANORMAL,Normal,53,12134
+HDA2,,NORMAL X ANORMAL,Anormal,4790,12134
+HDA2,,NORMAL X ANORMAL,Normal,6513,12134
+HDA2,,NORMAL X ANORMAL,,424,12134
+PPA_CALCULADA,HA estágio 1,NORMAL X ANORMAL,Anormal,97,12134
+PPA_CALCULADA,HA estágio 1,NORMAL X ANORMAL,Normal,177,12134
+PPA_CALCULADA,HA estágio 1,NORMAL X ANORMAL,,1,12134
+PPA_CALCULADA,HA estágio 2,NORMAL X ANORMAL,Anormal,41,12134
+PPA_CALCULADA,HA estágio 2,NORMAL X ANORMAL,Normal,49,12134
+PPA_CALCULADA,Normal,NORMAL X ANORMAL,Anormal,669,12134
+PPA_CALCULADA,Normal,NORMAL X ANORMAL,Normal,1244,12134
+PPA_CALCULADA,Normal,NORMAL X ANORMAL,,8,12134
+PPA_CALCULADA,Pré-hipertensão,NORMAL X ANORMAL,Anormal,75,12134
+PPA_CALCULADA,Pré-hipertensão,NORMAL X ANORMAL,Normal,128,12134
+PPA_CALCULADA,,NORMAL X ANORMAL,Anormal,4078,12134
+PPA_CALCULADA,,NORMAL X ANORMAL,Normal,5147,12134
+PPA_CALCULADA,,NORMAL X ANORMAL,,420,12134
+CLASSIFICACAO IMC,Eutrofia,NORMAL X ANORMAL,Anormal,1695,12134
+CLASSIFICACAO IMC,Eutrofia,NORMAL X ANORMAL,Normal,2205,12134
+CLASSIFICACAO IMC,Eutrofia,NORMAL X ANORMAL,,175,12134
+CLASSIFICACAO IMC,Magreza,NORMAL X ANORMAL,Anormal,117,12134
+CLASSIFICACAO IMC,Magreza,NORMAL X ANORMAL,Normal,98,12134
+CLASSIFICACAO IMC,Magreza,NORMAL X ANORMAL,,5,12134
+CLASSIFICACAO IMC,Magreza acentuada,NORMAL X ANORMAL,Anormal,85,12134
+CLASSIFICACAO IMC,Magreza acentuada,NORMAL X ANORMAL,Normal,40,12134
+CLASSIFICACAO IMC,Magreza acentuada,NORMAL X ANORMAL,,10,12134
+CLASSIFICACAO IMC,Obesidade,NORMAL X ANORMAL,Anormal,215,12134
+CLASSIFICACAO IMC,Obesidade,NORMAL X ANORMAL,Normal,472,12134
+CLASSIFICACAO IMC,Obesidade,NORMAL X ANORMAL,,40,12134
+CLASSIFICACAO IMC,Risco de sobrepeso,NORMAL X ANORMAL,Anormal,437,12134
+CLASSIFICACAO IMC,Risco de sobrepeso,NORMAL X ANORMAL,Normal,505,12134
+CLASSIFICACAO IMC,Risco de sobrepeso,NORMAL X ANORMAL,,29,12134
+CLASSIFICACAO IMC,Sobrepeso,NORMAL X ANORMAL,Anormal,334,12134
+CLASSIFICACAO IMC,Sobrepeso,NORMAL X ANORMAL,Normal,596,12134
+CLASSIFICACAO IMC,Sobrepeso,NORMAL X ANORMAL,,55,12134
+CLASSIFICACAO IMC,,NORMAL X ANORMAL,Anormal,2077,12134
+CLASSIFICACAO IMC,,NORMAL X ANORMAL,Normal,2829,12134
+CLASSIFICACAO IMC,,NORMAL X ANORMAL,,115,12134
+SOPRO,Ausente,NORMAL X ANORMAL,Anormal,720,12134
+SOPRO,Ausente,NORMAL X ANORMAL,Normal,6540,12134
+SOPRO,Ausente,NORMAL X ANORMAL,,15,12134
+SOPRO,Contínuo,NORMAL X ANORMAL,Anormal,38,12134
+SOPRO,Contínuo,NORMAL X ANORMAL,Normal,9,12134
+SOPRO,Contínuo,NORMAL X ANORMAL,,1,12134
+SOPRO,Diastólico,NORMAL X ANORMAL,Anormal,9,12134
+SOPRO,Sistólico,NORMAL X ANORMAL,Anormal,4183,12134
+SOPRO,Sistólico,NORMAL X ANORMAL,Normal,180,12134
+SOPRO,Sistólico,NORMAL X ANORMAL,,8,12134
+SOPRO,Sistólico e diastólico,NORMAL X ANORMAL,Anormal,3,12134
+SOPRO,,NORMAL X ANORMAL,Anormal,7,12134
+SOPRO,,NORMAL X ANORMAL,Normal,16,12134
+SOPRO,,NORMAL X ANORMAL,,405,12134
+SOPRO,Ausente,SEXO,Feminino,2801,12134
+SOPRO,Ausente,SEXO,Indeterminado,371,12134
+SOPRO,Ausente,SEXO,Masculino,4100,12134
+SOPRO,Ausente,SEXO,,3,12134
+SOPRO,Contínuo,SEXO,Feminino,26,12134
+SOPRO,Contínuo,SEXO,Indeterminado,2,12134
+SOPRO,Contínuo,SEXO,Masculino,20,12134
+SOPRO,Diastólico,SEXO,Feminino,3,12134
+SOPRO,Diastólico,SEXO,Masculino,6,12134
+SOPRO,Sistólico,SEXO,Feminino,1707,12134
+SOPRO,Sistólico,SEXO,Indeterminado,285,12134
+SOPRO,Sistólico,SEXO,Masculino,2378,12134
+SOPRO,Sistólico,SEXO,,1,12134
+SOPRO,Sistólico e diastólico,SEXO,Feminino,1,12134
+SOPRO,Sistólico e diastólico,SEXO,Masculino,2,12134
+SOPRO,,SEXO,Feminino,186,12134
+SOPRO,,SEXO,Indeterminado,20,12134
+SOPRO,,SEXO,Masculino,222,12134
+SOPRO,Ausente,B2,Desdob fixo,47,12134
+SOPRO,Ausente,B2,Hiperfonética,61,12134
+SOPRO,Ausente,B2,Normal,7131,12134
+SOPRO,Ausente,B2,Outro,24,12134
+SOPRO,Ausente,B2,Única,8,12134
+SOPRO,Ausente,B2,,4,12134
+SOPRO,Contínuo,B2,Hiperfonética,10,12134
+SOPRO,Contínuo,B2,Normal,28,12134
+SOPRO,Contínuo,B2,Outro,1,12134
+SOPRO,Contínuo,B2,Única,8,12134
+SOPRO,Contínuo,B2,,1,12134
+SOPRO,Diastólico,B2,Hiperfonética,1,12134
+SOPRO,Diastólico,B2,Normal,8,12134
+SOPRO,Sistólico,B2,Desdob fixo,102,12134
+SOPRO,Sistólico,B2,Hiperfonética,223,12134
+SOPRO,Sistólico,B2,Normal,3927,12134
+SOPRO,Sistólico,B2,Outro,51,12134
+SOPRO,Sistólico,B2,Única,61,12134
+SOPRO,Sistólico,B2,,7,12134
+SOPRO,Sistólico e diastólico,B2,Normal,3,12134
+SOPRO,,B2,Normal,1,12134
+SOPRO,,B2,,427,12134
+SOPRO,Ausente,PULSOS,Amplos,5,12134
+SOPRO,Ausente,PULSOS,Diminuídos,5,12134
+SOPRO,Ausente,PULSOS,Femorais diminuídos,12,12134
+SOPRO,Ausente,PULSOS,Normais,7223,12134
+SOPRO,Ausente,PULSOS,Outro,17,12134
+SOPRO,Ausente,PULSOS,,13,12134
+SOPRO,Contínuo,PULSOS,Amplos,11,12134
+SOPRO,Contínuo,PULSOS,Normais,35,12134
+SOPRO,Contínuo,PULSOS,,2,12134
+SOPRO,Diastólico,PULSOS,Amplos,1,12134
+SOPRO,Diastólico,PULSOS,Normais,7,12134
+SOPRO,Diastólico,PULSOS,,1,12134
+SOPRO,Sistólico,PULSOS,Amplos,36,12134
+SOPRO,Sistólico,PULSOS,Diminuídos,13,12134
+SOPRO,Sistólico,PULSOS,Femorais diminuídos,27,12134
+SOPRO,Sistólico,PULSOS,Normais,4265,12134
+SOPRO,Sistólico,PULSOS,Outro,17,12134
+SOPRO,Sistólico,PULSOS,,13,12134
+SOPRO,Sistólico e diastólico,PULSOS,Normais,2,12134
+SOPRO,Sistólico e diastólico,PULSOS,Outro,1,12134
+SOPRO,,PULSOS,Normais,1,12134
+SOPRO,,PULSOS,Outro,1,12134
+SOPRO,,PULSOS,,426,12134
+SOPRO,Ausente,MOTIVO_UNIFICADO,1 - Cardiopatia já estabelecida → 1 - Cardiopatia adquirida,25,12134
+SOPRO,Ausente,MOTIVO_UNIFICADO,1 - Cardiopatia já estabelecida → 1 - Cardiopatia congênita,286,12134
+SOPRO,Ausente,MOTIVO_UNIFICADO,1 - Cardiopatia já estabelecida → 6 - HAS/dislipidemia/obesidade,41,12134
+SOPRO,Ausente,MOTIVO_UNIFICADO,1 - Cardiopatia já estabelecida → 6 - Palpitação/taquicardia/arritmia,30,12134
+SOPRO,Ausente,MOTIVO_UNIFICADO,1 - Cardiopatia já estabelecida → Outro,6,12134
+SOPRO,Ausente,MOTIVO_UNIFICADO,2 - Check-up,510,12134
+SOPRO,Ausente,MOTIVO_UNIFICADO,2 - Check-up → 1 - Cardiopatia congênita,2,12134
+SOPRO,Ausente,MOTIVO_UNIFICADO,2 - Check-up → 5 - Atividade física,5,12134
+SOPRO,Ausente,MOTIVO_UNIFICADO,2 - Check-up → 5 - Cirurgia,1,12134
+SOPRO,Ausente,MOTIVO_UNIFICADO,2 - Check-up → 6 - Cardiopatia na família,1,12134
+SOPRO,Ausente,MOTIVO_UNIFICADO,2 - Check-up → 6 - Cianose,1,12134
+SOPRO,Ausente,MOTIVO_UNIFICADO,2 - Check-up → 6 - Dor precordial,1,12134
+SOPRO,Ausente,MOTIVO_UNIFICADO,2 - Check-up → 6 - HAS/dislipidemia/obesidade,1,12134
+SOPRO,Ausente,MOTIVO_UNIFICADO,2 - Check-up → Outro,11,12134
+SOPRO,Ausente,MOTIVO_UNIFICADO,5 - Parecer cardiológico,1279,12134
+SOPRO,Ausente,MOTIVO_UNIFICADO,5 - Parecer cardiológico → 1 - Cardiopatia adquirida,2,12134
+SOPRO,Ausente,MOTIVO_UNIFICADO,5 - Parecer cardiológico → 1 - Cardiopatia congênita,4,12134
+SOPRO,Ausente,MOTIVO_UNIFICADO,5 - Parecer cardiológico → 5 - Atividade física,444,12134
+SOPRO,Ausente,MOTIVO_UNIFICADO,5 - Parecer cardiológico → 5 - Cirurgia,2339,12134
+SOPRO,Ausente,MOTIVO_UNIFICADO,5 - Parecer cardiológico → 5 - Uso de cisaprida,7,12134
+SOPRO,Ausente,MOTIVO_UNIFICADO,5 - Parecer cardiológico → 6 - Alterações de pulso/perfusão,1,12134
+SOPRO,Ausente,MOTIVO_UNIFICADO,5 - Parecer cardiológico → 6 - Cardiopatia na família,2,12134
+SOPRO,Ausente,MOTIVO_UNIFICADO,5 - Parecer cardiológico → 6 - Dispneia,1,12134
+SOPRO,Ausente,MOTIVO_UNIFICADO,5 - Parecer cardiológico → 6 - Dor precordial,1,12134
+SOPRO,Ausente,MOTIVO_UNIFICADO,5 - Parecer cardiológico → 6 - HAS/dislipidemia/obesidade,2,12134
+SOPRO,Ausente,MOTIVO_UNIFICADO,5 - Parecer cardiológico → 6 - Palpitação/taquicardia/arritmia,1,12134
+SOPRO,Ausente,MOTIVO_UNIFICADO,5 - Parecer cardiológico → 6 - Sopro,1,12134
+SOPRO,Ausente,MOTIVO_UNIFICADO,5 - Parecer cardiológico → Outro,32,12134
+SOPRO,Ausente,MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia,47,12134
+SOPRO,Ausente,MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 1 - Cardiopatia adquirida,27,12134
+SOPRO,Ausente,MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 1 - Cardiopatia congênita,17,12134
+SOPRO,Ausente,MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Alterações de pulso/perfusão,3,12134
+SOPRO,Ausente,MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Cansaço,1,12134
+SOPRO,Ausente,MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Cardiopatia na família,23,12134
+SOPRO,Ausente,MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Cianose,91,12134
+SOPRO,Ausente,MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Cianose e dispneia,3,12134
+SOPRO,Ausente,MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Dispneia,149,12134
+SOPRO,Ausente,MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Dor precordial,274,12134
+SOPRO,Ausente,MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - HAS/dislipidemia/obesidade,148,12134
+SOPRO,Ausente,MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Palpitação/taquicardia/arritmia,265,12134
+SOPRO,Ausente,MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Sopro,502,12134
+SOPRO,Ausente,MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → Outro,273,12134
+SOPRO,Ausente,MOTIVO_UNIFICADO,7 - Outro → 6 - Cansaço,1,12134
+SOPRO,Ausente,MOTIVO_UNIFICADO,7 - Outro → 6 - Dispneia,10,12134
+SOPRO,Ausente,MOTIVO_UNIFICADO,7 - Outro → 6 - HAS/dislipidemia/obesidade,1,12134
+SOPRO,Ausente,MOTIVO_UNIFICADO,7 - Outro → Outro,189,12134
+SOPRO,Ausente,MOTIVO_UNIFICADO,,214,12134
+SOPRO,Contínuo,MOTIVO_UNIFICADO,1 - Cardiopatia já estabelecida → 1 - Cardiopatia congênita,27,12134
+SOPRO,Contínuo,MOTIVO_UNIFICADO,2 - Check-up,1,12134
+SOPRO,Contínuo,MOTIVO_UNIFICADO,2 - Check-up → 5 - Cirurgia,1,12134
+SOPRO,Contínuo,MOTIVO_UNIFICADO,5 - Parecer cardiológico,2,12134
+SOPRO,Contínuo,MOTIVO_UNIFICADO,5 - Parecer cardiológico → 5 - Atividade física,1,12134
+SOPRO,Contínuo,MOTIVO_UNIFICADO,5 - Parecer cardiológico → 5 - Cirurgia,2,12134
+SOPRO,Contínuo,MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Cianose,2,12134
+SOPRO,Contínuo,MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Sopro,8,12134
+SOPRO,Contínuo,MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → Outro,2,12134
+SOPRO,Contínuo,MOTIVO_UNIFICADO,,2,12134
+SOPRO,Diastólico,MOTIVO_UNIFICADO,1 - Cardiopatia já estabelecida → 1 - Cardiopatia congênita,2,12134
+SOPRO,Diastólico,MOTIVO_UNIFICADO,2 - Check-up,1,12134
+SOPRO,Diastólico,MOTIVO_UNIFICADO,5 - Parecer cardiológico,1,12134
+SOPRO,Diastólico,MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Dor precordial,1,12134
+SOPRO,Diastólico,MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Sopro,2,12134
+SOPRO,Diastólico,MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → Outro,1,12134
+SOPRO,Diastólico,MOTIVO_UNIFICADO,,1,12134
+SOPRO,Sistólico,MOTIVO_UNIFICADO,1 - Cardiopatia já estabelecida → 1 - Cardiopatia adquirida,17,12134
+SOPRO,Sistólico,MOTIVO_UNIFICADO,1 - Cardiopatia já estabelecida → 1 - Cardiopatia congênita,665,12134
+SOPRO,Sistólico,MOTIVO_UNIFICADO,1 - Cardiopatia já estabelecida → 5 - Cirurgia,5,12134
+SOPRO,Sistólico,MOTIVO_UNIFICADO,1 - Cardiopatia já estabelecida → 6 - HAS/dislipidemia/obesidade,7,12134
+SOPRO,Sistólico,MOTIVO_UNIFICADO,1 - Cardiopatia já estabelecida → 6 - Palpitação/taquicardia/arritmia,12,12134
+SOPRO,Sistólico,MOTIVO_UNIFICADO,1 - Cardiopatia já estabelecida → Outro,8,12134
+SOPRO,Sistólico,MOTIVO_UNIFICADO,2 - Check-up,142,12134
+SOPRO,Sistólico,MOTIVO_UNIFICADO,2 - Check-up → 1 - Cardiopatia congênita,1,12134
+SOPRO,Sistólico,MOTIVO_UNIFICADO,2 - Check-up → 5 - Atividade física,1,12134
+SOPRO,Sistólico,MOTIVO_UNIFICADO,2 - Check-up → 5 - Cirurgia,1,12134
+SOPRO,Sistólico,MOTIVO_UNIFICADO,2 - Check-up → Outro,2,12134
+SOPRO,Sistólico,MOTIVO_UNIFICADO,5 - Parecer cardiológico,419,12134
+SOPRO,Sistólico,MOTIVO_UNIFICADO,5 - Parecer cardiológico → 1 - Cardiopatia congênita,1,12134
+SOPRO,Sistólico,MOTIVO_UNIFICADO,5 - Parecer cardiológico → 5 - Atividade física,136,12134
+SOPRO,Sistólico,MOTIVO_UNIFICADO,5 - Parecer cardiológico → 5 - Cirurgia,500,12134
+SOPRO,Sistólico,MOTIVO_UNIFICADO,5 - Parecer cardiológico → 5 - Uso de cisaprida,2,12134
+SOPRO,Sistólico,MOTIVO_UNIFICADO,5 - Parecer cardiológico → 6 - Cardiopatia na família,1,12134
+SOPRO,Sistólico,MOTIVO_UNIFICADO,5 - Parecer cardiológico → Outro,7,12134
+SOPRO,Sistólico,MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia,12,12134
+SOPRO,Sistólico,MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 1 - Cardiopatia adquirida,19,12134
+SOPRO,Sistólico,MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 1 - Cardiopatia congênita,13,12134
+SOPRO,Sistólico,MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Alterações de pulso/perfusão,1,12134
+SOPRO,Sistólico,MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Cansaço,3,12134
+SOPRO,Sistólico,MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Cardiopatia na família,5,12134
+SOPRO,Sistólico,MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Cianose,43,12134
+SOPRO,Sistólico,MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Dispneia,55,12134
+SOPRO,Sistólico,MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Dor precordial,92,12134
+SOPRO,Sistólico,MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - HAS/dislipidemia/obesidade,26,12134
+SOPRO,Sistólico,MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Palpitação/taquicardia/arritmia,89,12134
+SOPRO,Sistólico,MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Sopro,1774,12134
+SOPRO,Sistólico,MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → Outro,163,12134
+SOPRO,Sistólico,MOTIVO_UNIFICADO,7 - Outro → 5 - Cirurgia,2,12134
+SOPRO,Sistólico,MOTIVO_UNIFICADO,7 - Outro → 6 - Cansaço,1,12134
+SOPRO,Sistólico,MOTIVO_UNIFICADO,7 - Outro → 6 - Cianose,1,12134
+SOPRO,Sistólico,MOTIVO_UNIFICADO,7 - Outro → 6 - Dispneia,1,12134
+SOPRO,Sistólico,MOTIVO_UNIFICADO,7 - Outro → 6 - HAS/dislipidemia/obesidade,1,12134
+SOPRO,Sistólico,MOTIVO_UNIFICADO,7 - Outro → 6 - Palpitação/taquicardia/arritmia,1,12134
+SOPRO,Sistólico,MOTIVO_UNIFICADO,7 - Outro → Outro,91,12134
+SOPRO,Sistólico,MOTIVO_UNIFICADO,,51,12134
+SOPRO,Sistólico e diastólico,MOTIVO_UNIFICADO,1 - Cardiopatia já estabelecida → 1 - Cardiopatia congênita,1,12134
+SOPRO,Sistólico e diastólico,MOTIVO_UNIFICADO,2 - Check-up,1,12134
+SOPRO,Sistólico e diastólico,MOTIVO_UNIFICADO,5 - Parecer cardiológico,1,12134
+SOPRO,,MOTIVO_UNIFICADO,1 - Cardiopatia já estabelecida → 1 - Cardiopatia adquirida,2,12134
+SOPRO,,MOTIVO_UNIFICADO,1 - Cardiopatia já estabelecida → 1 - Cardiopatia congênita,21,12134
+SOPRO,,MOTIVO_UNIFICADO,1 - Cardiopatia já estabelecida → 6 - Palpitação/taquicardia/arritmia,2,12134
+SOPRO,,MOTIVO_UNIFICADO,1 - Cardiopatia já estabelecida → Outro,1,12134
+SOPRO,,MOTIVO_UNIFICADO,2 - Check-up,16,12134
+SOPRO,,MOTIVO_UNIFICADO,2 - Check-up → Outro,1,12134
+SOPRO,,MOTIVO_UNIFICADO,5 - Parecer cardiológico,4,12134
+SOPRO,,MOTIVO_UNIFICADO,5 - Parecer cardiológico → 5 - Atividade física,65,12134
+SOPRO,,MOTIVO_UNIFICADO,5 - Parecer cardiológico → 5 - Cirurgia,89,12134
+SOPRO,,MOTIVO_UNIFICADO,5 - Parecer cardiológico → 6 - HAS/dislipidemia/obesidade,2,12134
+SOPRO,,MOTIVO_UNIFICADO,5 - Parecer cardiológico → Outro,3,12134
+SOPRO,,MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia,5,12134
+SOPRO,,MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 1 - Cardiopatia congênita,1,12134
+SOPRO,,MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Cansaço,1,12134
+SOPRO,,MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Cardiopatia na família,3,12134
+SOPRO,,MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Cianose,7,12134
+SOPRO,,MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Cianose e dispneia,2,12134
+SOPRO,,MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Dispneia,9,12134
+SOPRO,,MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Dor precordial,23,12134
+SOPRO,,MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - HAS/dislipidemia/obesidade,11,12134
+SOPRO,,MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Palpitação/taquicardia/arritmia,14,12134
+SOPRO,,MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Sopro,62,12134
+SOPRO,,MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → Outro,13,12134
+SOPRO,,MOTIVO_UNIFICADO,7 - Outro → 6 - Dispneia,1,12134
+SOPRO,,MOTIVO_UNIFICADO,7 - Outro → 6 - Palpitação/taquicardia/arritmia,1,12134
+SOPRO,,MOTIVO_UNIFICADO,7 - Outro → Outro,21,12134
+SOPRO,,MOTIVO_UNIFICADO,,48,12134
+SOPRO,Ausente,HDA_UNIFICADA,Assintomático,3758,12134
+SOPRO,Ausente,HDA_UNIFICADA,Cianose,101,12134
+SOPRO,Ausente,HDA_UNIFICADA,Cianose | Ganho de peso,1,12134
+SOPRO,Ausente,HDA_UNIFICADA,Cianose | Outro,5,12134
+SOPRO,Ausente,HDA_UNIFICADA,Desmaio/tontura,99,12134
+SOPRO,Ausente,HDA_UNIFICADA,Desmaio/tontura | Cianose,18,12134
+SOPRO,Ausente,HDA_UNIFICADA,Desmaio/tontura | Ganho de peso,2,12134
+SOPRO,Ausente,HDA_UNIFICADA,Desmaio/tontura | Outro,6,12134
+SOPRO,Ausente,HDA_UNIFICADA,Dispneia,202,12134
+SOPRO,Ausente,HDA_UNIFICADA,Dispneia | Cianose,25,12134
+SOPRO,Ausente,HDA_UNIFICADA,Dispneia | Desmaio/tontura,9,12134
+SOPRO,Ausente,HDA_UNIFICADA,Dispneia | Dor precordial,44,12134
+SOPRO,Ausente,HDA_UNIFICADA,Dispneia | Ganho de peso,12,12134
+SOPRO,Ausente,HDA_UNIFICADA,Dispneia | Outro,9,12134
+SOPRO,Ausente,HDA_UNIFICADA,Dor precordial,297,12134
+SOPRO,Ausente,HDA_UNIFICADA,Dor precordial | Cianose,4,12134
+SOPRO,Ausente,HDA_UNIFICADA,Dor precordial | Desmaio/tontura,10,12134
+SOPRO,Ausente,HDA_UNIFICADA,Dor precordial | Ganho de peso,4,12134
+SOPRO,Ausente,HDA_UNIFICADA,Dor precordial | Outro,4,12134
+SOPRO,Ausente,HDA_UNIFICADA,Ganho de peso,58,12134
+SOPRO,Ausente,HDA_UNIFICADA,Ganho de peso | Outro,1,12134
+SOPRO,Ausente,HDA_UNIFICADA,Outro,83,12134
+SOPRO,Ausente,HDA_UNIFICADA,Palpitação,229,12134
+SOPRO,Ausente,HDA_UNIFICADA,Palpitação | Cianose,5,12134
+SOPRO,Ausente,HDA_UNIFICADA,Palpitação | Desmaio/tontura,15,12134
+SOPRO,Ausente,HDA_UNIFICADA,Palpitação | Dispneia,32,12134
+SOPRO,Ausente,HDA_UNIFICADA,Palpitação | Dor precordial,55,12134
+SOPRO,Ausente,HDA_UNIFICADA,Palpitação | Outro,3,12134
+SOPRO,Ausente,HDA_UNIFICADA,,2184,12134
+SOPRO,Contínuo,HDA_UNIFICADA,Assintomático,14,12134
+SOPRO,Contínuo,HDA_UNIFICADA,Cianose,1,12134
+SOPRO,Contínuo,HDA_UNIFICADA,Desmaio/tontura,1,12134
+SOPRO,Contínuo,HDA_UNIFICADA,Dispneia,9,12134
+SOPRO,Contínuo,HDA_UNIFICADA,Dispneia | Cianose,1,12134
+SOPRO,Contínuo,HDA_UNIFICADA,Dispneia | Dor precordial,1,12134
+SOPRO,Contínuo,HDA_UNIFICADA,Palpitação,1,12134
+SOPRO,Contínuo,HDA_UNIFICADA,,20,12134
+SOPRO,Diastólico,HDA_UNIFICADA,Assintomático,4,12134
+SOPRO,Diastólico,HDA_UNIFICADA,Cianose,1,12134
+SOPRO,Diastólico,HDA_UNIFICADA,Dor precordial,1,12134
+SOPRO,Diastólico,HDA_UNIFICADA,Outro,1,12134
+SOPRO,Diastólico,HDA_UNIFICADA,,2,12134
+SOPRO,Sistólico,HDA_UNIFICADA,Assintomático,2767,12134
+SOPRO,Sistólico,HDA_UNIFICADA,Assintomático | Palpitação,1,12134
+SOPRO,Sistólico,HDA_UNIFICADA,Cianose,95,12134
+SOPRO,Sistólico,HDA_UNIFICADA,Desmaio/tontura,25,12134
+SOPRO,Sistólico,HDA_UNIFICADA,Desmaio/tontura | Cianose,9,12134
+SOPRO,Sistólico,HDA_UNIFICADA,Desmaio/tontura | Ganho de peso,1,12134
+SOPRO,Sistólico,HDA_UNIFICADA,Desmaio/tontura | Outro,2,12134
+SOPRO,Sistólico,HDA_UNIFICADA,Dispneia,189,12134
+SOPRO,Sistólico,HDA_UNIFICADA,Dispneia | Cianose,50,12134
+SOPRO,Sistólico,HDA_UNIFICADA,Dispneia | Desmaio/tontura,3,12134
+SOPRO,Sistólico,HDA_UNIFICADA,Dispneia | Dor precordial,17,12134
+SOPRO,Sistólico,HDA_UNIFICADA,Dispneia | Ganho de peso,2,12134
+SOPRO,Sistólico,HDA_UNIFICADA,Dispneia | Outro,7,12134
+SOPRO,Sistólico,HDA_UNIFICADA,Dor precordial,108,12134
+SOPRO,Sistólico,HDA_UNIFICADA,Dor precordial | Cianose,3,12134
+SOPRO,Sistólico,HDA_UNIFICADA,Dor precordial | Desmaio/tontura,5,12134
+SOPRO,Sistólico,HDA_UNIFICADA,Dor precordial | Ganho de peso,2,12134
+SOPRO,Sistólico,HDA_UNIFICADA,Dor precordial | Outro,1,12134
+SOPRO,Sistólico,HDA_UNIFICADA,Ganho de peso,21,12134
+SOPRO,Sistólico,HDA_UNIFICADA,Ganho de peso | Outro,2,12134
+SOPRO,Sistólico,HDA_UNIFICADA,Outro,39,12134
+SOPRO,Sistólico,HDA_UNIFICADA,Palpitação,77,12134
+SOPRO,Sistólico,HDA_UNIFICADA,Palpitação | Cianose,3,12134
+SOPRO,Sistólico,HDA_UNIFICADA,Palpitação | Dispneia,9,12134
+SOPRO,Sistólico,HDA_UNIFICADA,Palpitação | Dor precordial,16,12134
+SOPRO,Sistólico,HDA_UNIFICADA,,917,12134
+SOPRO,Sistólico e diastólico,HDA_UNIFICADA,Assintomático,3,12134
+SOPRO,,HDA_UNIFICADA,Assintomático,15,12134
+SOPRO,,HDA_UNIFICADA,Desmaio/tontura | Cianose,1,12134
+SOPRO,,HDA_UNIFICADA,Dispneia | Cianose,2,12134
+SOPRO,,HDA_UNIFICADA,Dor precordial,1,12134
+SOPRO,,HDA_UNIFICADA,Palpitação,1,12134
+SOPRO,,HDA_UNIFICADA,Palpitação | Desmaio/tontura,1,12134
+SOPRO,,HDA_UNIFICADA,,407,12134
+SOPRO,Ausente,MOTIVO1,1 - Cardiopatia já estabelecida,388,12134
+SOPRO,Ausente,MOTIVO1,2 - Check-up,533,12134
+SOPRO,Ausente,MOTIVO1,5 - Parecer cardiológico,4116,12134
+SOPRO,Ausente,MOTIVO1,6 - Suspeita de cardiopatia,1823,12134
+SOPRO,Ausente,MOTIVO1,7 - Outro,201,12134
+SOPRO,Ausente,MOTIVO1,,214,12134
+SOPRO,Contínuo,MOTIVO1,1 - Cardiopatia já estabelecida,27,12134
+SOPRO,Contínuo,MOTIVO1,2 - Check-up,2,12134
+SOPRO,Contínuo,MOTIVO1,5 - Parecer cardiológico,5,12134
+SOPRO,Contínuo,MOTIVO1,6 - Suspeita de cardiopatia,12,12134
+SOPRO,Contínuo,MOTIVO1,,2,12134
+SOPRO,Diastólico,MOTIVO1,1 - Cardiopatia já estabelecida,2,12134
+SOPRO,Diastólico,MOTIVO1,2 - Check-up,1,12134
+SOPRO,Diastólico,MOTIVO1,5 - Parecer cardiológico,1,12134
+SOPRO,Diastólico,MOTIVO1,6 - Suspeita de cardiopatia,4,12134
+SOPRO,Diastólico,MOTIVO1,,1,12134
+SOPRO,Sistólico,MOTIVO1,1 - Cardiopatia já estabelecida,714,12134
+SOPRO,Sistólico,MOTIVO1,2 - Check-up,147,12134
+SOPRO,Sistólico,MOTIVO1,5 - Parecer cardiológico,1066,12134
+SOPRO,Sistólico,MOTIVO1,6 - Suspeita de cardiopatia,2295,12134
+SOPRO,Sistólico,MOTIVO1,7 - Outro,98,12134
+SOPRO,Sistólico,MOTIVO1,,51,12134
+SOPRO,Sistólico e diastólico,MOTIVO1,1 - Cardiopatia já estabelecida,1,12134
+SOPRO,Sistólico e diastólico,MOTIVO1,2 - Check-up,1,12134
+SOPRO,Sistólico e diastólico,MOTIVO1,5 - Parecer cardiológico,1,12134
+SOPRO,,MOTIVO1,1 - Cardiopatia já estabelecida,26,12134
+SOPRO,,MOTIVO1,2 - Check-up,17,12134
+SOPRO,,MOTIVO1,5 - Parecer cardiológico,163,12134
+SOPRO,,MOTIVO1,6 - Suspeita de cardiopatia,151,12134
+SOPRO,,MOTIVO1,7 - Outro,23,12134
+SOPRO,,MOTIVO1,,48,12134
+SOPRO,Ausente,MOTIVO2,1 - Cardiopatia adquirida,54,12134
+SOPRO,Ausente,MOTIVO2,1 - Cardiopatia congenica,309,12134
+SOPRO,Ausente,MOTIVO2,5 - Atividade física,449,12134
+SOPRO,Ausente,MOTIVO2,5 - Cirurgia,2340,12134
+SOPRO,Ausente,MOTIVO2,5 - Uso de cisaprida,7,12134
+SOPRO,Ausente,MOTIVO2,6 - Alterações de pulso/perfusão,4,12134
+SOPRO,Ausente,MOTIVO2,6 - Cansaço,2,12134
+SOPRO,Ausente,MOTIVO2,6 - Cardiopatia na familia,26,12134
+SOPRO,Ausente,MOTIVO2,6 - Cianose,92,12134
+SOPRO,Ausente,MOTIVO2,6 - Cianose e dispnéia,3,12134
+SOPRO,Ausente,MOTIVO2,6 - Dispnéia,160,12134
+SOPRO,Ausente,MOTIVO2,6 - Dor precordial,276,12134
+SOPRO,Ausente,MOTIVO2,6 - HAS/dislipidemia/obesidade,193,12134
+SOPRO,Ausente,MOTIVO2,6 - Palpitação/taquicardia/arritmia,296,12134
+SOPRO,Ausente,MOTIVO2,6 - Sopro,503,12134
+SOPRO,Ausente,MOTIVO2,Outro,511,12134
+SOPRO,Ausente,MOTIVO2,,2050,12134
+SOPRO,Contínuo,MOTIVO2,1 - Cardiopatia congenica,27,12134
+SOPRO,Contínuo,MOTIVO2,5 - Atividade física,1,12134
+SOPRO,Contínuo,MOTIVO2,5 - Cirurgia,3,12134
+SOPRO,Contínuo,MOTIVO2,6 - Cianose,2,12134
+SOPRO,Contínuo,MOTIVO2,6 - Sopro,8,12134
+SOPRO,Contínuo,MOTIVO2,Outro,2,12134
+SOPRO,Contínuo,MOTIVO2,,5,12134
+SOPRO,Diastólico,MOTIVO2,1 - Cardiopatia congenica,2,12134
+SOPRO,Diastólico,MOTIVO2,6 - Dor precordial,1,12134
+SOPRO,Diastólico,MOTIVO2,6 - Sopro,2,12134
+SOPRO,Diastólico,MOTIVO2,Outro,1,12134
+SOPRO,Diastólico,MOTIVO2,,3,12134
+SOPRO,Sistólico,MOTIVO2,1 - Cardiopatia adquirida,36,12134
+SOPRO,Sistólico,MOTIVO2,1 - Cardiopatia congenica,680,12134
+SOPRO,Sistólico,MOTIVO2,5 - Atividade física,137,12134
+SOPRO,Sistólico,MOTIVO2,5 - Cirurgia,508,12134
+SOPRO,Sistólico,MOTIVO2,5 - Uso de cisaprida,2,12134
+SOPRO,Sistólico,MOTIVO2,6 - Alterações de pulso/perfusão,1,12134
+SOPRO,Sistólico,MOTIVO2,6 - Cansaço,4,12134
+SOPRO,Sistólico,MOTIVO2,6 - Cardiopatia na familia,6,12134
+SOPRO,Sistólico,MOTIVO2,6 - Cianose,44,12134
+SOPRO,Sistólico,MOTIVO2,6 - Dispnéia,56,12134
+SOPRO,Sistólico,MOTIVO2,6 - Dor precordial,92,12134
+SOPRO,Sistólico,MOTIVO2,6 - HAS/dislipidemia/obesidade,34,12134
+SOPRO,Sistólico,MOTIVO2,6 - Palpitação/taquicardia/arritmia,102,12134
+SOPRO,Sistólico,MOTIVO2,6 - Sopro,1774,12134
+SOPRO,Sistólico,MOTIVO2,Outro,271,12134
+SOPRO,Sistólico,MOTIVO2,,624,12134
+SOPRO,Sistólico e diastólico,MOTIVO2,1 - Cardiopatia congenica,1,12134
+SOPRO,Sistólico e diastólico,MOTIVO2,,2,12134
+SOPRO,,MOTIVO2,1 - Cardiopatia adquirida,2,12134
+SOPRO,,MOTIVO2,1 - Cardiopatia congenica,22,12134
+SOPRO,,MOTIVO2,5 - Atividade física,65,12134
+SOPRO,,MOTIVO2,5 - Cirurgia,89,12134
+SOPRO,,MOTIVO2,6 - Cansaço,1,12134
+SOPRO,,MOTIVO2,6 - Cardiopatia na familia,3,12134
+SOPRO,,MOTIVO2,6 - Cianose,7,12134
+SOPRO,,MOTIVO2,6 - Cianose e dispnéia,2,12134
+SOPRO,,MOTIVO2,6 - Dispnéia,10,12134
+SOPRO,,MOTIVO2,6 - Dor precordial,23,12134
+SOPRO,,MOTIVO2,6 - HAS/dislipidemia/obesidade,13,12134
+SOPRO,,MOTIVO2,6 - Palpitação/taquicardia/arritmia,17,12134
+SOPRO,,MOTIVO2,6 - Sopro,62,12134
+SOPRO,,MOTIVO2,Outro,39,12134
+SOPRO,,MOTIVO2,,73,12134
+SOPRO,Ausente,HDA 1,Assintomático,3758,12134
+SOPRO,Ausente,HDA 1,Cianose,135,12134
+SOPRO,Ausente,HDA 1,Desmaio/tontura,121,12134
+SOPRO,Ausente,HDA 1,Dispneia,285,12134
+SOPRO,Ausente,HDA 1,Dor precordial,366,12134
+SOPRO,Ausente,HDA 1,Ganho de peso,63,12134
+SOPRO,Ausente,HDA 1,Outro,83,12134
+SOPRO,Ausente,HDA 1,Palpitacao,280,12134
+SOPRO,Ausente,HDA 1,,2184,12134
+SOPRO,Contínuo,HDA 1,Assintomático,14,12134
+SOPRO,Contínuo,HDA 1,Cianose,1,12134
+SOPRO,Contínuo,HDA 1,Desmaio/tontura,1,12134
+SOPRO,Contínuo,HDA 1,Dispneia,10,12134
+SOPRO,Contínuo,HDA 1,Dor precordial,1,12134
+SOPRO,Contínuo,HDA 1,Palpitacao,1,12134
+SOPRO,Contínuo,HDA 1,,20,12134
+SOPRO,Diastólico,HDA 1,Assintomático,4,12134
+SOPRO,Diastólico,HDA 1,Cianose,1,12134
+SOPRO,Diastólico,HDA 1,Dor precordial,1,12134
+SOPRO,Diastólico,HDA 1,Outro,1,12134
+SOPRO,Diastólico,HDA 1,,2,12134
+SOPRO,Sistólico,HDA 1,Assintomático,2767,12134
+SOPRO,Sistólico,HDA 1,Cianose,122,12134
+SOPRO,Sistólico,HDA 1,Desmaio/tontura,34,12134
+SOPRO,Sistólico,HDA 1,Dispneia,245,12134
+SOPRO,Sistólico,HDA 1,Dor precordial,139,12134
+SOPRO,Sistólico,HDA 1,Ganho de peso,24,12134
+SOPRO,Sistólico,HDA 1,Outro,40,12134
+SOPRO,Sistólico,HDA 1,Palpitacao,82,12134
+SOPRO,Sistólico,HDA 1,,918,12134
+SOPRO,Sistólico e diastólico,HDA 1,Assintomático,3,12134
+SOPRO,,HDA 1,Assintomático,15,12134
+SOPRO,,HDA 1,Cianose,1,12134
+SOPRO,,HDA 1,Desmaio/tontura,1,12134
+SOPRO,,HDA 1,Dispneia,1,12134
+SOPRO,,HDA 1,Dor precordial,1,12134
+SOPRO,,HDA 1,Palpitacao,2,12134
+SOPRO,,HDA 1,,407,12134
+SOPRO,Ausente,HDA2,Cianose,24,12134
+SOPRO,Ausente,HDA2,Desmaio/tontura,38,12134
+SOPRO,Ausente,HDA2,Dispneia,49,12134
+SOPRO,Ausente,HDA2,Dor precordial,52,12134
+SOPRO,Ausente,HDA2,Ganho de peso,15,12134
+SOPRO,Ausente,HDA2,Outro,30,12134
+SOPRO,Ausente,HDA2,Palpitacao,59,12134
+SOPRO,Ausente,HDA2,,7008,12134
+SOPRO,Contínuo,HDA2,Cianose,1,12134
+SOPRO,Contínuo,HDA2,Dispneia,1,12134
+SOPRO,Contínuo,HDA2,,46,12134
+SOPRO,Diastólico,HDA2,,9,12134
+SOPRO,Sistólico,HDA2,Assintomático,1,12134
+SOPRO,Sistólico,HDA2,Cianose,38,12134
+SOPRO,Sistólico,HDA2,Desmaio/tontura,11,12134
+SOPRO,Sistólico,HDA2,Dispneia,32,12134
+SOPRO,Sistólico,HDA2,Dor precordial,13,12134
+SOPRO,Sistólico,HDA2,Ganho de peso,4,12134
+SOPRO,Sistólico,HDA2,Outro,11,12134
+SOPRO,Sistólico,HDA2,Palpitacao,24,12134
+SOPRO,Sistólico,HDA2,,4237,12134
+SOPRO,Sistólico e diastólico,HDA2,,3,12134
+SOPRO,,HDA2,Cianose,2,12134
+SOPRO,,HDA2,Desmaio/tontura,1,12134
+SOPRO,,HDA2,Dispneia,1,12134
+SOPRO,,HDA2,,424,12134
+SOPRO,Ausente,PPA_CALCULADA,HA estágio 1,190,12134
+SOPRO,Ausente,PPA_CALCULADA,HA estágio 2,60,12134
+SOPRO,Ausente,PPA_CALCULADA,Normal,1345,12134
+SOPRO,Ausente,PPA_CALCULADA,Pré-hipertensão,137,12134
+SOPRO,Ausente,PPA_CALCULADA,,5543,12134
+SOPRO,Contínuo,PPA_CALCULADA,HA estágio 1,1,12134
+SOPRO,Contínuo,PPA_CALCULADA,Normal,4,12134
+SOPRO,Contínuo,PPA_CALCULADA,,43,12134
+SOPRO,Diastólico,PPA_CALCULADA,Normal,4,12134
+SOPRO,Diastólico,PPA_CALCULADA,,5,12134
+SOPRO,Sistólico,PPA_CALCULADA,HA estágio 1,84,12134
+SOPRO,Sistólico,PPA_CALCULADA,HA estágio 2,30,12134
+SOPRO,Sistólico,PPA_CALCULADA,Normal,567,12134
+SOPRO,Sistólico,PPA_CALCULADA,Pré-hipertensão,66,12134
+SOPRO,Sistólico,PPA_CALCULADA,,3624,12134
+SOPRO,Sistólico e diastólico,PPA_CALCULADA,Normal,1,12134
+SOPRO,Sistólico e diastólico,PPA_CALCULADA,,2,12134
+SOPRO,,PPA_CALCULADA,,428,12134
+SOPRO,Ausente,CLASSIFICACAO IMC,Eutrofia,2404,12134
+SOPRO,Ausente,CLASSIFICACAO IMC,Magreza,112,12134
+SOPRO,Ausente,CLASSIFICACAO IMC,Magreza acentuada,48,12134
+SOPRO,Ausente,CLASSIFICACAO IMC,Obesidade,517,12134
+SOPRO,Ausente,CLASSIFICACAO IMC,Risco de sobrepeso,549,12134
+SOPRO,Ausente,CLASSIFICACAO IMC,Sobrepeso,633,12134
+SOPRO,Ausente,CLASSIFICACAO IMC,,3012,12134
+SOPRO,Contínuo,CLASSIFICACAO IMC,Eutrofia,7,12134
+SOPRO,Contínuo,CLASSIFICACAO IMC,Magreza,3,12134
+SOPRO,Contínuo,CLASSIFICACAO IMC,Magreza acentuada,4,12134
+SOPRO,Contínuo,CLASSIFICACAO IMC,Obesidade,1,12134
+SOPRO,Contínuo,CLASSIFICACAO IMC,Risco de sobrepeso,3,12134
+SOPRO,Contínuo,CLASSIFICACAO IMC,,30,12134
+SOPRO,Diastólico,CLASSIFICACAO IMC,Eutrofia,1,12134
+SOPRO,Diastólico,CLASSIFICACAO IMC,Sobrepeso,1,12134
+SOPRO,Diastólico,CLASSIFICACAO IMC,,7,12134
+SOPRO,Sistólico,CLASSIFICACAO IMC,Eutrofia,1494,12134
+SOPRO,Sistólico,CLASSIFICACAO IMC,Magreza,100,12134
+SOPRO,Sistólico,CLASSIFICACAO IMC,Magreza acentuada,73,12134
+SOPRO,Sistólico,CLASSIFICACAO IMC,Obesidade,167,12134
+SOPRO,Sistólico,CLASSIFICACAO IMC,Risco de sobrepeso,390,12134
+SOPRO,Sistólico,CLASSIFICACAO IMC,Sobrepeso,298,12134
+SOPRO,Sistólico,CLASSIFICACAO IMC,,1849,12134
+SOPRO,Sistólico e diastólico,CLASSIFICACAO IMC,Eutrofia,1,12134
+SOPRO,Sistólico e diastólico,CLASSIFICACAO IMC,,2,12134
+SOPRO,,CLASSIFICACAO IMC,Eutrofia,168,12134
+SOPRO,,CLASSIFICACAO IMC,Magreza,5,12134
+SOPRO,,CLASSIFICACAO IMC,Magreza acentuada,10,12134
+SOPRO,,CLASSIFICACAO IMC,Obesidade,42,12134
+SOPRO,,CLASSIFICACAO IMC,Risco de sobrepeso,29,12134
+SOPRO,,CLASSIFICACAO IMC,Sobrepeso,53,12134
+SOPRO,,CLASSIFICACAO IMC,,121,12134
+MOTIVO_UNIFICADO,1 - Cardiopatia já estabelecida → 1 - Cardiopatia adquirida,HDA_UNIFICADA,Assintomático,26,12134
+MOTIVO_UNIFICADO,1 - Cardiopatia já estabelecida → 1 - Cardiopatia adquirida,HDA_UNIFICADA,Dispneia,1,12134
+MOTIVO_UNIFICADO,1 - Cardiopatia já estabelecida → 1 - Cardiopatia adquirida,HDA_UNIFICADA,Outro,2,12134
+MOTIVO_UNIFICADO,1 - Cardiopatia já estabelecida → 1 - Cardiopatia adquirida,HDA_UNIFICADA,,15,12134
+MOTIVO_UNIFICADO,1 - Cardiopatia já estabelecida → 1 - Cardiopatia congênita,HDA_UNIFICADA,Assintomático,518,12134
+MOTIVO_UNIFICADO,1 - Cardiopatia já estabelecida → 1 - Cardiopatia congênita,HDA_UNIFICADA,Cianose,33,12134
+MOTIVO_UNIFICADO,1 - Cardiopatia já estabelecida → 1 - Cardiopatia congênita,HDA_UNIFICADA,Desmaio/tontura,2,12134
+MOTIVO_UNIFICADO,1 - Cardiopatia já estabelecida → 1 - Cardiopatia congênita,HDA_UNIFICADA,Desmaio/tontura | Cianose,1,12134
+MOTIVO_UNIFICADO,1 - Cardiopatia já estabelecida → 1 - Cardiopatia congênita,HDA_UNIFICADA,Dispneia,81,12134
+MOTIVO_UNIFICADO,1 - Cardiopatia já estabelecida → 1 - Cardiopatia congênita,HDA_UNIFICADA,Dispneia | Cianose,21,12134
+MOTIVO_UNIFICADO,1 - Cardiopatia já estabelecida → 1 - Cardiopatia congênita,HDA_UNIFICADA,Dispneia | Dor precordial,2,12134
+MOTIVO_UNIFICADO,1 - Cardiopatia já estabelecida → 1 - Cardiopatia congênita,HDA_UNIFICADA,Dispneia | Ganho de peso,1,12134
+MOTIVO_UNIFICADO,1 - Cardiopatia já estabelecida → 1 - Cardiopatia congênita,HDA_UNIFICADA,Dispneia | Outro,2,12134
+MOTIVO_UNIFICADO,1 - Cardiopatia já estabelecida → 1 - Cardiopatia congênita,HDA_UNIFICADA,Dor precordial,15,12134
+MOTIVO_UNIFICADO,1 - Cardiopatia já estabelecida → 1 - Cardiopatia congênita,HDA_UNIFICADA,Dor precordial | Outro,2,12134
+MOTIVO_UNIFICADO,1 - Cardiopatia já estabelecida → 1 - Cardiopatia congênita,HDA_UNIFICADA,Ganho de peso,1,12134
+MOTIVO_UNIFICADO,1 - Cardiopatia já estabelecida → 1 - Cardiopatia congênita,HDA_UNIFICADA,Outro,10,12134
+MOTIVO_UNIFICADO,1 - Cardiopatia já estabelecida → 1 - Cardiopatia congênita,HDA_UNIFICADA,Palpitação,10,12134
+MOTIVO_UNIFICADO,1 - Cardiopatia já estabelecida → 1 - Cardiopatia congênita,HDA_UNIFICADA,Palpitação | Dispneia,1,12134
+MOTIVO_UNIFICADO,1 - Cardiopatia já estabelecida → 1 - Cardiopatia congênita,HDA_UNIFICADA,Palpitação | Dor precordial,1,12134
+MOTIVO_UNIFICADO,1 - Cardiopatia já estabelecida → 1 - Cardiopatia congênita,HDA_UNIFICADA,,301,12134
+MOTIVO_UNIFICADO,1 - Cardiopatia já estabelecida → 5 - Cirurgia,HDA_UNIFICADA,Assintomático,2,12134
+MOTIVO_UNIFICADO,1 - Cardiopatia já estabelecida → 5 - Cirurgia,HDA_UNIFICADA,Dispneia | Cianose,1,12134
+MOTIVO_UNIFICADO,1 - Cardiopatia já estabelecida → 5 - Cirurgia,HDA_UNIFICADA,,2,12134
+MOTIVO_UNIFICADO,1 - Cardiopatia já estabelecida → 6 - HAS/dislipidemia/obesidade,HDA_UNIFICADA,Assintomático,22,12134
+MOTIVO_UNIFICADO,1 - Cardiopatia já estabelecida → 6 - HAS/dislipidemia/obesidade,HDA_UNIFICADA,Dor precordial,1,12134
+MOTIVO_UNIFICADO,1 - Cardiopatia já estabelecida → 6 - HAS/dislipidemia/obesidade,HDA_UNIFICADA,Ganho de peso,3,12134
+MOTIVO_UNIFICADO,1 - Cardiopatia já estabelecida → 6 - HAS/dislipidemia/obesidade,HDA_UNIFICADA,Ganho de peso | Outro,1,12134
+MOTIVO_UNIFICADO,1 - Cardiopatia já estabelecida → 6 - HAS/dislipidemia/obesidade,HDA_UNIFICADA,Outro,3,12134
+MOTIVO_UNIFICADO,1 - Cardiopatia já estabelecida → 6 - HAS/dislipidemia/obesidade,HDA_UNIFICADA,Palpitação | Dor precordial,1,12134
+MOTIVO_UNIFICADO,1 - Cardiopatia já estabelecida → 6 - HAS/dislipidemia/obesidade,HDA_UNIFICADA,,17,12134
+MOTIVO_UNIFICADO,1 - Cardiopatia já estabelecida → 6 - Palpitação/taquicardia/arritmia,HDA_UNIFICADA,Assintomático,21,12134
+MOTIVO_UNIFICADO,1 - Cardiopatia já estabelecida → 6 - Palpitação/taquicardia/arritmia,HDA_UNIFICADA,Desmaio/tontura,1,12134
+MOTIVO_UNIFICADO,1 - Cardiopatia já estabelecida → 6 - Palpitação/taquicardia/arritmia,HDA_UNIFICADA,Outro,4,12134
+MOTIVO_UNIFICADO,1 - Cardiopatia já estabelecida → 6 - Palpitação/taquicardia/arritmia,HDA_UNIFICADA,Palpitação,4,12134
+MOTIVO_UNIFICADO,1 - Cardiopatia já estabelecida → 6 - Palpitação/taquicardia/arritmia,HDA_UNIFICADA,Palpitação | Dor precordial,1,12134
+MOTIVO_UNIFICADO,1 - Cardiopatia já estabelecida → 6 - Palpitação/taquicardia/arritmia,HDA_UNIFICADA,,13,12134
+MOTIVO_UNIFICADO,1 - Cardiopatia já estabelecida → Outro,HDA_UNIFICADA,Assintomático,5,12134
+MOTIVO_UNIFICADO,1 - Cardiopatia já estabelecida → Outro,HDA_UNIFICADA,Cianose,1,12134
+MOTIVO_UNIFICADO,1 - Cardiopatia já estabelecida → Outro,HDA_UNIFICADA,Dispneia,2,12134
+MOTIVO_UNIFICADO,1 - Cardiopatia já estabelecida → Outro,HDA_UNIFICADA,Outro,1,12134
+MOTIVO_UNIFICADO,1 - Cardiopatia já estabelecida → Outro,HDA_UNIFICADA,,6,12134
+MOTIVO_UNIFICADO,2 - Check-up,HDA_UNIFICADA,Assintomático,358,12134
+MOTIVO_UNIFICADO,2 - Check-up,HDA_UNIFICADA,Cianose,8,12134
+MOTIVO_UNIFICADO,2 - Check-up,HDA_UNIFICADA,Cianose | Outro,1,12134
+MOTIVO_UNIFICADO,2 - Check-up,HDA_UNIFICADA,Desmaio/tontura,7,12134
+MOTIVO_UNIFICADO,2 - Check-up,HDA_UNIFICADA,Desmaio/tontura | Ganho de peso,1,12134
+MOTIVO_UNIFICADO,2 - Check-up,HDA_UNIFICADA,Desmaio/tontura | Outro,1,12134
+MOTIVO_UNIFICADO,2 - Check-up,HDA_UNIFICADA,Dispneia,21,12134
+MOTIVO_UNIFICADO,2 - Check-up,HDA_UNIFICADA,Dispneia | Cianose,4,12134
+MOTIVO_UNIFICADO,2 - Check-up,HDA_UNIFICADA,Dispneia | Desmaio/tontura,1,12134
+MOTIVO_UNIFICADO,2 - Check-up,HDA_UNIFICADA,Dispneia | Dor precordial,8,12134
+MOTIVO_UNIFICADO,2 - Check-up,HDA_UNIFICADA,Dispneia | Ganho de peso,3,12134
+MOTIVO_UNIFICADO,2 - Check-up,HDA_UNIFICADA,Dispneia | Outro,1,12134
+MOTIVO_UNIFICADO,2 - Check-up,HDA_UNIFICADA,Dor precordial,37,12134
+MOTIVO_UNIFICADO,2 - Check-up,HDA_UNIFICADA,Dor precordial | Desmaio/tontura,1,12134
+MOTIVO_UNIFICADO,2 - Check-up,HDA_UNIFICADA,Dor precordial | Outro,1,12134
+MOTIVO_UNIFICADO,2 - Check-up,HDA_UNIFICADA,Ganho de peso,8,12134
+MOTIVO_UNIFICADO,2 - Check-up,HDA_UNIFICADA,Outro,8,12134
+MOTIVO_UNIFICADO,2 - Check-up,HDA_UNIFICADA,Palpitação,18,12134
+MOTIVO_UNIFICADO,2 - Check-up,HDA_UNIFICADA,Palpitação | Dispneia,1,12134
+MOTIVO_UNIFICADO,2 - Check-up,HDA_UNIFICADA,Palpitação | Dor precordial,6,12134
+MOTIVO_UNIFICADO,2 - Check-up,HDA_UNIFICADA,,177,12134
+MOTIVO_UNIFICADO,2 - Check-up → 1 - Cardiopatia congênita,HDA_UNIFICADA,Assintomático,2,12134
+MOTIVO_UNIFICADO,2 - Check-up → 1 - Cardiopatia congênita,HDA_UNIFICADA,,1,12134
+MOTIVO_UNIFICADO,2 - Check-up → 5 - Atividade física,HDA_UNIFICADA,Assintomático,5,12134
+MOTIVO_UNIFICADO,2 - Check-up → 5 - Atividade física,HDA_UNIFICADA,,1,12134
+MOTIVO_UNIFICADO,2 - Check-up → 5 - Cirurgia,HDA_UNIFICADA,Assintomático,1,12134
+MOTIVO_UNIFICADO,2 - Check-up → 5 - Cirurgia,HDA_UNIFICADA,,2,12134
+MOTIVO_UNIFICADO,2 - Check-up → 6 - Cardiopatia na família,HDA_UNIFICADA,,1,12134
+MOTIVO_UNIFICADO,2 - Check-up → 6 - Cianose,HDA_UNIFICADA,,1,12134
+MOTIVO_UNIFICADO,2 - Check-up → 6 - Dor precordial,HDA_UNIFICADA,Assintomático,1,12134
+MOTIVO_UNIFICADO,2 - Check-up → 6 - HAS/dislipidemia/obesidade,HDA_UNIFICADA,,1,12134
+MOTIVO_UNIFICADO,2 - Check-up → Outro,HDA_UNIFICADA,Assintomático,2,12134
+MOTIVO_UNIFICADO,2 - Check-up → Outro,HDA_UNIFICADA,Cianose,1,12134
+MOTIVO_UNIFICADO,2 - Check-up → Outro,HDA_UNIFICADA,Dispneia,1,12134
+MOTIVO_UNIFICADO,2 - Check-up → Outro,HDA_UNIFICADA,,10,12134
+MOTIVO_UNIFICADO,5 - Parecer cardiológico,HDA_UNIFICADA,Assintomático,1123,12134
+MOTIVO_UNIFICADO,5 - Parecer cardiológico,HDA_UNIFICADA,Cianose,41,12134
+MOTIVO_UNIFICADO,5 - Parecer cardiológico,HDA_UNIFICADA,Cianose | Ganho de peso,1,12134
+MOTIVO_UNIFICADO,5 - Parecer cardiológico,HDA_UNIFICADA,Cianose | Outro,1,12134
+MOTIVO_UNIFICADO,5 - Parecer cardiológico,HDA_UNIFICADA,Desmaio/tontura,43,12134
+MOTIVO_UNIFICADO,5 - Parecer cardiológico,HDA_UNIFICADA,Desmaio/tontura | Cianose,13,12134
+MOTIVO_UNIFICADO,5 - Parecer cardiológico,HDA_UNIFICADA,Desmaio/tontura | Ganho de peso,1,12134
+MOTIVO_UNIFICADO,5 - Parecer cardiológico,HDA_UNIFICADA,Desmaio/tontura | Outro,2,12134
+MOTIVO_UNIFICADO,5 - Parecer cardiológico,HDA_UNIFICADA,Dispneia,83,12134
+MOTIVO_UNIFICADO,5 - Parecer cardiológico,HDA_UNIFICADA,Dispneia | Cianose,11,12134
+MOTIVO_UNIFICADO,5 - Parecer cardiológico,HDA_UNIFICADA,Dispneia | Desmaio/tontura,5,12134
+MOTIVO_UNIFICADO,5 - Parecer cardiológico,HDA_UNIFICADA,Dispneia | Dor precordial,17,12134
+MOTIVO_UNIFICADO,5 - Parecer cardiológico,HDA_UNIFICADA,Dispneia | Ganho de peso,2,12134
+MOTIVO_UNIFICADO,5 - Parecer cardiológico,HDA_UNIFICADA,Dispneia | Outro,4,12134
+MOTIVO_UNIFICADO,5 - Parecer cardiológico,HDA_UNIFICADA,Dor precordial,103,12134
+MOTIVO_UNIFICADO,5 - Parecer cardiológico,HDA_UNIFICADA,Dor precordial | Cianose,2,12134
+MOTIVO_UNIFICADO,5 - Parecer cardiológico,HDA_UNIFICADA,Dor precordial | Desmaio/tontura,4,12134
+MOTIVO_UNIFICADO,5 - Parecer cardiológico,HDA_UNIFICADA,Dor precordial | Ganho de peso,2,12134
+MOTIVO_UNIFICADO,5 - Parecer cardiológico,HDA_UNIFICADA,Dor precordial | Outro,1,12134
+MOTIVO_UNIFICADO,5 - Parecer cardiológico,HDA_UNIFICADA,Ganho de peso,34,12134
+MOTIVO_UNIFICADO,5 - Parecer cardiológico,HDA_UNIFICADA,Ganho de peso | Outro,1,12134
+MOTIVO_UNIFICADO,5 - Parecer cardiológico,HDA_UNIFICADA,Outro,27,12134
+MOTIVO_UNIFICADO,5 - Parecer cardiológico,HDA_UNIFICADA,Palpitação,94,12134
+MOTIVO_UNIFICADO,5 - Parecer cardiológico,HDA_UNIFICADA,Palpitação | Cianose,3,12134
+MOTIVO_UNIFICADO,5 - Parecer cardiológico,HDA_UNIFICADA,Palpitação | Desmaio/tontura,2,12134
+MOTIVO_UNIFICADO,5 - Parecer cardiológico,HDA_UNIFICADA,Palpitação | Dispneia,11,12134
+MOTIVO_UNIFICADO,5 - Parecer cardiológico,HDA_UNIFICADA,Palpitação | Dor precordial,22,12134
+MOTIVO_UNIFICADO,5 - Parecer cardiológico,HDA_UNIFICADA,Palpitação | Outro,1,12134
+MOTIVO_UNIFICADO,5 - Parecer cardiológico,HDA_UNIFICADA,,52,12134
+MOTIVO_UNIFICADO,5 - Parecer cardiológico → 1 - Cardiopatia adquirida,HDA_UNIFICADA,Assintomático,2,12134
+MOTIVO_UNIFICADO,5 - Parecer cardiológico → 1 - Cardiopatia congênita,HDA_UNIFICADA,Assintomático,2,12134
+MOTIVO_UNIFICADO,5 - Parecer cardiológico → 1 - Cardiopatia congênita,HDA_UNIFICADA,,3,12134
+MOTIVO_UNIFICADO,5 - Parecer cardiológico → 5 - Atividade física,HDA_UNIFICADA,Assintomático,282,12134
+MOTIVO_UNIFICADO,5 - Parecer cardiológico → 5 - Atividade física,HDA_UNIFICADA,Cianose,1,12134
+MOTIVO_UNIFICADO,5 - Parecer cardiológico → 5 - Atividade física,HDA_UNIFICADA,Desmaio/tontura,4,12134
+MOTIVO_UNIFICADO,5 - Parecer cardiológico → 5 - Atividade física,HDA_UNIFICADA,Desmaio/tontura | Outro,1,12134
+MOTIVO_UNIFICADO,5 - Parecer cardiológico → 5 - Atividade física,HDA_UNIFICADA,Dispneia,14,12134
+MOTIVO_UNIFICADO,5 - Parecer cardiológico → 5 - Atividade física,HDA_UNIFICADA,Dispneia | Dor precordial,2,12134
+MOTIVO_UNIFICADO,5 - Parecer cardiológico → 5 - Atividade física,HDA_UNIFICADA,Dispneia | Ganho de peso,1,12134
+MOTIVO_UNIFICADO,5 - Parecer cardiológico → 5 - Atividade física,HDA_UNIFICADA,Dor precordial,15,12134
+MOTIVO_UNIFICADO,5 - Parecer cardiológico → 5 - Atividade física,HDA_UNIFICADA,Ganho de peso,7,12134
+MOTIVO_UNIFICADO,5 - Parecer cardiológico → 5 - Atividade física,HDA_UNIFICADA,Outro,1,12134
+MOTIVO_UNIFICADO,5 - Parecer cardiológico → 5 - Atividade física,HDA_UNIFICADA,Palpitação,3,12134
+MOTIVO_UNIFICADO,5 - Parecer cardiológico → 5 - Atividade física,HDA_UNIFICADA,Palpitação | Dispneia,3,12134
+MOTIVO_UNIFICADO,5 - Parecer cardiológico → 5 - Atividade física,HDA_UNIFICADA,,312,12134
+MOTIVO_UNIFICADO,5 - Parecer cardiológico → 5 - Cirurgia,HDA_UNIFICADA,Assintomático,2055,12134
+MOTIVO_UNIFICADO,5 - Parecer cardiológico → 5 - Cirurgia,HDA_UNIFICADA,Cianose,3,12134
+MOTIVO_UNIFICADO,5 - Parecer cardiológico → 5 - Cirurgia,HDA_UNIFICADA,Desmaio/tontura,3,12134
+MOTIVO_UNIFICADO,5 - Parecer cardiológico → 5 - Cirurgia,HDA_UNIFICADA,Desmaio/tontura | Cianose,1,12134
+MOTIVO_UNIFICADO,5 - Parecer cardiológico → 5 - Cirurgia,HDA_UNIFICADA,Dispneia,22,12134
+MOTIVO_UNIFICADO,5 - Parecer cardiológico → 5 - Cirurgia,HDA_UNIFICADA,Dispneia | Cianose,3,12134
+MOTIVO_UNIFICADO,5 - Parecer cardiológico → 5 - Cirurgia,HDA_UNIFICADA,Dispneia | Ganho de peso,2,12134
+MOTIVO_UNIFICADO,5 - Parecer cardiológico → 5 - Cirurgia,HDA_UNIFICADA,Dor precordial,12,12134
+MOTIVO_UNIFICADO,5 - Parecer cardiológico → 5 - Cirurgia,HDA_UNIFICADA,Ganho de peso,8,12134
+MOTIVO_UNIFICADO,5 - Parecer cardiológico → 5 - Cirurgia,HDA_UNIFICADA,Outro,7,12134
+MOTIVO_UNIFICADO,5 - Parecer cardiológico → 5 - Cirurgia,HDA_UNIFICADA,Palpitação,7,12134
+MOTIVO_UNIFICADO,5 - Parecer cardiológico → 5 - Cirurgia,HDA_UNIFICADA,Palpitação | Dispneia,1,12134
+MOTIVO_UNIFICADO,5 - Parecer cardiológico → 5 - Cirurgia,HDA_UNIFICADA,,806,12134
+MOTIVO_UNIFICADO,5 - Parecer cardiológico → 5 - Uso de cisaprida,HDA_UNIFICADA,Assintomático,8,12134
+MOTIVO_UNIFICADO,5 - Parecer cardiológico → 5 - Uso de cisaprida,HDA_UNIFICADA,Palpitação | Dor precordial,1,12134
+MOTIVO_UNIFICADO,5 - Parecer cardiológico → 6 - Alterações de pulso/perfusão,HDA_UNIFICADA,Assintomático,1,12134
+MOTIVO_UNIFICADO,5 - Parecer cardiológico → 6 - Cardiopatia na família,HDA_UNIFICADA,Assintomático,1,12134
+MOTIVO_UNIFICADO,5 - Parecer cardiológico → 6 - Cardiopatia na família,HDA_UNIFICADA,,2,12134
+MOTIVO_UNIFICADO,5 - Parecer cardiológico → 6 - Dispneia,HDA_UNIFICADA,Assintomático,1,12134
+MOTIVO_UNIFICADO,5 - Parecer cardiológico → 6 - Dor precordial,HDA_UNIFICADA,Assintomático,1,12134
+MOTIVO_UNIFICADO,5 - Parecer cardiológico → 6 - HAS/dislipidemia/obesidade,HDA_UNIFICADA,Dor precordial,1,12134
+MOTIVO_UNIFICADO,5 - Parecer cardiológico → 6 - HAS/dislipidemia/obesidade,HDA_UNIFICADA,,3,12134
+MOTIVO_UNIFICADO,5 - Parecer cardiológico → 6 - Palpitação/taquicardia/arritmia,HDA_UNIFICADA,,1,12134
+MOTIVO_UNIFICADO,5 - Parecer cardiológico → 6 - Sopro,HDA_UNIFICADA,Outro,1,12134
+MOTIVO_UNIFICADO,5 - Parecer cardiológico → Outro,HDA_UNIFICADA,Assintomático,16,12134
+MOTIVO_UNIFICADO,5 - Parecer cardiológico → Outro,HDA_UNIFICADA,Dispneia,1,12134
+MOTIVO_UNIFICADO,5 - Parecer cardiológico → Outro,HDA_UNIFICADA,Dispneia | Cianose,2,12134
+MOTIVO_UNIFICADO,5 - Parecer cardiológico → Outro,HDA_UNIFICADA,Palpitação,2,12134
+MOTIVO_UNIFICADO,5 - Parecer cardiológico → Outro,HDA_UNIFICADA,,21,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia,HDA_UNIFICADA,Assintomático,7,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia,HDA_UNIFICADA,Dispneia,1,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia,HDA_UNIFICADA,Dispneia | Dor precordial,1,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia,HDA_UNIFICADA,Dor precordial,2,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia,HDA_UNIFICADA,Palpitação,17,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia,HDA_UNIFICADA,Palpitação | Cianose,1,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia,HDA_UNIFICADA,Palpitação | Desmaio/tontura,1,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia,HDA_UNIFICADA,Palpitação | Dispneia,5,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia,HDA_UNIFICADA,Palpitação | Dor precordial,3,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia,HDA_UNIFICADA,,26,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 1 - Cardiopatia adquirida,HDA_UNIFICADA,Assintomático,23,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 1 - Cardiopatia adquirida,HDA_UNIFICADA,Outro,2,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 1 - Cardiopatia adquirida,HDA_UNIFICADA,,21,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 1 - Cardiopatia congênita,HDA_UNIFICADA,Assintomático,13,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 1 - Cardiopatia congênita,HDA_UNIFICADA,Desmaio/tontura | Cianose,1,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 1 - Cardiopatia congênita,HDA_UNIFICADA,Dispneia,2,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 1 - Cardiopatia congênita,HDA_UNIFICADA,Palpitação | Dor precordial,1,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 1 - Cardiopatia congênita,HDA_UNIFICADA,,14,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Alterações de pulso/perfusão,HDA_UNIFICADA,Assintomático,1,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Alterações de pulso/perfusão,HDA_UNIFICADA,Desmaio/tontura | Cianose,1,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Alterações de pulso/perfusão,HDA_UNIFICADA,Outro,1,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Alterações de pulso/perfusão,HDA_UNIFICADA,,1,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Cansaço,HDA_UNIFICADA,Dispneia,3,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Cansaço,HDA_UNIFICADA,Dispneia | Dor precordial,1,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Cansaço,HDA_UNIFICADA,,1,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Cardiopatia na família,HDA_UNIFICADA,Assintomático,15,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Cardiopatia na família,HDA_UNIFICADA,Cianose,1,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Cardiopatia na família,HDA_UNIFICADA,,15,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Cianose,HDA_UNIFICADA,Assintomático,17,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Cianose,HDA_UNIFICADA,Cianose,48,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Cianose,HDA_UNIFICADA,Cianose | Outro,1,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Cianose,HDA_UNIFICADA,Desmaio/tontura | Cianose,2,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Cianose,HDA_UNIFICADA,Dispneia | Cianose,7,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Cianose,HDA_UNIFICADA,Dor precordial,1,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Cianose,HDA_UNIFICADA,Outro,1,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Cianose,HDA_UNIFICADA,Palpitação | Cianose,2,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Cianose,HDA_UNIFICADA,,64,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Cianose e dispneia,HDA_UNIFICADA,,5,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Dispneia,HDA_UNIFICADA,Assintomático,25,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Dispneia,HDA_UNIFICADA,Cianose,1,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Dispneia,HDA_UNIFICADA,Dispneia,55,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Dispneia,HDA_UNIFICADA,Dispneia | Cianose,6,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Dispneia,HDA_UNIFICADA,Dispneia | Dor precordial,10,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Dispneia,HDA_UNIFICADA,Dispneia | Ganho de peso,2,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Dispneia,HDA_UNIFICADA,Dispneia | Outro,2,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Dispneia,HDA_UNIFICADA,Dor precordial,2,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Dispneia,HDA_UNIFICADA,Outro,4,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Dispneia,HDA_UNIFICADA,Palpitação,4,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Dispneia,HDA_UNIFICADA,Palpitação | Dispneia,5,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Dispneia,HDA_UNIFICADA,Palpitação | Outro,1,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Dispneia,HDA_UNIFICADA,,96,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Dor precordial,HDA_UNIFICADA,Assintomático,26,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Dor precordial,HDA_UNIFICADA,Desmaio/tontura | Cianose,1,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Dor precordial,HDA_UNIFICADA,Dispneia,1,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Dor precordial,HDA_UNIFICADA,Dispneia | Cianose,1,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Dor precordial,HDA_UNIFICADA,Dispneia | Dor precordial,15,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Dor precordial,HDA_UNIFICADA,Dor precordial,163,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Dor precordial,HDA_UNIFICADA,Dor precordial | Cianose,4,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Dor precordial,HDA_UNIFICADA,Dor precordial | Desmaio/tontura,7,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Dor precordial,HDA_UNIFICADA,Dor precordial | Ganho de peso,1,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Dor precordial,HDA_UNIFICADA,Dor precordial | Outro,1,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Dor precordial,HDA_UNIFICADA,Outro,1,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Dor precordial,HDA_UNIFICADA,Palpitação | Desmaio/tontura,1,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Dor precordial,HDA_UNIFICADA,Palpitação | Dispneia,1,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Dor precordial,HDA_UNIFICADA,Palpitação | Dor precordial,15,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Dor precordial,HDA_UNIFICADA,,152,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - HAS/dislipidemia/obesidade,HDA_UNIFICADA,Assintomático,59,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - HAS/dislipidemia/obesidade,HDA_UNIFICADA,Desmaio/tontura,3,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - HAS/dislipidemia/obesidade,HDA_UNIFICADA,Desmaio/tontura | Outro,1,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - HAS/dislipidemia/obesidade,HDA_UNIFICADA,Dispneia,1,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - HAS/dislipidemia/obesidade,HDA_UNIFICADA,Dispneia | Cianose,1,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - HAS/dislipidemia/obesidade,HDA_UNIFICADA,Dispneia | Ganho de peso,1,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - HAS/dislipidemia/obesidade,HDA_UNIFICADA,Dor precordial,2,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - HAS/dislipidemia/obesidade,HDA_UNIFICADA,Dor precordial | Ganho de peso,1,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - HAS/dislipidemia/obesidade,HDA_UNIFICADA,Ganho de peso,12,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - HAS/dislipidemia/obesidade,HDA_UNIFICADA,Ganho de peso | Outro,1,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - HAS/dislipidemia/obesidade,HDA_UNIFICADA,Outro,10,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - HAS/dislipidemia/obesidade,HDA_UNIFICADA,Palpitação,1,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - HAS/dislipidemia/obesidade,HDA_UNIFICADA,,92,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Palpitação/taquicardia/arritmia,HDA_UNIFICADA,Assintomático,80,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Palpitação/taquicardia/arritmia,HDA_UNIFICADA,Assintomático | Palpitação,1,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Palpitação/taquicardia/arritmia,HDA_UNIFICADA,Cianose,1,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Palpitação/taquicardia/arritmia,HDA_UNIFICADA,Desmaio/tontura,1,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Palpitação/taquicardia/arritmia,HDA_UNIFICADA,Desmaio/tontura | Cianose,1,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Palpitação/taquicardia/arritmia,HDA_UNIFICADA,Dispneia,6,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Palpitação/taquicardia/arritmia,HDA_UNIFICADA,Dispneia | Cianose,2,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Palpitação/taquicardia/arritmia,HDA_UNIFICADA,Dor precordial,6,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Palpitação/taquicardia/arritmia,HDA_UNIFICADA,Dor precordial | Desmaio/tontura,1,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Palpitação/taquicardia/arritmia,HDA_UNIFICADA,Outro,2,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Palpitação/taquicardia/arritmia,HDA_UNIFICADA,Palpitação,92,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Palpitação/taquicardia/arritmia,HDA_UNIFICADA,Palpitação | Cianose,1,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Palpitação/taquicardia/arritmia,HDA_UNIFICADA,Palpitação | Desmaio/tontura,3,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Palpitação/taquicardia/arritmia,HDA_UNIFICADA,Palpitação | Dispneia,4,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Palpitação/taquicardia/arritmia,HDA_UNIFICADA,Palpitação | Dor precordial,14,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Palpitação/taquicardia/arritmia,HDA_UNIFICADA,,153,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Sopro,HDA_UNIFICADA,Assintomático,1469,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Sopro,HDA_UNIFICADA,Cianose,30,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Sopro,HDA_UNIFICADA,Desmaio/tontura,3,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Sopro,HDA_UNIFICADA,Desmaio/tontura | Cianose,2,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Sopro,HDA_UNIFICADA,Dispneia,63,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Sopro,HDA_UNIFICADA,Dispneia | Cianose,9,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Sopro,HDA_UNIFICADA,Dispneia | Dor precordial,2,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Sopro,HDA_UNIFICADA,Dispneia | Ganho de peso,1,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Sopro,HDA_UNIFICADA,Dispneia | Outro,2,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Sopro,HDA_UNIFICADA,Dor precordial,22,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Sopro,HDA_UNIFICADA,Dor precordial | Ganho de peso,1,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Sopro,HDA_UNIFICADA,Ganho de peso,3,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Sopro,HDA_UNIFICADA,Outro,12,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Sopro,HDA_UNIFICADA,Palpitação,26,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Sopro,HDA_UNIFICADA,Palpitação | Cianose,1,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Sopro,HDA_UNIFICADA,Palpitação | Dispneia,3,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Sopro,HDA_UNIFICADA,Palpitação | Dor precordial,1,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → 6 - Sopro,HDA_UNIFICADA,,698,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → Outro,HDA_UNIFICADA,Assintomático,191,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → Outro,HDA_UNIFICADA,Cianose,21,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → Outro,HDA_UNIFICADA,Desmaio/tontura,42,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → Outro,HDA_UNIFICADA,Desmaio/tontura | Cianose,3,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → Outro,HDA_UNIFICADA,Desmaio/tontura | Outro,3,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → Outro,HDA_UNIFICADA,Dispneia,22,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → Outro,HDA_UNIFICADA,Dispneia | Cianose,5,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → Outro,HDA_UNIFICADA,Dispneia | Desmaio/tontura,4,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → Outro,HDA_UNIFICADA,Dispneia | Dor precordial,4,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → Outro,HDA_UNIFICADA,Dispneia | Ganho de peso,1,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → Outro,HDA_UNIFICADA,Dispneia | Outro,1,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → Outro,HDA_UNIFICADA,Dor precordial,16,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → Outro,HDA_UNIFICADA,Dor precordial | Cianose,1,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → Outro,HDA_UNIFICADA,Dor precordial | Desmaio/tontura,2,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → Outro,HDA_UNIFICADA,Dor precordial | Ganho de peso,1,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → Outro,HDA_UNIFICADA,Ganho de peso,1,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → Outro,HDA_UNIFICADA,Outro,10,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → Outro,HDA_UNIFICADA,Palpitação,20,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → Outro,HDA_UNIFICADA,Palpitação | Desmaio/tontura,7,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → Outro,HDA_UNIFICADA,Palpitação | Dispneia,2,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → Outro,HDA_UNIFICADA,Palpitação | Dor precordial,2,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → Outro,HDA_UNIFICADA,Palpitação | Outro,1,12134
+MOTIVO_UNIFICADO,6 - Suspeita de cardiopatia → Outro,HDA_UNIFICADA,,92,12134
+MOTIVO_UNIFICADO,7 - Outro → 5 - Cirurgia,HDA_UNIFICADA,Assintomático,1,12134
+MOTIVO_UNIFICADO,7 - Outro → 5 - Cirurgia,HDA_UNIFICADA,Dispneia,1,12134
+MOTIVO_UNIFICADO,7 - Outro → 6 - Cansaço,HDA_UNIFICADA,Assintomático,1,12134
+MOTIVO_UNIFICADO,7 - Outro → 6 - Cansaço,HDA_UNIFICADA,Palpitação | Dispneia,1,12134
+MOTIVO_UNIFICADO,7 - Outro → 6 - Cianose,HDA_UNIFICADA,,1,12134
+MOTIVO_UNIFICADO,7 - Outro → 6 - Dispneia,HDA_UNIFICADA,Assintomático,1,12134
+MOTIVO_UNIFICADO,7 - Outro → 6 - Dispneia,HDA_UNIFICADA,Dispneia,4,12134
+MOTIVO_UNIFICADO,7 - Outro → 6 - Dispneia,HDA_UNIFICADA,,7,12134
+MOTIVO_UNIFICADO,7 - Outro → 6 - HAS/dislipidemia/obesidade,HDA_UNIFICADA,Assintomático,2,12134
+MOTIVO_UNIFICADO,7 - Outro → 6 - Palpitação/taquicardia/arritmia,HDA_UNIFICADA,Palpitação,1,12134
+MOTIVO_UNIFICADO,7 - Outro → 6 - Palpitação/taquicardia/arritmia,HDA_UNIFICADA,,1,12134
+MOTIVO_UNIFICADO,7 - Outro → Outro,HDA_UNIFICADA,Assintomático,126,12134
+MOTIVO_UNIFICADO,7 - Outro → Outro,HDA_UNIFICADA,Cianose,5,12134
+MOTIVO_UNIFICADO,7 - Outro → Outro,HDA_UNIFICADA,Cianose | Outro,2,12134
+MOTIVO_UNIFICADO,7 - Outro → Outro,HDA_UNIFICADA,Desmaio/tontura,14,12134
+MOTIVO_UNIFICADO,7 - Outro → Outro,HDA_UNIFICADA,Desmaio/tontura | Cianose,1,12134
+MOTIVO_UNIFICADO,7 - Outro → Outro,HDA_UNIFICADA,Desmaio/tontura | Ganho de peso,1,12134
+MOTIVO_UNIFICADO,7 - Outro → Outro,HDA_UNIFICADA,Dispneia,7,12134
+MOTIVO_UNIFICADO,7 - Outro → Outro,HDA_UNIFICADA,Dispneia | Cianose,4,12134
+MOTIVO_UNIFICADO,7 - Outro → Outro,HDA_UNIFICADA,Dispneia | Outro,4,12134
+MOTIVO_UNIFICADO,7 - Outro → Outro,HDA_UNIFICADA,Dor precordial,5,12134
+MOTIVO_UNIFICADO,7 - Outro → Outro,HDA_UNIFICADA,Ganho de peso,2,12134
+MOTIVO_UNIFICADO,7 - Outro → Outro,HDA_UNIFICADA,Outro,14,12134
+MOTIVO_UNIFICADO,7 - Outro → Outro,HDA_UNIFICADA,Palpitação,6,12134
+MOTIVO_UNIFICADO,7 - Outro → Outro,HDA_UNIFICADA,Palpitação | Desmaio/tontura,2,12134
+MOTIVO_UNIFICADO,7 - Outro → Outro,HDA_UNIFICADA,Palpitação | Dispneia,1,12134
+MOTIVO_UNIFICADO,7 - Outro → Outro,HDA_UNIFICADA,Palpitação | Dor precordial,1,12134
+MOTIVO_UNIFICADO,7 - Outro → Outro,HDA_UNIFICADA,,106,12134
+MOTIVO_UNIFICADO,,HDA_UNIFICADA,Assintomático,49,12134
+MOTIVO_UNIFICADO,,HDA_UNIFICADA,Cianose,3,12134
+MOTIVO_UNIFICADO,,HDA_UNIFICADA,Desmaio/tontura,2,12134
+MOTIVO_UNIFICADO,,HDA_UNIFICADA,Desmaio/tontura | Cianose,1,12134
+MOTIVO_UNIFICADO,,HDA_UNIFICADA,Dispneia,8,12134
+MOTIVO_UNIFICADO,,HDA_UNIFICADA,Dispneia | Cianose,1,12134
+MOTIVO_UNIFICADO,,HDA_UNIFICADA,Dispneia | Desmaio/tontura,2,12134
+MOTIVO_UNIFICADO,,HDA_UNIFICADA,Dor precordial,4,12134
+MOTIVO_UNIFICADO,,HDA_UNIFICADA,Outro,2,12134
+MOTIVO_UNIFICADO,,HDA_UNIFICADA,Palpitação,3,12134
+MOTIVO_UNIFICADO,,HDA_UNIFICADA,Palpitação | Dispneia,2,12134
+MOTIVO_UNIFICADO,,HDA_UNIFICADA,Palpitação | Dor precordial,2,12134
+MOTIVO_UNIFICADO,,HDA_UNIFICADA,,237,12134

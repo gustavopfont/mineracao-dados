@@ -1,5 +1,21 @@
 # Plano de transformação e modelagem
 
+## Protocolo de experimentos atual
+
+Atualização de orçamento em 15/11/2026: quatro configurações por família e por perfil, mantendo os três perfis, validação externa 5×2 e interna de três folds. A execução válida fica em `resultado_experimentos_reduzido/`. A busca anterior de 12 configurações foi encerrada antes do teste e preservada em `resultado_experimentos_representacoes/`, com código e configuração de origem. Candidatos novos são sorteados com sementes fixas, sem seleção por escores antigos.
+
+O plano de treino foi materializado em `config_experimentos.json`, `scripts/treinar_modelos.py` e `referencias/protocolo_experimentos.md`. Por solicitação posterior, compara três representações: contínua (incluindo IMC), clínica (faixa etária, classificação IMC e PPA) e combinada, sem remover os demais campos clínicos aprovados. A seleção por representação acontece por AP nos folds internos, dentro de cada família. A avaliação externa inclui essa escolha; o teste fica reservado até o congelamento. A execução parcial anterior foi preservada e marcada como interrompida antes do teste.
+
+A base supervisionada de 11 preditores continua como contrato de seleção/deduplicação; a visão complementar é incorporada apenas para esses experimentos, pelos mesmos IDs. Todos os perfis têm as mesmas observações e partições. A documentação técnica detalha as fontes por etapa, os modelos, espaços de busca, testes estatísticos e limitações de identidade de paciente, exploração anterior e exclusão de conflitos. As seções históricas abaixo não substituem esse protocolo.
+
+## Estado atual do KDD — preparação antes dos modelos
+
+A seleção supervisionada atual está em `resultado_modelagem_preparo/` e é gerada por `scripts/auditar_base_modelagem.py`. Os valores finais de 17 colunas são preservados como referência; a seleção contém 11 preditores, sem derivados redundantes, com deduplicação concordante e quarentena de conflitos. O preparo em `scripts/preparar_modelagem.py` foi atualizado e não executa mais split/fit em sua CLI. `resultado_modelagem/` permanece como saída histórica. A justificativa de cada regra, fontes, implementação e testes está em `referencias/metodologia_preparo.md`.
+
+O objetivo final é `avaliacao2.md`: organizar dados, testar e comparar modelos, interpretar erros e apresentar resultados em artigo IEEE. Nesta fase não há classificadores. Na próxima, definir partições reproduzíveis, comparar pelo menos um baseline e um modelo complexo com o Pipeline completo por treino, priorizar sensibilidade de Anormal e definir o compromisso com especificidade sem consultar teste. As hipóteses históricas abaixo não são a seleção atual.
+
+> Documento da etapa anterior. A finalização atual gera `resultado_analise/UCMF_base_final.csv`, sem executar este preparo nem alterar as divisões existentes. A base final exclui SOPRO por escolha pedagógica, inclui motivos e HDA unificados e PPA calculada; mantém achados clínicos e histórico de cardiopatia conhecida para o exercício. As decisões abaixo continuam sendo hipóteses para uma modelagem futura, não a descrição do esquema final. O script de modelagem existente ainda lê a base limpa anterior; sua adaptação e a escolha do momento de previsão ficam fora desta entrega.
+
 Este plano complementa a limpeza e a análise da A1. O cenário inicial prevê `NORMAL X ANORMAL` **antes do exame clínico**, após o registro dos dados demográficos, do motivo de encaminhamento e dos sinais vitais. É uma hipótese de trabalho: a equipe deve confirmar em que momento cada campo é conhecido. O script também aceita `--momento apos_exame`, que acrescenta achados do exame, mas esse cenário só é válido se esses achados forem registrados antes do diagnóstico que define o alvo.
 
 ## Decisão por variável

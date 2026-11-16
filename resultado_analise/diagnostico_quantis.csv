@@ -1,0 +1,4 @@
+﻿variavel,n_total,n_validos,n_ausentes,n_valores_distintos,minimo,q1,mediana,q3,maximo,n_intervalos_efetivos,metodo_quantil,uso
+IMC,12134,8014,4120,39,9.0,15.0,17.0,19.0,56.0,4,linear (pandas),somente descrição; não exportado como atributo
+PA SISTOLICA,12134,5140,6994,42,60.0,90.0,100.0,110.0,180.0,4,linear (pandas),somente descrição; não exportado como atributo
+PA DIASTOLICA,12134,5131,7003,29,23.0,60.0,60.0,70.0,120.0,3,linear (pandas),somente descrição; não exportado como atributo

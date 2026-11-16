@@ -1,0 +1,23 @@
+{
+  "winner": "floresta",
+  "reference": "logistica",
+  "comparisons": [
+    {
+      "target": 1,
+      "n": 975,
+      "winner_only_correct": 41,
+      "logistic_only_correct": 44,
+      "p": 0.8284232741648999,
+      "p_holm": 0.8284232741648999
+    },
+    {
+      "target": 0,
+      "n": 1313,
+      "winner_only_correct": 41,
+      "logistic_only_correct": 53,
+      "p": 0.25644234893296985,
+      "p_holm": 0.5128846978659397
+    }
+  ],
+  "note": "Alvos condicionados; modelos e limiares fixos"
+}

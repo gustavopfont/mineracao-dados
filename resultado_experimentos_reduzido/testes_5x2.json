@@ -1,0 +1,58 @@
+[
+  {
+    "model": "arvore",
+    "reference": "logistica",
+    "metric": "error_aprendido",
+    "mean_difference": 0.026300830782684748,
+    "variance_sum": 0.0028437047175830215,
+    "f_stat": 1.965501012698654,
+    "f_p": 0.23600928029981713,
+    "t_stat": 1.549292067568409,
+    "t_p": 0.18199772432968128,
+    "status": "aproximado",
+    "f_p_holm": 0.6452439580302691,
+    "t_p_holm_sensibilidade": 0.5459931729890438
+  },
+  {
+    "model": "knn",
+    "reference": "logistica",
+    "metric": "error_aprendido",
+    "mean_difference": 0.027087888062964582,
+    "variance_sum": 1.699210896974946e-05,
+    "f_stat": 220.61181434599277,
+    "f_p": 5.66804026701872e-06,
+    "t_stat": 17.789201674120534,
+    "t_p": 1.0302174842055744e-05,
+    "status": "aproximado",
+    "f_p_holm": 2.267216106807488e-05,
+    "t_p_holm_sensibilidade": 4.120869936822298e-05
+  },
+  {
+    "model": "floresta",
+    "reference": "logistica",
+    "metric": "error_aprendido",
+    "mean_difference": -0.0022518583296895376,
+    "variance_sum": 5.546931774794508e-05,
+    "f_stat": 1.201637225333897,
+    "f_p": 0.444700959630335,
+    "t_stat": -1.2471423604434335,
+    "t_p": 0.26757735365502017,
+    "status": "aproximado",
+    "f_p_holm": 0.6452439580302691,
+    "t_p_holm_sensibilidade": 0.5459931729890438
+  },
+  {
+    "model": "boosting",
+    "reference": "logistica",
+    "metric": "error_aprendido",
+    "mean_difference": -0.003935286401399218,
+    "variance_sum": 5.644917213298052e-05,
+    "f_stat": 2.0906011854360473,
+    "f_p": 0.21508131934342303,
+    "t_stat": -0.8458695779667919,
+    "t_p": 0.4362243533316353,
+    "status": "aproximado",
+    "f_p_holm": 0.6452439580302691,
+    "t_p_holm_sensibilidade": 0.5459931729890438
+  }
+]

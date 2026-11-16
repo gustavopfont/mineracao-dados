@@ -1,0 +1,115 @@
+﻿variavel,referencia_etaria,sexo,alvo,n_total,n_validos,n_ausentes,minimo,q1,mediana,q3,maximo
+IMC,Fora da referência OMS,Feminino,Normal,8,5,3,17.0,19.0,20.0,21.0,25.0
+IMC,Fora da referência OMS,Masculino,Anormal,2,2,0,21.0,23.0,25.0,27.0,29.0
+IMC,Fora da referência OMS,Masculino,Normal,7,6,1,18.0,21.0,21.0,24.75,29.0
+IMC,Fora da referência OMS,Masculino,Sem informação,1,1,0,19.0,19.0,19.0,19.0,19.0
+IMC,Idade indisponível,Feminino,Anormal,138,87,51,10.0,15.0,17.0,20.0,33.0
+IMC,Idade indisponível,Feminino,Normal,176,122,54,11.0,16.0,18.0,21.0,32.0
+IMC,Idade indisponível,Feminino,Sem informação,21,5,16,15.0,17.0,18.0,22.0,27.0
+IMC,Idade indisponível,Indeterminado,Anormal,39,19,20,12.0,12.0,14.0,15.0,19.0
+IMC,Idade indisponível,Indeterminado,Normal,145,3,142,12.0,12.5,13.0,14.5,16.0
+IMC,Idade indisponível,Indeterminado,Sem informação,6,1,5,16.0,16.0,16.0,16.0,16.0
+IMC,Idade indisponível,Masculino,Anormal,176,113,63,10.0,15.0,17.0,20.0,37.0
+IMC,Idade indisponível,Masculino,Normal,222,159,63,12.0,16.0,18.0,21.0,44.0
+IMC,Idade indisponível,Masculino,Sem informação,15,5,10,16.0,17.0,19.0,21.0,22.0
+IMC,OMS 2006: 0–60 meses completos,Feminino,Anormal,1239,870,369,10.0,14.0,16.0,17.0,39.0
+IMC,OMS 2006: 0–60 meses completos,Feminino,Normal,1247,875,372,9.0,15.0,16.0,18.0,36.0
+IMC,OMS 2006: 0–60 meses completos,Feminino,Sem informação,72,55,17,9.0,15.0,16.0,17.0,21.0
+IMC,OMS 2006: 0–60 meses completos,Indeterminado,Anormal,256,198,58,9.0,12.25,14.0,15.0,19.0
+IMC,OMS 2006: 0–60 meses completos,Indeterminado,Normal,124,92,32,10.0,14.0,15.0,17.0,24.0
+IMC,OMS 2006: 0–60 meses completos,Indeterminado,Sem informação,3,3,0,15.0,15.0,15.0,15.0,15.0
+IMC,OMS 2006: 0–60 meses completos,Masculino,Anormal,1646,1179,467,9.0,15.0,16.0,18.0,30.0
+IMC,OMS 2006: 0–60 meses completos,Masculino,Normal,1852,1355,497,10.0,15.0,17.0,19.0,56.0
+IMC,OMS 2006: 0–60 meses completos,Masculino,Sem informação,88,73,15,11.0,15.0,16.0,18.0,46.0
+IMC,OMS 2006: 0–60 meses completos,Sem informação,Normal,3,2,1,14.0,14.25,14.5,14.75,15.0
+IMC,OMS 2007: 61–228 meses completos,Feminino,Anormal,578,332,246,11.0,15.0,17.0,20.0,42.0
+IMC,OMS 2007: 61–228 meses completos,Feminino,Normal,1144,661,483,10.0,16.0,18.0,21.0,33.0
+IMC,OMS 2007: 61–228 meses completos,Feminino,Sem informação,101,85,16,12.0,16.0,18.0,21.0,29.0
+IMC,OMS 2007: 61–228 meses completos,Indeterminado,Anormal,8,4,4,14.0,14.75,15.5,16.75,19.0
+IMC,OMS 2007: 61–228 meses completos,Indeterminado,Normal,97,73,24,10.0,16.0,18.0,22.0,30.0
+IMC,OMS 2007: 61–228 meses completos,Masculino,Anormal,877,502,375,10.0,15.0,17.0,20.0,35.0
+IMC,OMS 2007: 61–228 meses completos,Masculino,Normal,1720,1025,695,12.0,16.0,18.0,21.0,38.0
+IMC,OMS 2007: 61–228 meses completos,Masculino,Sem informação,122,101,21,12.0,16.0,18.0,20.0,32.0
+IMC,OMS 2007: 61–228 meses completos,Sem informação,Anormal,1,1,0,28.0,28.0,28.0,28.0,28.0
+PA SISTOLICA,DBHA: 13–17 anos,Feminino,Anormal,69,62,7,90.0,100.0,110.0,113.75,160.0
+PA SISTOLICA,DBHA: 13–17 anos,Feminino,Normal,194,175,19,85.0,100.0,110.0,110.0,150.0
+PA SISTOLICA,DBHA: 13–17 anos,Feminino,Sem informação,15,1,14,90.0,90.0,90.0,90.0,90.0
+PA SISTOLICA,DBHA: 13–17 anos,Indeterminado,Normal,19,19,0,90.0,110.0,120.0,120.0,140.0
+PA SISTOLICA,DBHA: 13–17 anos,Masculino,Anormal,105,96,9,85.0,100.0,110.0,120.0,180.0
+PA SISTOLICA,DBHA: 13–17 anos,Masculino,Normal,206,181,25,90.0,100.0,110.0,120.0,150.0
+PA SISTOLICA,DBHA: 13–17 anos,Masculino,Sem informação,24,2,22,110.0,112.5,115.0,117.5,120.0
+PA SISTOLICA,DBHA: 13–17 anos,Sem informação,Anormal,1,1,0,130.0,130.0,130.0,130.0,130.0
+PA SISTOLICA,DBHA: 18–19 anos,Feminino,Anormal,2,2,0,100.0,105.0,110.0,115.0,120.0
+PA SISTOLICA,DBHA: 18–19 anos,Feminino,Normal,19,16,3,90.0,103.75,110.0,116.25,130.0
+PA SISTOLICA,DBHA: 18–19 anos,Masculino,Anormal,3,3,0,110.0,115.0,120.0,120.0,120.0
+PA SISTOLICA,DBHA: 18–19 anos,Masculino,Normal,12,11,1,100.0,110.0,120.0,120.0,130.0
+PA SISTOLICA,DBHA: 18–19 anos,Masculino,Sem informação,2,0,2,,,,,
+PA SISTOLICA,DBHA: 1–12 anos,Feminino,Anormal,1118,540,578,70.0,90.0,100.0,105.0,160.0
+PA SISTOLICA,DBHA: 1–12 anos,Feminino,Normal,1755,917,838,70.0,90.0,100.0,100.0,140.0
+PA SISTOLICA,DBHA: 1–12 anos,Feminino,Sem informação,126,6,120,90.0,92.5,100.0,100.0,100.0
+PA SISTOLICA,DBHA: 1–12 anos,Indeterminado,Anormal,15,7,8,90.0,100.0,100.0,100.0,110.0
+PA SISTOLICA,DBHA: 1–12 anos,Indeterminado,Normal,129,91,38,90.0,100.0,100.0,110.0,140.0
+PA SISTOLICA,DBHA: 1–12 anos,Masculino,Anormal,1617,884,733,80.0,90.0,100.0,100.0,150.0
+PA SISTOLICA,DBHA: 1–12 anos,Masculino,Normal,2791,1511,1280,70.0,90.0,100.0,100.0,160.0
+PA SISTOLICA,DBHA: 1–12 anos,Masculino,Sem informação,150,2,148,100.0,101.25,102.5,103.75,105.0
+PA SISTOLICA,DBHA: 1–12 anos,Sem informação,Normal,2,1,1,105.0,105.0,105.0,105.0,105.0
+PA SISTOLICA,Idade indisponível,Feminino,Anormal,138,75,63,90.0,100.0,100.0,112.5,160.0
+PA SISTOLICA,Idade indisponível,Feminino,Normal,176,118,58,80.0,90.0,100.0,110.0,140.0
+PA SISTOLICA,Idade indisponível,Feminino,Sem informação,21,0,21,,,,,
+PA SISTOLICA,Idade indisponível,Indeterminado,Anormal,39,3,36,101.0,105.5,110.0,110.0,110.0
+PA SISTOLICA,Idade indisponível,Indeterminado,Normal,145,6,139,90.0,92.5,100.0,100.0,140.0
+PA SISTOLICA,Idade indisponível,Indeterminado,Sem informação,6,0,6,,,,,
+PA SISTOLICA,Idade indisponível,Masculino,Anormal,176,104,72,80.0,90.0,100.0,110.0,150.0
+PA SISTOLICA,Idade indisponível,Masculino,Normal,222,155,67,80.0,92.5,100.0,110.0,135.0
+PA SISTOLICA,Idade indisponível,Masculino,Sem informação,15,1,14,140.0,140.0,140.0,140.0,140.0
+PA SISTOLICA,Menor de 1 ano: não classificável,Feminino,Anormal,628,25,603,80.0,90.0,90.0,100.0,110.0
+PA SISTOLICA,Menor de 1 ano: não classificável,Feminino,Normal,431,36,395,70.0,90.0,100.0,100.0,140.0
+PA SISTOLICA,Menor de 1 ano: não classificável,Feminino,Sem informação,32,0,32,,,,,
+PA SISTOLICA,Menor de 1 ano: não classificável,Indeterminado,Anormal,249,4,245,90.0,97.5,100.0,102.5,110.0
+PA SISTOLICA,Menor de 1 ano: não classificável,Indeterminado,Normal,73,0,73,,,,,
+PA SISTOLICA,Menor de 1 ano: não classificável,Indeterminado,Sem informação,3,0,3,,,,,
+PA SISTOLICA,Menor de 1 ano: não classificável,Masculino,Anormal,800,45,755,60.0,90.0,100.0,110.0,180.0
+PA SISTOLICA,Menor de 1 ano: não classificável,Masculino,Normal,570,40,530,80.0,90.0,100.0,106.25,130.0
+PA SISTOLICA,Menor de 1 ano: não classificável,Masculino,Sem informação,35,0,35,,,,,
+PA SISTOLICA,Menor de 1 ano: não classificável,Sem informação,Normal,1,0,1,,,,,
+PA DIASTOLICA,DBHA: 13–17 anos,Feminino,Anormal,69,62,7,40.0,60.0,70.0,70.0,95.0
+PA DIASTOLICA,DBHA: 13–17 anos,Feminino,Normal,194,175,19,50.0,60.0,65.0,70.0,90.0
+PA DIASTOLICA,DBHA: 13–17 anos,Feminino,Sem informação,15,1,14,60.0,60.0,60.0,60.0,60.0
+PA DIASTOLICA,DBHA: 13–17 anos,Indeterminado,Normal,19,19,0,60.0,65.0,70.0,80.0,80.0
+PA DIASTOLICA,DBHA: 13–17 anos,Masculino,Anormal,105,94,11,50.0,60.0,62.5,70.0,120.0
+PA DIASTOLICA,DBHA: 13–17 anos,Masculino,Normal,206,181,25,50.0,60.0,70.0,70.0,100.0
+PA DIASTOLICA,DBHA: 13–17 anos,Masculino,Sem informação,24,2,22,70.0,72.5,75.0,77.5,80.0
+PA DIASTOLICA,DBHA: 13–17 anos,Sem informação,Anormal,1,1,0,80.0,80.0,80.0,80.0,80.0
+PA DIASTOLICA,DBHA: 18–19 anos,Feminino,Anormal,2,2,0,60.0,65.0,70.0,75.0,80.0
+PA DIASTOLICA,DBHA: 18–19 anos,Feminino,Normal,19,16,3,60.0,60.0,67.5,71.25,80.0
+PA DIASTOLICA,DBHA: 18–19 anos,Masculino,Anormal,3,3,0,70.0,70.0,70.0,80.0,90.0
+PA DIASTOLICA,DBHA: 18–19 anos,Masculino,Normal,12,11,1,60.0,70.0,70.0,80.0,100.0
+PA DIASTOLICA,DBHA: 18–19 anos,Masculino,Sem informação,2,0,2,,,,,
+PA DIASTOLICA,DBHA: 1–12 anos,Feminino,Anormal,1118,540,578,23.0,60.0,60.0,65.0,115.0
+PA DIASTOLICA,DBHA: 1–12 anos,Feminino,Normal,1755,916,839,35.0,60.0,60.0,65.0,100.0
+PA DIASTOLICA,DBHA: 1–12 anos,Feminino,Sem informação,126,6,120,55.0,60.0,60.0,60.0,60.0
+PA DIASTOLICA,DBHA: 1–12 anos,Indeterminado,Anormal,15,7,8,60.0,60.0,60.0,70.0,70.0
+PA DIASTOLICA,DBHA: 1–12 anos,Indeterminado,Normal,129,91,38,50.0,60.0,60.0,70.0,110.0
+PA DIASTOLICA,DBHA: 1–12 anos,Masculino,Anormal,1617,883,734,40.0,60.0,60.0,65.0,100.0
+PA DIASTOLICA,DBHA: 1–12 anos,Masculino,Normal,2791,1509,1282,40.0,60.0,60.0,65.0,100.0
+PA DIASTOLICA,DBHA: 1–12 anos,Masculino,Sem informação,150,2,148,60.0,60.0,60.0,60.0,60.0
+PA DIASTOLICA,DBHA: 1–12 anos,Sem informação,Normal,2,1,1,65.0,65.0,65.0,65.0,65.0
+PA DIASTOLICA,Idade indisponível,Feminino,Anormal,138,74,64,50.0,60.0,62.5,70.0,100.0
+PA DIASTOLICA,Idade indisponível,Feminino,Normal,176,119,57,40.0,60.0,60.0,70.0,90.0
+PA DIASTOLICA,Idade indisponível,Feminino,Sem informação,21,0,21,,,,,
+PA DIASTOLICA,Idade indisponível,Indeterminado,Anormal,39,3,36,55.0,57.5,60.0,65.0,70.0
+PA DIASTOLICA,Idade indisponível,Indeterminado,Normal,145,6,139,60.0,62.5,70.0,70.0,120.0
+PA DIASTOLICA,Idade indisponível,Indeterminado,Sem informação,6,0,6,,,,,
+PA DIASTOLICA,Idade indisponível,Masculino,Anormal,176,104,72,40.0,60.0,60.0,70.0,120.0
+PA DIASTOLICA,Idade indisponível,Masculino,Normal,222,155,67,45.0,60.0,60.0,70.0,90.0
+PA DIASTOLICA,Idade indisponível,Masculino,Sem informação,15,1,14,60.0,60.0,60.0,60.0,60.0
+PA DIASTOLICA,Menor de 1 ano: não classificável,Feminino,Anormal,628,25,603,40.0,50.0,60.0,65.0,70.0
+PA DIASTOLICA,Menor de 1 ano: não classificável,Feminino,Normal,431,36,395,35.0,60.0,60.0,70.0,80.0
+PA DIASTOLICA,Menor de 1 ano: não classificável,Feminino,Sem informação,32,0,32,,,,,
+PA DIASTOLICA,Menor de 1 ano: não classificável,Indeterminado,Anormal,249,4,245,50.0,65.0,70.0,70.0,70.0
+PA DIASTOLICA,Menor de 1 ano: não classificável,Indeterminado,Normal,73,0,73,,,,,
+PA DIASTOLICA,Menor de 1 ano: não classificável,Indeterminado,Sem informação,3,0,3,,,,,
+PA DIASTOLICA,Menor de 1 ano: não classificável,Masculino,Anormal,800,43,757,35.0,55.0,60.0,70.0,110.0
+PA DIASTOLICA,Menor de 1 ano: não classificável,Masculino,Normal,570,39,531,50.0,57.5,60.0,70.0,80.0
+PA DIASTOLICA,Menor de 1 ano: não classificável,Masculino,Sem informação,35,0,35,,,,,
+PA DIASTOLICA,Menor de 1 ano: não classificável,Sem informação,Normal,1,0,1,,,,,

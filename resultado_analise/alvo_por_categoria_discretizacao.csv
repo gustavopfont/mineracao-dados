@@ -1,0 +1,194 @@
+﻿variavel,referencia_etaria,sexo,categoria,n_categoria,n_alvo_conhecido,n_normal,n_anormal,n_alvo_ausente,percentual_anormal_alvo_conhecido
+CLASSIFICACAO IMC,Fora da referência OMS,Feminino,Magreza acentuada,0,0,0,0,0,
+CLASSIFICACAO IMC,Fora da referência OMS,Feminino,Magreza,0,0,0,0,0,
+CLASSIFICACAO IMC,Fora da referência OMS,Feminino,Eutrofia,0,0,0,0,0,
+CLASSIFICACAO IMC,Fora da referência OMS,Feminino,Risco de sobrepeso,0,0,0,0,0,
+CLASSIFICACAO IMC,Fora da referência OMS,Feminino,Sobrepeso,0,0,0,0,0,
+CLASSIFICACAO IMC,Fora da referência OMS,Feminino,Obesidade,0,0,0,0,0,
+CLASSIFICACAO IMC,Fora da referência OMS,Feminino,Sem informação,8,8,8,0,0,0.0
+CLASSIFICACAO IMC,Fora da referência OMS,Masculino,Magreza acentuada,0,0,0,0,0,
+CLASSIFICACAO IMC,Fora da referência OMS,Masculino,Magreza,0,0,0,0,0,
+CLASSIFICACAO IMC,Fora da referência OMS,Masculino,Eutrofia,0,0,0,0,0,
+CLASSIFICACAO IMC,Fora da referência OMS,Masculino,Risco de sobrepeso,0,0,0,0,0,
+CLASSIFICACAO IMC,Fora da referência OMS,Masculino,Sobrepeso,0,0,0,0,0,
+CLASSIFICACAO IMC,Fora da referência OMS,Masculino,Obesidade,0,0,0,0,0,
+CLASSIFICACAO IMC,Fora da referência OMS,Masculino,Sem informação,10,9,7,2,1,22.22222222222222
+CLASSIFICACAO IMC,Idade indisponível,Feminino,Magreza acentuada,0,0,0,0,0,
+CLASSIFICACAO IMC,Idade indisponível,Feminino,Magreza,0,0,0,0,0,
+CLASSIFICACAO IMC,Idade indisponível,Feminino,Eutrofia,0,0,0,0,0,
+CLASSIFICACAO IMC,Idade indisponível,Feminino,Risco de sobrepeso,0,0,0,0,0,
+CLASSIFICACAO IMC,Idade indisponível,Feminino,Sobrepeso,0,0,0,0,0,
+CLASSIFICACAO IMC,Idade indisponível,Feminino,Obesidade,0,0,0,0,0,
+CLASSIFICACAO IMC,Idade indisponível,Feminino,Sem informação,335,314,176,138,21,43.94904458598726
+CLASSIFICACAO IMC,Idade indisponível,Indeterminado,Magreza acentuada,0,0,0,0,0,
+CLASSIFICACAO IMC,Idade indisponível,Indeterminado,Magreza,0,0,0,0,0,
+CLASSIFICACAO IMC,Idade indisponível,Indeterminado,Eutrofia,0,0,0,0,0,
+CLASSIFICACAO IMC,Idade indisponível,Indeterminado,Risco de sobrepeso,0,0,0,0,0,
+CLASSIFICACAO IMC,Idade indisponível,Indeterminado,Sobrepeso,0,0,0,0,0,
+CLASSIFICACAO IMC,Idade indisponível,Indeterminado,Obesidade,0,0,0,0,0,
+CLASSIFICACAO IMC,Idade indisponível,Indeterminado,Sem informação,190,184,145,39,6,21.195652173913043
+CLASSIFICACAO IMC,Idade indisponível,Masculino,Magreza acentuada,0,0,0,0,0,
+CLASSIFICACAO IMC,Idade indisponível,Masculino,Magreza,0,0,0,0,0,
+CLASSIFICACAO IMC,Idade indisponível,Masculino,Eutrofia,0,0,0,0,0,
+CLASSIFICACAO IMC,Idade indisponível,Masculino,Risco de sobrepeso,0,0,0,0,0,
+CLASSIFICACAO IMC,Idade indisponível,Masculino,Sobrepeso,0,0,0,0,0,
+CLASSIFICACAO IMC,Idade indisponível,Masculino,Obesidade,0,0,0,0,0,
+CLASSIFICACAO IMC,Idade indisponível,Masculino,Sem informação,413,398,222,176,15,44.221105527638194
+CLASSIFICACAO IMC,OMS 2006: 0–60 meses completos,Feminino,Magreza acentuada,47,41,17,24,6,58.53658536585366
+CLASSIFICACAO IMC,OMS 2006: 0–60 meses completos,Feminino,Magreza,64,63,20,43,1,68.25396825396825
+CLASSIFICACAO IMC,OMS 2006: 0–60 meses completos,Feminino,Eutrofia,1085,1057,526,531,28,50.23651844843898
+CLASSIFICACAO IMC,OMS 2006: 0–60 meses completos,Feminino,Risco de sobrepeso,390,376,197,179,14,47.6063829787234
+CLASSIFICACAO IMC,OMS 2006: 0–60 meses completos,Feminino,Sobrepeso,155,149,79,70,6,46.97986577181208
+CLASSIFICACAO IMC,OMS 2006: 0–60 meses completos,Feminino,Obesidade,59,59,36,23,0,38.983050847457626
+CLASSIFICACAO IMC,OMS 2006: 0–60 meses completos,Feminino,Sem informação,758,741,372,369,17,49.797570850202426
+CLASSIFICACAO IMC,OMS 2006: 0–60 meses completos,Indeterminado,Magreza acentuada,0,0,0,0,0,
+CLASSIFICACAO IMC,OMS 2006: 0–60 meses completos,Indeterminado,Magreza,0,0,0,0,0,
+CLASSIFICACAO IMC,OMS 2006: 0–60 meses completos,Indeterminado,Eutrofia,0,0,0,0,0,
+CLASSIFICACAO IMC,OMS 2006: 0–60 meses completos,Indeterminado,Risco de sobrepeso,0,0,0,0,0,
+CLASSIFICACAO IMC,OMS 2006: 0–60 meses completos,Indeterminado,Sobrepeso,0,0,0,0,0,
+CLASSIFICACAO IMC,OMS 2006: 0–60 meses completos,Indeterminado,Obesidade,0,0,0,0,0,
+CLASSIFICACAO IMC,OMS 2006: 0–60 meses completos,Indeterminado,Sem informação,383,380,124,256,3,67.36842105263158
+CLASSIFICACAO IMC,OMS 2006: 0–60 meses completos,Masculino,Magreza acentuada,64,62,15,47,2,75.80645161290323
+CLASSIFICACAO IMC,OMS 2006: 0–60 meses completos,Masculino,Magreza,92,90,39,51,2,56.666666666666664
+CLASSIFICACAO IMC,OMS 2006: 0–60 meses completos,Masculino,Eutrofia,1457,1414,742,672,43,47.524752475247524
+CLASSIFICACAO IMC,OMS 2006: 0–60 meses completos,Masculino,Risco de sobrepeso,581,566,308,258,15,45.58303886925795
+CLASSIFICACAO IMC,OMS 2006: 0–60 meses completos,Masculino,Sobrepeso,245,238,144,94,7,39.49579831932773
+CLASSIFICACAO IMC,OMS 2006: 0–60 meses completos,Masculino,Obesidade,168,164,107,57,4,34.75609756097561
+CLASSIFICACAO IMC,OMS 2006: 0–60 meses completos,Masculino,Sem informação,979,964,497,467,15,48.44398340248963
+CLASSIFICACAO IMC,OMS 2006: 0–60 meses completos,Sem informação,Magreza acentuada,0,0,0,0,0,
+CLASSIFICACAO IMC,OMS 2006: 0–60 meses completos,Sem informação,Magreza,0,0,0,0,0,
+CLASSIFICACAO IMC,OMS 2006: 0–60 meses completos,Sem informação,Eutrofia,0,0,0,0,0,
+CLASSIFICACAO IMC,OMS 2006: 0–60 meses completos,Sem informação,Risco de sobrepeso,0,0,0,0,0,
+CLASSIFICACAO IMC,OMS 2006: 0–60 meses completos,Sem informação,Sobrepeso,0,0,0,0,0,
+CLASSIFICACAO IMC,OMS 2006: 0–60 meses completos,Sem informação,Obesidade,0,0,0,0,0,
+CLASSIFICACAO IMC,OMS 2006: 0–60 meses completos,Sem informação,Sem informação,3,3,3,0,0,0.0
+CLASSIFICACAO IMC,OMS 2007: 61–228 meses completos,Feminino,Magreza acentuada,9,8,3,5,1,62.5
+CLASSIFICACAO IMC,OMS 2007: 61–228 meses completos,Feminino,Magreza,24,24,18,6,0,25.0
+CLASSIFICACAO IMC,OMS 2007: 61–228 meses completos,Feminino,Eutrofia,680,629,415,214,51,34.02225755166932
+CLASSIFICACAO IMC,OMS 2007: 61–228 meses completos,Feminino,Risco de sobrepeso,0,0,0,0,0,
+CLASSIFICACAO IMC,OMS 2007: 61–228 meses completos,Feminino,Sobrepeso,217,200,136,64,17,32.0
+CLASSIFICACAO IMC,OMS 2007: 61–228 meses completos,Feminino,Obesidade,148,132,89,43,16,32.57575757575758
+CLASSIFICACAO IMC,OMS 2007: 61–228 meses completos,Feminino,Sem informação,745,729,483,246,16,33.74485596707819
+CLASSIFICACAO IMC,OMS 2007: 61–228 meses completos,Indeterminado,Magreza acentuada,0,0,0,0,0,
+CLASSIFICACAO IMC,OMS 2007: 61–228 meses completos,Indeterminado,Magreza,0,0,0,0,0,
+CLASSIFICACAO IMC,OMS 2007: 61–228 meses completos,Indeterminado,Eutrofia,0,0,0,0,0,
+CLASSIFICACAO IMC,OMS 2007: 61–228 meses completos,Indeterminado,Risco de sobrepeso,0,0,0,0,0,
+CLASSIFICACAO IMC,OMS 2007: 61–228 meses completos,Indeterminado,Sobrepeso,0,0,0,0,0,
+CLASSIFICACAO IMC,OMS 2007: 61–228 meses completos,Indeterminado,Obesidade,0,0,0,0,0,
+CLASSIFICACAO IMC,OMS 2007: 61–228 meses completos,Indeterminado,Sem informação,105,105,97,8,0,7.619047619047619
+CLASSIFICACAO IMC,OMS 2007: 61–228 meses completos,Masculino,Magreza acentuada,15,14,5,9,1,64.28571428571429
+CLASSIFICACAO IMC,OMS 2007: 61–228 meses completos,Masculino,Magreza,40,38,21,17,2,44.73684210526316
+CLASSIFICACAO IMC,OMS 2007: 61–228 meses completos,Masculino,Eutrofia,853,800,522,278,53,34.75
+CLASSIFICACAO IMC,OMS 2007: 61–228 meses completos,Masculino,Risco de sobrepeso,0,0,0,0,0,
+CLASSIFICACAO IMC,OMS 2007: 61–228 meses completos,Masculino,Sobrepeso,368,343,237,106,25,30.903790087463555
+CLASSIFICACAO IMC,OMS 2007: 61–228 meses completos,Masculino,Obesidade,352,332,240,92,20,27.710843373493976
+CLASSIFICACAO IMC,OMS 2007: 61–228 meses completos,Masculino,Sem informação,1091,1070,695,375,21,35.046728971962615
+CLASSIFICACAO IMC,OMS 2007: 61–228 meses completos,Sem informação,Magreza acentuada,0,0,0,0,0,
+CLASSIFICACAO IMC,OMS 2007: 61–228 meses completos,Sem informação,Magreza,0,0,0,0,0,
+CLASSIFICACAO IMC,OMS 2007: 61–228 meses completos,Sem informação,Eutrofia,0,0,0,0,0,
+CLASSIFICACAO IMC,OMS 2007: 61–228 meses completos,Sem informação,Risco de sobrepeso,0,0,0,0,0,
+CLASSIFICACAO IMC,OMS 2007: 61–228 meses completos,Sem informação,Sobrepeso,0,0,0,0,0,
+CLASSIFICACAO IMC,OMS 2007: 61–228 meses completos,Sem informação,Obesidade,0,0,0,0,0,
+CLASSIFICACAO IMC,OMS 2007: 61–228 meses completos,Sem informação,Sem informação,1,1,0,1,0,100.0
+PPA_CALCULADA,DBHA: 13–17 anos,Feminino,Normal,185,184,140,44,1,23.91304347826087
+PPA_CALCULADA,DBHA: 13–17 anos,Feminino,Pré-hipertensão,15,15,11,4,0,26.666666666666668
+PPA_CALCULADA,DBHA: 13–17 anos,Feminino,HA estágio 1,27,27,21,6,0,22.22222222222222
+PPA_CALCULADA,DBHA: 13–17 anos,Feminino,HA estágio 2,11,11,3,8,0,72.72727272727273
+PPA_CALCULADA,DBHA: 13–17 anos,Feminino,HA estágio 3,0,0,0,0,0,
+PPA_CALCULADA,DBHA: 13–17 anos,Feminino,Sem informação,40,26,19,7,14,26.923076923076923
+PPA_CALCULADA,DBHA: 13–17 anos,Indeterminado,Normal,9,9,9,0,0,0.0
+PPA_CALCULADA,DBHA: 13–17 anos,Indeterminado,Pré-hipertensão,3,3,3,0,0,0.0
+PPA_CALCULADA,DBHA: 13–17 anos,Indeterminado,HA estágio 1,5,5,5,0,0,0.0
+PPA_CALCULADA,DBHA: 13–17 anos,Indeterminado,HA estágio 2,2,2,2,0,0,0.0
+PPA_CALCULADA,DBHA: 13–17 anos,Indeterminado,HA estágio 3,0,0,0,0,0,
+PPA_CALCULADA,DBHA: 13–17 anos,Indeterminado,Sem informação,0,0,0,0,0,
+PPA_CALCULADA,DBHA: 13–17 anos,Masculino,Normal,193,192,125,67,1,34.895833333333336
+PPA_CALCULADA,DBHA: 13–17 anos,Masculino,Pré-hipertensão,21,21,13,8,0,38.095238095238095
+PPA_CALCULADA,DBHA: 13–17 anos,Masculino,HA estágio 1,40,39,30,9,1,23.076923076923077
+PPA_CALCULADA,DBHA: 13–17 anos,Masculino,HA estágio 2,23,23,13,10,0,43.47826086956522
+PPA_CALCULADA,DBHA: 13–17 anos,Masculino,HA estágio 3,0,0,0,0,0,
+PPA_CALCULADA,DBHA: 13–17 anos,Masculino,Sem informação,58,36,25,11,22,30.555555555555557
+PPA_CALCULADA,DBHA: 13–17 anos,Sem informação,Normal,0,0,0,0,0,
+PPA_CALCULADA,DBHA: 13–17 anos,Sem informação,Pré-hipertensão,0,0,0,0,0,
+PPA_CALCULADA,DBHA: 13–17 anos,Sem informação,HA estágio 1,1,1,0,1,0,100.0
+PPA_CALCULADA,DBHA: 13–17 anos,Sem informação,HA estágio 2,0,0,0,0,0,
+PPA_CALCULADA,DBHA: 13–17 anos,Sem informação,HA estágio 3,0,0,0,0,0,
+PPA_CALCULADA,DBHA: 13–17 anos,Sem informação,Sem informação,0,0,0,0,0,
+PPA_CALCULADA,DBHA: 18–19 anos,Feminino,Normal,13,13,12,1,0,7.6923076923076925
+PPA_CALCULADA,DBHA: 18–19 anos,Feminino,Pré-hipertensão,5,5,4,1,0,20.0
+PPA_CALCULADA,DBHA: 18–19 anos,Feminino,HA estágio 1,0,0,0,0,0,
+PPA_CALCULADA,DBHA: 18–19 anos,Feminino,HA estágio 2,0,0,0,0,0,
+PPA_CALCULADA,DBHA: 18–19 anos,Feminino,HA estágio 3,0,0,0,0,0,
+PPA_CALCULADA,DBHA: 18–19 anos,Feminino,Sem informação,3,3,3,0,0,0.0
+PPA_CALCULADA,DBHA: 18–19 anos,Masculino,Normal,5,5,4,1,0,20.0
+PPA_CALCULADA,DBHA: 18–19 anos,Masculino,Pré-hipertensão,7,7,6,1,0,14.285714285714286
+PPA_CALCULADA,DBHA: 18–19 anos,Masculino,HA estágio 1,1,1,0,1,0,100.0
+PPA_CALCULADA,DBHA: 18–19 anos,Masculino,HA estágio 2,1,1,1,0,0,0.0
+PPA_CALCULADA,DBHA: 18–19 anos,Masculino,HA estágio 3,0,0,0,0,0,
+PPA_CALCULADA,DBHA: 18–19 anos,Masculino,Sem informação,3,1,1,0,2,0.0
+PPA_CALCULADA,DBHA: 1–12 anos,Feminino,Normal,558,554,353,201,4,36.28158844765343
+PPA_CALCULADA,DBHA: 1–12 anos,Feminino,Pré-hipertensão,53,53,36,17,0,32.075471698113205
+PPA_CALCULADA,DBHA: 1–12 anos,Feminino,HA estágio 1,66,66,37,29,0,43.93939393939394
+PPA_CALCULADA,DBHA: 1–12 anos,Feminino,HA estágio 2,19,19,9,10,0,52.63157894736842
+PPA_CALCULADA,DBHA: 1–12 anos,Feminino,HA estágio 3,0,0,0,0,0,
+PPA_CALCULADA,DBHA: 1–12 anos,Feminino,Sem informação,2303,2181,1320,861,122,39.47730398899587
+PPA_CALCULADA,DBHA: 1–12 anos,Indeterminado,Normal,0,0,0,0,0,
+PPA_CALCULADA,DBHA: 1–12 anos,Indeterminado,Pré-hipertensão,0,0,0,0,0,
+PPA_CALCULADA,DBHA: 1–12 anos,Indeterminado,HA estágio 1,0,0,0,0,0,
+PPA_CALCULADA,DBHA: 1–12 anos,Indeterminado,HA estágio 2,0,0,0,0,0,
+PPA_CALCULADA,DBHA: 1–12 anos,Indeterminado,HA estágio 3,0,0,0,0,0,
+PPA_CALCULADA,DBHA: 1–12 anos,Indeterminado,Sem informação,144,144,129,15,0,10.416666666666666
+PPA_CALCULADA,DBHA: 1–12 anos,Masculino,Normal,958,956,601,355,2,37.13389121338912
+PPA_CALCULADA,DBHA: 1–12 anos,Masculino,Pré-hipertensão,99,99,55,44,0,44.44444444444444
+PPA_CALCULADA,DBHA: 1–12 anos,Masculino,HA estágio 1,135,135,84,51,0,37.77777777777778
+PPA_CALCULADA,DBHA: 1–12 anos,Masculino,HA estágio 2,34,34,21,13,0,38.23529411764706
+PPA_CALCULADA,DBHA: 1–12 anos,Masculino,HA estágio 3,0,0,0,0,0,
+PPA_CALCULADA,DBHA: 1–12 anos,Masculino,Sem informação,3332,3184,2030,1154,148,36.243718592964825
+PPA_CALCULADA,DBHA: 1–12 anos,Sem informação,Normal,0,0,0,0,0,
+PPA_CALCULADA,DBHA: 1–12 anos,Sem informação,Pré-hipertensão,0,0,0,0,0,
+PPA_CALCULADA,DBHA: 1–12 anos,Sem informação,HA estágio 1,0,0,0,0,0,
+PPA_CALCULADA,DBHA: 1–12 anos,Sem informação,HA estágio 2,0,0,0,0,0,
+PPA_CALCULADA,DBHA: 1–12 anos,Sem informação,HA estágio 3,0,0,0,0,0,
+PPA_CALCULADA,DBHA: 1–12 anos,Sem informação,Sem informação,2,2,2,0,0,0.0
+PPA_CALCULADA,Idade indisponível,Feminino,Normal,0,0,0,0,0,
+PPA_CALCULADA,Idade indisponível,Feminino,Pré-hipertensão,0,0,0,0,0,
+PPA_CALCULADA,Idade indisponível,Feminino,HA estágio 1,0,0,0,0,0,
+PPA_CALCULADA,Idade indisponível,Feminino,HA estágio 2,0,0,0,0,0,
+PPA_CALCULADA,Idade indisponível,Feminino,HA estágio 3,0,0,0,0,0,
+PPA_CALCULADA,Idade indisponível,Feminino,Sem informação,335,314,176,138,21,43.94904458598726
+PPA_CALCULADA,Idade indisponível,Indeterminado,Normal,0,0,0,0,0,
+PPA_CALCULADA,Idade indisponível,Indeterminado,Pré-hipertensão,0,0,0,0,0,
+PPA_CALCULADA,Idade indisponível,Indeterminado,HA estágio 1,0,0,0,0,0,
+PPA_CALCULADA,Idade indisponível,Indeterminado,HA estágio 2,0,0,0,0,0,
+PPA_CALCULADA,Idade indisponível,Indeterminado,HA estágio 3,0,0,0,0,0,
+PPA_CALCULADA,Idade indisponível,Indeterminado,Sem informação,190,184,145,39,6,21.195652173913043
+PPA_CALCULADA,Idade indisponível,Masculino,Normal,0,0,0,0,0,
+PPA_CALCULADA,Idade indisponível,Masculino,Pré-hipertensão,0,0,0,0,0,
+PPA_CALCULADA,Idade indisponível,Masculino,HA estágio 1,0,0,0,0,0,
+PPA_CALCULADA,Idade indisponível,Masculino,HA estágio 2,0,0,0,0,0,
+PPA_CALCULADA,Idade indisponível,Masculino,HA estágio 3,0,0,0,0,0,
+PPA_CALCULADA,Idade indisponível,Masculino,Sem informação,413,398,222,176,15,44.221105527638194
+PPA_CALCULADA,Menor de 1 ano: não classificável,Feminino,Normal,0,0,0,0,0,
+PPA_CALCULADA,Menor de 1 ano: não classificável,Feminino,Pré-hipertensão,0,0,0,0,0,
+PPA_CALCULADA,Menor de 1 ano: não classificável,Feminino,HA estágio 1,0,0,0,0,0,
+PPA_CALCULADA,Menor de 1 ano: não classificável,Feminino,HA estágio 2,0,0,0,0,0,
+PPA_CALCULADA,Menor de 1 ano: não classificável,Feminino,HA estágio 3,0,0,0,0,0,
+PPA_CALCULADA,Menor de 1 ano: não classificável,Feminino,Sem informação,1091,1059,431,628,32,59.301227573182246
+PPA_CALCULADA,Menor de 1 ano: não classificável,Indeterminado,Normal,0,0,0,0,0,
+PPA_CALCULADA,Menor de 1 ano: não classificável,Indeterminado,Pré-hipertensão,0,0,0,0,0,
+PPA_CALCULADA,Menor de 1 ano: não classificável,Indeterminado,HA estágio 1,0,0,0,0,0,
+PPA_CALCULADA,Menor de 1 ano: não classificável,Indeterminado,HA estágio 2,0,0,0,0,0,
+PPA_CALCULADA,Menor de 1 ano: não classificável,Indeterminado,HA estágio 3,0,0,0,0,0,
+PPA_CALCULADA,Menor de 1 ano: não classificável,Indeterminado,Sem informação,325,322,73,249,3,77.32919254658385
+PPA_CALCULADA,Menor de 1 ano: não classificável,Masculino,Normal,0,0,0,0,0,
+PPA_CALCULADA,Menor de 1 ano: não classificável,Masculino,Pré-hipertensão,0,0,0,0,0,
+PPA_CALCULADA,Menor de 1 ano: não classificável,Masculino,HA estágio 1,0,0,0,0,0,
+PPA_CALCULADA,Menor de 1 ano: não classificável,Masculino,HA estágio 2,0,0,0,0,0,
+PPA_CALCULADA,Menor de 1 ano: não classificável,Masculino,HA estágio 3,0,0,0,0,0,
+PPA_CALCULADA,Menor de 1 ano: não classificável,Masculino,Sem informação,1405,1370,570,800,35,58.394160583941606
+PPA_CALCULADA,Menor de 1 ano: não classificável,Sem informação,Normal,0,0,0,0,0,
+PPA_CALCULADA,Menor de 1 ano: não classificável,Sem informação,Pré-hipertensão,0,0,0,0,0,
+PPA_CALCULADA,Menor de 1 ano: não classificável,Sem informação,HA estágio 1,0,0,0,0,0,
+PPA_CALCULADA,Menor de 1 ano: não classificável,Sem informação,HA estágio 2,0,0,0,0,0,
+PPA_CALCULADA,Menor de 1 ano: não classificável,Sem informação,HA estágio 3,0,0,0,0,0,
+PPA_CALCULADA,Menor de 1 ano: não classificável,Sem informação,Sem informação,1,1,1,0,0,0.0

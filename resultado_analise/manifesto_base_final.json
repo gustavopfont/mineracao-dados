@@ -1,0 +1,62 @@
+{
+  "entradas_sha256": {
+    "C:\\Users\\luisf\\Documents\\vscode\\mineracao-dados\\UCMF_raw.csv": "0843e032356f39e71ba1e70348342d7ac6d8b35433e9d618b266ef5fc7f7f4d1",
+    "C:\\Users\\luisf\\Documents\\vscode\\mineracao-dados\\resultado_analise\\UCMF_limpo.csv": "b8e74a30fd4691f9ec19dcc6a1a330c246998c87bc5e3eb595aab3c450fef54e",
+    "C:\\Users\\luisf\\Documents\\vscode\\mineracao-dados\\referencias\\pa_dbha_2025.csv": "dd9de0b8b5b559051efbd9f9bd55e604e49828b307603bd860d52620de310e3d",
+    "C:\\Users\\luisf\\Documents\\vscode\\mineracao-dados\\referencias\\pa_dbha_2025.json": "f5a1937451557373a1e649d7b03addb7b7d886442af0d6e7d3ca6377bccf8eb9",
+    "C:\\Users\\luisf\\Documents\\vscode\\mineracao-dados\\referencias\\imc_oms_0_5.csv": "0d6a124dab43e08549890d322d970c9d0e0a65f2d4e9db57d16f23feb14f9ecf",
+    "C:\\Users\\luisf\\Documents\\vscode\\mineracao-dados\\referencias\\imc_oms_5_19.csv": "2b695ee71b1dd63ed0d54315c79db2dc76e559e195e7d731b60a3fb2bb07c012"
+  },
+  "referencia_sha256": "dd9de0b8b5b559051efbd9f9bd55e604e49828b307603bd860d52620de310e3d",
+  "linhas": 12134,
+  "colunas": [
+    "ID",
+    "SEXO",
+    "IDADE",
+    "FAIXA_ETARIA",
+    "Peso",
+    "Altura",
+    "IMC",
+    "CLASSIFICACAO IMC",
+    "FC",
+    "PA SISTOLICA",
+    "PA DIASTOLICA",
+    "PPA_CALCULADA",
+    "PULSOS",
+    "B2",
+    "MOTIVO_UNIFICADO",
+    "HDA_UNIFICADA",
+    "NORMAL X ANORMAL"
+  ],
+  "excluidas": [
+    "SOPRO",
+    "Convenio",
+    "Atendimento",
+    "DN",
+    "MOTIVO1",
+    "MOTIVO2",
+    "HDA 1",
+    "HDA2",
+    "PPA"
+  ],
+  "alvos_ausentes": 429,
+  "saidas_sha256": {
+    "UCMF_base_final.csv": "5d828769269adcc3e929b98ba0ea01d2e4f7fbb3fce715c23421094c1241981d",
+    "auditoria_finalizacao.csv": "a7772646206056999603f8234c45230e8b71aceaff09cc9c0a4e239f47fe6563",
+    "comparacao_ppa_final.csv": "ec09bd422501c5ecfc19879e24ac11723510bb1d5b385bcd5ef1f4d39e3e8cd7",
+    "associacoes_final.csv": "8dd8ad985801e2e7b4d5d3ff3f2763a84a2387657a71aae847777ec54966dbd2",
+    "frequencias_associacoes_final.csv": "3a2fe2b27efbe18553560b1521dba5f863ba6eca0a9486b98423e326c94f4624",
+    "alteracoes_limpeza_reproduzida.csv": "bda1f1fe9595bfb4607493a7cc166dc2cf792d091a1e206599f538e9f3580c8a",
+    "pendencias_limpeza_reproduzida.csv": "715e6fb731451b1a1ee08966aa2940fe8653d4b36ec60b846042a1cd765ec5b6",
+    "linhas_removidas_limpeza_reproduzida.csv": "493f6d0f83eefc96c8f1c86ca283fe07722391f5e1327c7eabc322effcf3a410",
+    "cobertura_discretizacao.csv": "4340cc30e805eb89da5497f3753f047b1312170417082afd2ec5415ae9063d2d",
+    "frequencias_discretizacao.csv": "9e6e21d21a9d1d0411dd2cea2ab661daffb85abcd982d2a9447039cf0ae855a2",
+    "alvo_por_categoria_discretizacao.csv": "762357f941c63dc239edaad1a66f73ce65251b627a6ba8a6141f81968a5d3e84",
+    "continuas_por_alvo_discretizacao.csv": "dfe21dda053aa749a75467c556995700f76a0050e664d9ef24e710943fec3c41",
+    "diagnostico_quantis.csv": "77829c6252080aaacc354514ad264f25530d34974613a9bb7571d19e4fb09698",
+    "intervalos_quartis_descritivos.csv": "d84a93834f6aec8e608b1e55b94e1399aa9d2abca876cfb5bddc3f75baf011ad",
+    "auditoria_imc_final.csv": "ffb9491fcede3a7c3d909c78689c39828e3ee922b3da59423b6cdefca92c26b8",
+    "qualidade_base_final.csv": "aa5c7326ee0071ab163433c9d8cfaef89e6921bbec01ec5687a2dc8c4664fced",
+    "relatorio_finalizacao.md": "e7a656798532a6bc150bf6e326f1f0f36ab253bf5db97f583c19b5cea6264cf1"
+  }
+}

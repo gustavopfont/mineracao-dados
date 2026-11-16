@@ -1,0 +1,273 @@
+{
+  "winner": "floresta",
+  "target_met_development": true,
+  "positive_class": "Anormal",
+  "config": {
+    "protocol_version": 3,
+    "representations": [
+      "continua",
+      "clinica",
+      "combinada"
+    ],
+    "positive_class": "Anormal",
+    "seed": 42,
+    "test_size": 0.2,
+    "outer_seeds": [
+      101,
+      202,
+      303,
+      404,
+      505
+    ],
+    "inner_folds": 3,
+    "candidates_per_family": 4,
+    "minimum_specificity": 0.8,
+    "n_jobs": 4,
+    "bootstrap_repetitions": 2000,
+    "permutation_repetitions": 20,
+    "alpha": 0.05
+  },
+  "candidates": {
+    "dummy": [
+      {}
+    ],
+    "logistica": [
+      {
+        "C": 0.1,
+        "class_weight": "balanced"
+      },
+      {
+        "C": 0.001,
+        "class_weight": null
+      },
+      {
+        "C": 100,
+        "class_weight": null
+      },
+      {
+        "C": 1,
+        "class_weight": "balanced"
+      }
+    ],
+    "arvore": [
+      {
+        "class_weight": "balanced",
+        "max_depth": 3,
+        "min_samples_leaf": 20
+      },
+      {
+        "class_weight": null,
+        "max_depth": 3,
+        "min_samples_leaf": 5
+      },
+      {
+        "class_weight": null,
+        "max_depth": null,
+        "min_samples_leaf": 5
+      },
+      {
+        "class_weight": null,
+        "max_depth": null,
+        "min_samples_leaf": 1
+      }
+    ],
+    "knn": [
+      {
+        "n_neighbors": 11,
+        "p": 1,
+        "weights": "distance"
+      },
+      {
+        "n_neighbors": 21,
+        "p": 2,
+        "weights": "distance"
+      },
+      {
+        "n_neighbors": 5,
+        "p": 2,
+        "weights": "uniform"
+      },
+      {
+        "n_neighbors": 41,
+        "p": 2,
+        "weights": "distance"
+      }
+    ],
+    "floresta": [
+      {
+        "class_weight": "balanced_subsample",
+        "max_depth": null,
+        "max_features": "sqrt",
+        "min_samples_leaf": 10
+      },
+      {
+        "class_weight": "balanced_subsample",
+        "max_depth": 8,
+        "max_features": "sqrt",
+        "min_samples_leaf": 10
+      },
+      {
+        "class_weight": "balanced_subsample",
+        "max_depth": 8,
+        "max_features": "sqrt",
+        "min_samples_leaf": 3
+      },
+      {
+        "class_weight": "balanced_subsample",
+        "max_depth": 16,
+        "max_features": "sqrt",
+        "min_samples_leaf": 10
+      }
+    ],
+    "boosting": [
+      {
+        "l2_regularization": 10,
+        "learning_rate": 0.1,
+        "max_iter": 100,
+        "max_leaf_nodes": 7
+      },
+      {
+        "l2_regularization": 0,
+        "learning_rate": 0.03,
+        "max_iter": 100,
+        "max_leaf_nodes": 31
+      },
+      {
+        "l2_regularization": 1,
+        "learning_rate": 0.03,
+        "max_iter": 200,
+        "max_leaf_nodes": 15
+      },
+      {
+        "l2_regularization": 0,
+        "learning_rate": 0.1,
+        "max_iter": 100,
+        "max_leaf_nodes": 15
+      }
+    ]
+  },
+  "versions": {
+    "python": "3.11.9",
+    "numpy": "2.4.6",
+    "pandas": "3.1.1",
+    "scipy": "1.17.1",
+    "scikit-learn": "1.9.1",
+    "joblib": "1.6.0",
+    "threadpoolctl": "3.8.0"
+  },
+  "data_sha256": "fecaaa6f2f601fd58f6f2b6658d004357576d5879dee6669053622a7570cdd29",
+  "models": {
+    "dummy": {
+      "params": {},
+      "selected_candidate": 0,
+      "representation": "continua",
+      "inner_ap": 0.4261040527486393,
+      "threshold_info": {
+        "threshold": 0.42613543203803905,
+        "recall": 0.0,
+        "specificity": 1.0,
+        "precision": 0.0
+      },
+      "refit_warnings": [],
+      "pipeline_sha256": "149ce7e988bfee296f255c1016edd0f8b11738d035ea5d1510492914da21970c",
+      "seconds": 5.092462999979034
+    },
+    "logistica": {
+      "params": {
+        "C": 1,
+        "class_weight": "balanced"
+      },
+      "selected_candidate": 3,
+      "representation": "continua",
+      "inner_ap": 0.7561241849566817,
+      "threshold_info": {
+        "threshold": 0.48678489763419847,
+        "recall": 0.6428937916880452,
+        "specificity": 0.8,
+        "precision": 0.7047244094488189
+      },
+      "refit_warnings": [],
+      "pipeline_sha256": "2ddc2c345f1930878956e18162ffd5f852a76c04f5f9be605cc25cf2b0c72e3a",
+      "seconds": 37.95868600002723
+    },
+    "arvore": {
+      "params": {
+        "class_weight": null,
+        "max_depth": null,
+        "min_samples_leaf": 5
+      },
+      "selected_candidate": 2,
+      "representation": "clinica",
+      "inner_ap": 0.6719105638077102,
+      "threshold_info": {
+        "threshold": 0.5833333333333334,
+        "recall": 0.5523345305284761,
+        "specificity": 0.804,
+        "precision": 0.6766184789440604
+      },
+      "refit_warnings": [],
+      "pipeline_sha256": "168a15dde0c2534a188ec020554adce9b1214c3c61fd6713715a1af91beda282",
+      "seconds": 21.926395900023635
+    },
+    "knn": {
+      "params": {
+        "n_neighbors": 41,
+        "p": 2,
+        "weights": "distance"
+      },
+      "selected_candidate": 3,
+      "representation": "continua",
+      "inner_ap": 0.6967579702151298,
+      "threshold_info": {
+        "threshold": 0.4371306948510382,
+        "recall": 0.5887634684453565,
+        "specificity": 0.8005714285714286,
+        "precision": 0.6867145421903053
+      },
+      "refit_warnings": [],
+      "pipeline_sha256": "74a6b28ae06885b84934bbef02fbf984dd146875c2040daa480a4f1c183258b8",
+      "seconds": 65.19142960000318
+    },
+    "floresta": {
+      "params": {
+        "class_weight": "balanced_subsample",
+        "max_depth": null,
+        "max_features": "sqrt",
+        "min_samples_leaf": 10
+      },
+      "selected_candidate": 0,
+      "representation": "clinica",
+      "inner_ap": 0.7602294339156669,
+      "threshold_info": {
+        "threshold": 0.4977152107663683,
+        "recall": 0.6477680861980503,
+        "specificity": 0.8007619047619048,
+        "precision": 0.7070848501820218
+      },
+      "refit_warnings": [],
+      "pipeline_sha256": "85317eb404a8adeddbbc0843a395f6b837389b7ce6dc421589a8f2701e3f17f6",
+      "seconds": 128.4593784000608
+    },
+    "boosting": {
+      "params": {
+        "l2_regularization": 1,
+        "learning_rate": 0.03,
+        "max_iter": 200,
+        "max_leaf_nodes": 15
+      },
+      "selected_candidate": 2,
+      "representation": "combinada",
+      "inner_ap": 0.7656911508733847,
+      "threshold_info": {
+        "threshold": 0.4193089420050741,
+        "recall": 0.6544381734222678,
+        "specificity": 0.8003809523809524,
+        "precision": 0.7088080022228397
+      },
+      "refit_warnings": [],
+      "pipeline_sha256": "4c4681c8a60af69429076f33f8bad667e555a7468de2a4f2a50299dcd2315866",
+      "seconds": 95.81314539990854
+    }
+  },
+  "note": "Metadados congelados antes do teste. Pipelines binarios permanecem locais; reproduzir em novo diretorio."
+}

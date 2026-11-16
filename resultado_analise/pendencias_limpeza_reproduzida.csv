@@ -1,0 +1,538 @@
+﻿ID,linha_origem,variavel,motivo
+3,4,IDADE,valor original fora do limite técnico: -4.05
+50,39,IDADE,valor original fora do limite técnico: 21.17
+112,81,Altura,valor original fora do limite técnico: 10
+124,92,IDADE,valor original fora do limite técnico: 27.57
+248,176,FC,valor original fora do limite técnico: 1120
+510,354,IDADE,valor original fora do limite técnico: 35.69
+513,357,IDADE,valor original fora do limite técnico: 29.85
+590,409,IDADE,valor original fora do limite técnico: -106.66
+761,531,IDADE,valor original fora do limite técnico: -0.18
+900,628,FC,valor original fora do limite técnico: 300
+916,641,FC,valor original fora do limite técnico: 10
+943,655,IDADE,valor original fora do limite técnico: -0.03
+1009,705,IDADE,valor original fora do limite técnico: 23.89
+1214,825,IDADE,valor original fora do limite técnico: -112.09
+1238,846,FC,valor original fora do limite técnico: 170-150
+1397,962,FC,valor original fora do limite técnico: 780
+1400,965,FC,valor original fora do limite técnico: 92-100
+1467,1009,FC,valor original fora do limite técnico: 200-300
+1506,1041,FC,valor original fora do limite técnico: 12
+1577,1088,IDADE,valor original fora do limite técnico: -105.04
+1587,1095,FC,valor original fora do limite técnico: 12
+1708,1184,IDADE,valor original fora do limite técnico: -100.83
+1861,1279,FC,valor original fora do limite técnico: 140-150
+1928,1326,IDADE,valor original fora do limite técnico: 23.75
+1932,1328,IDADE,valor original fora do limite técnico: 23.29
+2051,1420,IDADE,valor original fora do limite técnico: -9.94
+2072,1435,IMC,valor original fora do limite técnico: 4.0
+2147,1488,IDADE,valor original fora do limite técnico: 28.84
+2204,1524,IDADE,valor original fora do limite técnico: 28.42
+2285,1586,IMC,valor original fora do limite técnico: 281.0
+2426,1679,IDADE,valor original fora do limite técnico: -3.15
+2540,1752,IMC,valor original fora do limite técnico: 80.0
+2647,1814,IDADE,valor original fora do limite técnico: -109.31
+2705,1855,IDADE,valor original fora do limite técnico: 37.96
+2781,1900,IDADE,valor original fora do limite técnico: -0.18
+2790,1907,IDADE,valor original fora do limite técnico: -112.46
+2804,1915,IDADE,valor original fora do limite técnico: 54.76
+2825,1927,IDADE,valor original fora do limite técnico: 25.32
+2852,1943,IDADE,valor original fora do limite técnico: 21.76
+2911,1985,IMC,valor original fora do limite técnico: 5.0
+3006,2052,IDADE,valor original fora do limite técnico: 35.24
+3058,2091,FC,valor original fora do limite técnico: 972
+3158,2165,IDADE,valor original fora do limite técnico: 27.49
+3202,2197,IDADE,valor original fora do limite técnico: -0.05
+3268,2247,IDADE,valor original fora do limite técnico: 21.19
+3329,2285,IDADE,valor original fora do limite técnico: 23.5
+3367,2307,IDADE,valor original fora do limite técnico: -104.61
+3418,2336,IDADE,valor original fora do limite técnico: -98.59
+3454,2364,IDADE,valor original fora do limite técnico: -109.85
+3661,2496,IDADE,valor original fora do limite técnico: -31.52
+3702,2525,FC,valor original fora do limite técnico: 900
+3782,2579,IDADE,valor original fora do limite técnico: -1.03
+3884,2646,IDADE,valor original fora do limite técnico: -13.95
+3899,2658,IDADE,valor original fora do limite técnico: -103.86
+4146,2831,IDADE,valor original fora do limite técnico: -98.36
+4155,2838,FC,valor original fora do limite técnico: 80-90
+4264,2916,IDADE,valor original fora do limite técnico: 28.44
+4447,3055,IDADE,valor original fora do limite técnico: 30.77
+4524,3108,IDADE,valor original fora do limite técnico: 25.3
+4578,3146,IDADE,valor original fora do limite técnico: -98.43
+4629,3178,IDADE,valor original fora do limite técnico: 23.14
+4635,3180,IDADE,valor original fora do limite técnico: 30.63
+4849,3327,IDADE,valor original fora do limite técnico: 27.74
+4879,3352,IDADE,valor original fora do limite técnico: -99.53
+4880,3353,IDADE,valor original fora do limite técnico: 21.33
+4958,3407,IMC,valor original fora do limite técnico: 742.0
+5019,3450,IDADE,valor original fora do limite técnico: -0.23
+5223,3589,IDADE,valor original fora do limite técnico: -110.18
+5253,3607,FC,valor original fora do limite técnico: 801
+5294,3636,FC,valor original fora do limite técnico: 50-100
+5351,3677,IDADE,valor original fora do limite técnico: -109.17
+5354,3680,IDADE,valor original fora do limite técnico: -100.83
+5508,3782,IMC,valor original fora do limite técnico: 2.0
+5554,3817,IMC,valor original fora do limite técnico: 7.0
+5564,3823,FC,valor original fora do limite técnico: 981
+5615,3854,IDADE,valor original fora do limite técnico: 29.34
+5687,3907,IDADE,valor original fora do limite técnico: -100.6
+5875,4035,IMC,valor original fora do limite técnico: 2.0
+5882,4040,IDADE,valor original fora do limite técnico: 25.95
+5938,4083,IDADE,valor original fora do limite técnico: -110.97
+6040,4156,IDADE,valor original fora do limite técnico: -1.92
+6136,4227,IDADE,valor original fora do limite técnico: 25.46
+6225,4286,IDADE,valor original fora do limite técnico: -108.5
+6254,4307,IDADE,valor original fora do limite técnico: -9.68
+6268,4317,IDADE,valor original fora do limite técnico: -0.04
+6283,4328,IDADE,valor original fora do limite técnico: -0.25
+6405,4412,FC,valor original fora do limite técnico: 10
+6550,4517,IDADE,valor original fora do limite técnico: -0.03
+6567,4527,IDADE,valor original fora do limite técnico: -1.03
+6746,4644,Altura,valor original fora do limite técnico: 19
+6746,4644,IMC,valor original fora do limite técnico: 612.0
+6798,4679,IDADE,valor original fora do limite técnico: -0.72
+7093,4888,IDADE,valor original fora do limite técnico: -101.15
+7168,4944,IDADE,valor original fora do limite técnico: -0.72
+7400,5101,IDADE,valor original fora do limite técnico: -8.31
+7405,5105,IDADE,valor original fora do limite técnico: -112.52
+7450,5134,IDADE,valor original fora do limite técnico: 21.0
+7551,5214,Altura,valor original fora do limite técnico: 11
+7551,5214,IMC,valor original fora do limite técnico: 155.0
+7571,5227,FC,valor original fora do limite técnico: 10
+7619,5262,IMC,valor original fora do limite técnico: 6.0
+7627,5268,IDADE,valor original fora do limite técnico: 22.33
+7771,5376,FC,valor original fora do limite técnico: 1560
+7830,5419,FC,valor original fora do limite técnico: 156 a 168
+7927,5487,IDADE,valor original fora do limite técnico: -12.39
+7929,5489,IDADE,valor original fora do limite técnico: -0.38
+8034,5565,IDADE,valor original fora do limite técnico: -0.03
+8054,5581,IMC,valor original fora do limite técnico: 5.0
+8061,5588,IDADE,valor original fora do limite técnico: 22.29
+8253,5725,IDADE,valor original fora do limite técnico: 42.83
+8641,6001,IDADE,valor original fora do limite técnico: -112.13
+8660,6015,IDADE,valor original fora do limite técnico: -0.71
+8711,6049,IDADE,valor original fora do limite técnico: 31.98
+8717,6055,IDADE,valor original fora do limite técnico: 23.28
+8735,6069,IDADE,valor original fora do limite técnico: 20.95
+8775,6097,IDADE,valor original fora do limite técnico: -0.2
+8940,6217,IDADE,valor original fora do limite técnico: 36.3
+9037,6296,IDADE,valor original fora do limite técnico: 24.72
+9045,6301,IDADE,valor original fora do limite técnico: -109.02
+9133,6374,IDADE,valor original fora do limite técnico: -99.64
+9224,6439,IMC,valor original fora do limite técnico: 6.0
+9245,6456,IDADE,valor original fora do limite técnico: -0.34
+9321,6503,IDADE,valor original fora do limite técnico: 28.39
+9329,6510,IMC,valor original fora do limite técnico: 8.0
+9404,6555,IDADE,valor original fora do limite técnico: -0.55
+9465,6595,IDADE,valor original fora do limite técnico: -0.59
+9502,6626,IDADE,valor original fora do limite técnico: 37.56
+9548,6658,IDADE,valor original fora do limite técnico: -93.69
+9584,6680,IDADE,valor original fora do limite técnico: -96.71
+9621,6706,FC,valor original fora do limite técnico: 65-100
+9668,6741,FC,valor original fora do limite técnico: 140-160
+9722,6783,IDADE,valor original fora do limite técnico: -1.02
+9830,6874,IDADE,valor original fora do limite técnico: -110.28
+9953,6958,IDADE,valor original fora do limite técnico: -94.87
+9963,6963,IDADE,valor original fora do limite técnico: -0.11
+10008,6992,IMC,valor original fora do limite técnico: 88.0
+10039,7016,IMC,valor original fora do limite técnico: 7.0
+10307,7211,FC,valor original fora do limite técnico: 120-180
+10325,7222,IDADE,valor original fora do limite técnico: -0.06
+10639,7431,IDADE,valor original fora do limite técnico: -109.36
+10771,7523,IDADE,valor original fora do limite técnico: 28.62
+10772,7524,IDADE,valor original fora do limite técnico: 28.62
+10818,7557,IDADE,valor original fora do limite técnico: -0.06
+10932,7642,IDADE,valor original fora do limite técnico: 23.63
+10992,7682,IDADE,valor original fora do limite técnico: 21.34
+11019,7701,IDADE,valor original fora do limite técnico: -0.03
+11031,7709,IDADE,valor original fora do limite técnico: 29.85
+11042,7716,Altura,valor original fora do limite técnico: 16
+11042,7716,IMC,valor original fora do limite técnico: 848.0
+11103,7758,FC,valor original fora do limite técnico: 60-100
+11241,7844,IDADE,valor original fora do limite técnico: -0.45
+11451,8005,IDADE,valor original fora do limite técnico: 38.99
+11456,8009,IDADE,valor original fora do limite técnico: -1.34
+11473,8021,IDADE,valor original fora do limite técnico: -104.96
+11693,8179,IDADE,valor original fora do limite técnico: -0.01
+11794,8258,FC,valor original fora do limite técnico: 140-200
+11816,8274,PA SISTOLICA,valor original fora do limite técnico: 990.0
+11847,8300,IDADE,valor original fora do limite técnico: 22.99
+11931,8369,IMC,valor original fora do limite técnico: 167.0
+12116,8492,IDADE,valor original fora do limite técnico: -113.11
+12149,8515,IDADE,valor original fora do limite técnico: -95.92
+12310,8623,IDADE,valor original fora do limite técnico: -13.45
+12342,8645,IDADE,valor original fora do limite técnico: 38.68
+12349,8651,IDADE,valor original fora do limite técnico: 31.63
+12406,8690,IDADE,valor original fora do limite técnico: -0.45
+12740,8930,IMC,valor original fora do limite técnico: 5.0
+12743,8932,IDADE,valor original fora do limite técnico: -103.07
+12847,9006,IDADE,valor original fora do limite técnico: 70.61
+13020,9129,IMC,valor original fora do limite técnico: 4.0
+13066,9163,IDADE,valor original fora do limite técnico: -0.7
+13129,9198,IDADE,valor original fora do limite técnico: 21.7
+13175,9228,IDADE,valor original fora do limite técnico: 21.59
+13176,9229,IDADE,valor original fora do limite técnico: 40.44
+13266,9295,IDADE,valor original fora do limite técnico: -0.1
+13328,9333,FC,valor original fora do limite técnico: 140-120
+13331,9334,IDADE,valor original fora do limite técnico: -1.07
+13367,9362,IDADE,valor original fora do limite técnico: -0.02
+13428,9407,IDADE,valor original fora do limite técnico: -112.99
+13450,9427,IDADE,valor original fora do limite técnico: -0.68
+13587,9527,IDADE,valor original fora do limite técnico: -110.74
+13597,9536,FC,valor original fora do limite técnico: 80-90
+13601,9539,IDADE,valor original fora do limite técnico: -1.03
+13629,9557,Peso,valor original fora do limite técnico: -40.0
+13656,9577,FC,valor original fora do limite técnico: 9288
+13695,9602,IDADE,valor original fora do limite técnico: 39.12
+13701,9607,IDADE,valor original fora do limite técnico: -0.49
+13882,9729,IDADE,valor original fora do limite técnico: -102.01
+13989,9804,IDADE,valor original fora do limite técnico: -0.64
+14043,9847,IDADE,valor original fora do limite técnico: -0.43
+14118,9894,IDADE,valor original fora do limite técnico: 26.65
+14145,9914,FC,valor original fora do limite técnico: 66-80
+14191,9945,IDADE,valor original fora do limite técnico: -96.2
+14288,10004,IDADE,valor original fora do limite técnico: 23.33
+14329,10031,FC,valor original fora do limite técnico: 8
+14385,10072,Altura,valor original fora do limite técnico: 12
+14466,10131,Altura,valor original fora do limite técnico: 15
+14474,10137,IDADE,valor original fora do limite técnico: -96.81
+14492,10146,IDADE,valor original fora do limite técnico: -102.94
+14532,10176,PA DIASTOLICA,valor original fora do limite técnico: 6.0
+14548,10188,IDADE,valor original fora do limite técnico: -0.13
+14670,10272,IDADE,valor original fora do limite técnico: -0.01
+14710,10296,IDADE,valor original fora do limite técnico: 71.81
+14741,10317,IDADE,valor original fora do limite técnico: 26.45
+14817,10367,IDADE,valor original fora do limite técnico: -0.13
+14973,10469,IDADE,valor original fora do limite técnico: -29.29
+15013,10501,IDADE,valor original fora do limite técnico: -0.96
+15017,10505,IDADE,valor original fora do limite técnico: -0.18
+15058,10546,IDADE,valor original fora do limite técnico: -6.0
+15096,10584,FC,valor original fora do limite técnico: 120-160
+15097,10585,IDADE,valor original fora do limite técnico: -112.46
+15110,10598,IDADE,valor original fora do limite técnico: -0.01
+15141,10629,IDADE,valor original fora do limite técnico: -0.82
+15192,10680,IDADE,valor original fora do limite técnico: -0.08
+15245,10733,IDADE,valor original fora do limite técnico: -0.08
+15302,10790,IDADE,valor original fora do limite técnico: -0.11
+15344,10832,IDADE,valor original fora do limite técnico: -0.42
+15372,10860,IDADE,valor original fora do limite técnico: -0.15
+15440,10900,IDADE,valor original fora do limite técnico: -107.13
+15458,10913,IDADE,valor original fora do limite técnico: -0.14
+15553,10969,IMC,valor original fora do limite técnico: 99.0
+15627,11019,IDADE,valor original fora do limite técnico: 32.1
+15678,11056,IDADE,valor original fora do limite técnico: -108.65
+15709,11080,IDADE,valor original fora do limite técnico: -111.6
+15840,11184,IDADE,valor original fora do limite técnico: 46.61
+15841,11185,IDADE,valor original fora do limite técnico: 34.01
+15874,11209,IDADE,valor original fora do limite técnico: -0.19
+15901,11227,IDADE,valor original fora do limite técnico: -99.5
+15920,11241,IDADE,valor original fora do limite técnico: 54.66
+15927,11247,IDADE,valor original fora do limite técnico: -0.02
+15995,11293,IDADE,valor original fora do limite técnico: 55.07
+16017,11308,IDADE,valor original fora do limite técnico: -0.06
+16155,11418,IDADE,valor original fora do limite técnico: 20.85
+16173,11429,IDADE,valor original fora do limite técnico: 31.98
+16207,11451,IDADE,valor original fora do limite técnico: -0.17
+16325,11529,IDADE,valor original fora do limite técnico: -0.02
+16452,11612,IDADE,valor original fora do limite técnico: -101.41
+16652,11731,IDADE,valor original fora do limite técnico: -111.47
+16715,11774,IDADE,valor original fora do limite técnico: -0.03
+16731,11784,IDADE,valor original fora do limite técnico: -113.18
+16800,11834,IDADE,valor original fora do limite técnico: -0.01
+16949,11950,IDADE,valor original fora do limite técnico: -0.74
+17071,12072,IDADE,valor original fora do limite técnico: -0.75
+17245,12246,IMC,valor original fora do limite técnico: 7.0
+17333,12334,IDADE,valor original fora do limite técnico: -0.54
+17503,12504,PA SISTOLICA,valor original fora do limite técnico: 700.0
+17692,12693,IDADE,valor original fora do limite técnico: -0.13
+17770,12771,IMC,valor original fora do limite técnico: 84.0
+17793,12794,IDADE,valor original fora do limite técnico: -96.32
+17871,12872,IDADE,valor original fora do limite técnico: 24.34
+17872,12873,IDADE,valor original fora do limite técnico: -24.03
+617,427,PA SISTOLICA/PA DIASTOLICA,sistólica menor ou igual à diastólica
+3,4,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+50,39,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+124,92,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+510,354,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+513,357,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+761,531,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+943,655,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+1009,705,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+1928,1326,Atendimento,ano de atendimento fora da concentração 2000–2010
+1928,1326,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+1932,1328,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+2051,1420,Atendimento,ano de atendimento fora da concentração 2000–2010
+2051,1420,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+2147,1488,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+2204,1524,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+2426,1679,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+2441,1691,Atendimento,ano de atendimento fora da concentração 2000–2010
+2705,1855,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+2781,1900,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+2804,1915,DN,data original inválida: 01/03/55
+2825,1927,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+2852,1943,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+3006,2052,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+3158,2165,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+3191,2189,Atendimento,ano de atendimento fora da concentração 2000–2010
+3202,2197,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+3268,2247,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+3329,2285,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+3661,2496,Atendimento,ano de atendimento fora da concentração 2000–2010
+3661,2496,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+3782,2579,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+3884,2646,Atendimento,ano de atendimento fora da concentração 2000–2010
+3884,2646,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+4264,2916,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+4447,3055,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+4524,3108,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+4629,3178,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+4635,3180,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+4849,3327,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+4880,3353,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+5019,3450,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+5615,3854,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+5882,4040,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+6040,4156,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+6136,4227,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+6254,4307,Atendimento,ano de atendimento fora da concentração 2000–2010
+6254,4307,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+6268,4317,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+6283,4328,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+6550,4517,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+6567,4527,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+6798,4679,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+6943,4785,DN,data original inválida: 8anos/e/3/m
+6963,4798,DN,data original inválida: 25/06/996
+7100,4893,DN,data original inválida: 18/04/200
+7147,4928,DN,data original inválida: 26/010/99
+7168,4944,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+7186,4957,DN,data original inválida: 4/anos
+7236,4989,DN,data original inválida: 10/06/97arritmia
+7316,5041,DN,data original inválida: 07/05/096
+7351,5059,DN,data original inválida: 11/0503
+7376,5080,DN,data original inválida: 229/29/00
+7377,5081,DN,data original inválida: 29//11/00
+7400,5101,Atendimento,ano de atendimento fora da concentração 2000–2010
+7400,5101,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+7450,5134,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+7510,5184,DN,data original inválida: 2/anos
+7515,5188,DN,data original inválida: 25/06/009
+7608,5255,DN,data original inválida: 04/0897
+7627,5268,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+7630,5271,DN,data original inválida: 1a/7/m
+7673,5300,DN,data original inválida: 20/052003
+7674,5301,DN,data original inválida: 20/052003
+7872,5446,DN,data original inválida: 5/anos
+7927,5487,Atendimento,ano de atendimento fora da concentração 2000–2010
+7927,5487,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+7929,5489,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+8015,5550,DN,data original inválida: 23//07/03
+8034,5565,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+8061,5588,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+8098,5617,DN,data original inválida: 3anos
+8206,5688,DN,data original inválida: 04/02/094
+8227,5703,DN,data original inválida: 24/04//2006
+8253,5725,DN,data original inválida: 15/07/65
+8273,5741,DN,data original inválida: 29/02/97
+8342,5782,DN,data original inválida: 31/04/87
+8413,5838,DN,data original inválida: 30/0898
+8461,5869,DN,data original inválida: 225/02/99
+8486,5885,DN,data original inválida: 14/11/990
+8645,6004,DN,data original inválida: 15/11/996
+8660,6015,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+8711,6049,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+8717,6055,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+8723,6061,DN,data original inválida: 30/09/997
+8735,6069,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+8775,6097,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+8830,6140,DN,data original inválida: 29/09/1888
+8940,6217,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+8999,6262,DN,data original inválida: 17/005/00
+9008,6269,DN,data original inválida: 4/anos
+9037,6296,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+9135,6376,DN,data original inválida: 01/04/992
+9150,6391,DN,data original inválida: 22/012/00
+9224,6439,DN,data original inválida: 19/04/096
+9245,6456,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+9321,6503,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+9404,6555,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+9465,6595,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+9502,6626,DN,data original inválida: 09/04/68
+9676,6745,DN,data original inválida: 01/02/200
+9722,6783,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+9963,6963,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+10145,7092,DN,data original inválida: 28/03/0/5
+10265,7179,DN,data original inválida: 098/09/96
+10325,7222,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+10360,7241,DN,data original inválida: 05/10/994
+10771,7523,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+10772,7524,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+10818,7557,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+10932,7642,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+10992,7682,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+11019,7701,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+11031,7709,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+11034,7711,DN,data original inválida: 25/06/993
+11120,7770,DN,data original inválida: 16a
+11241,7844,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+11434,7992,DN,data original inválida: 22//12/04
+11451,8005,DN,data original inválida: 06/07/68
+11456,8009,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+11488,8029,DN,data original inválida: 03/07/02004
+11551,8073,DN,data original inválida: 29/10/995
+11556,8076,DN,data original inválida: 07/0303
+11596,8106,DN,data original inválida: 041/08/08
+11600,8109,DN,data original inválida: 13/09/200
+11693,8179,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+11732,8211,DN,data original inválida: 0912/08
+11837,8291,DN,data original inválida: 021/08/2000
+11847,8300,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+11964,8394,DN,data original inválida: 14/012/05
+11992,8416,DN,data original inválida: 01/011/05
+12085,8477,DN,data original inválida: 09/12/993
+12114,8490,DN,data original inválida: 27/24/04
+12163,8526,DN,data original inválida: 14/12/200
+12207,8558,DN,data original inválida: 29/29/03
+12223,8570,DN,data original inválida: 08/03/204
+12267,8596,DN,data original inválida: 13/03/*91
+12310,8623,DN,nascimento posterior a 2010
+12310,8623,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+12342,8645,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+12349,8651,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+12382,8673,DN,data original inválida: 07/01/099
+12406,8690,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+12428,8703,Atendimento,ano de atendimento fora da concentração 2000–2010
+12460,8727,DN,data original inválida: 26/02/097
+12485,8744,DN,data original inválida: !2/01/97
+12501,8757,DN,data original inválida: 25/05/995
+12837,8999,DN,data original inválida: 52/anos
+12847,9006,DN,data original inválida: 31/05/40
+12876,9026,DN,data original inválida: 11/11/992
+12905,9042,DN,data original inválida: 3a
+12931,9061,DN,data original inválida: 17/12/005
+12945,9071,DN,data original inválida: 4a
+12961,9084,DN,data original inválida: 13/07/997
+13049,9155,DN,data original inválida: 11/anos
+13066,9163,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+13129,9198,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+13133,9201,DN,data original inválida: 01/02/999
+13175,9228,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+13176,9229,DN,data original inválida: 27/02/68
+13266,9295,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+13331,9334,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+13367,9362,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+13411,9393,DN,data original inválida: 16/03/003
+13450,9427,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+13496,9459,DN,data original inválida: 24/08/992
+13523,9478,DN,data original inválida: 13/01/098
+13553,9504,DN,data original inválida: 10/06/004
+13574,9518,DN,data original inválida: 0/11/2000
+13584,9526,DN,data original inválida: 17/05/095
+13601,9539,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+13691,9599,Atendimento,ano de atendimento fora da concentração 2000–2010
+13695,9602,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+13701,9607,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+13805,9683,DN,data original inválida: 17/0899
+13849,9706,DN,data original inválida: 23/09/003
+13942,9771,DN,data original inválida: 10m
+13989,9804,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+14004,9818,DN,data original inválida: 26/010/2004
+14043,9847,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+14118,9894,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+14157,9922,DN,data original inválida: 23/02/061
+14288,10004,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+14427,10103,DN,data original inválida: 21/091997
+14548,10188,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+14581,10210,DN,data original inválida: 04/01/067
+14582,10211,DN,data original inválida: 05/05/998
+14670,10272,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+14710,10296,DN,data original inválida: 24/11/36
+14741,10317,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+14817,10367,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+14835,10378,DN,data original inválida: 07/03/002
+14917,10435,DN,data original inválida: 17/12/02CIV/2mm
+14973,10469,Atendimento,data original inválida: 22/08/66
+15013,10501,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+15017,10505,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+15058,10546,Atendimento,ano de atendimento fora da concentração 2000–2010
+15058,10546,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+15110,10598,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+15141,10629,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+15192,10680,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+15221,10709,DN,data original inválida: 31/09/08
+15245,10733,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+15252,10740,DN,data original inválida: ???
+15302,10790,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+15332,10820,DN,data original inválida: 10/102004
+15344,10832,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+15372,10860,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+15416,10888,DN,data original inválida: 02/12/096
+15443,10903,DN,data original inválida: 27/03/998
+15444,10904,DN,data original inválida: 14/0596
+15458,10913,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+15538,10965,DN,data original inválida: 04/12/095
+15627,11019,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+15840,11184,DN,data original inválida: 10/07/64
+15841,11185,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+15874,11209,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+15920,11241,DN,data original inválida: 01/11/51
+15927,11247,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+15955,11266,DN,data original inválida: 08/0599
+15986,11287,DN,data original inválida: 8/anos
+15995,11293,DN,data original inválida: 23/02/55
+16017,11308,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+16155,11418,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+16173,11429,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+16207,11451,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+16260,11488,DN,data original inválida: 9a
+16312,11522,DN,data original inválida: 1a/7m
+16318,11526,DN,data original inválida: 09/02/998
+16325,11529,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+16360,11559,DN,data original inválida: 20/01/994
+16698,11763,DN,data original inválida: 04/10/097
+16715,11774,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+16740,11791,DN,data original inválida: 08/10/996
+16777,11815,DN,data original inválida: 21/03/988
+16785,11823,DN,data original inválida: 19/-3/2006
+16800,11834,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+16880,11892,DN,data original inválida: 01/09/992
+16891,11898,DN,data original inválida: 12/03/998
+16943,11944,DN,data original inválida: 1a2m
+16949,11950,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+17071,12072,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+17110,12111,DN,data original inválida: 1902/2006
+17126,12127,DN,data original inválida: 03/11/991
+17229,12230,DN,data original inválida: 8/anos
+17321,12322,DN,data original inválida: 00/02/01
+17333,12334,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+17360,12361,DN,data original inválida: 18/09/200
+17369,12370,DN,data original inválida: 13/0599
+17377,12378,DN,data original inválida: ??????
+17392,12393,DN,data original inválida: 24/05/996
+17554,12555,DN,data original inválida: 4A
+17605,12606,DN,data original inválida: 05/07/097
+17646,12647,DN,data original inválida: 30/0797
+17692,12693,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+17871,12872,Atendimento/DN,datas incompatíveis com a faixa de 0 a 19 anos
+17872,12873,DN,data original inválida: 03/12/27
+2072,1435,Peso/Altura/IMC,medidas produzem IMC fora do limite técnico
+2285,1586,Peso/Altura/IMC,medidas produzem IMC fora do limite técnico
+2540,1752,Peso/Altura/IMC,medidas produzem IMC fora do limite técnico
+2911,1985,Peso/Altura/IMC,medidas produzem IMC fora do limite técnico
+4958,3407,Peso/Altura/IMC,medidas produzem IMC fora do limite técnico
+5508,3782,Peso/Altura/IMC,medidas produzem IMC fora do limite técnico
+5554,3817,Peso/Altura/IMC,medidas produzem IMC fora do limite técnico
+5875,4035,Peso/Altura/IMC,medidas produzem IMC fora do limite técnico
+7619,5262,Peso/Altura/IMC,medidas produzem IMC fora do limite técnico
+8054,5581,Peso/Altura/IMC,medidas produzem IMC fora do limite técnico
+9224,6439,Peso/Altura/IMC,medidas produzem IMC fora do limite técnico
+9329,6510,Peso/Altura/IMC,medidas produzem IMC fora do limite técnico
+10008,6992,Peso/Altura/IMC,medidas produzem IMC fora do limite técnico
+10039,7016,Peso/Altura/IMC,medidas produzem IMC fora do limite técnico
+11931,8369,Peso/Altura/IMC,medidas produzem IMC fora do limite técnico
+12740,8930,Peso/Altura/IMC,medidas produzem IMC fora do limite técnico
+13020,9129,Peso/Altura/IMC,medidas produzem IMC fora do limite técnico
+15553,10969,Peso/Altura/IMC,medidas produzem IMC fora do limite técnico
+17245,12246,Peso/Altura/IMC,medidas produzem IMC fora do limite técnico
+17770,12771,Peso/Altura/IMC,medidas produzem IMC fora do limite técnico

@@ -1,0 +1,46 @@
+{
+  "winner": "floresta",
+  "target_met": true,
+  "models": [
+    {
+      "model": "logistica",
+      "recall": 0.6381734222678296,
+      "specificity": 0.8025904761904762,
+      "ap": 0.7505079589746495,
+      "seconds": 43.7729598900245,
+      "folds_below_target": 5
+    },
+    {
+      "model": "arvore",
+      "recall": 0.5344792201128784,
+      "specificity": 0.8337523809523809,
+      "ap": 0.6676918979853783,
+      "seconds": 24.369209110020893,
+      "folds_below_target": 1
+    },
+    {
+      "model": "knn",
+      "recall": 0.5713186249358645,
+      "specificity": 0.8050285714285714,
+      "ap": 0.6947225223242912,
+      "seconds": 43.195630049996545,
+      "folds_below_target": 3
+    },
+    {
+      "model": "floresta",
+      "recall": 0.6438686505900462,
+      "specificity": 0.8022857142857143,
+      "ap": 0.7562527635116123,
+      "seconds": 113.90171173000127,
+      "folds_below_target": 4
+    },
+    {
+      "model": "boosting",
+      "recall": 0.6418676244227809,
+      "specificity": 0.8067047619047619,
+      "ap": 0.7592725664767207,
+      "seconds": 84.14120433001662,
+      "folds_below_target": 4
+    }
+  ]
+}

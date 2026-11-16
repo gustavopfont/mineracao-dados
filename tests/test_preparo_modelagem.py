@@ -1,72 +1,86 @@
-"""Verifica a separação de grupos e o ajuste apenas no treino."""
-
-from __future__ import annotations
-
+﻿"""Contrato atual e transformações ajustadas só em dados sintéticos de treino."""
 import sys
 import unittest
 from pathlib import Path
-
 import numpy as np
 import pandas as pd
+from sklearn.base import clone
 
 ROOT = Path(__file__).resolve().parents[1]
-sys.path.insert(0, str(ROOT / "scripts"))
+sys.path.insert(0, str(ROOT/'scripts'))
+from preparar_modelagem import (NUMERIC_COLUMNS, CATEGORICAL_COLUMNS, FEATURE_COLUMNS,
+    HistoryEncoder, SYMPTOMS, build_preprocessor, duplicate_groups, fit_on_train, row_features)
 
-from analise_dataset import canonical_category  # noqa: E402
-from preparar_modelagem import (  # noqa: E402
-    NUMERIC_COLUMNS, BEFORE_EXAM, build_preprocessor, duplicate_groups,
-    fit_on_train, split_labeled,
-)
+
+def records(ages):
+    f = pd.DataFrame({c: [10.0]*len(ages) for c in NUMERIC_COLUMNS})
+    f['IDADE'] = ages
+    for c in CATEGORICAL_COLUMNS:
+        f[c] = 'Categoria clínica'
+    f['HDA_UNIFICADA'] = 'Dispneia'
+    return f
 
 
 class PreparoModelagemTest(unittest.TestCase):
-    def test_categoria_fixa_independe_da_frequencia(self) -> None:
-        self.assertEqual(canonical_category("Convenio", "Gs"), "GS")
-        self.assertEqual(canonical_category("Convenio", "GS"), "GS")
-        self.assertEqual(canonical_category("SEXO", "f"), "Feminino")
+    def test_fit_apenas_no_treino_e_categorias_ineditas(self):
+        train, test = records([2, 4, np.nan]), records([100])
+        test['MOTIVO_UNIFICADO'] = 'Categoria inédita'
+        transformer, a, b = fit_on_train(train, test)
+        median = transformer.named_transformers_['numericas'].named_steps['imputar'].statistics_[0]
+        self.assertEqual(median, 3)
+        self.assertEqual(a.shape[1], b.shape[1])
+        self.assertTrue(np.isfinite(b).all())
 
-    def test_mesmas_caracteristicas_ficam_no_mesmo_grupo_sem_consultar_alvo(self) -> None:
-        frame = pd.DataFrame({
-            "ID": ["1", "2"], "IDADE": [3, 3], "SEXO": ["Feminino", "Feminino"],
-            "NORMAL X ANORMAL": ["Normal", "Anormal"],
-        })
-        self.assertEqual(duplicate_groups(frame).iloc[0], duplicate_groups(frame).iloc[1])
+    def test_colunas_vazias_e_faltante_novo_tem_dimensao_estavel(self):
+        train, test = records([2, 4]), records([np.nan])
+        train['Peso'] = np.nan
+        test['Peso'] = 20.0
+        train['B2'] = np.nan
+        test['B2'] = 'Normal'
+        transformer, a, b = fit_on_train(train, test)
+        self.assertEqual(a.shape[1], b.shape[1])
+        self.assertTrue(np.isfinite(a).all())
+        self.assertTrue(np.isfinite(b).all())
+        indicator = transformer.named_transformers_['ausencias_numericas'].transform(row_features(test)[NUMERIC_COLUMNS])
+        self.assertEqual(indicator[0, 0], 1)
+        self.assertIn('numericas__Peso', transformer.get_feature_names_out())
 
-    def test_estatisticas_e_vocabulario_sao_do_treino(self) -> None:
-        def records(ages: list[float], reasons: list[str]) -> pd.DataFrame:
-            data = {column: [10.0] * len(ages) for column in NUMERIC_COLUMNS}
-            data["IDADE"] = ages
-            data["SEXO"] = ["Feminino"] * len(ages)
-            data["MOTIVO1"] = reasons
-            return pd.DataFrame(data)
+    def test_pipeline_clonavel_e_contrato_sem_identificador_alvo_sopro(self):
+        transformer = clone(build_preprocessor())
+        self.assertFalse(hasattr(transformer, 'transformers_'))
+        f = records([2, 4]); f['ID'] = ['1', '2']; f['NORMAL X ANORMAL'] = 'Normal'; f['SOPRO'] = 'Sistólico'
+        self.assertEqual(list(row_features(f)), FEATURE_COLUMNS)
+        with self.assertRaises(ValueError):
+            build_preprocessor([], ['SOPRO'])
+        with self.assertRaises(ValueError):
+            build_preprocessor(['ID'], [])
 
-        train = records([2.0, 4.0, np.nan], ["Consulta"] * 3)
-        test = records([100.0], ["Categoria inédita"])
-        transformer, transformed_train, transformed_test = fit_on_train(
-            train, test, NUMERIC_COLUMNS, BEFORE_EXAM
-        )
-        learned_median = transformer.named_transformers_["numericas"].named_steps[
-            "imputar"
-        ].statistics_[0]
-        self.assertEqual(learned_median, 3.0)
-        self.assertEqual(transformed_train.shape[1], transformed_test.shape[1])
+    def test_hda_multiplas_mencoes_ausente_outro_e_inedito(self):
+        encoder = HistoryEncoder().fit([['Dispneia']])
+        a = encoder.transform([['Palpitação | Dispneia'], [np.nan], ['Outro'], ['Sintoma novo'], ['Assintomático']])
+        self.assertEqual(a[0, SYMPTOMS.index('Palpitação')], 1)
+        self.assertEqual(a[0, SYMPTOMS.index('Dispneia')], 1)
+        self.assertEqual(a[1, -2], 1)
+        self.assertEqual(a[3, -1], 1)
+        self.assertFalse(np.array_equal(a[1], a[2]))
+        self.assertEqual(a[4, SYMPTOMS.index('Assintomático')], 1)
 
-    def test_divisao_real_nao_separa_grupos_iguais(self) -> None:
-        frame = pd.read_csv(
-            ROOT / "resultado_analise" / "UCMF_limpo.csv",
-            dtype="string", encoding="utf-8-sig",
-        )
-        train, test, groups = split_labeled(frame)
-        self.assertEqual(len(train) + len(test), 11705)
-        self.assertFalse(set(groups.loc[train.index]) & set(groups.loc[test.index]))
+    def test_grupos_comparam_valores_completos_sem_id_alvo(self):
+        f = pd.DataFrame({'ID': ['1','2','3'], 'X': [np.nan,np.nan,'<ausente>'],
+                          'NORMAL X ANORMAL': ['Normal','Anormal','Normal']})
+        g = duplicate_groups(f)
+        self.assertEqual(g[0], g[1])
+        self.assertNotEqual(g[0], g[2])
 
-    def test_sopro_ausente_nao_se_confunde_com_dado_faltante(self) -> None:
-        values = ["Ausente"] * 10 + [np.nan] * 10 + ["Sistólico"] * 2
-        transformer = build_preprocessor([], ["SOPRO"])
-        transformer.fit(pd.DataFrame({"SOPRO": values}))
-        observed = transformer.transform(pd.DataFrame({"SOPRO": ["Ausente", np.nan]}))
-        self.assertFalse(np.array_equal(observed[0], observed[1]))
+    def test_indeterminado_e_faltante_permanecem_distintos(self):
+        train = records([1, 2, 3])
+        train['SEXO'] = ['Indeterminado', np.nan, 'Outro']
+        transformer, a, _ = fit_on_train(train, train)
+        self.assertFalse(np.array_equal(a[0], a[1]))
+        names = transformer.get_feature_names_out()
+        self.assertTrue(any('SEXO___SEM_INFORMACAO__' in name for name in names))
+        self.assertTrue(any('SEXO_Indeterminado' in name for name in names))
 
 
-if __name__ == "__main__":
+if __name__ == '__main__':
     unittest.main()
