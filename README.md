@@ -1,6 +1,38 @@
 # Pré-processamento do conjunto UCMF
 
-## Experimentos preditivos — protocolo com três representações
+## Experimentos preditivos de NORMAL X ANORMAL
+
+O repositório registra três rodadas de treinamento e uma preparação anterior da A1. Apenas a terceira rodada concluiu a comparação e avaliou os modelos no teste reservado.
+
+| Rodada | Representações e orçamento | Execução comprovada | Resultados |
+| --- | --- | --- | --- |
+| A1 · `resultado_modelagem/` | Preparação com partições e transformador | Artefatos legados de preparação | [Resumo e artefatos da A1](resultado_modelagem/) |
+| v1 · `resultado_experimentos/` | Perfil contínuo, 12 candidatos previstos por família | Interrompida antes do teste. Uma busca persistida, do Dummy no primeiro fold externo | [Configuração e buscas registradas](referencias/inventario_experimentos.json) |
+| v2 · `resultado_experimentos_representacoes/` | Contínua, clínica e combinada, 12 candidatos por família/perfil | Interrompida antes do teste. 42 buscas persistidas em três folds externos, com o terceiro parcial | [Configuração e buscas registradas](referencias/inventario_experimentos.json) |
+| v3 · `resultado_experimentos_reduzido/` | Três perfis, 4 candidatos por família/perfil | Concluída. 160 buscas externas e 16 buscas finais, incluindo o Dummy, com teste reservado avaliado | [Relatório técnico](resultado_experimentos_reduzido/relatorio_experimentos.md) |
+
+O [inventário de hiperparâmetros](referencias/inventario_experimentos.json) reúne as combinações exatas de cada rodada. Para verificar o que foi executado, consulte `buscas_registradas`: cada tentativa aponta pelo índice para a lista da família e informa quantos folds internos produziram AP. Candidatos sem busca persistida têm execução indeterminada. A v1 e a v2 mantêm os arquivos completos localmente. O inventário está disponível mesmo para quem clonar apenas o que é versionado.
+
+Os [parâmetros e limiares congelados da v3](resultado_experimentos_reduzido/modelos_selecionados.json) incluem versões e hashes dos dados. A grade e os argumentos fixos, como 200 árvores na floresta, estão em [`scripts/modelos_ucmf.py`](scripts/modelos_ucmf.py).
+
+| Modelo | Perfil final | Hiperparâmetros selecionados na v3 |
+| --- | --- | --- |
+| Dummy | Contínua (atributos ignorados) | `strategy=prior` |
+| Regressão logística | Contínua | `C=1`, `class_weight=balanced` |
+| Árvore de decisão | Clínica | `max_depth=None`, `min_samples_leaf=5`, `class_weight=None` |
+| KNN | Contínua | `n_neighbors=41`, `weights=distance`, `p=2` |
+| Random Forest | Clínica | `max_depth=None`, `min_samples_leaf=10`, `max_features=sqrt`, `class_weight=balanced_subsample` |
+| HistGradientBoosting | Combinada | `max_iter=200`, `learning_rate=0.03`, `max_leaf_nodes=15`, `l2_regularization=1` |
+
+### Comparação disponível e próximas etapas
+
+A floresta clínica foi selecionada no desenvolvimento. No teste reservado, teve sensibilidade de **64,31%** e especificidade de **80,96%**. A diferença pareada de sensibilidade contra a logística foi **−0,31 ponto percentual** (IC95% **−1,95 a +1,44**; McNemar com Holm, **p = 0,828**). O F combinado 5×2 para erro global também não encontrou diferença entre esses modelos (**p ajustado = 0,645**). O estudo ainda tem incerteza sobre o ganho em detecção e sobre o desempenho em outros pacientes.
+
+Consulte as [partições do desenvolvimento e teste](resultado_experimentos_reduzido/particao_principal.csv), as [métricas por fold](resultado_experimentos_reduzido/metricas_externas.csv), as [métricas por representação](resultado_experimentos_reduzido/metricas_por_representacao.csv), as [métricas do teste](resultado_experimentos_reduzido/metricas_teste.csv), o [F/t 5×2](resultado_experimentos_reduzido/testes_5x2.json), o [McNemar](resultado_experimentos_reduzido/mcnemar_teste.json) e os [IC95% bootstrap](resultado_experimentos_reduzido/bootstrap_ic95.csv).
+
+O [plano da próxima comparação](referencias/plano_comparacao_modelos.md) prioriza auditar os erros, medir o que muda ao aumentar o tuning nos mesmos folds e avaliar a estabilidade em cinco folds externos repetidos. Dez folds são opcionais. Curvas de aprendizado e revisão de rótulos investigam o erro residual. Uma nova coorte independente permitiria confirmar diferenças com modelos e limiares congelados. A comparação já concluída sustenta a redação da [A2](avaliacao2.md).
+
+### Reprodução e acompanhamento
 
 Os resultados finais publicados em `resultado_experimentos_reduzido/` são uma saída de consulta. Checkpoints, pipelines binários, logs e arquivos de controle da execução ficam locais. Para reproduzir os experimentos sem sobrescrever essa saída, use um diretório novo:
 
@@ -23,7 +55,7 @@ O [protocolo fundamentado](referencias/protocolo_experimentos.md) especifica 20%
 
 Partições, buscas, previsões, métricas, testes F/t 5×2, Holm, McNemar, IC bootstrap, figuras e importâncias são salvos com os modelos congelados. `config_experimentos.json` fixa orçamento e sementes. A opção `--grupos caminho.csv` aceita ID/paciente_id confirmados, sem usar esses campos como preditores. Sem esse mapeamento, não é possível garantir separação por pessoa: o ID disponível identifica registro. Todos os perfis usam os mesmos registros, inclusive aqueles com faltantes; categorias não são recalculadas de valores imputados.
 
-O relatório técnico gerado será a fonte para a redação posterior do artigo solicitado em `avaliacao2.md`. Não há publicação no GitHub nem submissão automática.
+O relatório técnico e os resultados da v3 são fontes para o artigo solicitado em `avaliacao2.md`.
 
 ### Acompanhar a execução longa
 
@@ -54,7 +86,7 @@ O primeiro comando valida valores e classificações, torna HDA contraditória i
 
 Fontes e limites de **cada etapa** estão na [matriz metodológica](referencias/metodologia_preparo.md): OMS e SBC/SBN/SBH para critérios de saúde, literatura de predição clínica para métodos, scikit-learn para execução. Limites técnicos, deduplicação de perfis e escolha da mediana são identificados como decisões locais. A mediana é um baseline a comparar, não uma regra clínica OMS. Os scripts e testes são o código das alterações; mapas e correções permitem auditar o efeito em cada ID.
 
-Etapas do KDD para a A2: (1) seleção e limpeza documentadas; (2) adequação da base e declaração de transformadores, nesta entrega; (3) comparação futura de baseline e modelo complexo com pré-processamento ajustado dentro das partições, prioridade para Anormal e definição do limiar sem consultar teste; (4) interpretação dos erros, limitações e importância dos atributos; (5) artigo IEEE e apresentação previstos em `avaliacao2.md`. O enunciado é preservado. Não há resultados de modelos nesta fase.
+O KDD da A2 já inclui seleção, limpeza, adequação da base, comparação de modelos com pré-processamento ajustado nas partições e uma primeira interpretação dos erros e da importância dos atributos. O artigo IEEE e a apresentação previstos em `avaliacao2.md` consolidam essas evidências.
 
 `resultado_analise/UCMF_base_final.csv` é a versão final do pré-processamento: 12.134 registros e 17 colunas. Preserva os 429 alvos desconhecidos, une motivos e HDA, acrescenta faixas etárias e classificação da medida de pressão e exclui SOPRO e convênio. ID é apenas metadado de rastreabilidade.
 
@@ -119,7 +151,7 @@ Para verificar o contrato de entrada e declarar o transformador sem ajuste:
 python scripts/preparar_modelagem.py
 ```
 
-Esse comando agora apenas verifica o esquema supervisionado e declara o transformador sem ajuste. A separação e o ajuste ocorrerão na etapa futura de experimentos. As saídas antigas descritas abaixo são da A1; não representam o esquema supervisionado novo.
+Esse comando verifica o esquema supervisionado e declara o transformador. A separação e o ajuste fazem parte de `scripts/treinar_modelos.py`, conforme o histórico de experimentos.
 
 ## Critérios de interpretação
 
