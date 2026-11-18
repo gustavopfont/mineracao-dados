@@ -1,0 +1,58 @@
+[
+  {
+    "budget": "base12",
+    "model": "boosting",
+    "reference": "logistica",
+    "mean_difference": -0.003541757761259301,
+    "variance_sum": 7.853174412742226e-05,
+    "f_stat": 1.4863055386488158,
+    "f_p": 0.3464869546598405,
+    "t_stat": -0.8274799499440059,
+    "t_p": 0.44564794574675165,
+    "status": "aproximado",
+    "f_p_holm": 1.0,
+    "t_p_holm": 0.8321968930030951
+  },
+  {
+    "budget": "base12",
+    "model": "floresta",
+    "reference": "logistica",
+    "mean_difference": -0.0016834280717096472,
+    "variance_sum": 6.756215479252044e-05,
+    "f_stat": 1.181110718075695,
+    "f_p": 0.4530267963461029,
+    "t_stat": -2.260063764748393,
+    "t_p": 0.07334584394271716,
+    "status": "aproximado",
+    "f_p_holm": 1.0,
+    "t_p_holm": 0.29338337577086865
+  },
+  {
+    "budget": "estendida16",
+    "model": "boosting",
+    "reference": "logistica",
+    "mean_difference": -0.0041976388281591785,
+    "variance_sum": 8.794790577873189e-05,
+    "f_stat": 1.672826086956531,
+    "f_p": 0.29675896245079514,
+    "t_stat": -0.8861862597425691,
+    "t_p": 0.41609844650154754,
+    "status": "aproximado",
+    "f_p_holm": 1.0,
+    "t_p_holm": 0.8321968930030951
+  },
+  {
+    "budget": "estendida16",
+    "model": "floresta",
+    "reference": "logistica",
+    "mean_difference": -0.002120682116309569,
+    "variance_sum": 8.108892508348851e-05,
+    "f_stat": 1.2139699381078672,
+    "f_p": 0.439786535994051,
+    "t_stat": -2.1715411399481903,
+    "t_p": 0.08198339101357795,
+    "status": "aproximado",
+    "f_p_holm": 1.0,
+    "t_p_holm": 0.29338337577086865
+  }
+]

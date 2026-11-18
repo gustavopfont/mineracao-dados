@@ -1,0 +1,79 @@
+{
+  "tipo": "extensao_exploratoria_no_desenvolvimento_historico",
+  "fim_utc": "2026-11-18T06:24:28.320352+00:00",
+  "n_desenvolvimento": 9148,
+  "checkpoints_verificados": {
+    "5x2": 200,
+    "2x5": 100,
+    "sensibilidade": 120
+  },
+  "teste_historico": "Métricas congeladas da v3 para referência",
+  "exportacao": "Tabelas por fold e perfil sem a coluna path, que apontava para previsões locais. Arquivos em UTF-8 com finais de linha LF.",
+  "arquivos": {
+    "ablacoes.csv": {
+      "rows": 75,
+      "sha256": "d72e606dfa7ce34100e1288a4eb0b2c9356e97be0b10b2fcd5d9bdb41a9928f9"
+    },
+    "auditoria_conflitos.csv": {
+      "rows": 6,
+      "sha256": "175447126c01ece1c3b0b29d55694b08af7cc94d1bab32921c434b332ae7a9a2"
+    },
+    "cobertura_desenvolvimento.csv": {
+      "rows": 2,
+      "sha256": "83096564b5b26c64d5d196d1f4b2dee6331e212d7dc3bc76930899feb0af929d"
+    },
+    "curvas_aprendizado.csv": {
+      "rows": 60,
+      "sha256": "7fc6093085061b05615c7e3801dc7869d912a3ad26de9aa7123ee5b5b2dc17b8"
+    },
+    "diferencas_pareadas_ablacoes.csv": {
+      "rows": 60,
+      "sha256": "209908461c5bec242b597cc516b3bf88a11c027deabc13d833cb5e55f3458b9e"
+    },
+    "diferencas_pareadas_orcamento.csv": {
+      "rows": 80,
+      "sha256": "dec2761f6828243e558a046a19dceb2f57876c3d189e3d9aef4afa1b5224163f"
+    },
+    "discordancias_por_fold.csv": {
+      "rows": 40,
+      "sha256": "7fa67a556b559d7ea14dbb5572b63002c335f8b7fa72f3d9bab7d88c908b7113"
+    },
+    "metricas_perfis_fixos.csv": {
+      "rows": 300,
+      "sha256": "ccfb5c95d220c3dc8a66d253b6fef05f1dc87ae8d9c68791cd82e817ddce724f"
+    },
+    "metricas_por_fold.csv": {
+      "rows": 180,
+      "sha256": "e840d67f3836f182949f3eef9a4ba5d118959f53ed59d69fe4494fb344ae6c0f"
+    },
+    "metricas_por_repeticao.csv": {
+      "rows": 78,
+      "sha256": "812562bed1cf229dde3d9511c738744fca90a244cabc492f4fdaa9b4e4e6a5aa"
+    },
+    "protocolo.json": {
+      "sha256": "772c66b393549ea8cec215b49c84e56f40cec91a0bfc70b9b1e0b7e98326dd9f"
+    },
+    "referencia_teste_historico_v3.csv": {
+      "rows": 6,
+      "sha256": "ac11504da0a27eaaf65583c5ae8180c6f59bffe6f13d639e7abdf5ea4adfc167"
+    },
+    "relatorio_comparativo.md": {
+      "sha256": "208c84370246576dbcd31518ee87ae02bcdc031feab18535cd0a3eb515d8910e"
+    },
+    "resumo_modelos.csv": {
+      "rows": 18,
+      "sha256": "514b2667738823c61fc1d21ed68f40c28b729178489ebed5bd0bad89b9d61d22"
+    },
+    "rotulos_quarentena.csv": {
+      "rows": 12,
+      "sha256": "b6c038736a14557431a2b3c7dd16cdece32c7cb3ae7883ee33444a932348d8cb"
+    },
+    "subgrupos_por_fold.csv": {
+      "rows": 1168,
+      "sha256": "af4011c4fc0aa526455c1fd0ebea882a0e5ec78d221e939f2ececbc5820d249a"
+    },
+    "testes_exploratorios_5x2.json": {
+      "sha256": "df0e2f06fe98cd244aff6e69e70783c7b2104f885b3fcec3b435c7de211dffad"
+    }
+  }
+}

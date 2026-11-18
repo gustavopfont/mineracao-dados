@@ -1,0 +1,7 @@
+﻿source,profile,n,profiles,conflicting_profiles,rows_with_conflicts,minimum_errors_observed
+desenvolvimento,continua,9148,9148,0,0,0
+desenvolvimento,clinica,9148,6195,593,2403,773
+desenvolvimento,combinada,9148,9148,0,0,0
+base_auditavel_fora_do_teste,continua,9417,9177,6,142,11
+base_auditavel_fora_do_teste,clinica,9417,6207,598,2587,796
+base_auditavel_fora_do_teste,combinada,9417,9177,6,142,11

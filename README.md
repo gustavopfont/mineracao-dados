@@ -2,7 +2,7 @@
 
 ## Experimentos preditivos de NORMAL X ANORMAL
 
-O repositório registra três rodadas de treinamento e uma preparação anterior da A1. Apenas a terceira rodada concluiu a comparação e avaliou os modelos no teste reservado.
+O repositório registra quatro rodadas de treinamento e uma preparação anterior da A1. A v3 avaliou os modelos no teste reservado. A rodada ampliada concluiu uma comparação exploratória nos mesmos dados de desenvolvimento.
 
 | Rodada | Representações e orçamento | Execução comprovada | Resultados |
 | --- | --- | --- | --- |
@@ -10,8 +10,9 @@ O repositório registra três rodadas de treinamento e uma preparação anterior
 | v1 · `resultado_experimentos/` | Perfil contínuo, 12 candidatos previstos por família | Interrompida antes do teste. Uma busca persistida, do Dummy no primeiro fold externo | [Configuração e buscas registradas](referencias/inventario_experimentos.json) |
 | v2 · `resultado_experimentos_representacoes/` | Contínua, clínica e combinada, 12 candidatos por família/perfil | Interrompida antes do teste. 42 buscas persistidas em três folds externos, com o terceiro parcial | [Configuração e buscas registradas](referencias/inventario_experimentos.json) |
 | v3 · `resultado_experimentos_reduzido/` | Três perfis, 4 candidatos por família/perfil | Concluída. 160 buscas externas e 16 buscas finais, incluindo o Dummy, com teste reservado avaliado | [Relatório técnico](resultado_experimentos_reduzido/relatorio_experimentos.md) |
+| Extensão · `resultado_experimentos_ampliado_publicado/` | Três perfis, 12 e 16 candidatos no 5×2, 12 no 2×5 | Concluída. 200 avaliações no 5×2, 100 no 2×5 e 120 nas análises complementares | [Relatório comparativo](resultado_experimentos_ampliado_publicado/relatorio_comparativo.md) |
 
-O [inventário de hiperparâmetros](referencias/inventario_experimentos.json) reúne as combinações exatas de cada rodada. Para verificar o que foi executado, consulte `buscas_registradas`: cada tentativa aponta pelo índice para a lista da família e informa quantos folds internos produziram AP. Candidatos sem busca persistida têm execução indeterminada. A v1 e a v2 mantêm os arquivos completos localmente. O inventário está disponível mesmo para quem clonar apenas o que é versionado.
+O [inventário de hiperparâmetros da v1 à v3](referencias/inventario_experimentos.json) reúne as combinações exatas dessas rodadas. Para verificar o que foi executado, consulte `buscas_registradas`: cada tentativa aponta pelo índice para a lista da família e informa quantos folds internos produziram AP. Candidatos sem busca persistida têm execução indeterminada. As grades, sementes e versões da extensão estão no [protocolo da rodada ampliada](resultado_experimentos_ampliado_publicado/protocolo.json).
 
 Os [parâmetros e limiares congelados da v3](resultado_experimentos_reduzido/modelos_selecionados.json) incluem versões e hashes dos dados. A grade e os argumentos fixos, como 200 árvores na floresta, estão em [`scripts/modelos_ucmf.py`](scripts/modelos_ucmf.py).
 
@@ -30,7 +31,26 @@ A floresta clínica foi selecionada no desenvolvimento. No teste reservado, teve
 
 Consulte as [partições do desenvolvimento e teste](resultado_experimentos_reduzido/particao_principal.csv), as [métricas por fold](resultado_experimentos_reduzido/metricas_externas.csv), as [métricas por representação](resultado_experimentos_reduzido/metricas_por_representacao.csv), as [métricas do teste](resultado_experimentos_reduzido/metricas_teste.csv), o [F/t 5×2](resultado_experimentos_reduzido/testes_5x2.json), o [McNemar](resultado_experimentos_reduzido/mcnemar_teste.json) e os [IC95% bootstrap](resultado_experimentos_reduzido/bootstrap_ic95.csv).
 
-O [plano da próxima comparação](referencias/plano_comparacao_modelos.md) prioriza auditar os erros, medir o que muda ao aumentar o tuning nos mesmos folds e avaliar a estabilidade em cinco folds externos repetidos. Dez folds são opcionais. Curvas de aprendizado e revisão de rótulos investigam o erro residual. Uma nova coorte independente permitiria confirmar diferenças com modelos e limiares congelados. A comparação já concluída sustenta a redação da [A2](avaliacao2.md).
+O [plano da próxima comparação](referencias/plano_comparacao_modelos.md) prioriza auditar os erros, medir o que muda ao aumentar o tuning nos mesmos folds e avaliar a estabilidade em cinco folds externos repetidos. Curvas de aprendizado e revisão de rótulos investigam o erro residual. Uma nova coorte independente permitiria confirmar diferenças com modelos e limiares congelados. A comparação já concluída sustenta a redação da [A2](avaliacao2.md).
+
+### Resultados da comparação ampliada
+
+Nas mesmas partições 5×2 da v3, ampliar de quatro para 12 ou 16 configurações manteve as métricas médias próximas. Os testes F e t exploratórios do 5×2, com Holm, não encontraram diferença de erro global entre floresta ou boosting e logística. No 2×5, a floresta teve a maior sensibilidade média (**65,20%**, com **80,47%** de especificidade), e o boosting teve a maior AP média (**0,7641**). São resultados de desenvolvimento. O teste reservado da v3 continua sendo a referência para a comparação dos modelos congelados daquela rodada.
+
+Na ablação que retira motivos, HDA, B2 e pulsos, a sensibilidade média caiu de **21,6 a 23,6 pontos percentuais**, conforme o modelo. A retirada isolada de PPA ou de uma representação de IMC apresentou efeitos médios pequenos nas configurações avaliadas. Consulte as [tabelas e a trilha de reprodução da extensão](resultado_experimentos_ampliado_publicado/README.md).
+
+### Como executar a comparação ampliada
+
+O [executor da extensão](scripts/comparar_modelos_ucmf.py) usa os 9.148 registros de desenvolvimento histórico. No **5×2**, ele repete cinco vezes a divisão em duas metades e alterna qual metade é usada para treino e qual para avaliação. Verifica as partições da v3, testa 12 candidatos por perfil com os quatro originais incluídos e avalia um braço de 16 candidatos com quatro combinações extras. Em seguida, executa o **2×5**, com duas repetições de cinco folds e 12 candidatos por perfil. Nos dois desenhos, o tuning usa três folds internos a cada treino externo. A rodada opcional de 10 folds externos foi retirada da execução. As comparações novas priorizam logística, floresta e boosting, com Dummy como referência.
+
+O executor grava partições, buscas, previsões e análises em `resultado_experimentos_ampliado/`. Gera o relatório ao terminar cada desenho e o atualiza quando as análises complementares terminam. A publicação em `resultado_experimentos_ampliado_publicado/` contém os resultados agregados para consulta.
+
+```powershell
+.\.venv\Scripts\python.exe scripts/comparar_modelos_ucmf.py --status
+Get-Content resultado_experimentos_ampliado/execucao_stdout.log -Tail 20
+```
+
+Para iniciar ou retomar a execução local, use `.\.venv\Scripts\python.exe -u scripts/comparar_modelos_ucmf.py`. Os checkpoints exigem entradas e código com os mesmos hashes. Use as versões do protocolo, incluindo scikit-learn 1.9.1, registrado na execução. Uma validação confirmatória com outro hold-out depende de obter uma coorte independente.
 
 ### Reprodução e acompanhamento
 
