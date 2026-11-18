@@ -1,0 +1,404 @@
+{
+  "inputs": {
+    "data_sha256": "fecaaa6f2f601fd58f6f2b6658d004357576d5879dee6669053622a7570cdd29",
+    "complementary_sha256": "6f25e2d0990928a13165c0e99a27c225b73081b7e1211370fcfe2892ddbe5d8c",
+    "partition_sha256": "401e0d1e08959fb5723b3be3fc18440a9483ff460aff00f8be8a60a539c93d09",
+    "round": {
+      "id": "r01_5folds_2rep_12cand",
+      "descricao": "Cinco folds externos repetidos duas vezes, três folds internos e 12 candidatos por família/perfil: os quatro da v3 mais oito inéditos da mesma grade (logística percorre a grade inteira).",
+      "outer_folds": 5,
+      "outer_seeds": [
+        606,
+        707
+      ],
+      "inner_folds": 3,
+      "candidates_per_family": 12,
+      "incluir_candidatos_v3": true,
+      "candidate_seed": 4242,
+      "minimum_specificity": 0.8,
+      "n_jobs": 6
+    },
+    "code_sha256": {
+      "rodadas_experimentos.py": "f34c0a3c58eae0fe91bc17bb521209c8dc262e066ec9fa865193fdbc83c046d6",
+      "treinar_modelos.py": "2f1709f4b8ee65b19438b52ec5b7867def41e440c2131229f840c40440622998",
+      "modelos_ucmf.py": "cf715a5c39717f303b3b2363427bd32d305fa2996026c68342549fe0b1f63fd3",
+      "metricas_modelagem.py": "37fe6df1c8eebad37e32bb8518174d2cb807d833a06a14e01306fd82cd37d133",
+      "preparar_modelagem.py": "575fba8080b69a63f3679506937c819fb27c0976883a19b5e6af46631b019974",
+      "representacoes_ucmf.py": "930011a42c00ee565dd82ccda9f813eef0f44633f93c8bdb358c06ec48699b10"
+    },
+    "versions": {
+      "python": "3.11.9",
+      "numpy": "1.26.4",
+      "pandas": "3.0.0",
+      "scipy": "1.17.0",
+      "scikit-learn": "1.8.0",
+      "joblib": "1.5.3",
+      "threadpoolctl": "3.6.0"
+    }
+  },
+  "config": {
+    "n_jobs": 6,
+    "minimum_specificity": 0.8
+  },
+  "candidates": {
+    "dummy": [
+      {}
+    ],
+    "logistica": [
+      {
+        "C": 0.1,
+        "class_weight": "balanced"
+      },
+      {
+        "C": 0.001,
+        "class_weight": null
+      },
+      {
+        "C": 100,
+        "class_weight": null
+      },
+      {
+        "C": 1,
+        "class_weight": "balanced"
+      },
+      {
+        "C": 100,
+        "class_weight": "balanced"
+      },
+      {
+        "C": 10,
+        "class_weight": "balanced"
+      },
+      {
+        "C": 0.1,
+        "class_weight": null
+      },
+      {
+        "C": 1,
+        "class_weight": null
+      },
+      {
+        "C": 0.001,
+        "class_weight": "balanced"
+      },
+      {
+        "C": 0.01,
+        "class_weight": "balanced"
+      },
+      {
+        "C": 10,
+        "class_weight": null
+      },
+      {
+        "C": 0.01,
+        "class_weight": null
+      }
+    ],
+    "arvore": [
+      {
+        "class_weight": "balanced",
+        "max_depth": 3,
+        "min_samples_leaf": 20
+      },
+      {
+        "class_weight": null,
+        "max_depth": 3,
+        "min_samples_leaf": 5
+      },
+      {
+        "class_weight": null,
+        "max_depth": null,
+        "min_samples_leaf": 5
+      },
+      {
+        "class_weight": null,
+        "max_depth": null,
+        "min_samples_leaf": 1
+      },
+      {
+        "class_weight": null,
+        "max_depth": 6,
+        "min_samples_leaf": 20
+      },
+      {
+        "class_weight": null,
+        "max_depth": 12,
+        "min_samples_leaf": 1
+      },
+      {
+        "class_weight": "balanced",
+        "max_depth": 6,
+        "min_samples_leaf": 5
+      },
+      {
+        "class_weight": null,
+        "max_depth": 3,
+        "min_samples_leaf": 20
+      },
+      {
+        "class_weight": null,
+        "max_depth": 12,
+        "min_samples_leaf": 20
+      },
+      {
+        "class_weight": "balanced",
+        "max_depth": null,
+        "min_samples_leaf": 5
+      },
+      {
+        "class_weight": "balanced",
+        "max_depth": 3,
+        "min_samples_leaf": 5
+      },
+      {
+        "class_weight": "balanced",
+        "max_depth": 12,
+        "min_samples_leaf": 20
+      }
+    ],
+    "knn": [
+      {
+        "n_neighbors": 11,
+        "p": 1,
+        "weights": "distance"
+      },
+      {
+        "n_neighbors": 21,
+        "p": 2,
+        "weights": "distance"
+      },
+      {
+        "n_neighbors": 5,
+        "p": 2,
+        "weights": "uniform"
+      },
+      {
+        "n_neighbors": 41,
+        "p": 2,
+        "weights": "distance"
+      },
+      {
+        "n_neighbors": 21,
+        "p": 1,
+        "weights": "uniform"
+      },
+      {
+        "n_neighbors": 41,
+        "p": 1,
+        "weights": "uniform"
+      },
+      {
+        "n_neighbors": 5,
+        "p": 1,
+        "weights": "distance"
+      },
+      {
+        "n_neighbors": 21,
+        "p": 1,
+        "weights": "distance"
+      },
+      {
+        "n_neighbors": 11,
+        "p": 2,
+        "weights": "uniform"
+      },
+      {
+        "n_neighbors": 11,
+        "p": 1,
+        "weights": "uniform"
+      },
+      {
+        "n_neighbors": 81,
+        "p": 2,
+        "weights": "uniform"
+      },
+      {
+        "n_neighbors": 11,
+        "p": 2,
+        "weights": "distance"
+      }
+    ],
+    "floresta": [
+      {
+        "class_weight": "balanced_subsample",
+        "max_depth": null,
+        "max_features": "sqrt",
+        "min_samples_leaf": 10
+      },
+      {
+        "class_weight": "balanced_subsample",
+        "max_depth": 8,
+        "max_features": "sqrt",
+        "min_samples_leaf": 10
+      },
+      {
+        "class_weight": "balanced_subsample",
+        "max_depth": 8,
+        "max_features": "sqrt",
+        "min_samples_leaf": 3
+      },
+      {
+        "class_weight": "balanced_subsample",
+        "max_depth": 16,
+        "max_features": "sqrt",
+        "min_samples_leaf": 10
+      },
+      {
+        "class_weight": "balanced_subsample",
+        "max_depth": 16,
+        "max_features": 0.5,
+        "min_samples_leaf": 1
+      },
+      {
+        "class_weight": "balanced_subsample",
+        "max_depth": 8,
+        "max_features": 1.0,
+        "min_samples_leaf": 1
+      },
+      {
+        "class_weight": null,
+        "max_depth": 16,
+        "max_features": "sqrt",
+        "min_samples_leaf": 1
+      },
+      {
+        "class_weight": "balanced_subsample",
+        "max_depth": null,
+        "max_features": 0.5,
+        "min_samples_leaf": 10
+      },
+      {
+        "class_weight": "balanced_subsample",
+        "max_depth": null,
+        "max_features": 1.0,
+        "min_samples_leaf": 3
+      },
+      {
+        "class_weight": null,
+        "max_depth": 16,
+        "max_features": "sqrt",
+        "min_samples_leaf": 3
+      },
+      {
+        "class_weight": "balanced_subsample",
+        "max_depth": null,
+        "max_features": 0.5,
+        "min_samples_leaf": 3
+      },
+      {
+        "class_weight": null,
+        "max_depth": null,
+        "max_features": "sqrt",
+        "min_samples_leaf": 10
+      }
+    ],
+    "boosting": [
+      {
+        "l2_regularization": 10,
+        "learning_rate": 0.1,
+        "max_iter": 100,
+        "max_leaf_nodes": 7
+      },
+      {
+        "l2_regularization": 0,
+        "learning_rate": 0.03,
+        "max_iter": 100,
+        "max_leaf_nodes": 31
+      },
+      {
+        "l2_regularization": 1,
+        "learning_rate": 0.03,
+        "max_iter": 200,
+        "max_leaf_nodes": 15
+      },
+      {
+        "l2_regularization": 0,
+        "learning_rate": 0.1,
+        "max_iter": 100,
+        "max_leaf_nodes": 15
+      },
+      {
+        "l2_regularization": 10,
+        "learning_rate": 0.03,
+        "max_iter": 200,
+        "max_leaf_nodes": 31
+      },
+      {
+        "l2_regularization": 10,
+        "learning_rate": 0.03,
+        "max_iter": 200,
+        "max_leaf_nodes": 7
+      },
+      {
+        "l2_regularization": 1,
+        "learning_rate": 0.03,
+        "max_iter": 200,
+        "max_leaf_nodes": 31
+      },
+      {
+        "l2_regularization": 10,
+        "learning_rate": 0.1,
+        "max_iter": 200,
+        "max_leaf_nodes": 7
+      },
+      {
+        "l2_regularization": 1,
+        "learning_rate": 0.1,
+        "max_iter": 200,
+        "max_leaf_nodes": 15
+      },
+      {
+        "l2_regularization": 0,
+        "learning_rate": 0.03,
+        "max_iter": 200,
+        "max_leaf_nodes": 7
+      },
+      {
+        "l2_regularization": 1,
+        "learning_rate": 0.1,
+        "max_iter": 100,
+        "max_leaf_nodes": 7
+      },
+      {
+        "l2_regularization": 10,
+        "learning_rate": 0.1,
+        "max_iter": 200,
+        "max_leaf_nodes": 31
+      }
+    ]
+  },
+  "candidates_notes": {
+    "logistica": {
+      "grade": 12,
+      "candidatos": 12,
+      "grade_completa": true,
+      "da_v3": 4
+    },
+    "arvore": {
+      "grade": 24,
+      "candidatos": 12,
+      "grade_completa": false,
+      "da_v3": 4
+    },
+    "knn": {
+      "grade": 20,
+      "candidatos": 12,
+      "grade_completa": false,
+      "da_v3": 4
+    },
+    "floresta": {
+      "grade": 54,
+      "candidatos": 12,
+      "grade_completa": false,
+      "da_v3": 4
+    },
+    "boosting": {
+      "grade": 36,
+      "candidatos": 12,
+      "grade_completa": false,
+      "da_v3": 4
+    }
+  },
+  "criado_em": "2026-11-18T02:17:46+00:00",
+  "observacao": "Somente desenvolvimento da v3; teste reservado não é carregado nem avaliado."
+}

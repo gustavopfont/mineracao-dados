@@ -10,6 +10,7 @@ O repositório registra três rodadas de treinamento e uma preparação anterior
 | v1 · `resultado_experimentos/` | Perfil contínuo, 12 candidatos previstos por família | Interrompida antes do teste. Uma busca persistida, do Dummy no primeiro fold externo | [Configuração e buscas registradas](referencias/inventario_experimentos.json) |
 | v2 · `resultado_experimentos_representacoes/` | Contínua, clínica e combinada, 12 candidatos por família/perfil | Interrompida antes do teste. 42 buscas persistidas em três folds externos, com o terceiro parcial | [Configuração e buscas registradas](referencias/inventario_experimentos.json) |
 | v3 · `resultado_experimentos_reduzido/` | Três perfis, 4 candidatos por família/perfil | Concluída. 160 buscas externas e 16 buscas finais, incluindo o Dummy, com teste reservado avaliado | [Relatório técnico](resultado_experimentos_reduzido/relatorio_experimentos.md) |
+| Rodadas adicionais · `resultado_experimentos_rodadas/` | Somente desenvolvimento, sem abrir o teste. Rodada `r01_5folds_2rep_12cand`: 5 folds externos × 2 repetições e 12 candidatos por família/perfil (os 4 da v3 mais 8 inéditos) | Concluída. 10 folds externos, 1.810 candidatos avaliados, todos elegíveis. Teste não aberto | [Relatório da rodada](resultado_experimentos_rodadas/r01_5folds_2rep_12cand/relatorio_rodada.md) e [comparação consolidada com a v3](resultado_experimentos_rodadas/consolidado/comparacao_rodadas.md) |
 
 O [inventário de hiperparâmetros](referencias/inventario_experimentos.json) reúne as combinações exatas de cada rodada. Para verificar o que foi executado, consulte `buscas_registradas`: cada tentativa aponta pelo índice para a lista da família e informa quantos folds internos produziram AP. Candidatos sem busca persistida têm execução indeterminada. A v1 e a v2 mantêm os arquivos completos localmente. O inventário está disponível mesmo para quem clonar apenas o que é versionado.
 
@@ -31,6 +32,30 @@ A floresta clínica foi selecionada no desenvolvimento. No teste reservado, teve
 Consulte as [partições do desenvolvimento e teste](resultado_experimentos_reduzido/particao_principal.csv), as [métricas por fold](resultado_experimentos_reduzido/metricas_externas.csv), as [métricas por representação](resultado_experimentos_reduzido/metricas_por_representacao.csv), as [métricas do teste](resultado_experimentos_reduzido/metricas_teste.csv), o [F/t 5×2](resultado_experimentos_reduzido/testes_5x2.json), o [McNemar](resultado_experimentos_reduzido/mcnemar_teste.json) e os [IC95% bootstrap](resultado_experimentos_reduzido/bootstrap_ic95.csv).
 
 O [plano da próxima comparação](referencias/plano_comparacao_modelos.md) prioriza auditar os erros, medir o que muda ao aumentar o tuning nos mesmos folds e avaliar a estabilidade em cinco folds externos repetidos. Dez folds são opcionais. Curvas de aprendizado e revisão de rótulos investigam o erro residual. Uma nova coorte independente permitiria confirmar diferenças com modelos e limiares congelados. A comparação já concluída sustenta a redação da [A2](avaliacao2.md).
+
+### Rodadas adicionais e resultados consolidados
+
+Novas combinações de folds e hiperparâmetros são declaradas em [`config_rodadas.json`](config_rodadas.json) e executadas por `scripts/rodadas_experimentos.py`, que reaproveita o executor da v3 sem alterá-lo e usa **apenas o desenvolvimento**: o teste reservado nunca é carregado. Cada rodada tem pasta própria e salva checkpoints por fold; a cada fold completo, o [consolidado](resultado_experimentos_rodadas/consolidado/) é regenerado reunindo a v3 e as rodadas novas em tabelas com a coluna `rodada` (registro, métricas por fold, por representação e por repetição, hiperparâmetros escolhidos e comparação). Fontes, decisões e limites estão no [protocolo das rodadas adicionais](referencias/protocolo_rodadas_adicionais.md).
+
+```powershell
+python scripts/rodadas_experimentos.py --listar
+python scripts/rodadas_experimentos.py --rodada r01_5folds_2rep_12cand
+python scripts/rodadas_experimentos.py --consolidar
+```
+
+Resultado da `r01_5folds_2rep_12cand` (concluída; 10 folds externos, 1.810 candidatos, teste não aberto), em médias por repetição com limiar aprendido no treino:
+
+| Modelo | Sensibilidade v3 → r01 | Especificidade v3 → r01 | AP v3 → r01 | Folds abaixo de 80% de especificidade (v3 → r01) |
+| --- | --- | --- | --- | --- |
+| Logística | 0,638 → 0,640 | 0,803 → 0,804 | 0,751 → 0,754 | 5/10 → 3/10 |
+| Árvore | 0,535 → 0,615 | 0,834 → 0,808 | 0,668 → 0,735 | 1/10 → 5/10 |
+| KNN | 0,571 → 0,594 | 0,805 → 0,818 | 0,695 → 0,707 | 3/10 → 2/10 |
+| Random Forest | 0,644 → 0,649 | 0,802 → 0,807 | 0,756 → 0,764 | 4/10 → 4/10 |
+| HistGradientBoosting | 0,642 → 0,644 | 0,807 → 0,808 | 0,759 → 0,764 | 4/10 → 3/10 |
+
+Floresta e boosting seguem no topo e os ganhos são pequenos, exceto na árvore, que escolheu `max_depth=12` em todos os folds (valor que a v3 não testou). Mais candidatos não tornou a meta de especificidade estável. Detalhes, perfis e hiperparâmetros escolhidos estão no [relatório da rodada](resultado_experimentos_rodadas/r01_5folds_2rep_12cand/relatorio_rodada.md).
+
+As diferenças em relação à v3 misturam tamanho do treino externo (50% → 80%), orçamento e folds; não são testes de hipótese e não substituem a avaliação no teste da v3. Para acrescentar uma rodada, inclua um `id` inédito em `config_rodadas.json`: as anteriores não são reescritas.
 
 ### Reprodução e acompanhamento
 
