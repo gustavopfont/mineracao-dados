@@ -1,0 +1,28 @@
+{
+  "n_full": 7318.4,
+  "erro_threshold05_full": {
+    "boosting": 0.2537725234309411,
+    "dummy": 0.42610402531169045,
+    "floresta": 0.26279142653126464,
+    "knn_clinica": 0.3530279020157929,
+    "knn_combinada": 0.36466972605891124,
+    "knn_continua": 0.3538464089487223,
+    "logistica": 0.26541443710469154
+  },
+  "prevalencia": 0.4261040664626148,
+  "n_folds": 10,
+  "n_dev": 9148,
+  "teste_usado": false,
+  "tempo_s": 439.5952582359314,
+  "bootstrap_falhas": {
+    "logistica/AP": 0,
+    "logistica/erro": 0,
+    "floresta/AP": 0,
+    "floresta/erro": 0,
+    "boosting/AP": 0,
+    "boosting/erro": 0,
+    "knn_continua/erro": 0,
+    "knn_clinica/erro": 0,
+    "knn_combinada/erro": 0
+  }
+}
