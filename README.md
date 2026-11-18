@@ -1,5 +1,7 @@
 # Pré-processamento do conjunto UCMF
 
+Para preparar o artigo solicitado em [`avaliacao2.md`](avaliacao2.md), consulte as [tabelas, figuras e evidências para a A2](resultado_a2/README.md).
+
 ## Experimentos preditivos de NORMAL X ANORMAL
 
 O repositório registra cinco rodadas de treinamento e uma preparação anterior da A1. A v3 avaliou os modelos no teste reservado. A r01 e a rodada ampliada concluíram comparações exploratórias nos mesmos dados de desenvolvimento.

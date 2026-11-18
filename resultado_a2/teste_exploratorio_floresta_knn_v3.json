@@ -1,0 +1,40 @@
+{
+  "tipo": "pos_hoc_testes_de_mcnemar_pareados_por_classe",
+  "origem": "Modelos e limiares congelados v3; teste histórico já avaliado",
+  "modelo_a": "Random Forest",
+  "modelo_b": "KNN",
+  "previsoes_locais_sha256": {
+    "floresta": "efa33a3bf039f00d3d6e3e96aa5cfa8de8477034363c14cacdc0387f72e2a85c",
+    "knn": "4d2b812182abe46ba323d0fc79d37dd19c35bd083bd1ea29d42d56cb25d66094"
+  },
+  "bootstrap_seed": 1830,
+  "bootstrap_repeticoes": 2000,
+  "comparacoes": [
+    {
+      "metric": "recall",
+      "n": 975,
+      "somente_floresta_correta": 106,
+      "somente_knn_correto": 45,
+      "diferenca_floresta_menos_knn": 0.06256410256410257,
+      "p": 7.494000144757453e-07,
+      "ic95_bootstrap_nominal": [
+        0.038974358974358976,
+        0.08717948717948718
+      ],
+      "p_holm": 1.4988000289514906e-06
+    },
+    {
+      "metric": "specificity",
+      "n": 1313,
+      "somente_floresta_correta": 82,
+      "somente_knn_correto": 72,
+      "diferenca_floresta_menos_knn": 0.007616146230007616,
+      "p": 0.4684207778527701,
+      "ic95_bootstrap_nominal": [
+        -0.010662604722010662,
+        0.025894897182025894
+      ],
+      "p_holm": 0.4684207778527701
+    }
+  ]
+}
