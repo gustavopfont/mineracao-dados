@@ -1,0 +1,21 @@
+{
+  "commit_publicado": "9ee9172509fbadd493e07f39c613dd9cb3b4e469",
+  "rodada": "r01_5folds_2rep_12cand",
+  "folds_externos": 5,
+  "sementes": [
+    606,
+    707
+  ],
+  "n_desenvolvimento": 9148,
+  "alpha": 0.05,
+  "familia_holm": 30,
+  "rejeicoes": 1,
+  "arquivos_fonte_git_sha256": {
+    "resultado_experimentos_rodadas/r01_5folds_2rep_12cand/protocolo.json": "b97146c325cd16ce8f133875b0652531aaf1229177794ddc2128ac168d4d5e8a",
+    "resultado_experimentos_rodadas/r01_5folds_2rep_12cand/estado_rodada.json": "a56f266d64dbc2f3d07b181d42ddc3b434898c57cdecf7b3bf0e6ac5b212e5bb",
+    "resultado_experimentos_reduzido/particao_principal.csv": "25aa6e064314701178c0e267f8eebcf253bcf0f9bbdb2e15a20ccc60dd855116",
+    "resultado_experimentos_rodadas/r01_5folds_2rep_12cand/particao_externa_r0.csv": "3ca310d065cea2d5323f603168d3ab9b486354c0d800c4e59ba9a01c39513c08",
+    "resultado_experimentos_rodadas/r01_5folds_2rep_12cand/particao_externa_r1.csv": "385b024e66b25cc3cf8ec5fec76f4c4ba9d7ce786ef79388eb81825c341acfd8",
+    "resultado_experimentos_rodadas/r01_5folds_2rep_12cand/metricas_externas.csv": "73a21ef3142730082ff8bccaf8b592373905eeac2943b9de1fc0a6e9733777e4"
+  }
+}

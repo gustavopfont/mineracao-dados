@@ -1,0 +1,18 @@
+{
+  "versao": 1,
+  "descricao": "Rodadas adicionais de comparação, executadas somente no desenvolvimento (teste reservado nunca é aberto). Cada rodada é independente e acrescentada ao consolidado sem sobrescrever as anteriores.",
+  "rodadas": [
+    {
+      "id": "r01_5folds_2rep_12cand",
+      "descricao": "Cinco folds externos repetidos duas vezes, três folds internos e 12 candidatos por família/perfil: os quatro da v3 mais oito inéditos da mesma grade (logística percorre a grade inteira).",
+      "outer_folds": 5,
+      "outer_seeds": [606, 707],
+      "inner_folds": 3,
+      "candidates_per_family": 12,
+      "incluir_candidatos_v3": true,
+      "candidate_seed": 4242,
+      "minimum_specificity": 0.8,
+      "n_jobs": 6
+    }
+  ]
+}

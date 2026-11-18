@@ -1,0 +1,26 @@
+[
+  {
+    "rodada": "v3_5x2_4cand",
+    "pasta": "resultado_experimentos_reduzido",
+    "folds_externos": "2",
+    "repeticoes": 5,
+    "folds_internos": 3,
+    "candidatos_por_perfil": 4,
+    "estado": "concluida (teste avaliado)",
+    "folds_completos": 10,
+    "folds_total": 10,
+    "observacao": "Referência da A2; teste reservado já aberto."
+  },
+  {
+    "rodada": "r01_5folds_2rep_12cand",
+    "pasta": "resultado_experimentos_rodadas/r01_5folds_2rep_12cand",
+    "folds_externos": "5",
+    "repeticoes": 2,
+    "folds_internos": 3,
+    "candidatos_por_perfil": 12,
+    "estado": "concluida",
+    "folds_completos": 10,
+    "folds_total": 10,
+    "observacao": "Cinco folds externos repetidos duas vezes, três folds internos e 12 candidatos por família/perfil: os quatro da v3 mais oito inéditos da mesma grade (logística percorre a grade inteira)."
+  }
+]

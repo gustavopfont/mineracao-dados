@@ -16,3 +16,7 @@ resultado_experimentos_reduzido/congelamento.json
 resultado_experimentos_reduzido/teste_aberto.json
 resultado_experimentos_reduzido/manifesto_resultados.json
 resultado_experimentos_ampliado/
+resultado_experimentos_rodadas/*/.cache/
+resultado_experimentos_rodadas/*/externo_*/
+resultado_experimentos_rodadas/*/*.log
+resultado_experimentos_rodadas/*/*.lock

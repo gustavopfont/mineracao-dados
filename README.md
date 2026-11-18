@@ -2,7 +2,7 @@
 
 ## Experimentos preditivos de NORMAL X ANORMAL
 
-O repositório registra quatro rodadas de treinamento e uma preparação anterior da A1. A v3 avaliou os modelos no teste reservado. A rodada ampliada concluiu uma comparação exploratória nos mesmos dados de desenvolvimento.
+O repositório registra cinco rodadas de treinamento e uma preparação anterior da A1. A v3 avaliou os modelos no teste reservado. A r01 e a rodada ampliada concluíram comparações exploratórias nos mesmos dados de desenvolvimento.
 
 | Rodada | Representações e orçamento | Execução comprovada | Resultados |
 | --- | --- | --- | --- |
@@ -10,9 +10,10 @@ O repositório registra quatro rodadas de treinamento e uma preparação anterio
 | v1 · `resultado_experimentos/` | Perfil contínuo, 12 candidatos previstos por família | Interrompida antes do teste. Uma busca persistida, do Dummy no primeiro fold externo | [Configuração e buscas registradas](referencias/inventario_experimentos.json) |
 | v2 · `resultado_experimentos_representacoes/` | Contínua, clínica e combinada, 12 candidatos por família/perfil | Interrompida antes do teste. 42 buscas persistidas em três folds externos, com o terceiro parcial | [Configuração e buscas registradas](referencias/inventario_experimentos.json) |
 | v3 · `resultado_experimentos_reduzido/` | Três perfis, 4 candidatos por família/perfil | Concluída. 160 buscas externas e 16 buscas finais, incluindo o Dummy, com teste reservado avaliado | [Relatório técnico](resultado_experimentos_reduzido/relatorio_experimentos.md) |
+| Rodadas adicionais · `resultado_experimentos_rodadas/` | Somente desenvolvimento, sem abrir o teste. Rodada `r01_5folds_2rep_12cand`: 5 folds externos × 2 repetições e 12 candidatos por família/perfil (os 4 da v3 mais 8 inéditos) | Concluída. 10 folds externos, 1.810 candidatos avaliados, todos elegíveis. Teste não aberto | [Relatório da rodada](resultado_experimentos_rodadas/r01_5folds_2rep_12cand/relatorio_rodada.md) e [comparação consolidada com a v3](resultado_experimentos_rodadas/consolidado/comparacao_rodadas.md) |
 | Extensão · `resultado_experimentos_ampliado_publicado/` | Três perfis, 12 e 16 candidatos no 5×2, 12 no 2×5 | Concluída. 200 avaliações no 5×2, 100 no 2×5 e 120 nas análises complementares | [Relatório comparativo](resultado_experimentos_ampliado_publicado/relatorio_comparativo.md) |
 
-O [inventário de hiperparâmetros da v1 à v3](referencias/inventario_experimentos.json) reúne as combinações exatas dessas rodadas. Para verificar o que foi executado, consulte `buscas_registradas`: cada tentativa aponta pelo índice para a lista da família e informa quantos folds internos produziram AP. Candidatos sem busca persistida têm execução indeterminada. As grades, sementes e versões da extensão estão no [protocolo da rodada ampliada](resultado_experimentos_ampliado_publicado/protocolo.json).
+O [inventário de hiperparâmetros](referencias/inventario_experimentos.json) reúne as combinações exatas das rodadas v1, v2, v3 e r01. Para verificar o que foi executado, consulte `buscas_registradas`: cada tentativa aponta pelo índice para a lista da família e informa quantos folds internos produziram AP. Candidatos sem busca persistida têm execução indeterminada. As grades, sementes e versões da extensão estão no [protocolo da rodada ampliada](resultado_experimentos_ampliado_publicado/protocolo.json).
 
 Os [parâmetros e limiares congelados da v3](resultado_experimentos_reduzido/modelos_selecionados.json) incluem versões e hashes dos dados. A grade e os argumentos fixos, como 200 árvores na floresta, estão em [`scripts/modelos_ucmf.py`](scripts/modelos_ucmf.py).
 
@@ -39,6 +40,8 @@ Nas mesmas partições 5×2 da v3, ampliar de quatro para 12 ou 16 configuraçõ
 
 Na ablação que retira motivos, HDA, B2 e pulsos, a sensibilidade média caiu de **21,6 a 23,6 pontos percentuais**, conforme o modelo. A retirada isolada de PPA ou de uma representação de IMC apresentou efeitos médios pequenos nas configurações avaliadas. Consulte as [tabelas e a trilha de reprodução da extensão](resultado_experimentos_ampliado_publicado/README.md).
 
+A [comparação com a r01](resultado_experimentos_ampliado_publicado/README.md#comparação-com-a-r01) usa a média dos dez folds externos em cada rodada de 2×5. As duas rodadas usam o mesmo desenvolvimento, com sementes de partição e algumas combinações de hiperparâmetros diferentes. A floresta lidera em sensibilidade média em ambas, e o boosting, em AP média. Essa comparação é descritiva.
+
 ### Como executar a comparação ampliada
 
 O [executor da extensão](scripts/comparar_modelos_ucmf.py) usa os 9.148 registros de desenvolvimento histórico. No **5×2**, ele repete cinco vezes a divisão em duas metades e alterna qual metade é usada para treino e qual para avaliação. Verifica as partições da v3, testa 12 candidatos por perfil com os quatro originais incluídos e avalia um braço de 16 candidatos com quatro combinações extras. Em seguida, executa o **2×5**, com duas repetições de cinco folds e 12 candidatos por perfil. Nos dois desenhos, o tuning usa três folds internos a cada treino externo. A rodada opcional de 10 folds externos foi retirada da execução. As comparações novas priorizam logística, floresta e boosting, com Dummy como referência.
@@ -51,6 +54,34 @@ Get-Content resultado_experimentos_ampliado/execucao_stdout.log -Tail 20
 ```
 
 Para iniciar ou retomar a execução local, use `.\.venv\Scripts\python.exe -u scripts/comparar_modelos_ucmf.py`. Os checkpoints exigem entradas e código com os mesmos hashes. Use as versões do protocolo, incluindo scikit-learn 1.9.1, registrado na execução. Uma validação confirmatória com outro hold-out depende de obter uma coorte independente.
+
+### Rodadas adicionais e resultados consolidados
+
+Novas combinações de folds e hiperparâmetros são declaradas em [`config_rodadas.json`](config_rodadas.json) e executadas por `scripts/rodadas_experimentos.py`, que reaproveita o executor da v3 sem alterá-lo e usa **apenas o desenvolvimento**: o teste reservado nunca é carregado. Cada rodada tem pasta própria e salva checkpoints por fold; a cada fold completo, o [consolidado](resultado_experimentos_rodadas/consolidado/) é regenerado reunindo a v3 e as rodadas novas em tabelas com a coluna `rodada` (registro, métricas por fold, por representação e por repetição, hiperparâmetros escolhidos e comparação). Fontes, decisões e limites estão no [protocolo das rodadas adicionais](referencias/protocolo_rodadas_adicionais.md).
+
+```powershell
+python scripts/rodadas_experimentos.py --listar
+python scripts/rodadas_experimentos.py --rodada r01_5folds_2rep_12cand
+python scripts/rodadas_experimentos.py --consolidar
+```
+
+Resultado da `r01_5folds_2rep_12cand` (concluída; 10 folds externos, 1.810 candidatos, teste não aberto), em médias por repetição com limiar aprendido no treino:
+
+| Modelo | Sensibilidade v3 → r01 | Especificidade v3 → r01 | AP v3 → r01 | Folds abaixo de 80% de especificidade (v3 → r01) |
+| --- | --- | --- | --- | --- |
+| Logística | 0,638 → 0,640 | 0,803 → 0,804 | 0,751 → 0,754 | 5/10 → 3/10 |
+| Árvore | 0,535 → 0,615 | 0,834 → 0,808 | 0,668 → 0,735 | 1/10 → 5/10 |
+| KNN | 0,571 → 0,594 | 0,805 → 0,818 | 0,695 → 0,707 | 3/10 → 2/10 |
+| Random Forest | 0,644 → 0,649 | 0,802 → 0,807 | 0,756 → 0,764 | 4/10 → 4/10 |
+| HistGradientBoosting | 0,642 → 0,644 | 0,807 → 0,808 | 0,759 → 0,764 | 4/10 → 3/10 |
+
+Floresta e boosting seguem no topo e os ganhos são pequenos, exceto na árvore, que escolheu `max_depth=12` em todos os folds (valor que a v3 não testou). Mais candidatos não tornou a meta de especificidade estável. Detalhes, perfis e hiperparâmetros escolhidos estão no [relatório da rodada](resultado_experimentos_rodadas/r01_5folds_2rep_12cand/relatorio_rodada.md).
+
+As diferenças em relação à v3 misturam tamanho do treino externo (50% → 80%), orçamento e folds; não são testes de hipótese e não substituem a avaliação no teste da v3. Para acrescentar uma rodada, inclua um `id` inédito em `config_rodadas.json`: as anteriores não são reescritas.
+
+Os [testes de hipótese da r01](resultado_experimentos_rodadas/r01_5folds_2rep_12cand/inferencia_exploratoria/relatorio.md) comparam os cinco modelos nos mesmos folds publicados. A análise exploratória usa t pareado corrigido para validação cruzada repetida, com Holm sobre os dez pares em sensibilidade, especificidade e erro global. O [script](scripts/testar_hipoteses_rodadas.py) registra o commit e os hashes das tabelas de origem. O [índice de testes da v3, r01 e extensão](resultado_experimentos_ampliado_publicado/README.md#testes-de-hipótese-disponíveis) mostra os desenhos e as métricas de cada comparação.
+
+Houve uma rejeição após o ajuste. A floresta apresentou sensibilidade média **5,49 pontos percentuais** acima do KNN (**p ajustado = 0,0222**). As diferenças de erro global, de especificidade e os demais contrastes de sensibilidade não atingiram o nível de 5% após Holm.
 
 ### Reprodução e acompanhamento
 
