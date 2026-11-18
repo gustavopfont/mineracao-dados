@@ -49,3 +49,23 @@ As ablações com retirada conjunta de motivos, HDA, B2 e pulsos reduziram a sen
 As fontes clínicas são as referências de [crescimento e IMC da OMS](../referencias/README.md) e a [Diretriz Brasileira de Hipertensão de 2025](https://www.scielo.br/j/abc/a/BXT7Vk4B9VKQnJFsJhgJ4Hn/?lang=pt). As decisões de preparo e modelagem estão documentadas na [matriz metodológica](../referencias/metodologia_preparo.md) e no [protocolo v3](../referencias/protocolo_experimentos.md). Para relato, consulte [TRIPOD+AI](https://pmc.ncbi.nlm.nih.gov/articles/PMC11019967/).
 
 Para regenerar as tabelas e figuras a partir dos artefatos versionados, execute `python scripts/preparar_evidencias_a2.py` na raiz do repositório. O argumento opcional `--incluir-teste-exploratorio` recalcula o McNemar pós-hoc quando as previsões locais congeladas da v3 estão disponíveis. O código confere os hashes das previsões, os IDs do teste, os limiares e as matrizes publicadas antes de gravar somente resultados agregados.
+
+## Análise de erros por subgrupo e figuras do artigo
+
+Comando (a partir da raiz do repositório): `python scripts/artigo_a2.py`
+
+O script reajusta a floresta aleatória e a regressão logística nos 9.148 registros de desenvolvimento, com os parâmetros e limiares congelados em `resultado_experimentos_reduzido/modelos_selecionados.json` e a semente 4201 (a mesma usada por `freeze()`). Em seguida, confere tp/tn/fp/fn com `metricas_teste.csv` e interrompe a execução se houver divergência.
+
+Saídas (por padrão em `resultado_a2/erros_e_figuras_artigo/`, alterável com `--saida`):
+- `erros/`: sensibilidade e especificidade por grupo e detalhe do motivo de encaminhamento, B2, faixa etária, HDA e presença de PAS, além de `resumo_fn_fp.txt`;
+- `figuras/`: `fig_sopro_vazamento`, `fig_motivo_alvo`, `fig_matrizes` e `fig_importancia`, em PDF e PNG.
+
+É uma análise descritiva feita após o congelamento dos modelos e não altera a seleção.
+
+## Teto de desempenho (curvas de aprendizado e limites de Cover–Hart)
+
+Comando (a partir da raiz do repositório): `python scripts/teto_desempenho_a2.py` (cerca de 7 min com `--jobs 4`). Usa somente os 9.148 registros de desenvolvimento, com asserções de que nenhum ID de teste é usado.
+
+Método: validação cruzada estratificada de 5 folds repetida com as sementes 11 e 22 (10 folds). Em cada fold, os pipelines congelados (logística, floresta e boosting, semente 4201) e o 1-NN (três representações) são ajustados em subamostras estratificadas de 10% a 100% do treino, medindo AP e erro no limiar 0,5. As médias são ajustadas por AP(n) = a − b·n^(−c) e erro(n) = a + b·n^(−c), com IC95% por bootstrap dos folds (2.000 reamostragens, semente 2024). Os limites de Cover–Hart, (1 − √(1 − 2R))/2 ≤ R* ≤ R, usam o erro do 1-NN; como a assíntota do 1-NN não foi identificável (curvas quase planas), o artigo usa o erro empírico com o treino completo. O script também conta perfis idênticos com rótulos conflitantes.
+
+Versionados em `teto_desempenho/`: `ajustes_potencia.csv`, `cover_hart.csv` e `resumo.json`. Os arquivos `curvas_aprendizado.csv` e `fig_teto.pdf`/`.png` são gerados ao executar o script.
