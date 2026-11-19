@@ -23,9 +23,9 @@ from treinar_modelos import (
     save_folds, sha, table_metrics, versions, write_json,
 )
 
-HISTORICO = ROOT / 'resultado_experimentos_reduzido'
-PREPARO = ROOT / 'resultado_modelagem_preparo'
-SAIDA = ROOT / 'resultado_experimentos_ampliado'
+HISTORICO = ROOT / 'resultados/experimentos/v3'
+PREPARO = ROOT / 'resultados/preparo'
+SAIDA = ROOT / 'execucoes/ampliado'
 MODELOS = ('dummy', 'logistica', 'floresta', 'boosting')
 DESENHOS = {
     '5x2': (2, [101, 202, 303, 404, 505]),
@@ -215,7 +215,7 @@ def run(output, n_jobs):
             ROOT / 'scripts/metricas_modelagem.py', ROOT / 'scripts/representacoes_ucmf.py',
             ROOT / 'scripts/preparar_modelagem.py',
             PREPARO / 'UCMF_supervisionado.csv', PREPARO / 'atributos_complementares.csv',
-            PREPARO / 'conflitos_alvo.csv', ROOT / 'resultado_analise/UCMF_base_final.csv',
+            PREPARO / 'conflitos_alvo.csv', ROOT / 'resultados/analise/UCMF_base_final.csv',
             HISTORICO / 'modelos_selecionados.json', HISTORICO / 'particao_principal.csv',
             HISTORICO / 'metricas_externas.csv', HISTORICO / 'metricas_por_representacao.csv',
             HISTORICO / 'metricas_teste.csv', *sorted(HISTORICO.glob('particao_externa_r*.csv')),

@@ -100,7 +100,7 @@ class MergeTest(unittest.TestCase):
 
 class FinalBaseTest(unittest.TestCase):
     def test_final_preserves_ids_target_and_clinical_fields(self):
-        original = pd.read_csv(ROOT/'resultado_analise/UCMF_limpo.csv', dtype='string')
+        original = pd.read_csv(ROOT/'resultados/analise/UCMF_limpo.csv', dtype='string')
         frame = original.copy()
         frame['_LINHA_ORIGEM'] = range(len(frame))
         result, audit, comparison = transform(frame)
@@ -117,7 +117,7 @@ class FinalBaseTest(unittest.TestCase):
         self.assertEqual(len(comparison), len(result))
 
     def test_derivations_do_not_consult_target_or_murmur(self):
-        frame = pd.read_csv(ROOT/'resultado_analise/UCMF_limpo.csv', dtype='string').head(40)
+        frame = pd.read_csv(ROOT/'resultados/analise/UCMF_limpo.csv', dtype='string').head(40)
         frame['_LINHA_ORIGEM'] = range(len(frame))
         before, _, _ = transform(frame)
         frame[TARGET] = 'Normal'
@@ -126,10 +126,10 @@ class FinalBaseTest(unittest.TestCase):
         pd.testing.assert_frame_equal(before.drop(columns=TARGET), after.drop(columns=TARGET))
 
     def test_reproducible_generation_preserves_sources(self):
-        paths = [ROOT/'UCMF_raw.csv', ROOT/'resultado_analise/UCMF_limpo.csv']
-        paths += sorted(p for p in (ROOT/'resultado_modelagem').iterdir() if p.is_file())
+        paths = [ROOT/'dados/UCMF_raw.csv', ROOT/'resultados/analise/UCMF_limpo.csv']
+        paths += sorted(p for p in (ROOT/'resultados/modelagem_legada').iterdir() if p.is_file())
         paths += sorted((ROOT/'referencias').glob('*.csv'))
-        current_final = ROOT/'resultado_analise/UCMF_base_final.csv'
+        current_final = ROOT/'resultados/analise/UCMF_base_final.csv'
         original_final_hash = checksum(current_final)
         before = {str(p): checksum(p) for p in paths}
         with tempfile.TemporaryDirectory() as folder:

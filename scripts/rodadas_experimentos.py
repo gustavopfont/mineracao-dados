@@ -1,10 +1,10 @@
 """Rodadas adicionais de comparação UCMF, somente no desenvolvimento.
 
-Cada rodada (config_rodadas.json) usa outros folds externos e/ou outro orçamento de
+Cada rodada (config/config_rodadas.json) usa outros folds externos e/ou outro orçamento de
 hiperparâmetros, reaproveita a população de desenvolvimento da v3 e NUNCA abre o teste
 reservado. Os resultados são gravados fold a fold (retomável) e consolidados junto
-com a v3 em resultado_experimentos_rodadas/consolidado/.
-Protocolo e limites: referencias/protocolo_rodadas_adicionais.md.
+com a v3 em resultados/experimentos/rodadas/consolidado/.
+As configurações efetivas e os limites constam no relatório de cada rodada.
 """
 from __future__ import annotations
 
@@ -27,8 +27,8 @@ from representacoes_ucmf import REPRESENTATIONS
 from treinar_modelos import (load_frame, folds, save_folds, fit_representations, table_metrics,
                              read_json, write_json, sha, versions)
 
-RODADAS_DIR = ROOT/'resultado_experimentos_rodadas'
-V3_DIR = ROOT/'resultado_experimentos_reduzido'
+RODADAS_DIR = ROOT/'resultados/experimentos/rodadas'
+V3_DIR = ROOT/'resultados/experimentos/v3'
 V3_ID = 'v3_5x2_4cand'
 INVENTARIO = ROOT/'referencias/inventario_experimentos.json'
 CODE = ['rodadas_experimentos.py','treinar_modelos.py','modelos_ucmf.py','metricas_modelagem.py',
@@ -363,13 +363,13 @@ def v3_tables():
     return frames
 
 
-def consolidate_all(root=RODADAS_DIR, config_path=ROOT/'config_rodadas.json'):
+def consolidate_all(root=RODADAS_DIR, config_path=ROOT/'config/config_rodadas.json'):
     """Reúne v3 e rodadas novas, sem alterar nenhum arquivo de origem."""
     out = root/'consolidado'
     out.mkdir(parents=True,exist_ok=True)
     v3 = v3_tables()
     ext,rep,per,hyp,registry = [v3['externas']],[v3['representacao']],[v3['repeticoes']],[],[]
-    registry.append(dict(rodada=V3_ID,pasta='resultado_experimentos_reduzido',folds_externos='2',repeticoes=5,folds_internos=3,
+    registry.append(dict(rodada=V3_ID,pasta=V3_DIR.relative_to(ROOT).as_posix(),folds_externos='2',repeticoes=5,folds_internos=3,
                          candidatos_por_perfil=4,estado='concluida (teste avaliado)',folds_completos=10,folds_total=10,
                          observacao='Referência da A2; teste reservado já aberto.'))
     summaries = []
@@ -387,7 +387,10 @@ def consolidate_all(root=RODADAS_DIR, config_path=ROOT/'config_rodadas.json'):
         hyp.append(pd.read_csv(folder/'hiperparametros_selecionados.csv',encoding='utf-8-sig'))
         summaries.append(pd.read_csv(folder/'resumo_desenvolvimento.csv',encoding='utf-8-sig'))
         st = read_json(folder/'estado_rodada.json') if (folder/'estado_rodada.json').exists() else {}
-        registry.append(dict(rodada=rc['id'],pasta=f"resultado_experimentos_rodadas/{rc['id']}",
+        location = folder.resolve()
+        if location.is_relative_to(ROOT):
+            location = location.relative_to(ROOT)
+        registry.append(dict(rodada=rc['id'],pasta=location.as_posix(),
                              folds_externos=str(rc['outer_folds']),repeticoes=len(rc['outer_seeds']),
                              folds_internos=rc['inner_folds'],candidatos_por_perfil=rc['candidates_per_family'],
                              estado=st.get('status','desconhecido'),folds_completos=st.get('folds_completos'),
@@ -432,8 +435,8 @@ Diferenças entre rodadas misturam o tamanho do treino externo (50% na v3, 80% c
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--config',type=Path,default=ROOT/'config_rodadas.json')
-    parser.add_argument('--entrada',type=Path,default=ROOT/'resultado_modelagem_preparo/UCMF_supervisionado.csv')
+    parser.add_argument('--config',type=Path,default=ROOT/'config/config_rodadas.json')
+    parser.add_argument('--entrada',type=Path,default=ROOT/'resultados/preparo/UCMF_supervisionado.csv')
     parser.add_argument('--saida',type=Path,default=RODADAS_DIR)
     parser.add_argument('--rodada',help='id da rodada a executar/retomar; "todas" executa as pendentes')
     parser.add_argument('--max-folds',type=int,help='para após concluir N folds externos novos (retomável)')

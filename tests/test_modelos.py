@@ -119,7 +119,7 @@ class ProtocolTest(unittest.TestCase):
             derived=['IMC','CLASSIFICACAO IMC','FAIXA_ETARIA','PPA_CALCULADA']
             data[['ID']+derived].to_csv(path/'atributos_complementares.csv',index=False)
             data.drop(columns=['y','group_id']+derived).to_csv(source,index=False)
-            config=json.loads((ROOT/'config_experimentos.json').read_text());config['n_jobs']=1
+            config=json.loads((ROOT/'config/config_experimentos.json').read_text());config['n_jobs']=1
             write_json(cfg,config)
             out.mkdir()
             (out/'execucao_stdout.log').touch()
@@ -205,7 +205,7 @@ class ProtocolTest(unittest.TestCase):
             write_json(out/'testes_5x2.json',[dict(model='arvore',**five_by_two(np.ones((5,2))),f_p_holm=None,t_p_holm_sensibilidade=None)])
             pd.DataFrame([dict(feature='IDADE',repeat=i,ap_drop=.1) for i in range(2)]).to_csv(out/'importancia_permutacao.csv',index=False)
             write_json(out/'protocolo.json',{})
-            config=read_config=json.loads((ROOT/'config_experimentos.json').read_text());config['bootstrap_repetitions']=10
+            config=read_config=json.loads((ROOT/'config/config_experimentos.json').read_text());config['bootstrap_repetitions']=10
             state=dict(config=config,grouping='registro; independência por paciente desconhecida')
             frozen=dict(winner='logistica',target_met=True,artifacts={'logistica':{'representation':'continua'}})
             with patch('relatorio_modelos.verify_frozen',return_value=frozen):run_report(out,frame,state)

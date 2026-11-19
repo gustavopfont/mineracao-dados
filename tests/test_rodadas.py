@@ -24,7 +24,7 @@ def round_config(**changes):
 
 class RodadasTest(unittest.TestCase):
     def test_config_versionada_valida(self):
-        rounds = load_rounds(ROOT/'config_rodadas.json')
+        rounds = load_rounds(ROOT/'config/config_rodadas.json')
         self.assertTrue(rounds)
         self.assertEqual(len({r['id'] for r in rounds}),len(rounds))
 

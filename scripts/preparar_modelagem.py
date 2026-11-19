@@ -1,6 +1,6 @@
 ﻿"""Declara o preparo atual. Nenhum fit ou split ocorre ao executar este script."""
 from pathlib import Path
-# Fundamentação R8–R11: referencias/metodologia_preparo.md.
+# Fundamentação R8–R11 no relatório de adequação publicado.
 # Mediana/indicadores são baseline metodológico, não recomendação clínica OMS.
 import argparse
 import numpy as np
@@ -114,7 +114,7 @@ def fit_on_train(train, test, numeric=None, categorical=None):
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--entrada', type=Path, default=ROOT/'resultado_modelagem_preparo/UCMF_supervisionado.csv')
+    parser.add_argument('--entrada', type=Path, default=ROOT/'resultados/preparo/UCMF_supervisionado.csv')
     args = parser.parse_args()
     frame = pd.read_csv(args.entrada, dtype='string', encoding='utf-8-sig')
     row_features(frame)

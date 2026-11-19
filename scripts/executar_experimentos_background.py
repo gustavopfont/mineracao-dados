@@ -44,9 +44,9 @@ def execute(output,config,source,groups=None):
 
 if __name__=='__main__':
     parser=argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--saida',type=Path,default=ROOT/'resultado_experimentos_reduzido')
-    parser.add_argument('--config',type=Path,default=ROOT/'config_experimentos.json')
-    parser.add_argument('--entrada',type=Path,default=ROOT/'resultado_modelagem_preparo/UCMF_supervisionado.csv')
+    parser.add_argument('--saida',type=Path,default=ROOT/'resultados/experimentos/v3')
+    parser.add_argument('--config',type=Path,default=ROOT/'config/config_experimentos.json')
+    parser.add_argument('--entrada',type=Path,default=ROOT/'resultados/preparo/UCMF_supervisionado.csv')
     parser.add_argument('--grupos',type=Path)
     args=parser.parse_args()
     raise SystemExit(execute(args.saida,args.config,args.entrada,args.grupos))

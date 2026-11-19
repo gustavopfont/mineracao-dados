@@ -302,8 +302,8 @@ def run(raw: Path, baseline_path: Path, output: Path) -> None:
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--bruto', type=Path, default=ROOT/'UCMF_raw.csv')
-    parser.add_argument('--limpo', type=Path, default=ROOT/'resultado_analise/UCMF_limpo.csv')
-    parser.add_argument('--saida', type=Path, default=ROOT/'resultado_analise')
+    parser.add_argument('--bruto', type=Path, default=ROOT/'dados/UCMF_raw.csv')
+    parser.add_argument('--limpo', type=Path, default=ROOT/'resultados/analise/UCMF_limpo.csv')
+    parser.add_argument('--saida', type=Path, default=ROOT/'resultados/analise')
     args = parser.parse_args()
     run(args.bruto, args.limpo, args.saida)

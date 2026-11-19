@@ -17,7 +17,7 @@ from reportlab.platypus import (
 )
 
 ROOT = Path(__file__).resolve().parents[1]
-RESULT = ROOT / "resultado_analise"
+RESULT = ROOT / "resultados/analise"
 OUTPUT = RESULT / "relatorio_A1.pdf"
 TARGET = "NORMAL X ANORMAL"
 NUMERIC = ["Peso", "Altura", "IMC", "IDADE", "FC", "PA SISTOLICA", "PA DIASTOLICA"]
@@ -238,7 +238,7 @@ def main() -> None:
                    plan_rows, [100, 205, width - 305])]
     story += [Spacer(1, 5), para("A base mantém 429 alvos ausentes e 537 verificações em 366 IDs. Os valores de PPA da origem não foram validados como diagnóstico. Quatro grupos de linhas idênticas sem ID e alvo têm rótulos conflitantes; eles ficam juntos na divisão de treino e teste para revisão. O teste não foi usado para ajustar imputação, codificação ou escala. Não há classificador treinado nesta etapa.")]
     story += [para("Fontes e rastreabilidade", section)]
-    story += [para("Descrição das avaliações.pdf; Variáveis do conjunto de dados.pdf; slides das aulas; OMS, padrões de IMC por idade de 2006 e referência de 2007. Regras, limites, fontes OMS, alterações por ID e plano por variável estão em dataset.md, docs.md, referencias/ e plano_modelagem.md.")]
+    story += [para("Descrição das avaliações.pdf; Variáveis do conjunto de dados.pdf; slides das aulas; OMS, padrões de IMC por idade de 2006 e referência de 2007. Regras, limites, fontes OMS, alterações por ID e plano por variável estão em dados/dicionario.md, docs.md, referencias/ e plano_modelagem.md.")]
     story += [para("Uso de IA generativa", section)]
     story += [para("OpenAI Codex foi usado nesta pasta para revisar scripts e CSVs, verificar inconsistências, gerar tabelas e figuras e redigir a versão inicial deste relatório. O objetivo foi apoiar a limpeza, a documentação e a interpretação descritiva. As decisões clínicas, a conferência dos resultados e a apresentação final cabem ao grupo.")]
 

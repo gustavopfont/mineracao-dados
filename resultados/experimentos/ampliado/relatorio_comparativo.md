@@ -70,4 +70,4 @@ Diferenças externas médias em relação ao cenário completo. A ablação dire
 | logistica | sem_imc_continuo | 0.0000 | -0.0008 | 0.0011 |
 
 
-Métodos e referências no [plano de comparação](../referencias/plano_comparacao_modelos.md) e no [protocolo original](../referencias/protocolo_experimentos.md).
+Métodos e grades no [protocolo da comparação](protocolo.json) e no [protocolo da v3](../v3/relatorio_experimentos.md).

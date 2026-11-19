@@ -1,6 +1,6 @@
 """Métricas/limiar: scikit-learn; testes: Dietterich 1998, Alpaydin 1999, Holm 1979.
 
-Fontes e hipóteses em referencias/protocolo_experimentos.md.
+As fontes e hipóteses da v3 constam no relatório de experimentos publicado.
 """
 import numpy as np
 from scipy.stats import binomtest, f, t

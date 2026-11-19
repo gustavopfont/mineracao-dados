@@ -1,7 +1,7 @@
 [
   {
     "rodada": "v3_5x2_4cand",
-    "pasta": "resultado_experimentos_reduzido",
+    "pasta": "resultados/experimentos/v3",
     "folds_externos": "2",
     "repeticoes": 5,
     "folds_internos": 3,
@@ -13,7 +13,7 @@
   },
   {
     "rodada": "r01_5folds_2rep_12cand",
-    "pasta": "resultado_experimentos_rodadas/r01_5folds_2rep_12cand",
+    "pasta": "resultados/experimentos/rodadas/r01_5folds_2rep_12cand",
     "folds_externos": "5",
     "repeticoes": 2,
     "folds_internos": 3,

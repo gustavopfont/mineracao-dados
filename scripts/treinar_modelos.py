@@ -1,6 +1,6 @@
 """Experimentos UCMF: init → desenvolvimento → congelar → teste → relatorio.
 
-Protocolo e fontes: referencias/protocolo_experimentos.md. Retomada nunca faz
+O protocolo da v3 consta no relatório publicado. Retomada nunca faz
 nova avaliação de teste; carrega as previsões originais depois da abertura.
 """
 from __future__ import annotations
@@ -437,10 +437,10 @@ def test_once(state,test,output):
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--fase',choices=['init','desenvolvimento','congelar','teste','relatorio','todos'],default='desenvolvimento')
-    parser.add_argument('--entrada',type=Path,default=ROOT/'resultado_modelagem_preparo/UCMF_supervisionado.csv')
-    parser.add_argument('--config',type=Path,default=ROOT/'config_experimentos.json')
+    parser.add_argument('--entrada',type=Path,default=ROOT/'resultados/preparo/UCMF_supervisionado.csv')
+    parser.add_argument('--config',type=Path,default=ROOT/'config/config_experimentos.json')
     parser.add_argument('--grupos',type=Path)
-    parser.add_argument('--saida',type=Path,default=ROOT/'resultado_experimentos_reduzido')
+    parser.add_argument('--saida',type=Path,default=ROOT/'resultados/experimentos/v3')
     args = parser.parse_args()
     args.saida.mkdir(parents=True,exist_ok=True)
     state,frame = initialize(args.entrada,args.config,args.saida,args.grupos)

@@ -1,3 +1,0 @@
-﻿rodada,pasta,folds_externos,repeticoes,folds_internos,candidatos_por_perfil,estado,folds_completos,folds_total,observacao
-v3_5x2_4cand,resultado_experimentos_reduzido,2,5,3,4,concluida (teste avaliado),10,10,Referência da A2; teste reservado já aberto.
-r01_5folds_2rep_12cand,resultado_experimentos_rodadas/r01_5folds_2rep_12cand,5,2,3,12,concluida,10,10,"Cinco folds externos repetidos duas vezes, três folds internos e 12 candidatos por família/perfil: os quatro da v3 mais oito inéditos da mesma grade (logística percorre a grade inteira)."

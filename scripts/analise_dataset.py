@@ -3,7 +3,6 @@
 from __future__ import annotations
 
 import argparse
-import hashlib
 import io
 import math
 import re
@@ -607,28 +606,20 @@ def save_plots(frame: pd.DataFrame, output: Path) -> None:
         plt.close(axis.figure)
 
 
-def write_documentation(
-    raw_path: Path, frame: pd.DataFrame, removed: pd.DataFrame,
-    changes: pd.DataFrame, issues: pd.DataFrame, similar: pd.DataFrame,
+def write_report(
+    frame: pd.DataFrame, removed: pd.DataFrame, issues: pd.DataFrame,
     numeric: pd.DataFrame, date_stats: pd.DataFrame, categorical: pd.DataFrame,
-    bivariate: pd.DataFrame, classifications: pd.DataFrame,
-    anthropometric: pd.DataFrame, age_report: pd.DataFrame, output: Path,
+    bivariate: pd.DataFrame, age_report: pd.DataFrame, output: Path,
 ) -> None:
     n = len(frame)
     raw_count = n + len(removed)
     target_counts = frame[TARGET].value_counts()
-    classified = int(classifications["classificacao"].notna().sum())
-    invalid_dates = issues.loc[
-        issues["motivo"].str.startswith("data original inválida", na=False)
-    ]
-    ppa_missing = int(frame["PPA"].isna().sum())
     age_normal = bivariate.loc[
         (bivariate["variavel"] == "IDADE") & (bivariate["classe_alvo"] == "Normal")
     ].iloc[0]
     age_abnormal = bivariate.loc[
         (bivariate["variavel"] == "IDADE") & (bivariate["classe_alvo"] == "Anormal")
     ].iloc[0]
-    checksum = hashlib.sha256(raw_path.read_bytes()).hexdigest()
     age_divergences = int(
         pd.to_numeric(age_report["diferenca"], errors="coerce").abs().gt(0.1).sum()
     )
@@ -640,81 +631,6 @@ def write_documentation(
         )
         for target in TARGET_CLASSES
     }
-
-    operations = [
-        ("Leitura do CSV", "Aspas após espaços e exatamente 21 campos por registro",
-         "Evitar o deslocamento das colunas em datas com vírgula."),
-        ("Exclusão de registros", f"{len(removed)} registros sem dados clínicos",
-         "Remover linhas do padrão vazio do ID 65, preservando os IDs no relatório."),
-        ("Padronização de categorias", "Grafias equivalentes consolidadas",
-         "Evitar que uma mesma categoria seja contada mais de uma vez."),
-        ("Ausências", "Zeros de Peso/Altura/IMC e Não Calculado em PPA tratados como ausentes",
-         "Esses marcadores não representam medidas ou diagnóstico."),
-        ("Datas e idade", f"{len(age_report)} idades recalculadas",
-         "Usar Atendimento menos DN quando as duas datas são coerentes."),
-        ("Antropometria", f"{len(anthropometric)} valores calculados ou corrigidos",
-         "Aplicar a relação entre Peso, Altura e IMC apenas com entradas válidas."),
-        ("Classificação de IMC", f"{classified} registros classificados",
-         "Usar os cortes oficiais da OMS por sexo e idade."),
-        ("PPA", f"{ppa_missing} valores ausentes após a limpeza",
-         "Não inferir classificação clínica com a tabela simplificada anterior."),
-    ]
-    operation_table = "\n".join(
-        f"| {name} | {action} | {why} |" for name, action, why in operations
-    )
-    docs = f"""# Pré-processamento do conjunto UCMF
-
-O processamento parte de UCMF_raw.csv, mantém o arquivo original intacto e gera as saídas em resultado_analise/. A execução pode ser repetida com python scripts/analise_dataset.py.
-
-## Controle do conjunto
-
-- Linhas de entrada: **{raw_count}**.
-- Linhas sem dados clínicos excluídas: **{len(removed)}**.
-- Linhas no conjunto limpo: **{n}**.
-- Linhas semelhantes ainda presentes, sem considerar ID: **{len(similar)}**. Elas não foram removidas automaticamente.
-- SHA-256 do CSV bruto: {checksum}
-
-## Limpeza e transformação
-
-| Etapa | O que foi feito | Justificativa |
-| --- | --- | --- |
-{operation_table}
-
-As alterações por ID estão em alteracoes.csv; as linhas excluídas em linhas_removidas.csv; os casos que exigem interpretação da origem em pendencias.csv. Os valores originais continuam disponíveis em UCMF_raw.csv. O relatório de qualidade inclui todas as variáveis, inclusive as verificações com resultado zero.
-
-## Resultado dos atributos
-
-- Alvo {TARGET}: **{int(target_counts.get("Normal", 0))} Normal**, **{int(target_counts.get("Anormal", 0))} Anormal** e **{int(frame[TARGET].isna().sum())} ausentes**.
-- IMC classificado: **{classified}**; sem classificação: **{n - classified}**.
-- Questões não resolvidas pela origem: **{len(issues)} verificações em {pending_ids} IDs**; elas não impedem a leitura do CSV e constam em pendencias.csv.
-- Datas de origem inválidas após leitura robusta: **{len(invalid_dates)}**; detalhes em pendencias.csv.
-- Idades originais que divergiam das datas em mais de 0,10 ano: **{age_divergences}**; as datas coerentes prevaleceram.
-- PPA: a categoria Não Calculado passou a ausente. Os valores já informados foram mantidos, mas não foram recalculados nem validados como diagnóstico.
-- A classificação do IMC é descritiva e não substitui avaliação clínica.
-
-## Análises geradas
-
-As sete variáveis numéricas estão em resumo_numericas.csv; datas em resumo_datas.csv; categorias e ausências em resumo_categoricas.csv. As comparações com {TARGET} estão em bivariada_numericas.csv, bivariada_categoricas.csv e nos diretórios graficos/ e graficos_bivariada/. A variável ID não entra como explicativa.
-
-O relatório técnico está em relatorio_analise.md. A versão paginada em relatorio_A1.pdf é gerada depois da análise por python scripts/gerar_relatorio_a1.py e mantém a figura de IDADE × alvo dentro do documento.
-
-Na comparação IDADE × {TARGET}, a mediana é **{age_normal["mediana"]:.2f} anos** no grupo Normal (n válido = {int(age_normal["validos"])}) e **{age_abnormal["mediana"]:.2f} anos** no grupo Anormal (n válido = {int(age_abnormal["validos"])}). A diferença descreve os registros disponíveis e não estabelece causalidade. O gráfico omite pontos extremos do desenho; as estatísticas usam todos os valores válidos.
-
-## Limites e referências
-
-Os limites numéricos são verificações técnicas amplas para erros de registro, não pontos de corte diagnósticos. Datas ou medidas contraditórias sem solução segura permanecem ausentes ou constam em pendencias.csv. A tabela simplificada de pressão arterial foi retirada do fluxo; o arquivo antigo calculos_ppa.csv não é produzido.
-
-Referências do IMC: OMS, Child Growth Standards 2006 (0–5 anos) e Growth Reference 2007 (5–19 anos). Os pontos de corte compactos e suas fontes estão em referencias/. O CSV limpo não contém codificação, padronização numérica, PCA nem balanceamento; o preparo de modelagem é separado para impedir que parâmetros sejam aprendidos no teste.
-
-## Plano para a próxima etapa
-
-`plano_modelagem.md` registra a decisão prevista para cada variável e a ordem das transformações. A limpeza acima usa regras fixas por registro; a padronização de Convenio agora converte grafias para maiúsculas sem acentos e não consulta frequências da base. A divisão de treino e teste, a imputação, a codificação e a padronização ajustadas apenas no treino estão em `scripts/preparar_modelagem.py`. O cenário inicial é anterior ao exame e depende da confirmação do momento em que cada campo foi registrado. Não há modelo treinado nesta etapa.
-
-## Uso de IA generativa
-
-OpenAI Codex foi usado para revisar os dados, corrigir os scripts, organizar as saídas e redigir esta documentação. As regras, os resultados e as conclusões devem ser conferidos pelo grupo antes da submissão.
-"""
-    (ROOT / "docs.md").write_text(docs, encoding="utf-8")
 
     numeric_lines = "\n".join(
         f"| {r.variavel} | {int(r.validos)} | {int(r.ausentes)} | {r.mediana:.2f} | {r.minimo:.2f} | {r.maximo:.2f} |"
@@ -795,7 +711,7 @@ OpenAI Codex foi usado para revisar os dados, corrigir os scripts, organizar as 
 
 ## Conjunto e objetivo
 
-O arquivo bruto contém {raw_count} registros e 21 variáveis de atendimento em cardiologia pediátrica. A variável-alvo é {TARGET}, que indica presença ou ausência de patologia cardíaca. Após a exclusão de {len(removed)} registros sem dados clínicos, o conjunto analisado tem {n} registros. O significado das variáveis está em dataset.md.
+O arquivo bruto contém {raw_count} registros e 21 variáveis de atendimento em cardiologia pediátrica. A variável-alvo é {TARGET}, que indica presença ou ausência de patologia cardíaca. Após a exclusão de {len(removed)} registros sem dados clínicos, o conjunto analisado tem {n} registros. O dicionário de variáveis do projeto está em dados/dicionario.md.
 
 ## Análise univariada após a limpeza
 
@@ -847,9 +763,9 @@ As medianas de IDADE diferem entre as classes ({age_normal["mediana"]:.2f} e {ag
 
 O processamento criou IDADE, IMC e CLASSIFICACAO IMC somente quando os dados necessários eram consistentes. CLASSIFICACAO IMC usa as referências oficiais da OMS por idade e sexo. PPA não foi recalculada: a implementação anterior empregava cortes simplificados e faltam dados para conferir todas as situações. Por isso, Não Calculado passou a ausente e os valores informados na origem continuam identificáveis. A ausência de alguns campos pode ser informativa; não foi preenchida por estimativa estatística.
 
-Para a modelagem, a seleção provisória antes do exame usa IDADE, Peso, Altura, FC, PAS, PAD, SEXO e MOTIVO1. ID, datas brutas e alvo não entram como preditores; IMC e CLASSIFICACAO IMC são derivados das medidas mantidas. HDA2 e PPA têm ausências elevadas, e achados do exame dependem da confirmação do momento de registro. `plano_modelagem.md` justifica a decisão para cada campo. `scripts/preparar_modelagem.py` reserva grupos semelhantes no mesmo conjunto e ajusta imputação, categorias e escala apenas no treino; o teste recebe somente a transformação aprendida. Seleção supervisionada, PCA ou reamostragem, se adotadas, ficarão dentro de cada treino da validação cruzada. Nenhum classificador foi treinado nesta etapa.
+A seleção supervisionada é gerada em uma etapa posterior por scripts/auditar_base_modelagem.py. O dicionário em dados/dicionario.md descreve os preditores, e resultados/preparo/relatorio_adequacao.md detalha as regras de preparo. O ajuste dos transformadores ocorre dentro das partições de treino em scripts/treinar_modelos.py.
 
-Este relatório em Markdown conserva o detalhamento técnico dos arquivos reproduzíveis em resultado_analise/. A versão paginada para submissão é gerada por scripts/gerar_relatorio_a1.py em relatorio_A1.pdf; o grupo deve conferir o texto e os resultados antes do envio.
+Este relatório em Markdown conserva o detalhamento técnico dos arquivos reproduzíveis em resultados/analise/. A versão paginada para submissão é gerada por scripts/gerar_relatorio_a1.py em relatorio_A1.pdf; o grupo deve conferir o texto e os resultados antes do envio.
 
 ## Uso de IA generativa
 
@@ -859,9 +775,9 @@ OpenAI Codex auxiliou a revisão dos dados, a correção dos scripts, a geraçã
 
 
 def main() -> None:
-    parser = argparse.ArgumentParser(description="Limpa e analisa UCMF_raw.csv")
-    parser.add_argument("csv", nargs="?", type=Path, default=ROOT / "UCMF_raw.csv")
-    parser.add_argument("--saida", type=Path, default=ROOT / "resultado_analise")
+    parser = argparse.ArgumentParser(description="Limpa e analisa dados/UCMF_raw.csv")
+    parser.add_argument("csv", nargs="?", type=Path, default=ROOT / "dados/UCMF_raw.csv")
+    parser.add_argument("--saida", type=Path, default=ROOT / "resultados/analise")
     args = parser.parse_args()
     output = args.saida.resolve()
     output.mkdir(parents=True, exist_ok=True)
@@ -917,11 +833,7 @@ def main() -> None:
     if stale.exists():
         stale.unlink()
     save_plots(frame, output)
-    write_documentation(
-        args.csv, frame, removed, change_report, issue_report, similar,
-        numeric, dates, categorical, bi_numeric, classifications, anthropometric,
-        age_report, output,
-    )
+    write_report(frame, removed, issue_report, numeric, dates, categorical, bi_numeric, age_report, output)
     print(f"Linhas brutas: {raw_count}")
     print(f"Linhas excluídas: {len(removed)}")
     print(f"Linhas limpas: {len(frame)}")

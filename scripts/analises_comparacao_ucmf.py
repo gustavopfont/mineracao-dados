@@ -30,7 +30,7 @@ def save(table, path):
 
 
 def audits(output, dev):
-    original = pd.read_csv(ROOT / 'resultado_analise/UCMF_base_final.csv', dtype={'ID': str})
+    original = pd.read_csv(ROOT / 'resultados/analise/UCMF_base_final.csv', dtype={'ID': str})
     assignment = pd.read_csv(HISTORICO / 'particao_principal.csv', dtype={'ID': str})
     observed = original.loc[
         original[TARGET].isin(['Normal', 'Anormal']) &
@@ -309,6 +309,6 @@ Os intervalos dos subgrupos são Wilson por fold, condicionais aos modelos ajust
 A confirmação externa requer uma nova coorte. As comparações prospectivas permanecem pendentes até que haja dados independentes com definição compatível de alvo, preditores e paciente.
 {extra}
 
-Métodos e referências no [plano de comparação](../referencias/plano_comparacao_modelos.md) e no [protocolo original](../referencias/protocolo_experimentos.md).
+Os métodos e as grades da comparação estão no arquivo [protocolo.json](protocolo.json). O método da v3 consta no relatório publicado em resultados/experimentos/v3/.
 """
     (output / 'relatorio_comparativo.md').write_text(text, encoding='utf-8')

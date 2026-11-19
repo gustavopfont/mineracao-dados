@@ -2,7 +2,7 @@
 
 Reajusta floresta e logística no conjunto de desenvolvimento com os parâmetros,
 representações e limiares congelados em modelos_selecionados.json, confere
-tp/tn/fp/fn com metricas_teste.csv (modo aprendido) e grava (por padrão em resultado_a2/erros_e_figuras_artigo/):
+tp/tn/fp/fn com metricas_teste.csv (modo aprendido) e grava (por padrão em resultados/a2/erros_e_figuras_artigo/):
   <saida>/erros/    erros por subgrupo (CSV) e resumo de FN/FP;
   <saida>/figuras/  quatro figuras (PDF e PNG).
 A semente 4201 é a do ajuste final de freeze() em treinar_modelos.py; os
@@ -34,12 +34,12 @@ from representacoes_ucmf import input_frame
 
 SEED = 4201
 MODELOS = ['floresta', 'logistica']
-EXP = ROOT / 'resultado_experimentos_reduzido'
+EXP = ROOT / 'resultados/experimentos/v3'
 
 
 # ---------- Reprodução do teste ----------
 def reproduzir():
-    frame = load_frame(ROOT / 'resultado_modelagem_preparo/UCMF_supervisionado.csv')
+    frame = load_frame(ROOT / 'resultados/preparo/UCMF_supervisionado.csv')
     part = pd.read_csv(EXP / 'particao_principal.csv', dtype='string')
     assert list(part.ID) == list(frame.ID), 'Partição não corresponde à base'
     frame['conjunto'] = part.conjunto.values
@@ -155,7 +155,7 @@ def figuras(pasta):
         'hatch.linewidth': 0.4, 'axes.axisbelow': True})
 
     # 1: sopro x classe (vazamento)
-    d = pd.read_csv(ROOT / 'resultado_analise/UCMF_limpo.csv', dtype='string', encoding='utf-8-sig')
+    d = pd.read_csv(ROOT / 'resultados/analise/UCMF_limpo.csv', dtype='string', encoding='utf-8-sig')
     d = d[d['NORMAL X ANORMAL'].notna() & d.SOPRO.notna()]
     t = d['NORMAL X ANORMAL']
     n = {c: int((t == c).sum()) for c in ['Normal', 'Anormal']}
@@ -181,7 +181,7 @@ def figuras(pasta):
     salvar(fig, pasta, 'fig_sopro_vazamento')
 
     # 2: prevalência de anormal por motivo
-    s = pd.read_csv(ROOT / 'resultado_modelagem_preparo/UCMF_supervisionado.csv', dtype='string', encoding='utf-8-sig')
+    s = pd.read_csv(ROOT / 'resultados/preparo/UCMF_supervisionado.csv', dtype='string', encoding='utf-8-sig')
     s['det'] = s.MOTIVO_UNIFICADO.str.split(' → ').str[-1].str.strip()
     s['y'] = (s['NORMAL X ANORMAL'] == 'Anormal').astype(int)
     prev = s.y.mean()
@@ -243,7 +243,7 @@ def figuras(pasta):
 
 def main():
     ap = argparse.ArgumentParser(description=__doc__.split('\n')[0])
-    ap.add_argument('--saida', type=Path, default=ROOT / 'resultado_a2' / 'erros_e_figuras_artigo')
+    ap.add_argument('--saida', type=Path, default=ROOT / 'resultados/a2' / 'erros_e_figuras_artigo')
     args = ap.parse_args()
     test, pred = reproduzir()
     erros(test, pred, args.saida / 'erros')

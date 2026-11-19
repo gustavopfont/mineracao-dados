@@ -252,9 +252,8 @@ importancia_permutacao.csv contém 20 permutações por atributo original e qued
 
 protocolo.json guarda hashes de dados, configuração, código e versões; os candidatos e todas as partições são persistidos. Buscas, avisos, parâmetros, limiares e tempos ficam nos diretórios por modelo. congelamento.json fixa artefatos, seleção e classe positiva. teste_aberto.json impede voltar ao desenvolvimento nesta execução. Retomar o teste lê previsões concluídas em vez de reavaliá-las. O cache só reutiliza operações aprendidas sobre a mesma partição; não ajusta transformações na base inteira.
 
-As evidências apoiam a redação posterior do artigo IEEE e apresentação de avaliacao2.md; esta execução não cria/submete o artigo nem publica no GitHub. O protocolo e fontes completos estão a seguir.
+As evidências apoiam o artigo e a apresentação da A2. A configuração, as sementes e os hashes desta execução estão em protocolo.json.
 '''
-    text+='\n\n'+(ROOT/'referencias/protocolo_experimentos.md').read_text(encoding='utf-8')
     (output/'relatorio_experimentos.md').write_text(text,encoding='utf-8')
     paths=[p for p in output.rglob('*') if p.is_file() and '.cache' not in p.parts and p.name!='manifesto_resultados.json']
     write_json(output/'manifesto_resultados.json',dict(protocol_sha256=sha(output/'protocolo.json'),

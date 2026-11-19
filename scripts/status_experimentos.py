@@ -20,6 +20,6 @@ def status(output):
 
 if __name__=='__main__':
     parser=argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--saida',type=Path,default=ROOT/'resultado_experimentos_reduzido')
+    parser.add_argument('--saida',type=Path,default=ROOT/'resultados/experimentos/v3')
     args=parser.parse_args()
     print(json.dumps(status(args.saida),ensure_ascii=False,indent=2))

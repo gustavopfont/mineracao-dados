@@ -1,16 +1,16 @@
 # Dados de apoio ao artigo da A2
 
-Este material reúne tabelas e figuras para o [enunciado da A2](../avaliacao2.md). O artigo usa o [template de conferências IEEE](https://www.ieee.org/conferences/publishing/templates), duas colunas, até cinco páginas, resumo de 100–150 palavras e link para [o repositório público](https://github.com/gustavopfont/mineracao-dados) no rodapé da primeira página.
+Este material reúne tabelas e figuras para o artigo e a apresentação da A2. O artigo usa o [template de conferências IEEE](https://www.ieee.org/conferences/publishing/templates), duas colunas, até cinco páginas, resumo de 100–150 palavras e link para [o repositório público](https://github.com/gustavopfont/mineracao-dados) no rodapé da primeira página.
 
 O resultado principal é a comparação da **Random Forest com a regressão logística no teste reservado da v3**. A floresta com perfil clínico foi selecionada no desenvolvimento e atingiu **64,31% de sensibilidade** e **80,96% de especificidade** no teste. A logística atingiu **64,62%** e **81,87%**, respectivamente. A diferença pareada de sensibilidade foi **−0,31 ponto percentual** (IC95% nominal **−1,95 a +1,44**, **p Holm = 0,828**). O teste não demonstrou superioridade da floresta na detecção de Anormal.
 
 | Parte do artigo | Evidência para usar |
 | --- | --- |
 | Resumo e introdução | Prever o rótulo registrado `NORMAL X ANORMAL` em atendimentos de cardiologia pediátrica. Apresentar a comparação entre baseline simples e modelo complexo e a sensibilidade no teste reservado. |
-| Dados e análise exploratória | [Relatório de finalização](../resultado_analise/relatorio_finalizacao.md), [auditoria do preparo](../resultado_modelagem_preparo/relatorio_adequacao.md), [contagens por partição](contagens_por_particao.csv), [gráfico de SOPRO e alvo](figura_sopro_alvo.png) e seus [denominadores](sopro_alvo_contagens.csv). |
-| Metodologia | [Protocolo v3](../referencias/protocolo_experimentos.md), [configuração e sementes](../config_experimentos.json), [modelos e limiares congelados](../resultado_experimentos_reduzido/modelos_selecionados.json) e [fontes do preparo](../referencias/metodologia_preparo.md). |
-| Resultados e discussão | [Tabela do teste da v3](desempenho_teste_v3.csv), [matrizes de confusão](figura_matrizes_teste_v3.png), [IC95% e diferenças pareadas](../resultado_experimentos_reduzido/bootstrap_ic95.csv), [McNemar planejado](../resultado_experimentos_reduzido/mcnemar_teste.json) e [importância por permutação da floresta](importancia_floresta_v3.csv). |
-| Robustez e limitações | [Médias por desenho de validação](desempenho_desenvolvimento.csv), [testes exploratórios da r01](../resultado_experimentos_rodadas/r01_5folds_2rep_12cand/inferencia_exploratoria/relatorio.md), [extensão com ablações e curvas de aprendizado](../resultado_experimentos_ampliado_publicado/relatorio_comparativo.md) e [análise pós-hoc no teste histórico da v3](teste_exploratorio_floresta_knn_v3.json). |
+| Dados e análise exploratória | [Relatório de finalização](../analise/relatorio_finalizacao.md), [auditoria do preparo](../preparo/relatorio_adequacao.md), [contagens por partição](contagens_por_particao.csv), [gráfico de SOPRO e alvo](figura_sopro_alvo.png) e seus [denominadores](sopro_alvo_contagens.csv). |
+| Metodologia | [Protocolo v3](../experimentos/v3/relatorio_experimentos.md), [configuração e sementes](../../config/config_experimentos.json), [modelos e limiares congelados](../experimentos/v3/modelos_selecionados.json) e [fontes do preparo](../preparo/relatorio_adequacao.md). |
+| Resultados e discussão | [Tabela do teste da v3](desempenho_teste_v3.csv), [matrizes de confusão](figura_matrizes_teste_v3.png), [IC95% e diferenças pareadas](../experimentos/v3/bootstrap_ic95.csv), [McNemar planejado](../experimentos/v3/mcnemar_teste.json) e [importância por permutação da floresta](importancia_floresta_v3.csv). |
+| Robustez e limitações | [Médias por desenho de validação](desempenho_desenvolvimento.csv), [testes exploratórios da r01](../experimentos/rodadas/r01_5folds_2rep_12cand/inferencia_exploratoria/relatorio.md), [extensão com ablações e curvas de aprendizado](../experimentos/ampliado/relatorio_comparativo.md) e [análise pós-hoc no teste histórico da v3](teste_exploratorio_floresta_knn_v3.json). |
 
 ## Dados e figuras
 
@@ -18,7 +18,7 @@ A base bruta registra **12.873 atendimentos**. A base auditável final tem **12.
 
 **Legenda para a figura exploratória.** Proporção de registros rotulados como Anormal entre atendimentos com SOPRO preenchido e alvo conhecido, antes da seleção de preditores. Nos **11.682** pares válidos, foram **720/7.260 (9,9%)** quando SOPRO indicava ausência do achado e **4.233/4.422 (95,7%)** quando havia tipo de sopro registrado. A tabela original por categoria teve **V de Cramér = 0,842**. A exclusão de SOPRO do treinamento seguiu a decisão pedagógica da A2. A associação, por si só, não estabelece vazamento. O motivo de encaminhamento por sopro continuou disponível.
 
-**Legenda para a figura de resultados.** Matrizes de confusão da logística e da floresta no mesmo teste reservado da v3, com limiares aprendidos no desenvolvimento. A floresta deixou de sinalizar **348 dos 975** registros Anormal e sinalizou **250 dos 1.313** registros Normal. A logística registrou **345 falsos negativos** e **238 falsos positivos**. As [curvas ROC e PR originais](../resultado_experimentos_reduzido/curvas_roc_pr.png) também estão disponíveis.
+**Legenda para a figura de resultados.** Matrizes de confusão da logística e da floresta no mesmo teste reservado da v3, com limiares aprendidos no desenvolvimento. A floresta deixou de sinalizar **348 dos 975** registros Anormal e sinalizou **250 dos 1.313** registros Normal. A logística registrou **345 falsos negativos** e **238 falsos positivos**. As [curvas ROC e PR originais](../experimentos/v3/curvas_roc_pr.png) também estão disponíveis.
 
 ## Números que cabem na tabela principal
 
@@ -46,7 +46,7 @@ As ablações com retirada conjunta de motivos, HDA, B2 e pulsos reduziram a sen
 
 ## Fontes e reprodução
 
-As fontes clínicas são as referências de [crescimento e IMC da OMS](../referencias/README.md) e a [Diretriz Brasileira de Hipertensão de 2025](https://www.scielo.br/j/abc/a/BXT7Vk4B9VKQnJFsJhgJ4Hn/?lang=pt). As decisões de preparo e modelagem estão documentadas na [matriz metodológica](../referencias/metodologia_preparo.md) e no [protocolo v3](../referencias/protocolo_experimentos.md). Para relato, consulte [TRIPOD+AI](https://pmc.ncbi.nlm.nih.gov/articles/PMC11019967/).
+As fontes clínicas são as referências de [crescimento e IMC da OMS](../../referencias/README.md) e a [Diretriz Brasileira de Hipertensão de 2025](https://www.scielo.br/j/abc/a/BXT7Vk4B9VKQnJFsJhgJ4Hn/?lang=pt). As decisões de preparo e modelagem estão documentadas na [matriz metodológica](../preparo/relatorio_adequacao.md) e no [protocolo v3](../experimentos/v3/relatorio_experimentos.md). Para relato, consulte [TRIPOD+AI](https://pmc.ncbi.nlm.nih.gov/articles/PMC11019967/).
 
 Para regenerar as tabelas e figuras a partir dos artefatos versionados, execute `python scripts/preparar_evidencias_a2.py` na raiz do repositório. O argumento opcional `--incluir-teste-exploratorio` recalcula o McNemar pós-hoc quando as previsões locais congeladas da v3 estão disponíveis. O código confere os hashes das previsões, os IDs do teste, os limiares e as matrizes publicadas antes de gravar somente resultados agregados.
 
@@ -54,9 +54,9 @@ Para regenerar as tabelas e figuras a partir dos artefatos versionados, execute 
 
 Comando (a partir da raiz do repositório): `python scripts/artigo_a2.py`
 
-O script reajusta a floresta aleatória e a regressão logística nos 9.148 registros de desenvolvimento, com os parâmetros e limiares congelados em `resultado_experimentos_reduzido/modelos_selecionados.json` e a semente 4201 (a mesma usada por `freeze()`). Em seguida, confere tp/tn/fp/fn com `metricas_teste.csv` e interrompe a execução se houver divergência.
+O script reajusta a floresta aleatória e a regressão logística nos 9.148 registros de desenvolvimento, com os parâmetros e limiares congelados em `resultados/experimentos/v3/modelos_selecionados.json` e a semente 4201 (a mesma usada por `freeze()`). Em seguida, confere tp/tn/fp/fn com `metricas_teste.csv` e interrompe a execução se houver divergência.
 
-Saídas (por padrão em `resultado_a2/erros_e_figuras_artigo/`, alterável com `--saida`):
+Saídas (por padrão em `resultados/a2/erros_e_figuras_artigo/`, alterável com `--saida`):
 - `erros/`: sensibilidade e especificidade por grupo e detalhe do motivo de encaminhamento, B2, faixa etária, HDA e presença de PAS, além de `resumo_fn_fp.txt`;
 - `figuras/`: `fig_sopro_vazamento`, `fig_motivo_alvo`, `fig_matrizes` e `fig_importancia`, em PDF e PNG.
 

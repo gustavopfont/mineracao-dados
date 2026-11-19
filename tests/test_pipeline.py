@@ -19,7 +19,7 @@ from classificacao_imc import classificar_imc_pediatrico  # noqa: E402
 
 class UcmfPipelineTest(unittest.TestCase):
     def test_tres_linhas_com_virgula_na_data_nao_deslocam_campos(self) -> None:
-        raw = read_dataset(ROOT / "UCMF_raw.csv").set_index("ID")
+        raw = read_dataset(ROOT / "dados/UCMF_raw.csv").set_index("ID")
         self.assertEqual(len(raw), 12873)
         self.assertEqual(raw.at["12394", "DN"], "Ago/28,/1991")
         self.assertEqual(raw.at["12394", "PA SISTOLICA"], "110.0")
@@ -48,7 +48,7 @@ class UcmfPipelineTest(unittest.TestCase):
         )
 
     def test_saida_csv_e_dominio(self) -> None:
-        path = ROOT / "resultado_analise" / "UCMF_limpo.csv"
+        path = ROOT / "resultados/analise" / "UCMF_limpo.csv"
         with path.open(encoding="utf-8-sig", newline="") as stream:
             reader = csv.reader(stream)
             header = next(reader)

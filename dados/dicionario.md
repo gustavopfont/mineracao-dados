@@ -1,16 +1,16 @@
 # Variáveis do conjunto UCMF
 
-## Seleção supervisionada para experimentos futuros
+## Seleção supervisionada
 
-`resultado_modelagem_preparo/UCMF_supervisionado.csv` mantém ID (metadado), alvo e 11 preditores: IDADE, Peso, Altura, FC, PA SISTOLICA, PA DIASTOLICA, SEXO, PULSOS, B2, MOTIVO_UNIFICADO e HDA_UNIFICADA. São seis numéricos, quatro nominais e um conjunto de menções de sintomas. IMC, classificação de IMC, faixa etária e PPA permanecem em `atributos_complementares.csv`, alinhados pela mesma ordem de ID. A base final de 17 colunas abaixo continua preservada.
+`resultados/preparo/UCMF_supervisionado.csv` mantém ID (metadado), alvo e 11 preditores: IDADE, Peso, Altura, FC, PA SISTOLICA, PA DIASTOLICA, SEXO, PULSOS, B2, MOTIVO_UNIFICADO e HDA_UNIFICADA. São seis numéricos, quatro nominais e um conjunto de menções de sintomas. IMC, classificação de IMC, faixa etária e PPA permanecem em `atributos_complementares.csv`, alinhados pela mesma ordem de ID. A base final de 17 colunas abaixo continua preservada.
 
 Perfis são comparados após normalização e correções usando os 11 preditores, sem ID/alvo: concordantes são representados pelo menor ID numérico; grupos com alvos conflitantes são integralmente separados; desconhecidos ficam em registros_sem_alvo.csv. Igualdade de perfis não identifica pacientes, e essa escolha pode alterar frequências. Destinos e multiplicidade estão em rastreabilidade.csv. A HDA Assintomático + sintoma fica vazia nesta seleção, mantendo o original em correcoes.csv e na referência. Não há imputação no CSV, descarte automático de casos incompletos ou inferência de rótulos.
 
-O transformador mantém dimensões para colunas vazias e indicadores de ausência em todas as numéricas. Imputação/codificação só terão fit no treino futuro. HDA tem menções binárias, ausência e categoria inédita; não mencionado não equivale a negado. `__SEM_INFORMACAO__` é categoria técnica, diferente de Indeterminado e Outro. Consulte [a fundamentação por etapa](referencias/metodologia_preparo.md), incluindo decisões locais e limitações da imputação por mediana.
+O transformador mantém dimensões para colunas vazias e indicadores de ausência em todas as numéricas. Imputação e codificação são ajustadas dentro das partições de treino. HDA tem menções binárias, ausência e categoria inédita; não mencionado não equivale a negado. `__SEM_INFORMACAO__` é categoria técnica, diferente de Indeterminado e Outro. Consulte [a fundamentação por etapa](../resultados/preparo/relatorio_adequacao.md), incluindo decisões locais e limitações da imputação por mediana.
 
 ## Esquema da base final
 
-`resultado_analise/UCMF_base_final.csv` contém 17 colunas. Datas e campos originais continuam na base limpa e nas auditorias; as regras abaixo se aplicam exclusivamente à base final. O alvo e os valores clínicos mantidos não são imputados nem alterados nesta etapa.
+`resultados/analise/UCMF_base_final.csv` contém 17 colunas. Datas e campos originais continuam na base limpa e nas auditorias; as regras abaixo se aplicam exclusivamente à base final. O alvo e os valores clínicos mantidos não são imputados nem alterados nesta etapa.
 
 | Coluna | Significado e representação |
 | --- | --- |
@@ -54,7 +54,7 @@ Quartis são apenas descrições da amostra: empates não são desfeitos e podem
 
 ## Esquema da base limpa de referência
 
-O conjunto descreve atendimentos em cardiologia de crianças e jovens de 0 a 19 anos. A descrição original está em Variáveis do conjunto de dados.pdf. O arquivo UCMF_raw.csv tem 21 colunas; UCMF_limpo.csv mantém essas colunas e acrescenta CLASSIFICACAO IMC.
+O conjunto descreve atendimentos em cardiologia de crianças e jovens de 0 a 19 anos. O arquivo UCMF_raw.csv tem 21 colunas; UCMF_limpo.csv mantém essas colunas e acrescenta CLASSIFICACAO IMC.
 
 | Variável | Significado | Tipo na análise |
 | --- | --- | --- |
@@ -107,4 +107,4 @@ Os limites abaixo detectam erros evidentes de registro. Eles não são limites d
 
 As pressões sistólica e diastólica são deixadas ausentes quando a sistólica é menor ou igual à diastólica. Medidas antropométricas que produzem IMC fora do limite técnico permanecem em pendencias.csv para revisão da origem.
 
-O destino de cada variável na modelagem está em `plano_modelagem.md`. O conjunto limpo mantém as colunas para análise e auditoria; a seleção de preditores ocorre separadamente.
+As regras de seleção estão na [metodologia de preparo](../resultados/preparo/relatorio_adequacao.md). O conjunto limpo mantém as colunas para análise e auditoria; a seleção de preditores ocorre separadamente.

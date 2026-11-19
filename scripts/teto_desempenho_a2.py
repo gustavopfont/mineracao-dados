@@ -6,7 +6,7 @@ Parte 1: curvas de aprendizado (logística, floresta, boosting congelados) em
 Parte 2: erro do 1-NN (três representações) extrapolado para n -> infinito e
          limites de Cover-Hart para o erro de Bayes, duplicatas conflitantes.
 O teste nunca é usado (há asserções). Saídas em --saida (padrão
-ROOT/resultado_a2/teto_desempenho).
+ROOT/resultados/a2/teto_desempenho).
 Sementes: CV 11 e 22; subamostras 1000*fold+índice da fração; ajuste final
 4201 (como em freeze()); bootstrap 2024.
 """
@@ -39,7 +39,7 @@ from treinar_modelos import load_frame
 from modelos_ucmf import pipeline
 from representacoes_ucmf import input_frame, preprocessor, REPRESENTATIONS
 
-EXP = ROOT / 'resultado_experimentos_reduzido'
+EXP = ROOT / 'resultados/experimentos/v3'
 SEED_FIT, SEED_BOOT = 4201, 2024
 CV_SEEDS = (11, 22)
 FRACOES = [0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1.0]
@@ -48,7 +48,7 @@ COR = {'logistica': '#2a78d6', 'floresta': '#eb6834', 'boosting': '#1baf7a'}
 
 
 def carregar():
-    frame = load_frame(ROOT / 'resultado_modelagem_preparo/UCMF_supervisionado.csv')
+    frame = load_frame(ROOT / 'resultados/preparo/UCMF_supervisionado.csv')
     part = pd.read_csv(EXP / 'particao_principal.csv', dtype='string')
     assert list(part.ID) == list(frame.ID), 'Partição não corresponde à base'
     frame['conjunto'] = part.conjunto.values
@@ -161,7 +161,7 @@ def figura(pasta, n, curvas, ajustes):
 def main():
     t0 = time.time()
     ap = argparse.ArgumentParser(description=__doc__.split('\n')[0])
-    ap.add_argument('--saida', type=Path, default=ROOT / 'resultado_a2' / 'teto_desempenho')
+    ap.add_argument('--saida', type=Path, default=ROOT / 'resultados/a2' / 'teto_desempenho')
     ap.add_argument('--jobs', type=int, default=4)
     ap.add_argument('--bootstrap', type=int, default=2000)
     a = ap.parse_args()

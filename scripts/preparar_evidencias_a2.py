@@ -13,11 +13,11 @@ import pandas as pd
 from metricas_modelagem import holm, mcnemar_exact
 from treinar_modelos import ROOT, read_json, sha, write_json
 
-EDA = ROOT / 'resultado_analise'
-V3 = ROOT / 'resultado_experimentos_reduzido'
-EXT = ROOT / 'resultado_experimentos_ampliado_publicado'
-R01 = ROOT / 'resultado_experimentos_rodadas/r01_5folds_2rep_12cand'
-DEFAULT_OUT = ROOT / 'resultado_a2'
+EDA = ROOT / 'resultados/analise'
+V3 = ROOT / 'resultados/experimentos/v3'
+EXT = ROOT / 'resultados/experimentos/ampliado'
+R01 = ROOT / 'resultados/experimentos/rodadas/r01_5folds_2rep_12cand'
+DEFAULT_OUT = ROOT / 'resultados/a2'
 MODEL_NAMES = {
     'dummy': 'Dummy', 'logistica': 'Regressão logística', 'arvore': 'Árvore',
     'knn': 'KNN', 'floresta': 'Random Forest', 'boosting': 'HistGradientBoosting',

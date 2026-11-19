@@ -16,7 +16,7 @@ from scipy.stats import t
 from metricas_modelagem import holm
 
 ROOT = Path(__file__).resolve().parents[1]
-ROUND_ROOT = Path('resultado_experimentos_rodadas')
+ROUND_ROOT = Path('resultados/experimentos/rodadas')
 DEFAULT_ROUND = 'r01_5folds_2rep_12cand'
 MODELS = ('floresta', 'boosting', 'arvore', 'knn', 'logistica')
 ENDPOINTS = ('recall', 'specificity', 'error')
@@ -30,6 +30,11 @@ def git(*args):
 def published_inputs(ref, round_id):
     commit = git('rev-parse', '--verify', '--end-of-options', f'{ref}^{{commit}}').decode().strip()
     folder = ROUND_ROOT / round_id
+    principal_path = Path('resultados/experimentos/v3/particao_principal.csv')
+    # Commits anteriores à reorganização usam os caminhos originais.
+    if not git('ls-tree', '-r', '--name-only', commit, '--', (folder / 'protocolo.json').as_posix()):
+        folder = Path('resultado_experimentos_rodadas') / round_id
+        principal_path = Path('resultado_experimentos_reduzido/particao_principal.csv')
     hashes = {}
 
     def read(path):
@@ -46,9 +51,7 @@ def published_inputs(ref, round_id):
         raise ValueError('O teste exige pelo menos duas repetições de k-fold com k ≥ 3')
     if status['status'] != 'concluida' or status['folds_completos'] != expected:
         raise ValueError('A rodada publicada não está completa')
-    principal = csv.DictReader(io.StringIO(read(Path(
-        'resultado_experimentos_reduzido/particao_principal.csv'
-    ))))
+    principal = csv.DictReader(io.StringIO(read(principal_path)))
     development = {row['ID']: row['y'] for row in principal if row['conjunto'] == 'desenvolvimento'}
     counts = {}
     for repetition, seed in enumerate(seeds):

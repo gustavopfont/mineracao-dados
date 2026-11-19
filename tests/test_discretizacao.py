@@ -81,7 +81,7 @@ class PressureRevisionTest(unittest.TestCase):
         self.assertEqual(classify_pressure(18, '', None, 135, 85)['classificacao'], 'Pré-hipertensão')
 
     def test_height_provenance_does_not_change_classification(self):
-        frame = pd.read_csv(ROOT/'resultado_analise/UCMF_limpo.csv', dtype='string').head(4)
+        frame = pd.read_csv(ROOT/'resultados/analise/UCMF_limpo.csv', dtype='string').head(4)
         frame['_LINHA_ORIGEM'] = range(len(frame))
         frame['Altura'] = '82.4'
         frame['Atendimento'] = '2005-06-01'

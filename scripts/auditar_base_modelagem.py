@@ -1,7 +1,7 @@
 """Audita e reduz a base supervisionada, sem imputar, dividir ou treinar."""
 from __future__ import annotations
 
-# Regras R1–R12 e fontes clínicas/metodológicas: referencias/metodologia_preparo.md.
+# As regras e fontes da preparação original constam no relatório de adequação publicado.
 # Deduplicação/quarentena são políticas locais; não são prescrições da OMS.
 
 import argparse
@@ -153,10 +153,10 @@ def validate_context(frame, folder):
 
 def run(source, output):
     source, output = Path(source).resolve(), Path(output).resolve()
-    if output == source.parent or output == (ROOT/'resultado_modelagem').resolve():
+    if output == source.parent or output == (ROOT/'resultados/modelagem_legada').resolve():
         raise ValueError('Use diretório separado para preservar resultados anteriores')
-    protected = [ROOT/'UCMF_raw.csv', source, ROOT/'resultado_analise/UCMF_limpo.csv']
-    protected += [p for folder in [ROOT/'referencias', ROOT/'resultado_modelagem', source.parent]
+    protected = [ROOT/'dados/UCMF_raw.csv', source, ROOT/'resultados/analise/UCMF_limpo.csv']
+    protected += [p for folder in [ROOT/'referencias', ROOT/'resultados/modelagem_legada', source.parent]
                   for p in folder.iterdir() if p.is_file()]
     before = {str(p): digest(p) for p in protected}
     frame = pd.read_csv(source, dtype='string', encoding='utf-8-sig')
@@ -221,9 +221,8 @@ Perfil idêntico não comprova mesmo paciente: a deduplicação reduz multiplici
 
 B2, PULSOS, HDA, motivo de sopro e cardiopatia já conhecida permanecem para o exercício acadêmico; podem conter informação próxima à definição do alvo. Não se declara validade para triagem prospectiva. Há exploração anterior da base inteira; a avaliação futura será interna, com essa limitação documentada.
 
-Nenhum classificador foi treinado, nenhuma divisão real nova foi feita e nenhum parâmetro foi aprendido da base inteira. As saídas em resultado_modelagem/ são legadas e não devem ser usadas como avaliação do esquema atual. A próxima etapa definirá a validação, comparação dos modelos e o compromisso entre sensibilidade de Anormal e especificidade. Colocar o pré-processamento e o classificador no mesmo Pipeline por partição. Fontes metodológicas: [scikit-learn: prevenção de vazamento](https://scikit-learn.org/stable/common_pitfalls.html), [imputação e colunas vazias](https://scikit-learn.org/stable/modules/impute.html).
+Nenhum classificador foi treinado, nenhuma divisão real nova foi feita e nenhum parâmetro foi aprendido da base inteira. As saídas em resultados/modelagem_legada/ são legadas e não devem ser usadas como avaliação do esquema atual. A próxima etapa definirá a validação, comparação dos modelos e o compromisso entre sensibilidade de Anormal e especificidade. Colocar o pré-processamento e o classificador no mesmo Pipeline por partição. Fontes metodológicas: [scikit-learn: prevenção de vazamento](https://scikit-learn.org/stable/common_pitfalls.html), [imputação e colunas vazias](https://scikit-learn.org/stable/modules/impute.html).
 '''
-    report += '\n\n---\n\n'+(ROOT/'referencias/metodologia_preparo.md').read_text(encoding='utf-8')
     (output/'relatorio_adequacao.md').write_text(report, encoding='utf-8')
     manifest = dict(entradas_sha256=before, linhas_entrada=len(frame), destinos=counts,
                     preditores=FEATURE_COLUMNS, derivados=DERIVED_COLUMNS, alvo=TARGET,
@@ -239,7 +238,7 @@ Nenhum classificador foi treinado, nenhuma divisão real nova foi feita e nenhum
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('--entrada', type=Path, default=ROOT/'resultado_analise/UCMF_base_final.csv')
-    parser.add_argument('--saida', type=Path, default=ROOT/'resultado_modelagem_preparo')
+    parser.add_argument('--entrada', type=Path, default=ROOT/'resultados/analise/UCMF_base_final.csv')
+    parser.add_argument('--saida', type=Path, default=ROOT/'resultados/preparo')
     args = parser.parse_args()
     run(args.entrada, args.saida)

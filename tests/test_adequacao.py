@@ -67,9 +67,9 @@ class AdequacaoTest(unittest.TestCase):
             prepare(pd.DataFrame([a,a]))
 
     def test_integracao_real_preserva_fontes_e_reproduz(self):
-        source = ROOT/'resultado_analise/UCMF_base_final.csv'
-        paths = [source, ROOT/'UCMF_raw.csv', ROOT/'resultado_analise/UCMF_limpo.csv']
-        paths += [p for folder in ['referencias','resultado_modelagem'] for p in (ROOT/folder).iterdir() if p.is_file()]
+        source = ROOT/'resultados/analise/UCMF_base_final.csv'
+        paths = [source, ROOT/'dados/UCMF_raw.csv', ROOT/'resultados/analise/UCMF_limpo.csv']
+        paths += [p for folder in ['referencias','resultados/modelagem_legada'] for p in (ROOT/folder).iterdir() if p.is_file()]
         before = {str(p): digest(p) for p in paths}
         with tempfile.TemporaryDirectory() as folder:
             out = Path(folder)
